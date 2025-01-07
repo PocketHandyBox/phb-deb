@@ -1,6 +1,7 @@
 etc/nvme/discovery.conf					    nvme-cli
 usr/bin/engrampa					    engrampa
 usr/bin/fidentify					    testdisk
+usr/bin/luvcview					    luvcview
 usr/bin/netsurf-fb					    netsurf-fb
 usr/bin/netsurf-gtk					    netsurf-gtk
 usr/bin/nvtop						    nvtop
@@ -172,6 +173,11 @@ usr/share/doc/libunrar-headers/changelog.Debian.gz	    libunrar-headers
 usr/share/doc/libunrar-headers/copyright		    libunrar-headers
 usr/share/doc/libunrar5/changelog.Debian.gz		    libunrar5
 usr/share/doc/libunrar5/copyright			    libunrar5
+usr/share/doc/luvcview/README				    luvcview
+usr/share/doc/luvcview/ToDo				    luvcview
+usr/share/doc/luvcview/changelog.Debian.gz		    luvcview
+usr/share/doc/luvcview/changelog.gz			    luvcview
+usr/share/doc/luvcview/copyright			    luvcview
 usr/share/doc/netsurf-common/changelog.Debian.gz	    netsurf-common
 usr/share/doc/netsurf-common/changelog.gz		    netsurf-common
 usr/share/doc/netsurf-common/copyright			    netsurf-common
@@ -1138,6 +1144,7 @@ usr/share/locale/zh_TW/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/zh_TW/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/zu/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/man/man1/engrampa.1.gz			    engrampa-common
+usr/share/man/man1/luvcview.1.gz			    luvcview
 usr/share/man/man1/netsurf-fb.1.gz			    netsurf-fb
 usr/share/man/man1/netsurf-gtk.1.gz			    netsurf-gtk
 usr/share/man/man1/nvme-admin-passthru.1.gz		    nvme-cli
@@ -2269,6 +2276,7 @@ usr/share/man/man8/gparted.8.gz				    gparted-common
 usr/share/man/man8/photorec.8.gz			    testdisk
 usr/share/man/man8/testdisk.8.gz			    testdisk
 usr/share/man/man8/uhubctl.8.gz				    uhubctl
+usr/share/menu/luvcview					    luvcview
 usr/share/metainfo/engrampa.appdata.xml			    engrampa-common
 usr/share/metainfo/gparted.appdata.xml			    gparted
 usr/share/metainfo/nvtop.metainfo.xml			    nvtop

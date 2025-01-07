@@ -384,6 +384,44 @@ Homepage: https://www.rarlab.com/
 Description: Unarchiver for .rar files (non-free version) - shared library
  library for unarchiving .rar files
 
+Package: luvcview
+Architecture: amd64
+Version: 1:0.2.6-6
+Priority: optional
+Section: x11
+Maintainer: Aurelien Jarno <aurel32@debian.org>
+Installed-Size: 114
+Depends: libc6 (>= 2.34), libsdl1.2debian (>= 1.2.15), libv4l-0 (>= 0.5.0)
+Filename: ./luvcview_0.2.6-6_amd64.deb
+Size: 48228
+MD5sum: d195e6bd44410c9c512564e229c3d22d
+SHA1: 26db4f0aa378ed5fd6699f11776013fdf4c02777
+SHA256: bfe129421937f1d578174994a229d1b405e8dc4e1468cd860c093717b3093e1b
+SHA512: 0e2c4f0dbc010fab2dade4c1efad44d9ea9e1e7d46cfded8d5384ba5937f140d802a5ffc1c9203a3a8b90c677133978f4649ed6e1d3126be48ea0d2091593a4b
+Homepage: http://luvcview.sourceforge.net
+Description: USB Video Class grabber
+ luvcview is a camera viewer for UVC based webcams. It includes an mjpeg
+ decoder and is able to save the video stream as an AVI file.
+
+Package: luvcview
+Architecture: i386
+Version: 1:0.2.6-6
+Priority: optional
+Section: x11
+Maintainer: Aurelien Jarno <aurel32@debian.org>
+Installed-Size: 112
+Depends: libc6 (>= 2.34), libsdl1.2debian (>= 1.2.15), libv4l-0 (>= 0.5.0)
+Filename: ./luvcview_0.2.6-6_i386.deb
+Size: 49824
+MD5sum: 454f58b34d2b4e90c78a86f51ebcfa95
+SHA1: cd68c385a4be514f608188de75ca0ad322dd108a
+SHA256: fe5c983c7f75019d444059e3ededc597780d307b9907c513d2596ff82089b5da
+SHA512: e483a25d170aedc271db438a0d4a8b1677409aea8b9261de05ddfcd8cccb2fd99200e6fe564d309c998a67f44931902f3c621a9e9122a72965d3539afa2a7e65
+Homepage: http://luvcview.sourceforge.net
+Description: USB Video Class grabber
+ luvcview is a camera viewer for UVC based webcams. It includes an mjpeg
+ decoder and is able to save the video stream as an AVI file.
+
 Package: netsurf-common
 Architecture: all
 Version: 3.11-2
