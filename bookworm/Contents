@@ -9,6 +9,7 @@ usr/bin/nvtop						    nvtop
 usr/bin/photorec					    testdisk
 usr/bin/testdisk					    testdisk
 usr/bin/unrar-nonfree					    unrar
+usr/bin/wavemon						    wavemon
 usr/include/libnvme-mi.h				    libnvme-dev
 usr/include/libnvme.h					    libnvme-dev
 usr/include/nvme/api-types.h				    libnvme-dev
@@ -211,6 +212,8 @@ usr/share/doc/unrar/acknow.txt				    unrar
 usr/share/doc/unrar/changelog.Debian.gz			    unrar
 usr/share/doc/unrar/copyright				    unrar
 usr/share/doc/unrar/readme.txt				    unrar
+usr/share/doc/wavemon/README.md				    wavemon
+usr/share/doc/wavemon/copyright				    wavemon
 usr/share/doc/whdd/changelog.gz				    whdd
 usr/share/doc/whdd/copyright				    whdd
 usr/share/glib-2.0/schemas/org.mate.engrampa.gschema.xml    engrampa-common
@@ -1372,6 +1375,7 @@ usr/share/man/man1/nvme-zns-zone-mgmt-send.1.gz		    nvme-cli
 usr/share/man/man1/nvme.1.gz				    nvme-cli
 usr/share/man/man1/nvtop.1.gz				    nvtop
 usr/share/man/man1/unrar-nonfree.1.gz			    unrar
+usr/share/man/man1/wavemon.1.gz				    wavemon
 usr/share/man/man2/nbft_control.2.gz			    libnvme-dev
 usr/share/man/man2/nbft_control_flags.2.gz		    libnvme-dev
 usr/share/man/man2/nbft_desc_type.2.gz			    libnvme-dev
@@ -2274,12 +2278,14 @@ usr/share/man/man2/nvmf_treq_str.2.gz			    libnvme-dev
 usr/share/man/man2/nvmf_trtype.2.gz			    libnvme-dev
 usr/share/man/man2/nvmf_trtype_str.2.gz			    libnvme-dev
 usr/share/man/man2/nvmf_update_config.2.gz		    libnvme-dev
+usr/share/man/man5/wavemonrc.5.gz			    wavemon
 usr/share/man/man8/fidentify.8.gz			    testdisk
 usr/share/man/man8/gparted.8.gz				    gparted-common
 usr/share/man/man8/photorec.8.gz			    testdisk
 usr/share/man/man8/testdisk.8.gz			    testdisk
 usr/share/man/man8/uhubctl.8.gz				    uhubctl
 usr/share/menu/luvcview					    luvcview
+usr/share/menu/wavemon					    wavemon
 usr/share/metainfo/engrampa.appdata.xml			    engrampa-common
 usr/share/metainfo/gparted.appdata.xml			    gparted
 usr/share/metainfo/nvtop.metainfo.xml			    nvtop

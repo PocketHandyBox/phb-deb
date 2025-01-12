@@ -864,6 +864,48 @@ Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar
  archives, install package rar.
 
+Package: wavemon
+Architecture: amd64
+Version: 0.9.6-1
+Priority: optional
+Section: net
+Source: wavemon (0.9.6-1)
+Maintainer: Jonathan McCrohan <jmccrohan@gmail.com>
+Installed-Size: 124
+Depends: libc6 (>= 2.29), libncursesw6 (>= 6), libnl-cli-3-200 (>= 3.2.7), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libtinfo6 (>= 6)
+Filename: ./wavemon_0.9.6-1_amd64.deb
+Size: 52532
+MD5sum: 2404b94f914189164b650ae1c6175b6e
+SHA1: 62526c8fcd1281d523f97a5cc4b89127ba6b73a8
+SHA256: 67fbd2003149a4684c3b5b5ff58af40bfefd723b1680894f5505a9b9b5228a79
+SHA512: 96d5d9a072a7593c42ef8085b64f6052e3d262ccdaedd8c2640ec30d777bdea7c0a5103386a14c43382abf98937f1b82fdfa329f723617bf1fef48a9e148851f
+Homepage: https://github.com/uoaerg/wavemon/
+Description: Wireless Device Monitoring Application
+ Wavemon allows you to watch signal and noise levels, packet
+ statistics, device configuration and network parameters of your
+ wireless network hardware.
+
+Package: wavemon
+Architecture: i386
+Version: 0.9.6-1
+Priority: optional
+Section: net
+Source: wavemon (0.9.6-1)
+Maintainer: Jonathan McCrohan <jmccrohan@gmail.com>
+Installed-Size: 124
+Depends: libc6 (>= 2.29), libncursesw6 (>= 6), libnl-cli-3-200 (>= 3.2.7), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libtinfo6 (>= 6)
+Filename: ./wavemon_0.9.6-1_i386.deb
+Size: 55964
+MD5sum: 3381ec6c3de0f85e53afef64647e29d7
+SHA1: 07130af670c60e160ab6c5ea8d8ae5a44d718431
+SHA256: 178756a888be85269e573276ed0f6079201ab7879d7b717fbba46da1cabdf9df
+SHA512: 73a3923de570727a05feb0d38cfe6b9fd7fe45378bf1ab087738437f375d3cf022564aea41e3b58883a9827966c40e7eb29db69c49d1c5ac6c13e2cb2aeeb13d
+Homepage: https://github.com/uoaerg/wavemon/
+Description: Wireless Device Monitoring Application
+ Wavemon allows you to watch signal and noise levels, packet
+ statistics, device configuration and network parameters of your
+ wireless network hardware.
+
 Package: whdd
 Architecture: i386
 Version: 3.1.0.20241015
