@@ -1,3 +1,103 @@
+Package: cpu-x
+Architecture: amd64
+Version: 5.1.1-0.1
+Priority: optional
+Section: x11
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 4422
+Depends: libc6 (>= 2.34), libcairomm-1.0-1v5 (>= 1.14.4), libcpuid17 (>= 0.7.0), libgcc-s1 (>= 3.0), libgl1, libglfw3 (>= 3.3), libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.66.5), libgtkmm-3.0-1v5 (>= 3.24.7), libncursesw6 (>= 6), libpangomm-1.4-1v5 (>= 2.46.3), libpci3 (>= 1:3.8.0), libproc2-0 (>= 2:4.0.2), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 11), libtinfo6 (>= 6), libvulkan1 (>= 1.2.131.2), dconf-gsettings-backend | gsettings-backend, procps
+Filename: ./cpu-x_5.1.1-0.1_amd64.deb
+Size: 2271144
+MD5sum: 54c07b774091aab6a63acbea831ad0a2
+SHA1: b3712707cf9397ab31cb52820e4ec449cfb10d02
+SHA256: 4113842970f15cfd0ec811c6bd80bc73a62d2d811fccc1c061440e80d5b9123c
+SHA512: 7418e45dca910fb522bfda1730472882fb788eb91c0c5ad3cd237a7a3a1c8946cf4fcb1b07ebcdd8d70cbb477fe398b6e9dc857ba12094aa523815c8c53d84b0
+Homepage: https://github.com/X0rg/CPU-X
+Description: Tool that gathers information on CPU, motherboard and more
+ CPU-X is similar to CPU-Z (for MS Windows). It can be used in graphical
+ mode by using GTK or in text-based mode by using NCurses. A dump mode is
+ present from the command line.
+
+Package: cpu-x
+Architecture: i386
+Version: 5.1.1-0.1
+Priority: optional
+Section: x11
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 4406
+Depends: libc6 (>= 2.34), libcairomm-1.0-1v5 (>= 1.14.4), libcpuid17 (>= 0.7.0), libgcc-s1 (>= 4.2), libgl1, libglfw3 (>= 3.3), libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.66.5), libgtkmm-3.0-1v5 (>= 3.24.7), libncursesw6 (>= 6), libpangomm-1.4-1v5 (>= 2.46.3), libpci3 (>= 1:3.8.0), libproc2-0 (>= 2:4.0.2), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 11), libtinfo6 (>= 6), libvulkan1 (>= 1.2.131.2), dconf-gsettings-backend | gsettings-backend, procps
+Filename: ./cpu-x_5.1.1-0.1_i386.deb
+Size: 2280960
+MD5sum: 59ff2fcec9a58e8f9ef91ad83f48f658
+SHA1: 21dbf0f4e168e47c324005db3d63754b9bada512
+SHA256: 5f4294b3160a828a535030dabfc906e0ddef7abf2f71c8da838056e9a43f1899
+SHA512: 91d3c14c99539ede1efca9822c22d97151a8f9a8bcdf0e1900f43d62700e50ccd8c74331c5cecf90182466137da24790618c077886a7cd07ba904732c670d269
+Homepage: https://github.com/X0rg/CPU-X
+Description: Tool that gathers information on CPU, motherboard and more
+ CPU-X is similar to CPU-Z (for MS Windows). It can be used in graphical
+ mode by using GTK or in text-based mode by using NCurses. A dump mode is
+ present from the command line.
+
+Package: cpuidtool
+Architecture: amd64
+Version: 0.7.1+repack1-0.1
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Source: libcpuid
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 51
+Depends: libc6 (>= 2.34), libcpuid17 (>= 0.7.0)
+Filename: ./cpuidtool_0.7.1+repack1-0.1_amd64.deb
+Size: 16844
+MD5sum: b581b08310507b4d1c8bb5d2df0f6fc1
+SHA1: 07f7b349ea5b8e12b5c9f29fa3461fdb60514790
+SHA256: cd1e3f8f025d72b5c9741458bcfbfdb98cacbc0e1a748b0234db5adc2a2f1eb4
+SHA512: 0e866a47c665942811a707a8caeca5785148997859c88e3cccec7c4fea012c81ead72de198f8bfdf0ef642f3167d411b219571939fc1a162a6d6bf7eba95bbaf
+Homepage: https://github.com/anrieff/libcpuid
+Description: C library for x86/x86_64 CPU detection and feature extraction (tool)
+ libcpuid is a small C library for x86 CPU detection and feature
+ extraction. Using it, you can:
+ .
+    - get the processor vendor, model, brand string, code name,
+    - get information about CPU features such as: number of cores or logical
+      CPUs, cache sizes, CPU clock,
+    - check if the processor implements a specific instruction set such as
+      the SSE2, 3DNow!,
+    - execute the CPUID and RDTSC instructions (portably!)
+ .
+ This package ships the cpuidtool.
+
+Package: cpuidtool
+Architecture: i386
+Version: 0.7.1+repack1-0.1
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Source: libcpuid
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 46
+Depends: libc6 (>= 2.34), libcpuid17 (>= 0.7.0)
+Filename: ./cpuidtool_0.7.1+repack1-0.1_i386.deb
+Size: 16728
+MD5sum: c20a5bf0b10dd089e3e5f98350a28030
+SHA1: abf8a62c51b35f76b392b69d1d8096b71520aa4d
+SHA256: 18b7f69ef29024deec9514758693fe34a93efe134aedda462fba5fc7f4e2aee6
+SHA512: f11ef47a36648c0170cc3342cf27814d0ce8ec00ddd8d8b2a8dcf64f40657a5d03c704e0406536529018df379bf83bc4a165a62d14aaf3c935fde1da4c205226
+Homepage: https://github.com/anrieff/libcpuid
+Description: C library for x86/x86_64 CPU detection and feature extraction (tool)
+ libcpuid is a small C library for x86 CPU detection and feature
+ extraction. Using it, you can:
+ .
+    - get the processor vendor, model, brand string, code name,
+    - get information about CPU features such as: number of cores or logical
+      CPUs, cache sizes, CPU clock,
+    - check if the processor implements a specific instruction set such as
+      the SSE2, 3DNow!,
+    - execute the CPUID and RDTSC instructions (portably!)
+ .
+ This package ships the cpuidtool.
+
 Package: engrampa-common
 Architecture: all
 Version: 1.26.2-4
@@ -244,6 +344,126 @@ Description: graphical user interface for smartctl
   * displays drive IDs, capabilities, attributes, and self-test/error logs;
   * can read in smartctl data from a saved file, interpreting it as a read-only
     virtual device.
+
+Package: libcpuid-dev
+Architecture: amd64
+Version: 0.7.1+repack1-0.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libcpuid
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 421
+Depends: libcpuid17 (= 0.7.1+repack1-0.1)
+Filename: ./libcpuid-dev_0.7.1+repack1-0.1_amd64.deb
+Size: 108620
+MD5sum: 4b045d987e80592390d7c611509dde3d
+SHA1: ffa21e94a08513d57e40586181f3cd5db618a297
+SHA256: 588cc206e654d3644dc61d151cbd710db8c9bf21ef3d67c838b9d2f99e808a2c
+SHA512: d43ab94965fb24ec50554f0a53add911c4238f84b5f7da68cc7c5c7cf813d3597ff093de10d94f7ebbbca3dbe1b761b157eae31d323e7113358bd980cb0dcb05
+Homepage: https://github.com/anrieff/libcpuid
+Description: C library for x86/x86_64 CPU detection and feature extraction (headers)
+ libcpuid is a small C library for x86 CPU detection and feature
+ extraction. Using it, you can:
+ .
+    - get the processor vendor, model, brand string, code name,
+    - get information about CPU features such as: number of cores or logical
+      CPUs, cache sizes, CPU clock,
+    - check if the processor implements a specific instruction set such as
+      the SSE2, 3DNow!,
+    - execute the CPUID and RDTSC instructions (portably!)
+ .
+ This package ships the libcpuid development headers.
+
+Package: libcpuid-dev
+Architecture: i386
+Version: 0.7.1+repack1-0.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libcpuid
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 376
+Depends: libcpuid17 (= 0.7.1+repack1-0.1)
+Filename: ./libcpuid-dev_0.7.1+repack1-0.1_i386.deb
+Size: 111768
+MD5sum: 8c9f6eaa2bc586709fea3e24e1b4e49f
+SHA1: 8f1661aaac74926b3c225539cfa5a94ab501faef
+SHA256: 6fb4c7f8c87878daeec475312a7f2cd32b9a8da4a09cc29604d4f895f49453c6
+SHA512: 3376acd2ad1871185c199473e02dc8be09f1b20195beea53f3f61fd476ba19401a8bff02394105a6099dfa1b9de03807af77f0ca3e97613550f4f5a1f2d00159
+Homepage: https://github.com/anrieff/libcpuid
+Description: C library for x86/x86_64 CPU detection and feature extraction (headers)
+ libcpuid is a small C library for x86 CPU detection and feature
+ extraction. Using it, you can:
+ .
+    - get the processor vendor, model, brand string, code name,
+    - get information about CPU features such as: number of cores or logical
+      CPUs, cache sizes, CPU clock,
+    - check if the processor implements a specific instruction set such as
+      the SSE2, 3DNow!,
+    - execute the CPUID and RDTSC instructions (portably!)
+ .
+ This package ships the libcpuid development headers.
+
+Package: libcpuid17
+Architecture: amd64
+Version: 0.7.1+repack1-0.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libcpuid
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 232
+Depends: libc6 (>= 2.34)
+Filename: ./libcpuid17_0.7.1+repack1-0.1_amd64.deb
+Size: 54268
+MD5sum: 29b55ca44eee80101789c33dd2936d41
+SHA1: fa7a14069b63414729ab21e0b9e3c11b44b2c31d
+SHA256: d88b1fb9a95a57383faeb2b040125720f52ceeb75a66f2c625d0fad55ef9cf88
+SHA512: 0fd2c3494f6733aa18200875cbdecc32abde68933dbc488fe4246003f759d197af3d70b7e75e0bd0e5a9fa6188e19919ab277768a676e82ade410fc86cb4eab6
+Homepage: https://github.com/anrieff/libcpuid
+Description: C library for x86/x86_64 CPU detection and feature extraction (shared lib)
+ libcpuid is a small C library for x86 CPU detection and feature
+ extraction. Using it, you can:
+ .
+    - get the processor vendor, model, brand string, code name,
+    - get information about CPU features such as: number of cores or logical
+      CPUs, cache sizes, CPU clock,
+    - check if the processor implements a specific instruction set such as
+      the SSE2, 3DNow!,
+    - execute the CPUID and RDTSC instructions (portably!)
+ .
+ This package ships the libcpuid shared library.
+
+Package: libcpuid17
+Architecture: i386
+Version: 0.7.1+repack1-0.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libcpuid
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 217
+Depends: libc6 (>= 2.34)
+Filename: ./libcpuid17_0.7.1+repack1-0.1_i386.deb
+Size: 56360
+MD5sum: ffb3efbd2c2a6a5811ed98cb45062e93
+SHA1: 5754c7445bf3e53655b4167737e9ca685b6f9ac0
+SHA256: a1cc45012fb5a172c0cde0942f3fa1b63a505132a8f9f10cc311544c63b02561
+SHA512: c3757f5efe91dd64ea0152956825e42df5eea0a2946586d0823c3ee9c5dda3caf1e618e7d5bfba6a966b4d6ede32eddbc967fc994537d3187bda871b9cdb8006
+Homepage: https://github.com/anrieff/libcpuid
+Description: C library for x86/x86_64 CPU detection and feature extraction (shared lib)
+ libcpuid is a small C library for x86 CPU detection and feature
+ extraction. Using it, you can:
+ .
+    - get the processor vendor, model, brand string, code name,
+    - get information about CPU features such as: number of cores or logical
+      CPUs, cache sizes, CPU clock,
+    - check if the processor implements a specific instruction set such as
+      the SSE2, 3DNow!,
+    - execute the CPUID and RDTSC instructions (portably!)
+ .
+ This package ships the libcpuid shared library.
 
 Package: libnvme-dev
 Architecture: amd64
