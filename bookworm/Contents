@@ -1,3 +1,4 @@
+bin/whdd						    whdd
 etc/nvme/discovery.conf					    nvme-cli
 usr/bin/engrampa					    engrampa
 usr/bin/fidentify					    testdisk
@@ -210,6 +211,8 @@ usr/share/doc/unrar/acknow.txt				    unrar
 usr/share/doc/unrar/changelog.Debian.gz			    unrar
 usr/share/doc/unrar/copyright				    unrar
 usr/share/doc/unrar/readme.txt				    unrar
+usr/share/doc/whdd/changelog.gz				    whdd
+usr/share/doc/whdd/copyright				    whdd
 usr/share/glib-2.0/schemas/org.mate.engrampa.gschema.xml    engrampa-common
 usr/share/help/C/engrampa/figures/engrampa_home.png	    engrampa-common
 usr/share/help/C/engrampa/figures/engrampa_leftarrow.png    engrampa-common
