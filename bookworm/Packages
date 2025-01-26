@@ -256,6 +256,54 @@ Description: Typelib file for thunar
  .
  This package provides the introspection data for thunar.
 
+Package: gir1.2-xfconf-0
+Architecture: amd64
+Version: 4.18.3-2
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: xfconf
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 30
+Depends: gir1.2-glib-2.0, libxfconf-0-3 (>= 4.12.1)
+Filename: ./gir1.2-xfconf-0_4.18.3-2_amd64.deb
+Size: 14244
+MD5sum: 5be1a609f2408203113e93bae79f7c84
+SHA1: 04c1e735aba6b2f37477a0b0753d514baeca5cd8
+SHA256: 3e23a641ba8612286a6ee51d5af5240068535ddea54072f4cbf90abf559b61b6
+SHA512: 11fbfb4a923d899bde2164c6bd8cf36349bae826078d4057234aaf3250d1144a4846edbbb122988e4647d562240ffbd6cfecd5426029fe8cfaa5bf80b33ba112
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: utilities for managing settings in Xfce - introspection support
+ xfconf contains xfconfd and xfconf-query.
+  - xfconfd handles the Xfce settings storage
+  - xfconf-query enables users to tune settings from command line
+ .
+ This package provides the introspection data for xfconf.
+
+Package: gir1.2-xfconf-0
+Architecture: i386
+Version: 4.18.3-2
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: xfconf
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 30
+Depends: gir1.2-glib-2.0, libxfconf-0-3 (>= 4.12.1)
+Filename: ./gir1.2-xfconf-0_4.18.3-2_i386.deb
+Size: 14236
+MD5sum: 0cbc93b620be19ce34876fa6844a03aa
+SHA1: ea4df9d843b6e190be3c08d124e4d3386542cdaa
+SHA256: 9535e815365146f822664d63e570135028a98f0bb559cfe4a9b6fe8ce9511415
+SHA512: 53f5f54110c4f6e4796b587a657df0f78108a8873fab8123593eb89434f099ad79c0992628532fcc448be1eede0762f46dd798dae995518adc3ed5999f897f2e
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: utilities for managing settings in Xfce - introspection support
+ xfconf contains xfconfd and xfconf-query.
+  - xfconfd handles the Xfce settings storage
+  - xfconf-query enables users to tune settings from command line
+ .
+ This package provides the introspection data for xfconf.
+
 Package: gparted-common
 Architecture: all
 Version: 1.6.0-1
@@ -849,6 +897,106 @@ SHA512: 6091e14055ee86cbffa530e8387775bdb3adabebac150d6c64a42626ee8051db639294e2
 Homepage: https://www.rarlab.com/
 Description: Unarchiver for .rar files (non-free version) - shared library
  library for unarchiving .rar files
+
+Package: libxfconf-0-3
+Architecture: amd64
+Version: 4.18.3-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: xfconf
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 142
+Depends: xfconf, libc6 (>= 2.14), libglib2.0-0 (>= 2.55.2)
+Filename: ./libxfconf-0-3_4.18.3-2_amd64.deb
+Size: 45024
+MD5sum: fac78e3d1e4b22c790d4745f485e58e6
+SHA1: e3cd7fcd9c77e26521534aff27f32b231482a8aa
+SHA256: 82155f461cab8966d0ad6a91de86c4ad277d34afb1e33f9540b1310dc5ae395c
+SHA512: 70445e0ddd428a627a9ad5bece73668b347f45722089f9646fa7cc974267ec91cfa0067ab50e3f2b61684d2cebe6114aa337eac53e4fe03982078d38c5b35be8
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: Client library for Xfce4 configure interface
+ This package contains a library which can be used by every
+ program that aims to be a configuration-manager for Xfce4.
+ .
+ If you intend to use Xfce4, you definitely want to install
+ this package.
+
+Package: libxfconf-0-3
+Architecture: i386
+Version: 4.18.3-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: xfconf
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 142
+Depends: xfconf, libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2)
+Filename: ./libxfconf-0-3_4.18.3-2_i386.deb
+Size: 47080
+MD5sum: 17c87c52a83695a114705de1cfef67d4
+SHA1: 58723f75c9ec0fb2c510605369584ad5cd8b4959
+SHA256: 6ffa5fa7a164e31c62ba39d716a1b93b5028cf53eab7f242dcb018ae02c61a88
+SHA512: a159b2ad236e6653e16f1efbae7aaf97482c13320c1a3102f0fe710ca7be02717d2d06ced8d0a8fedce50387da2b0aaa6435ebb85523c57df12680dd60c477a9
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: Client library for Xfce4 configure interface
+ This package contains a library which can be used by every
+ program that aims to be a configuration-manager for Xfce4.
+ .
+ If you intend to use Xfce4, you definitely want to install
+ this package.
+
+Package: libxfconf-0-dev
+Architecture: amd64
+Version: 4.18.3-2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: xfconf
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 449
+Depends: gir1.2-xfconf-0 (= 4.18.3-2), libglib2.0-dev, libxfconf-0-3 (= 4.18.3-2), pkgconf
+Filename: ./libxfconf-0-dev_4.18.3-2_amd64.deb
+Size: 43032
+MD5sum: bb22d1f264b20f27101209a1cd57df63
+SHA1: 7bd9d4647338f8a7c6eee11a74ec5c8ea08e1e5b
+SHA256: ca830b055688e515aba423ec51e71c67b31299466e43bde43c80bf11e9362596
+SHA512: 391421a8e6a2959fc326ea177b689ba00909f9dd59dd68851c020fa7474fd788b4ffc23bb6f8c1a03b455f595f9fa1c9bed6a2aecd9df91c0d7e1206feca326e
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: Development files for libxfconf
+ This package contains the development files libxfconf which are
+ the main part of the Xfce4 configuration system. If you want to
+ develop applications that use this library, you want
+ to install this package.
+ .
+ The libxfconf Reference Manual is also included and it can be
+ consulted with Devhelp or a web browser.
+
+Package: libxfconf-0-dev
+Architecture: i386
+Version: 4.18.3-2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: xfconf
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 449
+Depends: gir1.2-xfconf-0 (= 4.18.3-2), libglib2.0-dev, libxfconf-0-3 (= 4.18.3-2), pkgconf
+Filename: ./libxfconf-0-dev_4.18.3-2_i386.deb
+Size: 43012
+MD5sum: cfd20e8f0b51e8dfb980ccbe9a89ae98
+SHA1: 1aa7378466c93ee4833a4e93c59876fc4b57ec14
+SHA256: 54a9a9981cbd2ea31813cf7d6caec6b92d8cfe04f9d0b7e30274e08f260279d7
+SHA512: 02f6b24770a924ca14f40e1d555bfeca6d7c9483577fea11ece9ba3c6785c8b28791c3ffaaa7e1afbdd11d83312f0fe7090b3e1fe6ea1e2c486b1c5d6c73940f
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: Development files for libxfconf
+ This package contains the development files libxfconf which are
+ the main part of the Xfce4 configuration system. If you want to
+ develop applications that use this library, you want
+ to install this package.
+ .
+ The libxfconf Reference Manual is also included and it can be
+ consulted with Devhelp or a web browser.
 
 Package: luvcview
 Architecture: amd64
@@ -1558,6 +1706,110 @@ Description: X server utilities
   - xsetroot, a tool for tailoring the appearance of the root window;
   - xstdcmap, a utility to selectively define standard colormap properties;
   - xvidtune, a tool for customizing X server modelines for your monitor.
+
+Package: xfconf-gsettings-backend
+Architecture: amd64
+Version: 4.18.3-2
+Multi-Arch: same
+Priority: optional
+Section: xfce
+Source: xfconf
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 63
+Provides: gsettings-backend
+Depends: xfconf, libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2), libxfconf-0-3 (>= 4.6.0)
+Filename: ./xfconf-gsettings-backend_4.18.3-2_amd64.deb
+Size: 21956
+MD5sum: 1ef48d3501eff20b8c8df3ff4a18cf2c
+SHA1: 33b1f3fd826068677f8675e26a0596cf74de7639
+SHA256: 1f3c0d3fc9b8d5db014bcf76b7a56db0217bb800ee84b74c17f52dde23f8cc0a
+SHA512: 7a0a5ef932573cf4c2467b9dd10db700bf4f00a4fa308bc84e1e44b4e95d3d9f05d49e90b10bd9e08bdfd2d7c99887eb679a5a0ce4b12cc2630d2cb191e0f233
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: utilities for managing settings in Xfce - gsettings backend
+ xfconf contains xfconfd and xfconf-query.
+  - xfconfd handles the Xfce settings storage
+  - xfconf-query enables users to tune settings from command line
+ .
+ This package contains a back-end for GSettings. It is needed by
+ applications accessing settings through GSettings to set custom values
+ and listen for changes.
+ .
+ By installing this package the default backend is changed to xfconf via
+ /etc/X11/Xsession.d/55xfconf.
+
+Package: xfconf-gsettings-backend
+Architecture: i386
+Version: 4.18.3-2
+Multi-Arch: same
+Priority: optional
+Section: xfce
+Source: xfconf
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 63
+Provides: gsettings-backend
+Depends: xfconf, libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2), libxfconf-0-3 (>= 4.6.0)
+Filename: ./xfconf-gsettings-backend_4.18.3-2_i386.deb
+Size: 22704
+MD5sum: 9df1f983991744a712d545190ec625e4
+SHA1: aa5680d37457ab3a73545cff8744b6b63a0c4319
+SHA256: 33dbed9dc60b5bc24a64788f530d2018e4fd37f51af43b7f7a94f69c57f64911
+SHA512: c46f7459c7b4abcc49a2902345f4fa96840fd509bc6b86e67830533c66637b8aff868c16fabe4087b1af62b8d70b026a52bc92262c6465e6a12b30d07fee0b58
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: utilities for managing settings in Xfce - gsettings backend
+ xfconf contains xfconfd and xfconf-query.
+  - xfconfd handles the Xfce settings storage
+  - xfconf-query enables users to tune settings from command line
+ .
+ This package contains a back-end for GSettings. It is needed by
+ applications accessing settings through GSettings to set custom values
+ and listen for changes.
+ .
+ By installing this package the default backend is changed to xfconf via
+ /etc/X11/Xsession.d/55xfconf.
+
+Package: xfconf
+Architecture: amd64
+Version: 4.18.3-2
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 794
+Depends: default-dbus-session-bus | dbus-session-bus, libc6 (>= 2.34), libglib2.0-0 (>= 2.55.2), libxfce4util7 (>= 4.17.3)
+Recommends: libxfconf-0-3 (>= 4.6.0)
+Suggests: xfconf-gsettings-backend
+Filename: ./xfconf_4.18.3-2_amd64.deb
+Size: 125396
+MD5sum: 63ed9cf4b22d88f76e7f3c13ff034fd0
+SHA1: d724fc07ae0b32a64d07683ee889c6e2398bee45
+SHA256: 08b4f0c448b2b15ac11e4f8e01b4f24e62ec298f78a117e0666e7384cfe0adaf
+SHA512: cb3e085380c50b50f844a5025cdc7402dcbb35539429ba18d265f6509082ae750f809ead6df1728b77a753af54bceec249f65393e466f2a61a917a8093e50e97
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: utilities for managing settings in Xfce
+ xfconf contains xfconfd and xfconf-query.
+  - xfconfd handles the Xfce settings storage
+  - xfconf-query enables users to tune settings from command line
+
+Package: xfconf
+Architecture: i386
+Version: 4.18.3-2
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 788
+Depends: default-dbus-session-bus | dbus-session-bus, libc6 (>= 2.34), libglib2.0-0 (>= 2.55.2), libxfce4util7 (>= 4.17.3)
+Recommends: libxfconf-0-3 (>= 4.6.0)
+Suggests: xfconf-gsettings-backend
+Filename: ./xfconf_4.18.3-2_i386.deb
+Size: 127692
+MD5sum: 8e2a921e7e331c79afed0e7ff4318d94
+SHA1: 2e94ad9788a2d6960b834eb8fa777a61951e25f0
+SHA256: c9d79811bceb70820a8f7fc71e7cae382245859852599cbc2a56b2294a366cff
+SHA512: a3e2510b344229bfbdbae70b78e482182e4d6e59fbc774a5fc69bebc9c79257b52cc1ca1a8110b86556f3701ee447868338cbc4220cdb34dc500d053429b0d29
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: utilities for managing settings in Xfce
+ xfconf contains xfconfd and xfconf-query.
+  - xfconfd handles the Xfce settings storage
+  - xfconf-query enables users to tune settings from command line
 
 Package: yad
 Architecture: amd64
