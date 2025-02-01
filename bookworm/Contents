@@ -9,6 +9,11 @@ opt/gsmartcontrol/libstdc++.so.6.0.32			    gsmartcontrol
 usr/bin/Thunar						    thunar
 usr/bin/cpu-x						    cpu-x
 usr/bin/cpuid_tool					    cpuidtool
+usr/bin/ddru_diskutility				    ddrutility
+usr/bin/ddru_findbad					    ddrutility
+usr/bin/ddru_ntfsbitmap					    ddrutility
+usr/bin/ddru_ntfsfindbad				    ddrutility
+usr/bin/ddrutility					    ddrutility
 usr/bin/engrampa					    engrampa
 usr/bin/fidentify					    testdisk
 usr/bin/gpicview					    gpicview
@@ -300,6 +305,9 @@ usr/share/doc/cpu-x/copyright				    cpu-x
 usr/share/doc/cpuidtool/changelog.Debian.gz		    cpuidtool
 usr/share/doc/cpuidtool/changelog.gz			    cpuidtool
 usr/share/doc/cpuidtool/copyright			    cpuidtool
+usr/share/doc/ddrutility/changelog.Debian.gz		    ddrutility
+usr/share/doc/ddrutility/changelog.gz			    ddrutility
+usr/share/doc/ddrutility/copyright			    ddrutility
 usr/share/doc/engrampa-common/changelog.Debian.gz	    engrampa-common
 usr/share/doc/engrampa-common/changelog.gz		    engrampa-common
 usr/share/doc/engrampa-common/copyright			    engrampa-common
@@ -1420,6 +1428,7 @@ usr/share/icons/hicolor/scalable/apps/engrampa.svg	    engrampa-common
 usr/share/icons/hicolor/scalable/apps/gparted.svg	    gparted-common
 usr/share/icons/hicolor/scalable/apps/org.xfce.thunar.svg   thunar-data
 usr/share/icons/nvtop.svg				    nvtop
+usr/share/info/ddrutility.info.gz			    ddrutility
 usr/share/lintian/overrides/libnvme-dev			    libnvme-dev
 usr/share/lintian/overrides/netsurf-common		    netsurf-common
 usr/share/locale/af/LC_MESSAGES/cpu-x.mo		    cpu-x
@@ -1863,6 +1872,11 @@ usr/share/locale/zh_TW/LC_MESSAGES/yad.mo		    yad
 usr/share/locale/zu/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/man/man1/Thunar.1.gz				    thunar
 usr/share/man/man1/cpu-x.1.gz				    cpu-x
+usr/share/man/man1/ddru_diskutility.1.gz		    ddrutility
+usr/share/man/man1/ddru_findbad.1.gz			    ddrutility
+usr/share/man/man1/ddru_ntfsbitmap.1.gz			    ddrutility
+usr/share/man/man1/ddru_ntfsfindbad.1.gz		    ddrutility
+usr/share/man/man1/ddrutility.1.gz			    ddrutility
 usr/share/man/man1/engrampa.1.gz			    engrampa-common
 usr/share/man/man1/gpicview.1.gz			    gpicview
 usr/share/man/man1/gsmartcontrol-root.1.gz		    gsmartcontrol

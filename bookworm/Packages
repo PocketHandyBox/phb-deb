@@ -98,6 +98,58 @@ Description: C library for x86/x86_64 CPU detection and feature extraction (tool
  .
  This package ships the cpuidtool.
 
+Package: ddrutility
+Architecture: amd64
+Version: 1:2.8-4
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Paulo Roberto Alves de Oliveira (aka kretcheu) <kretcheu@gmail.com>
+Installed-Size: 226
+Depends: libc6 (>= 2.7), fdisk, ntfs-3g
+Enhances: gddrescue, sleuthkit
+Filename: ./ddrutility_2.8-4_amd64.deb
+Size: 69644
+MD5sum: c2d3f930198cddfe98248b8ec5e60174
+SHA1: 196ab9e6cf97d9427dbd0a851851f72697ff8779
+SHA256: c1a1b1cbecf2578cdc5c7462390cd7f2596f4d5b42736b96693c4ba13c78be94
+SHA512: 7406758d0fe34faca57b68cb2f0ecc482f4a38017fc15ea52143105998a0045cd0263bfd91253cde0468c93d3fc6dcc72ca8329891031b780e43cc190b090131
+Homepage: http://ddrutility.sourceforge.net/
+Description: set of data recovery utilities for use with GNU ddrescue
+ Meant to be a compliment to gnuddrescue. It is a LINUX based set of utilities
+ to help with data rescue. Find what files are related to the bad sectors using
+ a ddrescue logfile, special NTFS utility to find files related to bad sectors,
+ create a domain logfile to use with ddrescue to only recover the used portion
+ of an NTFS partition, create a domain logfile to use with ddrescue to focus on
+ recovering the MFT of an NTFS partition and perform some advanced disk read
+ functions.
+
+Package: ddrutility
+Architecture: i386
+Version: 1:2.8-4
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Paulo Roberto Alves de Oliveira (aka kretcheu) <kretcheu@gmail.com>
+Installed-Size: 230
+Depends: libc6 (>= 2.7), fdisk, ntfs-3g
+Enhances: gddrescue, sleuthkit
+Filename: ./ddrutility_2.8-4_i386.deb
+Size: 74860
+MD5sum: 30dd22385367e3fca6eda1e23d9e8815
+SHA1: 72e6f1654f3964dd1302f47e9e5dbca9c61d8aee
+SHA256: 97ad2aa8774973921ce87c88e1c1f233e73c1bd22776736f065ca22b70ce6d99
+SHA512: ebbfe61893a59e163cdead42378b2453e761bc025f27f0402800b5454614de71786bc1dad9bf60860935f106b1316e48ddbb61e55e000cfb116e7e06b0ce3677
+Homepage: http://ddrutility.sourceforge.net/
+Description: set of data recovery utilities for use with GNU ddrescue
+ Meant to be a compliment to gnuddrescue. It is a LINUX based set of utilities
+ to help with data rescue. Find what files are related to the bad sectors using
+ a ddrescue logfile, special NTFS utility to find files related to bad sectors,
+ create a domain logfile to use with ddrescue to only recover the used portion
+ of an NTFS partition, create a domain logfile to use with ddrescue to focus on
+ recovering the MFT of an NTFS partition and perform some advanced disk read
+ functions.
+
 Package: engrampa-common
 Architecture: all
 Version: 1.26.2-4
