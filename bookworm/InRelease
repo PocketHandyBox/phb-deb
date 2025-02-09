@@ -9,10 +9,10 @@ Codename: bookworm
 Version: 1.0
 Architectures: amd64 i386
 Components: main
-Date: Sat, 01 Feb 2025 08:00:16 +0000
+Date: Sun, 09 Feb 2025 21:17:01 +0000
 MD5Sum:
- 39204d89aade0d313fcaa5f065723ee4 198710 Contents
- c8c08c2d62109c952ede0b1d6e31c1b7 18619 Contents.gz
+ 9f96653a99331339c2a06f22daadb1f7 203603 Contents
+ 42e0d9b736961c550bc3d7613f9f6976 19113 Contents.gz
  b581b08310507b4d1c8bb5d2df0f6fc1 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  c20a5bf0b10dd089e3e5f98350a28030 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  54c07b774091aab6a63acbea831ad0a2 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -22,6 +22,8 @@ MD5Sum:
  f9075fd2fca5cc83418d6d27e2aef42a 247332 engrampa_1.26.2-4_amd64.deb
  c8893669d1dac615cfc94465515b10c8 264340 engrampa_1.26.2-4_i386.deb
  7d440d422739ce5b85cd01fe793a3a08 960912 engrampa-common_1.26.2-4_all.deb
+ b8c261fa5172ed72d89ef744b774da64 499820 fastfetch_2.35.0+dfsg-1_amd64.deb
+ b4b94a1da366ec15b663e36d6ffb6c7e 515272 fastfetch_2.35.0+dfsg-1_i386.deb
  bbb232aa4e30fb911cf04e41bf57800c 54216 gir1.2-thunarx-3.0_4.18.11-1_amd64.deb
  1e0a336dba8f51e184a65b82e96e2b5a 54204 gir1.2-thunarx-3.0_4.18.11-1_i386.deb
  5be1a609f2408203113e93bae79f7c84 14244 gir1.2-xfconf-0_4.18.3-2_amd64.deb
@@ -54,8 +56,14 @@ MD5Sum:
  17c87c52a83695a114705de1cfef67d4 47080 libxfconf-0-3_4.18.3-2_i386.deb
  bb22d1f264b20f27101209a1cd57df63 43032 libxfconf-0-dev_4.18.3-2_amd64.deb
  cfd20e8f0b51e8dfb980ccbe9a89ae98 43012 libxfconf-0-dev_4.18.3-2_i386.deb
+ f15d22fb23e7d3392c432e6ee7cc3257 88600 libyyjson0_0.10.0+ds-1_amd64.deb
+ 0250f2cf29f0ac892930de2bca1c2c24 102680 libyyjson0_0.10.0+ds-1_i386.deb
+ e4d6d1afc74c3ea396f43b14ddef8b33 36520 libyyjson-dev_0.10.0+ds-1_amd64.deb
+ 72cdc9bf95a7c3b926ad17515ab0a1ef 36520 libyyjson-dev_0.10.0+ds-1_i386.deb
  d195e6bd44410c9c512564e229c3d22d 48228 luvcview_0.2.6-6_amd64.deb
  454f58b34d2b4e90c78a86f51ebcfa95 49824 luvcview_0.2.6-6_i386.deb
+ 9a22dc93c4dce27d73ed713ccfa6b8bf 621912 mtpaint_3.50.11-1_amd64.deb
+ 92bc42c9440e082ecc0a3f48fa8b30b5 621352 mtpaint_3.50.11-1_i386.deb
  b2eca69b3703bf76cf2bb740122a88d7 175300 netsurf-common_3.11-2_all.deb
  2d2b333d21b4af316cbd91593821daf9 1223776 netsurf-fb_3.11-2_amd64.deb
  0a497cd7af91cb01c94fd26d8ee461fe 1306588 netsurf-fb_3.11-2_i386.deb
@@ -63,8 +71,8 @@ MD5Sum:
  312643b14bde27a2a91936b99fc49c4a 1566520 netsurf-gtk_3.11-2_i386.deb
  96ea31bce201200105deeaeffbb23484 725504 nvme-cli_2.11-1_amd64.deb
  13657a587698234b9dae67a114575192 68540 nvtop_3.1.0-1+b1_amd64.deb
- 6d3ead14d7a3c3e47296ad1fb681d8c4 86510 Packages
- 8ff3748068b03729adaab5908aa06382 24298 Packages.gz
+ 65bf0ce9949aac0b3f56a29da8454a53 97426 Packages
+ d4f82ec329d36b968e637c3c2a17404d 27436 Packages.gz
  af5493cab7028ab4a5632013284b4e5d 70464 python3-libnvme_1.11.1-1_amd64.deb
  5110df7053770cb44f3acb3eb8aedc2f 7260 python3-nvme_1.11.1-1_all.deb
  83cade32b8f4c54e47aed221cbf0abd1 434696 testdisk_7.2-0.1_amd64.deb
@@ -88,8 +96,8 @@ MD5Sum:
  b544ffbd736c7250006cbe654bf69861 206500 yad_14.1-1_amd64.deb
  43059a0823341e764e2d80c8f174f462 212760 yad_14.1-1_i386.deb
 SHA1:
- 7055b4f21429088a96494eaa4cdca1c38ec25f5f 198710 Contents
- 8570949517da476d4973b08750b063973866fd0c 18619 Contents.gz
+ 5640cb42a40ea237fb1f8c3ec20af28e1ea06c76 203603 Contents
+ bef900a23fb37f1ce77f9d240ed8ab4913892b0b 19113 Contents.gz
  07f7b349ea5b8e12b5c9f29fa3461fdb60514790 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  abf8a62c51b35f76b392b69d1d8096b71520aa4d 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  b3712707cf9397ab31cb52820e4ec449cfb10d02 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -99,6 +107,8 @@ SHA1:
  f553696f1ad1fe2f2cafca773d4228df775fe2ab 247332 engrampa_1.26.2-4_amd64.deb
  99f1db917750c207f724a8ed4cfb020dca327d74 264340 engrampa_1.26.2-4_i386.deb
  ba9b19b32d9a9049a7c7193a393debe1b0a1b32c 960912 engrampa-common_1.26.2-4_all.deb
+ 2e794f26c963d685d7f4b59ecd0dd802bad53bfd 499820 fastfetch_2.35.0+dfsg-1_amd64.deb
+ e055e81935f2b91b35a36c4c1dd0bc01660b20a1 515272 fastfetch_2.35.0+dfsg-1_i386.deb
  b49bacbe8d0d2a6e775045c63b405a9729212317 54216 gir1.2-thunarx-3.0_4.18.11-1_amd64.deb
  eabda0c1a4f5100da848de3de9573c6a31d59d74 54204 gir1.2-thunarx-3.0_4.18.11-1_i386.deb
  04c1e735aba6b2f37477a0b0753d514baeca5cd8 14244 gir1.2-xfconf-0_4.18.3-2_amd64.deb
@@ -131,8 +141,14 @@ SHA1:
  58723f75c9ec0fb2c510605369584ad5cd8b4959 47080 libxfconf-0-3_4.18.3-2_i386.deb
  7bd9d4647338f8a7c6eee11a74ec5c8ea08e1e5b 43032 libxfconf-0-dev_4.18.3-2_amd64.deb
  1aa7378466c93ee4833a4e93c59876fc4b57ec14 43012 libxfconf-0-dev_4.18.3-2_i386.deb
+ c04734ecb4ddaccf4954bd71a477ac42654e5c2c 88600 libyyjson0_0.10.0+ds-1_amd64.deb
+ 2906c8ef7e58382b1763b549339b39928dda3b53 102680 libyyjson0_0.10.0+ds-1_i386.deb
+ 50fb0ee478799f18462291922c56b98d4915313d 36520 libyyjson-dev_0.10.0+ds-1_amd64.deb
+ c17dd5c5fcce2c47e60adaeb309fb187001c22fc 36520 libyyjson-dev_0.10.0+ds-1_i386.deb
  26db4f0aa378ed5fd6699f11776013fdf4c02777 48228 luvcview_0.2.6-6_amd64.deb
  cd68c385a4be514f608188de75ca0ad322dd108a 49824 luvcview_0.2.6-6_i386.deb
+ 28dcd920e2d1a81ed2665fe7b61030b4bacd083a 621912 mtpaint_3.50.11-1_amd64.deb
+ 64ef0ddf2fb49776cd3f2a8f87a9b3b43eb08597 621352 mtpaint_3.50.11-1_i386.deb
  cf7d6380e8cba7b5c334876c9b4f4304c4afa7cb 175300 netsurf-common_3.11-2_all.deb
  c0d575afab17bfbe45673c682c030bf740a07451 1223776 netsurf-fb_3.11-2_amd64.deb
  39ac4ff8c744c718321d2d8a3a81f30353ab0bcc 1306588 netsurf-fb_3.11-2_i386.deb
@@ -140,8 +156,8 @@ SHA1:
  24ad253ef68106983d7dcb9832f7e13401b48411 1566520 netsurf-gtk_3.11-2_i386.deb
  30b6278ca2e913147eb733236ec380ab9324c4dd 725504 nvme-cli_2.11-1_amd64.deb
  d594d5802e69fd14c3660a132e38b27186cc6872 68540 nvtop_3.1.0-1+b1_amd64.deb
- ce61808f54035934ae69acd571c34fe62d54dbc9 86510 Packages
- e97a2397f632a7929be55779faa96609030db6cf 24298 Packages.gz
+ 16e87288b40ef0e76bbb27aee0322b806d159abd 97426 Packages
+ 0133364623fa2b568df80580622f3631f0764492 27436 Packages.gz
  c5a3221a6a79b87a51bf1912987bca84ad974019 70464 python3-libnvme_1.11.1-1_amd64.deb
  22d4bbab4a1681a444e2582af87ef859d556de9d 7260 python3-nvme_1.11.1-1_all.deb
  186d5bba5881470b2e6b4bf2fa35d7794b3b3e37 434696 testdisk_7.2-0.1_amd64.deb
@@ -165,8 +181,8 @@ SHA1:
  6a5c52f76f61eb067363c60eac467e784154b2a6 206500 yad_14.1-1_amd64.deb
  d859a3ac861cf6dd779ce6828b593bcbdd03a574 212760 yad_14.1-1_i386.deb
 SHA256:
- c6efc789bf276ad3ce3fe6900b8d7bce2914ba872dd8800e4fb2d707e0cd9d26 198710 Contents
- dea7de508e014d082d8f1b212f450c5c9228f304d3e3afdc57dd994b7f614dee 18619 Contents.gz
+ 992682a5cdee96f4242b010a4da8e65d4dc6b04c7e40cf112b99a021c556fe7f 203603 Contents
+ 825b9b126dee9eb685585df2cb9bb8a4c9f9193b0f84701149634e15a63e1197 19113 Contents.gz
  cd1e3f8f025d72b5c9741458bcfbfdb98cacbc0e1a748b0234db5adc2a2f1eb4 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  18b7f69ef29024deec9514758693fe34a93efe134aedda462fba5fc7f4e2aee6 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  4113842970f15cfd0ec811c6bd80bc73a62d2d811fccc1c061440e80d5b9123c 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -176,6 +192,8 @@ SHA256:
  186d6c0322b2591244bedbacc3b6771f69183f39b914f34950a222d75f6f1f5d 247332 engrampa_1.26.2-4_amd64.deb
  db238eea6905e2098c4f9cdaff4b10ec954d7c984a8d0e24f82d23d69b02f6c7 264340 engrampa_1.26.2-4_i386.deb
  f0f277b0c0836049a951ad948609e62592451db2d7ced5ecccad4f25ac98ddfc 960912 engrampa-common_1.26.2-4_all.deb
+ 4876e5df06e68accf0873e7e3700019efec755c226fc2b9bfdcde4d0b216f9e3 499820 fastfetch_2.35.0+dfsg-1_amd64.deb
+ 03c407dec6829fa791ebeabebefdc6121bdfc481b77334f2458643776de09617 515272 fastfetch_2.35.0+dfsg-1_i386.deb
  b7ecfa5467320e3a111a38a7fb16ede0faa28ed994ab63f99f226db8df776665 54216 gir1.2-thunarx-3.0_4.18.11-1_amd64.deb
  10f1a0199d493ed465ee687a410a39d56cf0980ca9d93d623615d5b1562a6b16 54204 gir1.2-thunarx-3.0_4.18.11-1_i386.deb
  3e23a641ba8612286a6ee51d5af5240068535ddea54072f4cbf90abf559b61b6 14244 gir1.2-xfconf-0_4.18.3-2_amd64.deb
@@ -208,8 +226,14 @@ SHA256:
  6ffa5fa7a164e31c62ba39d716a1b93b5028cf53eab7f242dcb018ae02c61a88 47080 libxfconf-0-3_4.18.3-2_i386.deb
  ca830b055688e515aba423ec51e71c67b31299466e43bde43c80bf11e9362596 43032 libxfconf-0-dev_4.18.3-2_amd64.deb
  54a9a9981cbd2ea31813cf7d6caec6b92d8cfe04f9d0b7e30274e08f260279d7 43012 libxfconf-0-dev_4.18.3-2_i386.deb
+ bf709e14d583849145174a788a8171ed696496263c2ba83fcce93337a6ee4ada 88600 libyyjson0_0.10.0+ds-1_amd64.deb
+ 149c1912ac6a4d50a2c046b1a1bcc38ea431f835d1e2cb5cccdd42b3bb607427 102680 libyyjson0_0.10.0+ds-1_i386.deb
+ a926447a250dd071266d5dcea084edb2b81ed04394ddf686e8f2ec0e6353e4e0 36520 libyyjson-dev_0.10.0+ds-1_amd64.deb
+ fdd015ecec3b9d2f6a231784e138c1c9745f8b73fa0a106edbe211f34b24fce7 36520 libyyjson-dev_0.10.0+ds-1_i386.deb
  bfe129421937f1d578174994a229d1b405e8dc4e1468cd860c093717b3093e1b 48228 luvcview_0.2.6-6_amd64.deb
  fe5c983c7f75019d444059e3ededc597780d307b9907c513d2596ff82089b5da 49824 luvcview_0.2.6-6_i386.deb
+ 182b9a6ed72257f0b46338f1d3fd601b131e216f8791e1a650cd5814038ec955 621912 mtpaint_3.50.11-1_amd64.deb
+ f5c157936aedb9ce3dc4f57505aec40b87d6a6f57a5bb6187e96694856ecd43e 621352 mtpaint_3.50.11-1_i386.deb
  15f2bd9d6d18da2f7c033ed2c9d688164bb12fdb62b6527ce5e796d067075201 175300 netsurf-common_3.11-2_all.deb
  1a7de742720a3b57218e1d0032d7aa17f26be395187ba53e56bbe74f556c1588 1223776 netsurf-fb_3.11-2_amd64.deb
  4dbcfd5743f5a09dadce12eef8ee44af32a54751c07170a378f7c12661de85a3 1306588 netsurf-fb_3.11-2_i386.deb
@@ -217,8 +241,8 @@ SHA256:
  9ab8ef93a7638e26f03df8c31b55db8ed1dd7c1f48c0437b5c1eddf35d7198a5 1566520 netsurf-gtk_3.11-2_i386.deb
  489493969fb61214d02cb1d9fa9ad49ea4ba7059c2b01c76aafec2c5ce5817b2 725504 nvme-cli_2.11-1_amd64.deb
  34391dfb03cb1c7584f6a8c13dae21a64dff12cd2d4a0e80bdbaf0d70561fa08 68540 nvtop_3.1.0-1+b1_amd64.deb
- 8c82a8c33f2ea77044f459e502a6287260682d020352c18c8b6d70ddf4d38ea9 86510 Packages
- ff3c3d6d1304bcbc931722991d96845cf0b73e0e3b86dad9be202dc0b708d973 24298 Packages.gz
+ 4e2baf763e313779aead11d168424b0e4d22fbac22efc08d4b690540549c4a37 97426 Packages
+ 9f9d9ca08a94a698f1fa1db242bd01ce3e6818269b0f46b7dc5c2c3e9609e7ab 27436 Packages.gz
  bbf2fa82d424c0eab1d5752b33586ed9bb85766cf86e68482e31b18161dbd6f8 70464 python3-libnvme_1.11.1-1_amd64.deb
  406538c95f00a3b077e9751b5b06e7c80cfc16e97a54dc80fffa4116c2da2574 7260 python3-nvme_1.11.1-1_all.deb
  32ed28631cd51e655af223b04faf88c8d95e056a03edbfbc9335d8738becb27f 434696 testdisk_7.2-0.1_amd64.deb
@@ -243,15 +267,15 @@ SHA256:
  6072420a710d1240ff11c9fad09dfb0d10737b3d26c22a00d0c7eb13d4922971 212760 yad_14.1-1_i386.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmed1JsACgkQZ9Vqr4Ht
-qtntSgwAoOBkHM9EtYIpXhyBU3l4qxIB+TnymT6UEy9SLWpggqyQgx8dE3MBztvR
-+52HN80oFI0zMi7taI9RV9wxEq9mUxsiaFfx25Xt5ijtgCCw+F66+SH3FaqTzsZr
-Z26FlwsEY5a1Tetpvrd42tfF+I4wo1f4uysSP3/cBQSyD9AVOjRqd/xgNq1bi9Sc
-zIkZx8NszwPkissqTucww6J2Z6I6+QXovgvYlXtJlMoiYX4VxfWEsYTouyXlfq3x
-q6pjGIIfJf8NXjtP5lQqRn9W+84vdry0aezaqikOkNW8ePlf9m4ZoK0jFYPccvnq
-05vpOFVvYhh2NpcIIsODqEraQFTQ5TgGt9pBD30WBN2oUwxbIYfTgDxpBvX2Xmdr
-SU9Pqz73fG2h3G2+g8T+unhnKyrsQQDK/xp6p0QvNkg0l29faBQ9pxzr+WhNtRe1
-FCVYUsVqM9W+3ABuG83gph7c4xwRXzOEYeZY5RYxhwuhD/M00F4rjZDxZH+YPeL9
-Xmdh+qse
-=eOSp
+iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmepG1UACgkQZ9Vqr4Ht
+qtkVUwwAktJt6VIDJ4CCWzb6ah6V7zG/ArK1VecDAJdkLfesgKSxTQYT8QUkM2Fw
+/jKDEJ8ADmBeTuiU3RiE9aMlnZUDDFBkh0zMZqyu18tFpvqx/dUTuNYbNILmEyRE
+8+yNa16UbUIaReIPXl301aj8QfWTdYVoVgadfSkyFsozZ6FTVLzLlU/aSw8WF96C
+qOhhg+baaSsNb00LOxh+kfyzhEqUPY/nGf5mBUkbw9WN5FOzyVkKlCgS2DWt792G
+x88m863xJjzjwHlqqvdXa/DDaVXswtxeGfYStxQOTARyllR9ptNjEdPn/sPd+1lx
+p2ulqK/HtBPeOYropLjAfRERhyJLHeSjlSy+6G2irNRU33ekfbeoWrCkr5XA59YT
+dauCnB2oQRYD4rKAjcr5Z6u5t+2SagT7SoQge1QqjbKuMbbj9aGEfXf9Qps+Zh9B
+VbHECXDWYyKioSXwDUpUqCZoRLlcUEtf5xYUBPguOmuzXp8tSW2cq+is+Wy11vZW
+CDJhv8Us
+=bUFj
 -----END PGP SIGNATURE-----

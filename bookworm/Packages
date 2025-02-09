@@ -262,6 +262,48 @@ Description: archive manager for MATE
  Engrampa doesn't perform archive operations by itself, but relies on
  standard tools for this.
 
+Package: fastfetch
+Architecture: amd64
+Version: 2.35.0+dfsg-1
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Hiago De Franco <hiagofranco@gmail.com>
+Installed-Size: 1677
+Depends: libc6 (>= 2.34), libyyjson0 (>= 0.10.0+ds)
+Filename: ./fastfetch_2.35.0+dfsg-1_amd64.deb
+Size: 499820
+MD5sum: b8c261fa5172ed72d89ef744b774da64
+SHA1: 2e794f26c963d685d7f4b59ecd0dd802bad53bfd
+SHA256: 4876e5df06e68accf0873e7e3700019efec755c226fc2b9bfdcde4d0b216f9e3
+SHA512: 0d8e435f60652a8891e9881ecb390b505c62a37de249dc5043ab50f7e50f8cf41964d67f7ac549daf35d864a54732faf02ca6920d9c78cf8c19dd1fb49e49423
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Description: neofetch-like tool for fetching system information
+ Fastfetch is a neofetch-like tool for fetching system information and
+ displaying them in a pretty way. It is written mainly in C, with
+ performance and customizability in mind.
+
+Package: fastfetch
+Architecture: i386
+Version: 2.35.0+dfsg-1
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Hiago De Franco <hiagofranco@gmail.com>
+Installed-Size: 1708
+Depends: libc6 (>= 2.34), libyyjson0 (>= 0.10.0+ds)
+Filename: ./fastfetch_2.35.0+dfsg-1_i386.deb
+Size: 515272
+MD5sum: b4b94a1da366ec15b663e36d6ffb6c7e
+SHA1: e055e81935f2b91b35a36c4c1dd0bc01660b20a1
+SHA256: 03c407dec6829fa791ebeabebefdc6121bdfc481b77334f2458643776de09617
+SHA512: ebfea6e6d48267b131aee01897ef07fbc644df10e118271d042440edab92d08250dec24ec36fba117923dff889873a703d9fe53d7be2f970b9d721d3b93e2ab5
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Description: neofetch-like tool for fetching system information
+ Fastfetch is a neofetch-like tool for fetching system information and
+ displaying them in a pretty way. It is written mainly in C, with
+ performance and customizability in mind.
+
 Package: gir1.2-thunarx-3.0
 Architecture: amd64
 Version: 4.18.11-1
@@ -1050,6 +1092,148 @@ Description: Development files for libxfconf
  The libxfconf Reference Manual is also included and it can be
  consulted with Devhelp or a web browser.
 
+Package: libyyjson-dev
+Architecture: amd64
+Version: 0.10.0+ds-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: yyjson
+Maintainer: Carlos Henrique Lima Melara <charlesmelara@riseup.net>
+Installed-Size: 330
+Depends: libyyjson0 (= 0.10.0+ds-1)
+Suggests: libyyjson-doc
+Filename: ./libyyjson-dev_0.10.0+ds-1_amd64.deb
+Size: 36520
+MD5sum: e4d6d1afc74c3ea396f43b14ddef8b33
+SHA1: 50fb0ee478799f18462291922c56b98d4915313d
+SHA256: a926447a250dd071266d5dcea084edb2b81ed04394ddf686e8f2ec0e6353e4e0
+SHA512: 05ed9952019b1f5828d3ea936a29c29de26eb5291256676804acd5c279012e8ec8d8c17f0eb05cf44dd0f099072b56065f7e05bf10bb9f7d1c598b44ac901b7f
+Homepage: https://github.com/ibireme/yyjson
+Description: high performance JSON library written in ANSI C (development files)
+ Some features of the library are:
+ .
+  - Fast: can read or write gigabytes per second JSON data on modern CPUs.
+  - Portable: complies with ANSI C (C89) for cross-platform compatibility.
+  - Strict: complies with RFC 8259 JSON standard, ensuring strict number format
+    and UTF-8 validation.
+  - Extendable: offers options to allow comments, trailing commas, NaN/Inf, and
+    custom memory allocator.
+  - Accuracy: can accurately read and write int64, uint64, and double numbers.
+  - Flexible: supports unlimited JSON nesting levels, \u0000 characters, and non
+    null-terminated strings.
+  - Manipulation: supports querying and modifying using JSON Pointer, JSON Patch
+    and JSON Merge Patch.
+  - Developer-Friendly: easy integration with only one .h and one .c file.
+ .
+ This package contains the development files for libyyjson.
+
+Package: libyyjson-dev
+Architecture: i386
+Version: 0.10.0+ds-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: yyjson
+Maintainer: Carlos Henrique Lima Melara <charlesmelara@riseup.net>
+Installed-Size: 330
+Depends: libyyjson0 (= 0.10.0+ds-1)
+Suggests: libyyjson-doc
+Filename: ./libyyjson-dev_0.10.0+ds-1_i386.deb
+Size: 36520
+MD5sum: 72cdc9bf95a7c3b926ad17515ab0a1ef
+SHA1: c17dd5c5fcce2c47e60adaeb309fb187001c22fc
+SHA256: fdd015ecec3b9d2f6a231784e138c1c9745f8b73fa0a106edbe211f34b24fce7
+SHA512: 075faa81f04494b8706502df09ef7d1610bb379ef60a1cce5dde1da1101a6f244c0a9c633a2b5e0fc779c575279b580f4b473bf8ab53c93da241722d4cee4ef2
+Homepage: https://github.com/ibireme/yyjson
+Description: high performance JSON library written in ANSI C (development files)
+ Some features of the library are:
+ .
+  - Fast: can read or write gigabytes per second JSON data on modern CPUs.
+  - Portable: complies with ANSI C (C89) for cross-platform compatibility.
+  - Strict: complies with RFC 8259 JSON standard, ensuring strict number format
+    and UTF-8 validation.
+  - Extendable: offers options to allow comments, trailing commas, NaN/Inf, and
+    custom memory allocator.
+  - Accuracy: can accurately read and write int64, uint64, and double numbers.
+  - Flexible: supports unlimited JSON nesting levels, \u0000 characters, and non
+    null-terminated strings.
+  - Manipulation: supports querying and modifying using JSON Pointer, JSON Patch
+    and JSON Merge Patch.
+  - Developer-Friendly: easy integration with only one .h and one .c file.
+ .
+ This package contains the development files for libyyjson.
+
+Package: libyyjson0
+Architecture: amd64
+Version: 0.10.0+ds-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: yyjson
+Maintainer: Carlos Henrique Lima Melara <charlesmelara@riseup.net>
+Installed-Size: 232
+Depends: libc6 (>= 2.14)
+Filename: ./libyyjson0_0.10.0+ds-1_amd64.deb
+Size: 88600
+MD5sum: f15d22fb23e7d3392c432e6ee7cc3257
+SHA1: c04734ecb4ddaccf4954bd71a477ac42654e5c2c
+SHA256: bf709e14d583849145174a788a8171ed696496263c2ba83fcce93337a6ee4ada
+SHA512: e510ab6a474199b4155bbc4bcae5a9268f8b5efd4c27227c87f9c58b08e5907f8e8c646fa6569df600f0682f5388899a3a92d5fdc0a4e4d804b1833c22d73ccb
+Homepage: https://github.com/ibireme/yyjson
+Description: high performance JSON library written in ANSI C
+ Some features of the library are:
+ .
+  - Fast: can read or write gigabytes per second JSON data on modern CPUs.
+  - Portable: complies with ANSI C (C89) for cross-platform compatibility.
+  - Strict: complies with RFC 8259 JSON standard, ensuring strict number format
+    and UTF-8 validation.
+  - Extendable: offers options to allow comments, trailing commas, NaN/Inf, and
+    custom memory allocator.
+  - Accuracy: can accurately read and write int64, uint64, and double numbers.
+  - Flexible: supports unlimited JSON nesting levels, \u0000 characters, and non
+    null-terminated strings.
+  - Manipulation: supports querying and modifying using JSON Pointer, JSON Patch
+    and JSON Merge Patch.
+  - Developer-Friendly: easy integration with only one .h and one .c file.
+ .
+ This package contains the shared library.
+
+Package: libyyjson0
+Architecture: i386
+Version: 0.10.0+ds-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: yyjson
+Maintainer: Carlos Henrique Lima Melara <charlesmelara@riseup.net>
+Installed-Size: 292
+Depends: libc6 (>= 2.4)
+Filename: ./libyyjson0_0.10.0+ds-1_i386.deb
+Size: 102680
+MD5sum: 0250f2cf29f0ac892930de2bca1c2c24
+SHA1: 2906c8ef7e58382b1763b549339b39928dda3b53
+SHA256: 149c1912ac6a4d50a2c046b1a1bcc38ea431f835d1e2cb5cccdd42b3bb607427
+SHA512: bd38d7cf0a4781db5f32b0b32be4fc0b96fda1f73e18dd6d9480473db5ec7233e9b425a2b4eca3193bd3931569b10d14448d6087b45d94043adee38fe3c1272a
+Homepage: https://github.com/ibireme/yyjson
+Description: high performance JSON library written in ANSI C
+ Some features of the library are:
+ .
+  - Fast: can read or write gigabytes per second JSON data on modern CPUs.
+  - Portable: complies with ANSI C (C89) for cross-platform compatibility.
+  - Strict: complies with RFC 8259 JSON standard, ensuring strict number format
+    and UTF-8 validation.
+  - Extendable: offers options to allow comments, trailing commas, NaN/Inf, and
+    custom memory allocator.
+  - Accuracy: can accurately read and write int64, uint64, and double numbers.
+  - Flexible: supports unlimited JSON nesting levels, \u0000 characters, and non
+    null-terminated strings.
+  - Manipulation: supports querying and modifying using JSON Pointer, JSON Patch
+    and JSON Merge Patch.
+  - Developer-Friendly: easy integration with only one .h and one .c file.
+ .
+ This package contains the shared library.
+
 Package: luvcview
 Architecture: amd64
 Version: 1:0.2.6-6
@@ -1087,6 +1271,60 @@ Homepage: http://luvcview.sourceforge.net
 Description: USB Video Class grabber
  luvcview is a camera viewer for UVC based webcams. It includes an mjpeg
  decoder and is able to save the video stream as an AVI file.
+
+Package: mtpaint
+Architecture: amd64
+Version: 3.50.11-1
+Priority: optional
+Section: graphics
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Installed-Size: 2076
+Depends: libc6 (>= 2.34), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libtiff6 (>= 4.0.3), libwebp7 (>= 1.2.4), libx11-6, zlib1g (>= 1:1.2.0), gtklp
+Filename: ./mtpaint_3.50.11-1_amd64.deb
+Size: 621912
+MD5sum: 9a22dc93c4dce27d73ed713ccfa6b8bf
+SHA1: 28dcd920e2d1a81ed2665fe7b61030b4bacd083a
+SHA256: 182b9a6ed72257f0b46338f1d3fd601b131e216f8791e1a650cd5814038ec955
+SHA512: 44a4ccea84f95c3de2f4f410578085fa3e84995e766a89ec625529f178a9e8e0dbb396bd71a9e1c7ff2898c40c892ce14d859ee9d9ba24cecc2cb81ec89e57af
+Homepage: https://mtpaint.sourceforge.net/
+Description: painting program to create pixel art and manipulate digital photos
+ mtPaint is a free, open source graphic editing program which uses the GTK+
+ toolkit.
+ It is geared towards creating indexed palette images and pixel art.
+ .
+ Due to its efficient design it can run on older PC hardware (e.g. a 200MHz CPU
+ and 32MB of RAM). It can edit indexed palette or 24 bit RGB images and offers
+ basic painting and palette manipulation tools.
+ .
+ It is aimed to be simple and easy to use. it also can handle JPEG, GIF, TIFF,
+ BMP, XPM, and XBM files.
+
+Package: mtpaint
+Architecture: i386
+Version: 3.50.11-1
+Priority: optional
+Section: graphics
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Installed-Size: 2034
+Depends: libc6 (>= 2.34), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libtiff6 (>= 4.0.3), libwebp7 (>= 1.2.4), libx11-6, zlib1g (>= 1:1.2.0), gtklp
+Filename: ./mtpaint_3.50.11-1_i386.deb
+Size: 621352
+MD5sum: 92bc42c9440e082ecc0a3f48fa8b30b5
+SHA1: 64ef0ddf2fb49776cd3f2a8f87a9b3b43eb08597
+SHA256: f5c157936aedb9ce3dc4f57505aec40b87d6a6f57a5bb6187e96694856ecd43e
+SHA512: dcbd0ad9154df440e976ea3b50736c804282f5bdeca8a166b136de6613df2e8168e4180b0617bf053e265e8eedc217f1e475724e55ea21c2aa52b8cfcb269454
+Homepage: https://mtpaint.sourceforge.net/
+Description: painting program to create pixel art and manipulate digital photos
+ mtPaint is a free, open source graphic editing program which uses the GTK+
+ toolkit.
+ It is geared towards creating indexed palette images and pixel art.
+ .
+ Due to its efficient design it can run on older PC hardware (e.g. a 200MHz CPU
+ and 32MB of RAM). It can edit indexed palette or 24 bit RGB images and offers
+ basic painting and palette manipulation tools.
+ .
+ It is aimed to be simple and easy to use. it also can handle JPEG, GIF, TIFF,
+ BMP, XPM, and XBM files.
 
 Package: netsurf-common
 Architecture: all
