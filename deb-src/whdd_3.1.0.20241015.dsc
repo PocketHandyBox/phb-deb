@@ -11,8 +11,8 @@ Build-Depends: debhelper (>= 10.0~), libncurses-dev, libncursesw5-dev, libtinfo-
 Package-List:
  whdd deb utils extra arch=any
 Checksums-Sha1:
- 3d62e981144810b7ed6756b97e6ce6c3f05fc996 42380 whdd_3.1.0.20241015.tar.xz
+ f0386b8b79e962b19c191050f6f143e495cd6c02 42256 whdd_3.1.0.20241015.tar.xz
 Checksums-Sha256:
- 2aae45ec57a3ed7b9841a524c4cb4fd6a0a492e4aa1e4de95e77dcfbb227fa91 42380 whdd_3.1.0.20241015.tar.xz
+ 693c8352fa66250851ec555801bfe50a36e72cdcc20b76c50e9adabe23140840 42256 whdd_3.1.0.20241015.tar.xz
 Files:
- 2c2c90eca01e61d723bb3ddc87169423 42380 whdd_3.1.0.20241015.tar.xz
+ 3e579bbf1baf2a4b657a271607f34d76 42256 whdd_3.1.0.20241015.tar.xz

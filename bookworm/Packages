@@ -1915,6 +1915,37 @@ Description: Wireless Device Monitoring Application
  wireless network hardware.
 
 Package: whdd
+Architecture: amd64
+Version: 3.1.0.20241015
+Priority: extra
+Section: utils
+Maintainer: Eugene San (eugenesan) <eugenesan@gmail.com>
+Installed-Size: 185
+Depends: libc6 (>= 2.34), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Recommends: smartmontools
+Filename: ./whdd_3.1.0.20241015_amd64.deb
+Size: 73104
+MD5sum: c060a0db878c7212b5ec69fe9f3cabf1
+SHA1: 792ca977f39543c412d298bd42de7a9b01d72e37
+SHA256: 514041cef011216c39e74902afea77770520e992a818f55a689d8f4206338305
+SHA512: 645dcee80ade4e52e9cc7c1fe7a9b56243ec10ea1dc4ec9a1ff385849bb838c147fa94f6c1d28223d9faea0eacd3cec91ebbb8eee279c9a8f64d195928d49273
+Homepage: http://whdd.org/
+Description: diagnostic and recovery tool for block devices
+ A diagnostic and recovery tool for block devices
+ (near to replace MHDD for Linux).
+ .
+ Functionality:
+ - List available block devices (HDD, Flash drives etc.)
+ - List S.M.A.R.T. parameters and SMART tests info
+ - Perform tests:
+   * Read
+   * Write zeros
+ - Visualize results of tests
+ - Low-level device copying (not implemented yet)
+ Program is designed for adding more complex tests or
+ recovery procedures, and different front-ends.
+
+Package: whdd
 Architecture: i386
 Version: 3.1.0.20241015
 Priority: extra
@@ -1924,11 +1955,11 @@ Installed-Size: 202
 Depends: libc6 (>= 2.34), libncursesw6 (>= 6), libtinfo6 (>= 6)
 Recommends: smartmontools
 Filename: ./whdd_3.1.0.20241015_i386.deb
-Size: 82256
-MD5sum: a1e182c9dab5b0fdd3236e91c3547cde
-SHA1: d2e0f4e3fcef7b0d0071358c698d3d2109468d16
-SHA256: 075678c9fc66b660bd72ccf67553a4bcbb5c459e5d8641e1dd279929bdade22f
-SHA512: 8d3fba4ccb2aaddf31f9155b195f08afa023648674d222030736839cda4a4c8b57833e77880527570136984ed2bdf7ac01b5c2f7eb136757fc14ad84a90635f8
+Size: 82244
+MD5sum: baf2a79b361987ca616994f1f46139a1
+SHA1: d791647dcd5dff169fa0dd334478f062b13ad4db
+SHA256: 6c9a9f3bf4a5922d03da516d3eea2331b7af1f1532a6968407e8735f1b6d8523
+SHA512: 2a191c455c13e5357a876a7a37faaf932d17584b3a614e4972157091808bf128d1d3a95f748e9efb1a1f398f0296b0295bbc19f0db1d3d5802c0ea8d4509d959
 Homepage: http://whdd.org/
 Description: diagnostic and recovery tool for block devices
  A diagnostic and recovery tool for block devices
