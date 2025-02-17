@@ -215,6 +215,7 @@ usr/lib/i386-linux-gnu/thunarx-3/thunar-uca.so		    libthunarx-3-0
 usr/lib/i386-linux-gnu/thunarx-3/thunar-wallpaper-plugin.so libthunarx-3-0
 usr/lib/i386-linux-gnu/xfce4/panel/plugins/libthunar-tpa.so thunar
 usr/lib/i386-linux-gnu/xfce4/xfconf/xfconfd		    xfconf
+usr/lib/pup-volume-monitor				    pup-volume-monitor
 usr/lib/python3/dist-packages/libnvme/__init__.py	    python3-libnvme
 usr/lib/python3/dist-packages/libnvme/_nvme.cpython-311-x86_64-linux-gnu.so python3-libnvme
 usr/lib/python3/dist-packages/libnvme/nvme.py		    python3-libnvme
