@@ -1496,19 +1496,38 @@ Description: Neat Videocard TOP
  about them in a htop-familiar way.
 
 Package: pup-volume-monitor
+Architecture: amd64
+Version: 0.2w
+Priority: optional
+Section: utils
+Maintainer: gumanzoy <gumanzoy@gmail.com>
+Installed-Size: 523
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libudev1 (>= 183)
+Filename: ./pup-volume-monitor_0.2w_amd64.deb
+Size: 93032
+MD5sum: fa3f03f2411ea10b13465d48ce997206
+SHA1: 99e5dbab04515b16379f8da3e0e270392f2eaaa0
+SHA256: 3b05645a5e5ef75abf7c5a07e601dab7ab87b5608f4c8d69720b6a6682ec74ac
+SHA512: 6697b2f9e3ae8e9d797e717266fc418e0d1fcbea30aaffde54ad875864aceda61ffb2dbdfbe52e5ed7332aa3ca0b74a455e2ce64da7226dd823466f7d73c3829
+Homepage: https://github.com/01micko/pup-volume-monitor
+Description: lightweight drive and volume management backend
+ It is this kind of software responsible for displaying drives in
+ file managers and file open/save dialogs in many linux distributions.
+
+Package: pup-volume-monitor
 Architecture: i386
 Version: 0.2w
 Priority: optional
 Section: utils
 Maintainer: gumanzoy <gumanzoy@gmail.com>
-Installed-Size: 497
+Installed-Size: 496
 Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libudev1 (>= 183)
 Filename: ./pup-volume-monitor_0.2w_i386.deb
-Size: 101260
-MD5sum: bcdf32abbfaac0e265353c74935a099b
-SHA1: e184d195ae01e968a78f3998e2407628418005c3
-SHA256: 0c90f91b85907492843e9d50bc6812ec66266bbc42d9aab6ee8415e738e8abe0
-SHA512: aa51f2fb082cecdd092352cf172fafeb896cb6050e998421fc42ce2292712af81d70e27aa81dbbd1b95f488c9307b89d4a96a6bddbc059af7263643a824ed486
+Size: 100920
+MD5sum: 168b71f46eb713d36041b110a0c6c30e
+SHA1: fd836c864f657f0281ced612c50ac8e57016fbaf
+SHA256: 4d669887d091913ae8582c6c562186d261ff4a20feec149ba76d927e907f9dff
+SHA512: e1b5449631cd175dbed289aefde42baa5bdc09cb577a39fa79a763a36ae6c67be79c87b249dfa11ae5d673b6e095a4e7dc6fe06f086738da4e46f2ab1cdb3e68
 Homepage: https://github.com/01micko/pup-volume-monitor
 Description: lightweight drive and volume management backend
  It is this kind of software responsible for displaying drives in

@@ -232,6 +232,9 @@ usr/lib/x86_64-linux-gnu/Thunar/thunar-sendto-email	    thunar
 usr/lib/x86_64-linux-gnu/caja/extensions-2.0/libcaja-engrampa.so engrampa
 usr/lib/x86_64-linux-gnu/cmake/yyjson/yyjson-config-none.cmake libyyjson-dev
 usr/lib/x86_64-linux-gnu/cmake/yyjson/yyjson-config.cmake   libyyjson-dev
+usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.a pup-volume-monitor
+usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.la pup-volume-monitor
+usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.so pup-volume-monitor
 usr/lib/x86_64-linux-gnu/gio/modules/libxfconfgsettingsbackend.so xfconf-gsettings-backend
 usr/lib/x86_64-linux-gnu/girepository-1.0/Thunarx-3.0.typelib gir1.2-thunarx-3.0
 usr/lib/x86_64-linux-gnu/girepository-1.0/Xfconf-0.typelib  gir1.2-xfconf-0
@@ -250,6 +253,11 @@ usr/lib/x86_64-linux-gnu/libnvme.so.1			    libnvme1
 usr/lib/x86_64-linux-gnu/libnvme.so.1.11.1		    libnvme1
 usr/lib/x86_64-linux-gnu/libpng12.so.0			    libpng12-0
 usr/lib/x86_64-linux-gnu/libpng12.so.0.59.0		    libpng12-0
+usr/lib/x86_64-linux-gnu/libpupvm.a			    pup-volume-monitor
+usr/lib/x86_64-linux-gnu/libpupvm.la			    pup-volume-monitor
+usr/lib/x86_64-linux-gnu/libpupvm.so			    pup-volume-monitor
+usr/lib/x86_64-linux-gnu/libpupvm.so.0			    pup-volume-monitor
+usr/lib/x86_64-linux-gnu/libpupvm.so.0.0.0		    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/libthunarx-3.so		    libthunarx-3-dev
 usr/lib/x86_64-linux-gnu/libthunarx-3.so.0		    libthunarx-3-0
 usr/lib/x86_64-linux-gnu/libthunarx-3.so.0.0.0		    libthunarx-3-0
@@ -267,8 +275,12 @@ usr/lib/x86_64-linux-gnu/pkgconfig/libcpuid.pc		    libcpuid-dev
 usr/lib/x86_64-linux-gnu/pkgconfig/libnvme-mi.pc	    libnvme-dev
 usr/lib/x86_64-linux-gnu/pkgconfig/libnvme.pc		    libnvme-dev
 usr/lib/x86_64-linux-gnu/pkgconfig/libxfconf-0.pc	    libxfconf-0-dev
+usr/lib/x86_64-linux-gnu/pkgconfig/pupvm.pc		    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/pkgconfig/thunarx-3.pc		    libthunarx-3-dev
 usr/lib/x86_64-linux-gnu/pkgconfig/yyjson.pc		    libyyjson-dev
+usr/lib/x86_64-linux-gnu/pup-volume-monitor/libcdrom.a	    pup-volume-monitor
+usr/lib/x86_64-linux-gnu/pup-volume-monitor/libcdrom.la	    pup-volume-monitor
+usr/lib/x86_64-linux-gnu/pup-volume-monitor/libcdrom.so	    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/thunarx-3/thunar-apr.so	    libthunarx-3-0
 usr/lib/x86_64-linux-gnu/thunarx-3/thunar-sbr.so	    libthunarx-3-0
 usr/lib/x86_64-linux-gnu/thunarx-3/thunar-uca.so	    libthunarx-3-0
