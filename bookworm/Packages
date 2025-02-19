@@ -1,3 +1,58 @@
+Package: adwaita-icon-theme-legacy
+Architecture: all
+Version: 46.2-2
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 3129
+Depends: gtk-update-icon-cache, hicolor-icon-theme
+Filename: ./adwaita-icon-theme-legacy_46.2-2_all.deb
+Size: 2102864
+MD5sum: 68c59fca5f414a619f8eb5f24dbd2d61
+SHA1: bb7557a9fa02cecd598b83eda63b08f5054627f7
+SHA256: 0320628c9ee4e93fcbcd9e84a8a78930a00bb5d923feec32d988dff3f0aa087d
+SHA512: 9abd672c67a23d6fe9d734eaf94f151203e05e81c0343fbfea59f8b697a321253db6c312444f5a17595785474a304ca25dad042db7a8b31f37d2657f8f3322ec
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme-legacy
+Description: fullcolor icon theme providing fallback for legacy applications
+ This package contains icons that have been dropped from the
+ adwaita-icon-theme, and are thus considered legacy.
+ .
+ Applications that use the freedesktop.org icon-theme spec would be
+ missing icons when they're configured to use the adwaita-icon-theme,
+ for example because it is set as the system's default icon-theme.
+ By making adwaita-icon-theme inherit from adwaita-icon-theme-legacy
+ it becomes once again a complete icon-theme that third party
+ applications can use.
+
+Package: adwaita-icon-theme
+Architecture: all
+Version: 47.0-2
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 12052
+Provides: adwaita-icon-theme-full (= 47.0-2), gnome-icon-theme-symbolic
+Depends: gtk-update-icon-cache, hicolor-icon-theme
+Recommends: librsvg2-common
+Suggests: adwaita-icon-theme-legacy
+Breaks: adwaita-icon-theme-full (<< 45.1), gnome-themes-standard-data (<< 3.18.0-2~), libmutter-12-0 (<< 44.8-3~), libmutter-13-0 (<< 45.3-3~)
+Replaces: adwaita-icon-theme-full (<< 45.1), gnome-themes-standard-data (<< 3.18.0-2~)
+Filename: ./adwaita-icon-theme_47.0-2_all.deb
+Size: 463104
+MD5sum: d3b58df67a035bf27b7e0d45a7e3890e
+SHA1: 7289805c0d68ddd5c0e55db85bc674a80010dd8c
+SHA256: 9fb75c4ce32965e2c7c7715d58917ef795f5cc53366516d1b81b8e19fae80621
+SHA512: 841ccc49372b5c7966aed5e3aa9d8b0b3f7f4d254af7522abd53be45249d5e9ba831956dd70f1e93089f4415a7f746440876aa1ae134abf2295f12f964bea0e7
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+Description: default icon theme of GNOME
+ This package contains the default icon theme used by the GNOME desktop.
+ The icons are used in core apps like Settings, Files, and GNOME Shell.
+ .
+ Other apps are recommended to include their own icons using the GNOME
+ Design Team's Icon Development Kit.
+
 Package: cpu-x
 Architecture: amd64
 Version: 5.1.1-0.1
@@ -1450,6 +1505,46 @@ Description: small web browser with CSS support for GTK
  without compromising performance.
  .
  This version uses the GTK+ toolkit.
+
+Package: numix-colors-icon-theme
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: x11
+Maintainer: Debian Desktop Theme Team <numix-icon-theme@packages.debian.org>
+Depends: gtk-update-icon-cache, numix-icon-theme
+Recommends: librsvg2-common
+Suggests: adwaita-icon-theme, adwaita-icon-theme-legacy
+Filename: ./numix-colors-icon-theme_1.0_all.deb
+Size: 37712
+MD5sum: 9a72c12b70036c45dc0fedb529db9599
+SHA1: d21da36aec48db869fa7ed5ad4e14db06a4b54b1
+SHA256: da94ef6f8ae8cd621fdeda367d8573122ff4043f1ae4a43350a9f84c06ef8da2
+SHA512: 3771c8d2f91a455178a59e6bb0a333ea6cf55e7293193d7d25dab39bd7e9f564dcbe2d228b5f0c56fff9b6abd53cadff9219c4bc19202a546027b516e0dcc4fb
+Homepage: https://github.com/numixproject/numix-icon-theme
+Description: modern icon theme from the Numix project
+ The Numix icon theme is designed to look fresh, swishy and modern using
+ white symbols on vividly coloured background for applications and simplistic
+ devices, toolbars and status icons.
+
+Package: numix-icon-theme
+Architecture: all
+Version: 0~20241212-1
+Priority: optional
+Section: x11
+Maintainer: Debian Desktop Theme Team <numix-icon-theme@packages.debian.org>
+Installed-Size: 49329
+Filename: ./numix-icon-theme_0~20241212-1_all.deb
+Size: 1930600
+MD5sum: 41bcc0c06de080f99ad4594d79f619b7
+SHA1: cc0f088c2e4712f7b84e128fc9c1e6a887b782ba
+SHA256: beb26deedbb1e3daa62de67e02ed4a5b176063374aaa54edc06839d7d9b2e9df
+SHA512: 53b5024d08a63930af09a905e7feecbf140b85855bdd76ce36bae68235b081a88644b33d5f9b13191371f3daba98da506216d7350505520d17074b9ac6b21836
+Homepage: https://github.com/numixproject/numix-icon-theme
+Description: modern icon theme from the Numix project
+ The Numix icon theme is designed to look fresh, swishy and modern using
+ white symbols on vividly coloured background for applications and simplistic
+ devices, toolbars and status icons.
 
 Package: nvme-cli
 Architecture: amd64
