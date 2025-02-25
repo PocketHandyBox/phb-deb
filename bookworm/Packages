@@ -453,6 +453,54 @@ Description: utilities for managing settings in Xfce - introspection support
  .
  This package provides the introspection data for xfconf.
 
+Package: gnome-themes-extra
+Architecture: amd64
+Version: 1:3.28-2
+Multi-Arch: same
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 537
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.37.3), gtk2-engines-pixbuf
+Recommends: gnome-themes-extra-data (>= 3.28-2), gnome-accessibility-themes, adwaita-icon-theme (>= 3.18.0-2~)
+Filename: ./gnome-themes-extra_3.28-2_amd64.deb
+Size: 18764
+MD5sum: b5f4fd75b9e25687de5701bda02b0fa9
+SHA1: c45ee2d31567f4636bcf620240256709d431139e
+SHA256: 4ea936fe7aa0575d3c596d751f9fd77778492644fb879cc6d6a0c239a450a019
+SHA512: b906c7082ebf8e72815f59618f9fad0dd22469c894d839766119d2dd5c2c78500acf853c1d7bd40aa528ddc5a29c56b5fccfc044dece667edef0a16d7b4fc970
+Description: Adwaita GTK 2 theme — engine
+ This is the version of Adwaita, the standard GNOME theme, for the
+ GTK 2.x toolkit.
+ .
+ The GTK 3.x version is already included in libgtk-3-0.
+ .
+ This package contains the Adwaita theme engine.
+
+Package: gnome-themes-extra
+Architecture: i386
+Version: 1:3.28-2
+Multi-Arch: same
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 537
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.37.3), gtk2-engines-pixbuf
+Recommends: gnome-themes-extra-data (>= 3.28-2), gnome-accessibility-themes, adwaita-icon-theme (>= 3.18.0-2~)
+Filename: ./gnome-themes-extra_3.28-2_i386.deb
+Size: 19004
+MD5sum: b7f3852d3591f50539b0f92bc2337361
+SHA1: d90d75026ab2de43244b7959b5c64465e0ee59f1
+SHA256: 9038125a2b456e49c3838d3a2b3ceae03e7750736f66189cdbf5e7f04e6fd91f
+SHA512: bf1b3543ab3cb1825c527478dd3e8cf96b303c60c29848a41c2d8c345fd4359a5e45cfc25c8164cb40fc6ea3c0a1414e0bb4d21ce6b1a6db99210bc2def73d2f
+Description: Adwaita GTK 2 theme — engine
+ This is the version of Adwaita, the standard GNOME theme, for the
+ GTK 2.x toolkit.
+ .
+ The GTK 3.x version is already included in libgtk-3-0.
+ .
+ This package contains the Adwaita theme engine.
+
 Package: gparted-common
 Architecture: all
 Version: 1.6.0-1

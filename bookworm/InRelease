@@ -9,12 +9,12 @@ Codename: bookworm
 Version: 1.0
 Architectures: amd64 i386
 Components: main
-Date: Tue, 25 Feb 2025 10:33:43 +0000
+Date: Tue, 25 Feb 2025 15:07:13 +0000
 MD5Sum:
  d3b58df67a035bf27b7e0d45a7e3890e 463104 adwaita-icon-theme_47.0-2_all.deb
  68c59fca5f414a619f8eb5f24dbd2d61 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- b0a5b08947ce1a001176ec37f06d85db 3268170 Contents
- 36235c08c8ad5199875efb093de3a56c 225440 Contents.gz
+ fbd53a676cfac59ffa148b44ab8f0d5b 3268605 Contents
+ 51dcb80680c5a15af3baa9a8f76e740f 225499 Contents.gz
  b581b08310507b4d1c8bb5d2df0f6fc1 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  c20a5bf0b10dd089e3e5f98350a28030 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  54c07b774091aab6a63acbea831ad0a2 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -30,6 +30,8 @@ MD5Sum:
  1e0a336dba8f51e184a65b82e96e2b5a 54204 gir1.2-thunarx-3.0_4.18.11-1_i386.deb
  5be1a609f2408203113e93bae79f7c84 14244 gir1.2-xfconf-0_4.18.3-2_amd64.deb
  0cbc93b620be19ce34876fa6844a03aa 14236 gir1.2-xfconf-0_4.18.3-2_i386.deb
+ b5f4fd75b9e25687de5701bda02b0fa9 18764 gnome-themes-extra_3.28-2_amd64.deb
+ b7f3852d3591f50539b0f92bc2337361 19004 gnome-themes-extra_3.28-2_i386.deb
  051b45ef4c79ce4b14efabcd375cb834 870888 gparted_1.6.0-1_amd64.deb
  52468ba5e765a11110d9e360b9d277f5 907496 gparted_1.6.0-1_i386.deb
  54becd22540df32b2e74de43e03bcdd5 1782304 gparted-common_1.6.0-1_all.deb
@@ -77,8 +79,8 @@ MD5Sum:
  41bcc0c06de080f99ad4594d79f619b7 1930600 numix-icon-theme_0~20241212-1_all.deb
  96ea31bce201200105deeaeffbb23484 725504 nvme-cli_2.11-1_amd64.deb
  13657a587698234b9dae67a114575192 68540 nvtop_3.1.0-1+b1_amd64.deb
- e518aad89949fa0597154142e47fd2d5 109244 Packages
- deada39c111177338ba6ec3320794efe 31319 Packages.gz
+ aac12a4f690a21ea0ec14092a1b229e8 111292 Packages
+ 89a51846b1385652132cbc07e454c40d 31836 Packages.gz
  de12fbdcdc4688b18b6d76e7651b1ffd 93048 pup-volume-monitor_0.2w_amd64.deb
  fc9b44911ded48d042b5eae8022b7b67 100936 pup-volume-monitor_0.2w_i386.deb
  af5493cab7028ab4a5632013284b4e5d 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -108,8 +110,8 @@ MD5Sum:
 SHA1:
  7289805c0d68ddd5c0e55db85bc674a80010dd8c 463104 adwaita-icon-theme_47.0-2_all.deb
  bb7557a9fa02cecd598b83eda63b08f5054627f7 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- 3fc5db348121bc5e0ed44465a3a10c4936e6e086 3268170 Contents
- a6dfc8d32e7b0d3e0a6ec6ef1287d1788d76a190 225440 Contents.gz
+ 14e8b68f41c2c8e8aad038235f93197b3dde423a 3268605 Contents
+ ed550a570b215783ce3959cbffd471aa7b1baeb9 225499 Contents.gz
  07f7b349ea5b8e12b5c9f29fa3461fdb60514790 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  abf8a62c51b35f76b392b69d1d8096b71520aa4d 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  b3712707cf9397ab31cb52820e4ec449cfb10d02 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -125,6 +127,8 @@ SHA1:
  eabda0c1a4f5100da848de3de9573c6a31d59d74 54204 gir1.2-thunarx-3.0_4.18.11-1_i386.deb
  04c1e735aba6b2f37477a0b0753d514baeca5cd8 14244 gir1.2-xfconf-0_4.18.3-2_amd64.deb
  ea4df9d843b6e190be3c08d124e4d3386542cdaa 14236 gir1.2-xfconf-0_4.18.3-2_i386.deb
+ c45ee2d31567f4636bcf620240256709d431139e 18764 gnome-themes-extra_3.28-2_amd64.deb
+ d90d75026ab2de43244b7959b5c64465e0ee59f1 19004 gnome-themes-extra_3.28-2_i386.deb
  94f2facdda7e0fe3fa5a1961bc7b585aff8eb27d 870888 gparted_1.6.0-1_amd64.deb
  3da1f21e3411ac42d5ecbeb24e77388936df7dd9 907496 gparted_1.6.0-1_i386.deb
  74141fc2f2ef30ba9ee6c908a652fc920d7d6673 1782304 gparted-common_1.6.0-1_all.deb
@@ -172,8 +176,8 @@ SHA1:
  cc0f088c2e4712f7b84e128fc9c1e6a887b782ba 1930600 numix-icon-theme_0~20241212-1_all.deb
  30b6278ca2e913147eb733236ec380ab9324c4dd 725504 nvme-cli_2.11-1_amd64.deb
  d594d5802e69fd14c3660a132e38b27186cc6872 68540 nvtop_3.1.0-1+b1_amd64.deb
- 49149b08bdbe16cbbca5d10b27e551394aa16d06 109244 Packages
- 46c024a3b68de4f688920e6ba22ca073633e32ff 31319 Packages.gz
+ b6e70ba5e619045d517ae442d4ec99c906db5285 111292 Packages
+ a8e4b00ba184200c0b539dc54814754587ca843f 31836 Packages.gz
  98df307213a9a7e884ecdfd3495c477f0ef04b9e 93048 pup-volume-monitor_0.2w_amd64.deb
  e82524ecb3538d5e917f5b82cfc9d2dfbe1e2a3d 100936 pup-volume-monitor_0.2w_i386.deb
  c5a3221a6a79b87a51bf1912987bca84ad974019 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -203,8 +207,8 @@ SHA1:
 SHA256:
  9fb75c4ce32965e2c7c7715d58917ef795f5cc53366516d1b81b8e19fae80621 463104 adwaita-icon-theme_47.0-2_all.deb
  0320628c9ee4e93fcbcd9e84a8a78930a00bb5d923feec32d988dff3f0aa087d 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- abf509229b725d9294c87960e45196f0b87c2cc03fa385b9472ce21424773114 3268170 Contents
- 08e2d7d23bbe1ceebeb95dc7d8f0f26b66bd8e771df7157cf43b44c5571d921a 225440 Contents.gz
+ 84f1b8170487e5c74d137cf8c193dffc290bc57dc5920fd1158498c0f46014d8 3268605 Contents
+ 5791b5018b8bda51240082b47610b9049374866ffabe9641e1417327559733f4 225499 Contents.gz
  cd1e3f8f025d72b5c9741458bcfbfdb98cacbc0e1a748b0234db5adc2a2f1eb4 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  18b7f69ef29024deec9514758693fe34a93efe134aedda462fba5fc7f4e2aee6 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  4113842970f15cfd0ec811c6bd80bc73a62d2d811fccc1c061440e80d5b9123c 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -220,6 +224,8 @@ SHA256:
  10f1a0199d493ed465ee687a410a39d56cf0980ca9d93d623615d5b1562a6b16 54204 gir1.2-thunarx-3.0_4.18.11-1_i386.deb
  3e23a641ba8612286a6ee51d5af5240068535ddea54072f4cbf90abf559b61b6 14244 gir1.2-xfconf-0_4.18.3-2_amd64.deb
  9535e815365146f822664d63e570135028a98f0bb559cfe4a9b6fe8ce9511415 14236 gir1.2-xfconf-0_4.18.3-2_i386.deb
+ 4ea936fe7aa0575d3c596d751f9fd77778492644fb879cc6d6a0c239a450a019 18764 gnome-themes-extra_3.28-2_amd64.deb
+ 9038125a2b456e49c3838d3a2b3ceae03e7750736f66189cdbf5e7f04e6fd91f 19004 gnome-themes-extra_3.28-2_i386.deb
  071d3d3eb98314aa93111ca8d355e7373dd7079aeaf966a7e6d210b24225e9aa 870888 gparted_1.6.0-1_amd64.deb
  efbdbc6dcd05a421f1658227171c9e4bef66ea80a86be9c972c61ea5ca389c6e 907496 gparted_1.6.0-1_i386.deb
  9f342e0df37e7ea0a2bb9cf1b72c7b5f1748e5aa6b1ca1f7f9c2bb19840dc221 1782304 gparted-common_1.6.0-1_all.deb
@@ -267,8 +273,8 @@ SHA256:
  beb26deedbb1e3daa62de67e02ed4a5b176063374aaa54edc06839d7d9b2e9df 1930600 numix-icon-theme_0~20241212-1_all.deb
  489493969fb61214d02cb1d9fa9ad49ea4ba7059c2b01c76aafec2c5ce5817b2 725504 nvme-cli_2.11-1_amd64.deb
  34391dfb03cb1c7584f6a8c13dae21a64dff12cd2d4a0e80bdbaf0d70561fa08 68540 nvtop_3.1.0-1+b1_amd64.deb
- e737e81104b9c0f89a46111eacca200b6fc498508567586900ec0173254bd11e 109244 Packages
- e294b2322c6a448651201f9b3ce79b737037d404629888d095fb08176407696f 31319 Packages.gz
+ 0258e175a68ea49403d2bd62a105faadd0016725326191e3889d46021a324be9 111292 Packages
+ 856c6c72c1ce0366006897790d7ba0a6b2fd1c6cc71db030ae62ffae23a5a5f1 31836 Packages.gz
  277c68c159f006ccd2bf4f17710511f64d0049743e2801f1956baf3bf970bc9d 93048 pup-volume-monitor_0.2w_amd64.deb
  a45433ef3df284a02014140c863db3daf3ea56e7cb9c1abde99bc56dabe0b58d 100936 pup-volume-monitor_0.2w_i386.deb
  bbf2fa82d424c0eab1d5752b33586ed9bb85766cf86e68482e31b18161dbd6f8 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -297,15 +303,15 @@ SHA256:
  6072420a710d1240ff11c9fad09dfb0d10737b3d26c22a00d0c7eb13d4922971 212760 yad_14.1-1_i386.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAme9nI4ACgkQZ9Vqr4Ht
-qtkzBgv/VyCQhK3tUF6gSwKzuyycnwXYpLkO0PPmtpszj85XxeURzd3zrb8TelBn
-nVsJtnHjWaoGE7bj3kEv/38wtcNGvct9Nd19csZ4urjt5jTHRhHHk9EjqH0sABLP
-o15+yPOWA28TsSy2sJnMlp3Ixr4Zrm5j2VXMqPvpIUJfOdSO3FFDzLAd60OIJMRN
-a5L/lKj0COfqrdAg7K2Z6wOD45IwqY3nCTWaNVPsr2E7JrsDpgUu47G5PfOGbATG
-REr2Vds95M9DENQS7PkgQqWf9uT/ifoJQhB6NjL16mXuehFoD5hbtcO4JxueIOhe
-t+7UdKu7RZrlPgXyurl78Tr4FY4bgm5gB+NJ6o8pfmyM/iYqKDSrepRBrsfa3T9l
-Ec5lRQX2P+PvcLzqo1qr61VDQE9xgp1nnc39QvkQNRK43FcndUr/o9j8dTfw3J+a
-KdExmhlk0tyKKd2MEx2TTzrbRHr426u1xWntCwejGQXK17pqd3J4+Lj3x1Kn7Pd+
-8xQ4jc4l
-=sAWB
+iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAme93K4ACgkQZ9Vqr4Ht
+qtmLLgv9Hf4QW3ZuCLPdG52YVXwqK2RLJ1SzSe+Gl3TbCk4PQewmg0V3+GKCMGMb
+G0K8qT8jHXkYxC5QHNHWk7qXjHcRkAcgbIFfNZzxDejFWcOIXgFc8XXgMswNak6D
+K9Md7uzGLVc8Pyf9chjPXW7qUmOqqosHZdak4776yplzwACFvqnJaUXrVC7lVcwU
+g+SdXqiPv6LbCVHARAD6gjnsikhUNYtsUabK8IYJWxHIAJru+9amDkxGwMZ5lpvD
+ZH8FsKCiOGKtHHHiQMo9WSRKHpLHScLBcYdOUSKdl1SzF+91vHQ3Tod+wjFkAiHZ
+zVlpEVHnry4E1sLviTzaZoENs+hNr8KJM7dlFwoqW+RYTlvGkGfahBdX8MNolBsl
+Zgp9+6BeV4C0lHuizDIfQ4pQZ94GykuStkLBGtJe2VTS4orWiJ8hioSoMNyyCoxa
+NrpoIYIaTgIr+HDgxd20cNuzbvywSR60Rvjon9tlAXU4HXKBAN2UlytxIDfW+849
+Pcy6TC2S
+=jdp/
 -----END PGP SIGNATURE-----

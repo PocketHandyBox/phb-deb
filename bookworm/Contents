@@ -177,6 +177,7 @@ usr/lib/i386-linux-gnu/gio/modules/libpup-volume-monitor.so pup-volume-monitor
 usr/lib/i386-linux-gnu/gio/modules/libxfconfgsettingsbackend.so xfconf-gsettings-backend
 usr/lib/i386-linux-gnu/girepository-1.0/Thunarx-3.0.typelib gir1.2-thunarx-3.0
 usr/lib/i386-linux-gnu/girepository-1.0/Xfconf-0.typelib    gir1.2-xfconf-0
+usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/engines/libadwaita.so gnome-themes-extra
 usr/lib/i386-linux-gnu/libcpuid.a			    libcpuid-dev
 usr/lib/i386-linux-gnu/libcpuid.la			    libcpuid-dev
 usr/lib/i386-linux-gnu/libcpuid.so			    libcpuid-dev
@@ -240,6 +241,7 @@ usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.so pup-volume-monitor
 usr/lib/x86_64-linux-gnu/gio/modules/libxfconfgsettingsbackend.so xfconf-gsettings-backend
 usr/lib/x86_64-linux-gnu/girepository-1.0/Thunarx-3.0.typelib gir1.2-thunarx-3.0
 usr/lib/x86_64-linux-gnu/girepository-1.0/Xfconf-0.typelib  gir1.2-xfconf-0
+usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libadwaita.so gnome-themes-extra
 usr/lib/x86_64-linux-gnu/libcpuid.a			    libcpuid-dev
 usr/lib/x86_64-linux-gnu/libcpuid.la			    libcpuid-dev
 usr/lib/x86_64-linux-gnu/libcpuid.so			    libcpuid-dev
@@ -390,6 +392,10 @@ usr/share/doc/gir1.2-thunarx-3.0/copyright		    gir1.2-thunarx-3.0
 usr/share/doc/gir1.2-xfconf-0/changelog.Debian.gz	    gir1.2-xfconf-0
 usr/share/doc/gir1.2-xfconf-0/changelog.gz		    gir1.2-xfconf-0
 usr/share/doc/gir1.2-xfconf-0/copyright			    gir1.2-xfconf-0
+usr/share/doc/gnome-themes-extra/NEWS.gz		    gnome-themes-extra
+usr/share/doc/gnome-themes-extra/README.md		    gnome-themes-extra
+usr/share/doc/gnome-themes-extra/changelog.Debian.gz	    gnome-themes-extra
+usr/share/doc/gnome-themes-extra/copyright		    gnome-themes-extra
 usr/share/doc/gparted-common/changelog.Debian.gz	    gparted-common
 usr/share/doc/gparted-common/changelog.gz		    gparted-common
 usr/share/doc/gparted-common/copyright			    gparted-common
