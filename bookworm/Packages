@@ -1327,6 +1327,82 @@ Description: USB Video Class grabber
  luvcview is a camera viewer for UVC based webcams. It includes an mjpeg
  decoder and is able to save the video stream as an AVI file.
 
+Package: mousepad
+Architecture: amd64
+Version: 1:0.5.4-1
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2094
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libgtksourceview-4-0 (>= 3.23.90), libpango-1.0-0 (>= 1.14.0), libxfconf-0-3 (>= 4.12)
+Filename: ./mousepad_0.5.4-1_amd64.deb
+Size: 484188
+MD5sum: d229afa943d2f5abfc6eaddf49dc06e7
+SHA1: f91869abbacbc4f61374d32f56a75eb46d6846fb
+SHA256: 1a2e348a1fa3fe544f5032fd339e6bcbbb89b30eb3b16e26d8fba191c50e8693
+SHA512: a3c73e2ffddfc2eee71451652f0eb82b154c5a805e9fd831623c2daa1533481d632bdc8c99d6cc5bb252267716bbea9a733de4f530765062ae79bb42ccc5c1ee
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
+ .
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
+
+Package: mousepad
+Architecture: i386
+Version: 1:0.5.4-1
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2120
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libgtksourceview-4-0 (>= 3.23.90), libpango-1.0-0 (>= 1.14.0), libxfconf-0-3 (>= 4.12)
+Filename: ./mousepad_0.5.4-1_i386.deb
+Size: 494312
+MD5sum: 84675a2d2b6635aa260cc0b5bdd1e7a2
+SHA1: 744b96697a9bc1a60248b42b58f02e74d9cf50e6
+SHA256: 6edcb6f0234115cd31ed45054d442d76dde775b68717aeedb2e6b1ca9fdb91ee
+SHA512: b29e72d9a3bc5aac64a915f36ecd685e313d2d22ba0b90c8b3e3b9f45061955e890a8231b2c669a82364642a78c5cd461fc574de284d46fb04de43a3cd157f50
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
+ .
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
+
 Package: mtpaint
 Architecture: amd64
 Version: 3.50.11-1

@@ -9,12 +9,12 @@ Codename: bookworm
 Version: 1.0
 Architectures: amd64 i386
 Components: main
-Date: Wed, 19 Feb 2025 21:03:34 +0000
+Date: Tue, 25 Feb 2025 10:33:43 +0000
 MD5Sum:
  d3b58df67a035bf27b7e0d45a7e3890e 463104 adwaita-icon-theme_47.0-2_all.deb
  68c59fca5f414a619f8eb5f24dbd2d61 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- 8e2b742763602f799eba4a62f3694b23 3264281 Contents
- 7b9d72d1fae045940cc0775bf927b0d6 225092 Contents.gz
+ b0a5b08947ce1a001176ec37f06d85db 3268170 Contents
+ 36235c08c8ad5199875efb093de3a56c 225440 Contents.gz
  b581b08310507b4d1c8bb5d2df0f6fc1 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  c20a5bf0b10dd089e3e5f98350a28030 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  54c07b774091aab6a63acbea831ad0a2 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -64,6 +64,8 @@ MD5Sum:
  72cdc9bf95a7c3b926ad17515ab0a1ef 36520 libyyjson-dev_0.10.0+ds-1_i386.deb
  d195e6bd44410c9c512564e229c3d22d 48228 luvcview_0.2.6-6_amd64.deb
  454f58b34d2b4e90c78a86f51ebcfa95 49824 luvcview_0.2.6-6_i386.deb
+ d229afa943d2f5abfc6eaddf49dc06e7 484188 mousepad_0.5.4-1_amd64.deb
+ 84675a2d2b6635aa260cc0b5bdd1e7a2 494312 mousepad_0.5.4-1_i386.deb
  9a22dc93c4dce27d73ed713ccfa6b8bf 621912 mtpaint_3.50.11-1_amd64.deb
  92bc42c9440e082ecc0a3f48fa8b30b5 621352 mtpaint_3.50.11-1_i386.deb
  b2eca69b3703bf76cf2bb740122a88d7 175300 netsurf-common_3.11-2_all.deb
@@ -75,8 +77,8 @@ MD5Sum:
  41bcc0c06de080f99ad4594d79f619b7 1930600 numix-icon-theme_0~20241212-1_all.deb
  96ea31bce201200105deeaeffbb23484 725504 nvme-cli_2.11-1_amd64.deb
  13657a587698234b9dae67a114575192 68540 nvtop_3.1.0-1+b1_amd64.deb
- deee1edc0c1d76644560785b735f7598 106198 Packages
- 2ef5dde7f14b36f6233d37789f1fb251 30491 Packages.gz
+ e518aad89949fa0597154142e47fd2d5 109244 Packages
+ deada39c111177338ba6ec3320794efe 31319 Packages.gz
  de12fbdcdc4688b18b6d76e7651b1ffd 93048 pup-volume-monitor_0.2w_amd64.deb
  fc9b44911ded48d042b5eae8022b7b67 100936 pup-volume-monitor_0.2w_i386.deb
  af5493cab7028ab4a5632013284b4e5d 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -106,8 +108,8 @@ MD5Sum:
 SHA1:
  7289805c0d68ddd5c0e55db85bc674a80010dd8c 463104 adwaita-icon-theme_47.0-2_all.deb
  bb7557a9fa02cecd598b83eda63b08f5054627f7 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- 742839500e79c3c4db1491f05fc26f9eed17269f 3264281 Contents
- 41d88013d5a9beb1c9f121645162cd8bb5c87afb 225092 Contents.gz
+ 3fc5db348121bc5e0ed44465a3a10c4936e6e086 3268170 Contents
+ a6dfc8d32e7b0d3e0a6ec6ef1287d1788d76a190 225440 Contents.gz
  07f7b349ea5b8e12b5c9f29fa3461fdb60514790 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  abf8a62c51b35f76b392b69d1d8096b71520aa4d 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  b3712707cf9397ab31cb52820e4ec449cfb10d02 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -157,6 +159,8 @@ SHA1:
  c17dd5c5fcce2c47e60adaeb309fb187001c22fc 36520 libyyjson-dev_0.10.0+ds-1_i386.deb
  26db4f0aa378ed5fd6699f11776013fdf4c02777 48228 luvcview_0.2.6-6_amd64.deb
  cd68c385a4be514f608188de75ca0ad322dd108a 49824 luvcview_0.2.6-6_i386.deb
+ f91869abbacbc4f61374d32f56a75eb46d6846fb 484188 mousepad_0.5.4-1_amd64.deb
+ 744b96697a9bc1a60248b42b58f02e74d9cf50e6 494312 mousepad_0.5.4-1_i386.deb
  28dcd920e2d1a81ed2665fe7b61030b4bacd083a 621912 mtpaint_3.50.11-1_amd64.deb
  64ef0ddf2fb49776cd3f2a8f87a9b3b43eb08597 621352 mtpaint_3.50.11-1_i386.deb
  cf7d6380e8cba7b5c334876c9b4f4304c4afa7cb 175300 netsurf-common_3.11-2_all.deb
@@ -168,8 +172,8 @@ SHA1:
  cc0f088c2e4712f7b84e128fc9c1e6a887b782ba 1930600 numix-icon-theme_0~20241212-1_all.deb
  30b6278ca2e913147eb733236ec380ab9324c4dd 725504 nvme-cli_2.11-1_amd64.deb
  d594d5802e69fd14c3660a132e38b27186cc6872 68540 nvtop_3.1.0-1+b1_amd64.deb
- 385e69c67b1d405beb733d4a8fbcd291365c41bb 106198 Packages
- f39989adc749055a94a8e1f629a46cb1396d9721 30491 Packages.gz
+ 49149b08bdbe16cbbca5d10b27e551394aa16d06 109244 Packages
+ 46c024a3b68de4f688920e6ba22ca073633e32ff 31319 Packages.gz
  98df307213a9a7e884ecdfd3495c477f0ef04b9e 93048 pup-volume-monitor_0.2w_amd64.deb
  e82524ecb3538d5e917f5b82cfc9d2dfbe1e2a3d 100936 pup-volume-monitor_0.2w_i386.deb
  c5a3221a6a79b87a51bf1912987bca84ad974019 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -199,8 +203,8 @@ SHA1:
 SHA256:
  9fb75c4ce32965e2c7c7715d58917ef795f5cc53366516d1b81b8e19fae80621 463104 adwaita-icon-theme_47.0-2_all.deb
  0320628c9ee4e93fcbcd9e84a8a78930a00bb5d923feec32d988dff3f0aa087d 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- 7cad55cb1265afd7b2c6975170660fd92967237b981b8988325a9e0f64c363f0 3264281 Contents
- b612d0acb1d9f5ec8e2b1f7f40ac434cf708679f645438e197f5914c4e0d6edf 225092 Contents.gz
+ abf509229b725d9294c87960e45196f0b87c2cc03fa385b9472ce21424773114 3268170 Contents
+ 08e2d7d23bbe1ceebeb95dc7d8f0f26b66bd8e771df7157cf43b44c5571d921a 225440 Contents.gz
  cd1e3f8f025d72b5c9741458bcfbfdb98cacbc0e1a748b0234db5adc2a2f1eb4 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  18b7f69ef29024deec9514758693fe34a93efe134aedda462fba5fc7f4e2aee6 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  4113842970f15cfd0ec811c6bd80bc73a62d2d811fccc1c061440e80d5b9123c 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -250,6 +254,8 @@ SHA256:
  fdd015ecec3b9d2f6a231784e138c1c9745f8b73fa0a106edbe211f34b24fce7 36520 libyyjson-dev_0.10.0+ds-1_i386.deb
  bfe129421937f1d578174994a229d1b405e8dc4e1468cd860c093717b3093e1b 48228 luvcview_0.2.6-6_amd64.deb
  fe5c983c7f75019d444059e3ededc597780d307b9907c513d2596ff82089b5da 49824 luvcview_0.2.6-6_i386.deb
+ 1a2e348a1fa3fe544f5032fd339e6bcbbb89b30eb3b16e26d8fba191c50e8693 484188 mousepad_0.5.4-1_amd64.deb
+ 6edcb6f0234115cd31ed45054d442d76dde775b68717aeedb2e6b1ca9fdb91ee 494312 mousepad_0.5.4-1_i386.deb
  182b9a6ed72257f0b46338f1d3fd601b131e216f8791e1a650cd5814038ec955 621912 mtpaint_3.50.11-1_amd64.deb
  f5c157936aedb9ce3dc4f57505aec40b87d6a6f57a5bb6187e96694856ecd43e 621352 mtpaint_3.50.11-1_i386.deb
  15f2bd9d6d18da2f7c033ed2c9d688164bb12fdb62b6527ce5e796d067075201 175300 netsurf-common_3.11-2_all.deb
@@ -261,8 +267,8 @@ SHA256:
  beb26deedbb1e3daa62de67e02ed4a5b176063374aaa54edc06839d7d9b2e9df 1930600 numix-icon-theme_0~20241212-1_all.deb
  489493969fb61214d02cb1d9fa9ad49ea4ba7059c2b01c76aafec2c5ce5817b2 725504 nvme-cli_2.11-1_amd64.deb
  34391dfb03cb1c7584f6a8c13dae21a64dff12cd2d4a0e80bdbaf0d70561fa08 68540 nvtop_3.1.0-1+b1_amd64.deb
- 68edd618af9f2e2d6c34bc44640474febcb6d340cc01d206ef43d51f71976cea 106198 Packages
- 01e88bd66a224d131fb62958df5c543ea691cf300c0b44a395baa545d722b061 30491 Packages.gz
+ e737e81104b9c0f89a46111eacca200b6fc498508567586900ec0173254bd11e 109244 Packages
+ e294b2322c6a448651201f9b3ce79b737037d404629888d095fb08176407696f 31319 Packages.gz
  277c68c159f006ccd2bf4f17710511f64d0049743e2801f1956baf3bf970bc9d 93048 pup-volume-monitor_0.2w_amd64.deb
  a45433ef3df284a02014140c863db3daf3ea56e7cb9c1abde99bc56dabe0b58d 100936 pup-volume-monitor_0.2w_i386.deb
  bbf2fa82d424c0eab1d5752b33586ed9bb85766cf86e68482e31b18161dbd6f8 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -291,15 +297,15 @@ SHA256:
  6072420a710d1240ff11c9fad09dfb0d10737b3d26c22a00d0c7eb13d4922971 212760 yad_14.1-1_i386.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAme2Ry8ACgkQZ9Vqr4Ht
-qtm5qgv+Juq/ddy5seVXNx/fwXO1kH/nZG3Iv/0SBnDuhlI8tMeGiqgP/Q+Gwv1j
-wu+X89FKYDDPbiX8wFkjvgJR2GMKXRPYW7pZ3RIZtP3O5KuNpsGHSuaeqwBbyM/4
-pz7raNf8Q0FbHYsLzpVqKo81ra4bOvNfJGQt/dE2TmIXWvKMYo87aLlpx1Ky8oxW
-HtvVRcBY31fHrly5YMWb7VxRdxzFCi+Rwks9vTukLF5rAJvD3e706ES75vU4E3Gw
-wLipMdFB1lwlD08u03uDLKaQg9JSdQqlYlNxZT6itMnDsUxImyXrKRZ8VGBbYrA4
-j1Qrqs9+m2l6oOMRlzpx2x4T3tq0GzerXJnDcG6w6jT4g4YBtenJL35TzeEDXD/1
-OlPfmIi2iCi8zCYDod6JLYBLWv3Blv/aE2uOymO0BS14CewSfZtyDzY6hBq+l6hS
-XPkPhqGbEbrHDpXlipogEwIaSEQYg/juKdDlCNgx6y5CBIa+lbLSu9nKiw7MZNYe
-yahjX3Xn
-=G9WY
+iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAme9nI4ACgkQZ9Vqr4Ht
+qtkzBgv/VyCQhK3tUF6gSwKzuyycnwXYpLkO0PPmtpszj85XxeURzd3zrb8TelBn
+nVsJtnHjWaoGE7bj3kEv/38wtcNGvct9Nd19csZ4urjt5jTHRhHHk9EjqH0sABLP
+o15+yPOWA28TsSy2sJnMlp3Ixr4Zrm5j2VXMqPvpIUJfOdSO3FFDzLAd60OIJMRN
+a5L/lKj0COfqrdAg7K2Z6wOD45IwqY3nCTWaNVPsr2E7JrsDpgUu47G5PfOGbATG
+REr2Vds95M9DENQS7PkgQqWf9uT/ifoJQhB6NjL16mXuehFoD5hbtcO4JxueIOhe
+t+7UdKu7RZrlPgXyurl78Tr4FY4bgm5gB+NJ6o8pfmyM/iYqKDSrepRBrsfa3T9l
+Ec5lRQX2P+PvcLzqo1qr61VDQE9xgp1nnc39QvkQNRK43FcndUr/o9j8dTfw3J+a
+KdExmhlk0tyKKd2MEx2TTzrbRHr426u1xWntCwejGQXK17pqd3J4+Lj3x1Kn7Pd+
+8xQ4jc4l
+=sAWB
 -----END PGP SIGNATURE-----
