@@ -9,12 +9,12 @@ Codename: bookworm
 Version: 1.0
 Architectures: amd64 i386
 Components: main
-Date: Tue, 25 Feb 2025 15:07:13 +0000
+Date: Thu, 03 Apr 2025 10:33:27 +0000
 MD5Sum:
  d3b58df67a035bf27b7e0d45a7e3890e 463104 adwaita-icon-theme_47.0-2_all.deb
  68c59fca5f414a619f8eb5f24dbd2d61 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- fbd53a676cfac59ffa148b44ab8f0d5b 3268605 Contents
- 51dcb80680c5a15af3baa9a8f76e740f 225499 Contents.gz
+ 1c6b637ed6fd87ed76b0046ed2ce8d56 3268903 Contents
+ 67e1a33602bfde063301982d57ea28bb 225544 Contents.gz
  b581b08310507b4d1c8bb5d2df0f6fc1 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  c20a5bf0b10dd089e3e5f98350a28030 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  54c07b774091aab6a63acbea831ad0a2 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -39,6 +39,8 @@ MD5Sum:
  d146b2414b3927feb59a6b406d20132d 145844 gpicview_0.2.6-1_i386.deb
  ae501118213f15bbe008d65ae9b94ef3 2113424 gsmartcontrol_2.0.1-1_amd64.deb
  0e6e3737b55386a521b8c61cbff0d592 2244780 gsmartcontrol_2.0.1-1_i386.deb
+ beba9073e3cbb1389b255cc79ad3415b 101408 gtkdialog_0.8.5e-1_amd64.deb
+ 05833e872f3a8d4e3ca9392895062923 109332 gtkdialog_0.8.5e-1_i386.deb
  29b55ca44eee80101789c33dd2936d41 54268 libcpuid17_0.7.1+repack1-0.1_amd64.deb
  ffb3efbd2c2a6a5811ed98cb45062e93 56360 libcpuid17_0.7.1+repack1-0.1_i386.deb
  4b045d987e80592390d7c611509dde3d 108620 libcpuid-dev_0.7.1+repack1-0.1_amd64.deb
@@ -79,8 +81,8 @@ MD5Sum:
  41bcc0c06de080f99ad4594d79f619b7 1930600 numix-icon-theme_0~20241212-1_all.deb
  96ea31bce201200105deeaeffbb23484 725504 nvme-cli_2.11-1_amd64.deb
  13657a587698234b9dae67a114575192 68540 nvtop_3.1.0-1+b1_amd64.deb
- aac12a4f690a21ea0ec14092a1b229e8 111292 Packages
- 89a51846b1385652132cbc07e454c40d 31836 Packages.gz
+ ea2df897524627594584009bb184631d 112940 Packages
+ 312868da1f971fb512c78af004f2791e 32408 Packages.gz
  de12fbdcdc4688b18b6d76e7651b1ffd 93048 pup-volume-monitor_0.2w_amd64.deb
  fc9b44911ded48d042b5eae8022b7b67 100936 pup-volume-monitor_0.2w_i386.deb
  af5493cab7028ab4a5632013284b4e5d 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -110,8 +112,8 @@ MD5Sum:
 SHA1:
  7289805c0d68ddd5c0e55db85bc674a80010dd8c 463104 adwaita-icon-theme_47.0-2_all.deb
  bb7557a9fa02cecd598b83eda63b08f5054627f7 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- 14e8b68f41c2c8e8aad038235f93197b3dde423a 3268605 Contents
- ed550a570b215783ce3959cbffd471aa7b1baeb9 225499 Contents.gz
+ 8263dfa70a7d9ef2e32f698dd57587e0000d9e32 3268903 Contents
+ e341ab2b13b466df33902259434819bd3126769e 225544 Contents.gz
  07f7b349ea5b8e12b5c9f29fa3461fdb60514790 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  abf8a62c51b35f76b392b69d1d8096b71520aa4d 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  b3712707cf9397ab31cb52820e4ec449cfb10d02 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -136,6 +138,8 @@ SHA1:
  52b5330674630d8696b18c9ca3761cb27cd18f53 145844 gpicview_0.2.6-1_i386.deb
  8b6ee27c9b0d373c91d2ee659ba9bf78e932cf8f 2113424 gsmartcontrol_2.0.1-1_amd64.deb
  028c2b9d3bec9cf7f0717273d311c3eb2eb24204 2244780 gsmartcontrol_2.0.1-1_i386.deb
+ 1e13c17a580506502cb6e51a8e88ecf8a627a46b 101408 gtkdialog_0.8.5e-1_amd64.deb
+ 83193901d7d99a0d37056bec765ea1f2b0121fb5 109332 gtkdialog_0.8.5e-1_i386.deb
  fa7a14069b63414729ab21e0b9e3c11b44b2c31d 54268 libcpuid17_0.7.1+repack1-0.1_amd64.deb
  5754c7445bf3e53655b4167737e9ca685b6f9ac0 56360 libcpuid17_0.7.1+repack1-0.1_i386.deb
  ffa21e94a08513d57e40586181f3cd5db618a297 108620 libcpuid-dev_0.7.1+repack1-0.1_amd64.deb
@@ -176,8 +180,8 @@ SHA1:
  cc0f088c2e4712f7b84e128fc9c1e6a887b782ba 1930600 numix-icon-theme_0~20241212-1_all.deb
  30b6278ca2e913147eb733236ec380ab9324c4dd 725504 nvme-cli_2.11-1_amd64.deb
  d594d5802e69fd14c3660a132e38b27186cc6872 68540 nvtop_3.1.0-1+b1_amd64.deb
- b6e70ba5e619045d517ae442d4ec99c906db5285 111292 Packages
- a8e4b00ba184200c0b539dc54814754587ca843f 31836 Packages.gz
+ 549704bb96bbb25a0cedb6a39db987096d3adbf4 112940 Packages
+ 3042d7aa00ec64a3da4ba9ddeef3636dc0fdcbe3 32408 Packages.gz
  98df307213a9a7e884ecdfd3495c477f0ef04b9e 93048 pup-volume-monitor_0.2w_amd64.deb
  e82524ecb3538d5e917f5b82cfc9d2dfbe1e2a3d 100936 pup-volume-monitor_0.2w_i386.deb
  c5a3221a6a79b87a51bf1912987bca84ad974019 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -207,8 +211,8 @@ SHA1:
 SHA256:
  9fb75c4ce32965e2c7c7715d58917ef795f5cc53366516d1b81b8e19fae80621 463104 adwaita-icon-theme_47.0-2_all.deb
  0320628c9ee4e93fcbcd9e84a8a78930a00bb5d923feec32d988dff3f0aa087d 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- 84f1b8170487e5c74d137cf8c193dffc290bc57dc5920fd1158498c0f46014d8 3268605 Contents
- 5791b5018b8bda51240082b47610b9049374866ffabe9641e1417327559733f4 225499 Contents.gz
+ da6bfd5c9af993f4c202b67680ec48eab5f252e9a62bcc7b492ac8fa7fa07a04 3268903 Contents
+ bc7b0b5066525d26639e7d88a4fa85297bd35176d6088dc281e815506e83a034 225544 Contents.gz
  cd1e3f8f025d72b5c9741458bcfbfdb98cacbc0e1a748b0234db5adc2a2f1eb4 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  18b7f69ef29024deec9514758693fe34a93efe134aedda462fba5fc7f4e2aee6 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  4113842970f15cfd0ec811c6bd80bc73a62d2d811fccc1c061440e80d5b9123c 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -233,6 +237,8 @@ SHA256:
  27c780098a2b5a0c205cab3489b612cdb4624b2001a64f98d5b558b965124681 145844 gpicview_0.2.6-1_i386.deb
  d54f4a20a1a43074044413f90a5290f6e50ecb1286d7492610d550ca789f45f7 2113424 gsmartcontrol_2.0.1-1_amd64.deb
  3b4e96464c027b438f7b5a8e1f212426cb214bb696749c7128c7e6686e907488 2244780 gsmartcontrol_2.0.1-1_i386.deb
+ 657441ccd5ada62845d3745d6a451e2a985e52d0b3bdf6e1ef4c8c0e7f72c451 101408 gtkdialog_0.8.5e-1_amd64.deb
+ 157651738741c075208578e1d61248c3366b7dd7c9fd4fc4a293929c5d36f7ce 109332 gtkdialog_0.8.5e-1_i386.deb
  d88b1fb9a95a57383faeb2b040125720f52ceeb75a66f2c625d0fad55ef9cf88 54268 libcpuid17_0.7.1+repack1-0.1_amd64.deb
  a1cc45012fb5a172c0cde0942f3fa1b63a505132a8f9f10cc311544c63b02561 56360 libcpuid17_0.7.1+repack1-0.1_i386.deb
  588cc206e654d3644dc61d151cbd710db8c9bf21ef3d67c838b9d2f99e808a2c 108620 libcpuid-dev_0.7.1+repack1-0.1_amd64.deb
@@ -273,8 +279,8 @@ SHA256:
  beb26deedbb1e3daa62de67e02ed4a5b176063374aaa54edc06839d7d9b2e9df 1930600 numix-icon-theme_0~20241212-1_all.deb
  489493969fb61214d02cb1d9fa9ad49ea4ba7059c2b01c76aafec2c5ce5817b2 725504 nvme-cli_2.11-1_amd64.deb
  34391dfb03cb1c7584f6a8c13dae21a64dff12cd2d4a0e80bdbaf0d70561fa08 68540 nvtop_3.1.0-1+b1_amd64.deb
- 0258e175a68ea49403d2bd62a105faadd0016725326191e3889d46021a324be9 111292 Packages
- 856c6c72c1ce0366006897790d7ba0a6b2fd1c6cc71db030ae62ffae23a5a5f1 31836 Packages.gz
+ 82eb31d3fa764bd3f6601400e001ba1704748d3930328b6a4843fb4c57ad7b26 112940 Packages
+ 3131e913a38a9323b21a6af78634c6300acd8cb6d6ecc2d54b4c8fdfb2ec80a8 32408 Packages.gz
  277c68c159f006ccd2bf4f17710511f64d0049743e2801f1956baf3bf970bc9d 93048 pup-volume-monitor_0.2w_amd64.deb
  a45433ef3df284a02014140c863db3daf3ea56e7cb9c1abde99bc56dabe0b58d 100936 pup-volume-monitor_0.2w_i386.deb
  bbf2fa82d424c0eab1d5752b33586ed9bb85766cf86e68482e31b18161dbd6f8 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -303,15 +309,15 @@ SHA256:
  6072420a710d1240ff11c9fad09dfb0d10737b3d26c22a00d0c7eb13d4922971 212760 yad_14.1-1_i386.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAme93K4ACgkQZ9Vqr4Ht
-qtmLLgv9Hf4QW3ZuCLPdG52YVXwqK2RLJ1SzSe+Gl3TbCk4PQewmg0V3+GKCMGMb
-G0K8qT8jHXkYxC5QHNHWk7qXjHcRkAcgbIFfNZzxDejFWcOIXgFc8XXgMswNak6D
-K9Md7uzGLVc8Pyf9chjPXW7qUmOqqosHZdak4776yplzwACFvqnJaUXrVC7lVcwU
-g+SdXqiPv6LbCVHARAD6gjnsikhUNYtsUabK8IYJWxHIAJru+9amDkxGwMZ5lpvD
-ZH8FsKCiOGKtHHHiQMo9WSRKHpLHScLBcYdOUSKdl1SzF+91vHQ3Tod+wjFkAiHZ
-zVlpEVHnry4E1sLviTzaZoENs+hNr8KJM7dlFwoqW+RYTlvGkGfahBdX8MNolBsl
-Zgp9+6BeV4C0lHuizDIfQ4pQZ94GykuStkLBGtJe2VTS4orWiJ8hioSoMNyyCoxa
-NrpoIYIaTgIr+HDgxd20cNuzbvywSR60Rvjon9tlAXU4HXKBAN2UlytxIDfW+849
-Pcy6TC2S
-=jdp/
+iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmfuY/8ACgkQZ9Vqr4Ht
+qtkmlAwAljfxtwMvHMRGxZVkLxAJYVMLfZ0pxAEubZM6gzK/DGeUSnFKjaglFxvJ
+46ek2RS0RUUn9dwf+Crs6/r/cZjLP/Zrb6SdygBYSMV1BrigRUeF/cqO0nd1Q+UK
+MGJKJuHsIc5wcpRjVRGW4bfrklEsYyrHgcWxny04D+gsIjEErCM9Fc/zbutKFwQX
+R0Lmytim0IruubOFh4LamrNzagiLqUPjstVicDe5izXvu0Q78IHwyhBDage8m44Y
+YpcJoEbqQnJNXeCDm9xaTf5q5ckta/TcZMuFDcsv2l80C6qrytdDS62NB+t2+M/f
+nkFdkshNgLFuAwP0FouScbSxYbguIw101BYKqSkJmlKfWiFxUhw2eBBijBAV50Y9
+LKWsc//pBUT8OC786sbxp9b/VSxtlrxajpzHm1Gz5zeazTF4LsDvmG35qnJi7f9K
+aSbd6M+kaJ3CUbbaPsMnAPQ44bqVmD+gZjiMZEpL4t52psPaObQ65xAgvDAKdi9a
+9OGWIGn6
+=0P0N
 -----END PGP SIGNATURE-----

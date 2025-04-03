@@ -21,6 +21,8 @@ usr/bin/fastfetch					    fastfetch
 usr/bin/fidentify					    testdisk
 usr/bin/gpicview					    gpicview
 usr/bin/gsmartcontrol-root				    gsmartcontrol
+usr/bin/gtkdialog					    gtkdialog
+usr/bin/gtkdialog3					    gtkdialog
 usr/bin/iceauth						    x11-xserver-utils
 usr/bin/luvcview					    luvcview
 usr/bin/mousepad					    mousepad
@@ -434,6 +436,9 @@ usr/share/doc/gsmartcontrol/docs/support.md		    gsmartcontrol
 usr/share/doc/gsmartcontrol/docs/supported_hardware.md	    gsmartcontrol
 usr/share/doc/gsmartcontrol/docs/troubleshooting.md	    gsmartcontrol
 usr/share/doc/gsmartcontrol/docs/usage.md		    gsmartcontrol
+usr/share/doc/gtkdialog/changelog.Debian.gz		    gtkdialog
+usr/share/doc/gtkdialog/changelog.gz			    gtkdialog
+usr/share/doc/gtkdialog/copyright			    gtkdialog
 usr/share/doc/libcpuid-dev/Readme.md.gz			    libcpuid-dev
 usr/share/doc/libcpuid-dev/changelog.Debian.gz		    libcpuid-dev
 usr/share/doc/libcpuid-dev/changelog.gz			    libcpuid-dev
@@ -39750,6 +39755,7 @@ usr/share/icons/hicolor/256x256/apps/io.github.thetumultuousunicornofdarkness.cp
 usr/share/icons/hicolor/32x32/apps/engrampa.png		    engrampa-common
 usr/share/icons/hicolor/32x32/apps/gparted.png		    gparted-common
 usr/share/icons/hicolor/32x32/apps/gsmartcontrol.png	    gsmartcontrol
+usr/share/icons/hicolor/32x32/apps/gtkdialog.png	    gtkdialog
 usr/share/icons/hicolor/32x32/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
 usr/share/icons/hicolor/32x32/apps/yad.png		    yad
 usr/share/icons/hicolor/36x36/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x

@@ -686,6 +686,44 @@ Description: graphical user interface for smartctl
   * can read in smartctl data from a saved file, interpreting it as a read-only
     virtual device.
 
+Package: gtkdialog
+Architecture: amd64
+Version: 0.8.5e-1
+Priority: optional
+Section: utils
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 303
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.21.4)
+Filename: ./gtkdialog_0.8.5e-1_amd64.deb
+Size: 101408
+MD5sum: beba9073e3cbb1389b255cc79ad3415b
+SHA1: 1e13c17a580506502cb6e51a8e88ecf8a627a46b
+SHA256: 657441ccd5ada62845d3745d6a451e2a985e52d0b3bdf6e1ef4c8c0e7f72c451
+SHA512: 25ec74edecaa6cb9331c0a02399f49bb8c231c0034c3e0cd51f866ed16c3b42834d9b5487f56cb2447a8e5a416e0a7b78187725a8ea8b413797fecb7d47f579b
+Homepage: https://github.com/puppylinux-woof-CE/gtkdialog
+Description: Small utility for fast and easy GUI building
+ Gtkdialog is a program that allows you to build graphical user
+ interfaces quickly and easily.
+
+Package: gtkdialog
+Architecture: i386
+Version: 0.8.5e-1
+Priority: optional
+Section: utils
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 352
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.21.4)
+Filename: ./gtkdialog_0.8.5e-1_i386.deb
+Size: 109332
+MD5sum: 05833e872f3a8d4e3ca9392895062923
+SHA1: 83193901d7d99a0d37056bec765ea1f2b0121fb5
+SHA256: 157651738741c075208578e1d61248c3366b7dd7c9fd4fc4a293929c5d36f7ce
+SHA512: 930f82a79306356936710b122ff36fa254cf6fe9be28661642c0d81b4a3f932c8f8621885340ad6eb3ca935839e7f32ebd306e949b1cedeb57e74c48d8bd2661
+Homepage: https://github.com/puppylinux-woof-CE/gtkdialog
+Description: Small utility for fast and easy GUI building
+ Gtkdialog is a program that allows you to build graphical user
+ interfaces quickly and easily.
+
 Package: libcpuid-dev
 Architecture: amd64
 Version: 0.7.1+repack1-0.1
