@@ -3,12 +3,18 @@ etc/X11/Xsession.d/55xfconf				    xfconf-gsettings-backend
 etc/X11/app-defaults/Xvidtune				    x11-xserver-utils
 etc/init.d/pup-vm					    pup-volume-monitor
 etc/nvme/discovery.conf					    nvme-cli
+etc/pam.d/tigervnc					    tigervncserver
+etc/tigervnc/vncserver-config-defaults			    tigervncserver
+etc/tigervnc/vncserver-config-mandatory			    tigervncserver
+etc/tigervnc/vncserver.users				    tigervncserver
 etc/xdg/Thunar/uca.xml					    thunar-data
 etc/xdg/pup-volume-monitor/main.conf			    pup-volume-monitor
+lib/systemd/system/vncserver@.service			    tigervncserver
 opt/gsmartcontrol/gsmartcontrol				    gsmartcontrol
 opt/gsmartcontrol/libstdc++.so.6			    gsmartcontrol
 opt/gsmartcontrol/libstdc++.so.6.0.32			    gsmartcontrol
 usr/bin/Thunar						    thunar
+usr/bin/Xtigervnc					    tigervncserver
 usr/bin/cpu-x						    cpu-x
 usr/bin/cpuid_tool					    cpuidtool
 usr/bin/ddru_diskutility				    ddrutility
@@ -38,8 +44,11 @@ usr/bin/showrgb						    x11-xserver-utils
 usr/bin/testdisk					    testdisk
 usr/bin/thunar						    thunar
 usr/bin/thunar-settings					    thunar
+usr/bin/tigervncconfig					    tigervncserver
+usr/bin/tigervncpasswd					    tigervncserver
 usr/bin/unrar-nonfree					    unrar
 usr/bin/wavemon						    wavemon
+usr/bin/x0tigervncserver				    tigervncserver
 usr/bin/xcmsdb						    x11-xserver-utils
 usr/bin/xfconf-query					    xfconf
 usr/bin/xgamma						    x11-xserver-utils
@@ -54,6 +63,7 @@ usr/bin/xsetmode					    x11-xserver-utils
 usr/bin/xsetpointer					    x11-xserver-utils
 usr/bin/xsetroot					    x11-xserver-utils
 usr/bin/xstdcmap					    x11-xserver-utils
+usr/bin/xtigervncviewer					    xtigervncviewer
 usr/bin/xvidtune					    x11-xserver-utils
 usr/bin/yad						    yad
 usr/bin/yad-tools					    yad
@@ -217,6 +227,8 @@ usr/lib/i386-linux-gnu/thunarx-3/thunar-apr.so		    libthunarx-3-0
 usr/lib/i386-linux-gnu/thunarx-3/thunar-sbr.so		    libthunarx-3-0
 usr/lib/i386-linux-gnu/thunarx-3/thunar-uca.so		    libthunarx-3-0
 usr/lib/i386-linux-gnu/thunarx-3/thunar-wallpaper-plugin.so libthunarx-3-0
+usr/lib/i386-linux-gnu/tigervncserver			    tigervncserver
+usr/lib/i386-linux-gnu/vncsession-start			    tigervncserver
 usr/lib/i386-linux-gnu/xfce4/panel/plugins/libthunar-tpa.so thunar
 usr/lib/i386-linux-gnu/xfce4/xfconf/xfconfd		    xfconf
 usr/lib/pup-volume-monitor				    pup-volume-monitor
@@ -291,8 +303,11 @@ usr/lib/x86_64-linux-gnu/thunarx-3/thunar-apr.so	    libthunarx-3-0
 usr/lib/x86_64-linux-gnu/thunarx-3/thunar-sbr.so	    libthunarx-3-0
 usr/lib/x86_64-linux-gnu/thunarx-3/thunar-uca.so	    libthunarx-3-0
 usr/lib/x86_64-linux-gnu/thunarx-3/thunar-wallpaper-plugin.so libthunarx-3-0
+usr/lib/x86_64-linux-gnu/tigervncserver			    tigervncserver
+usr/lib/x86_64-linux-gnu/vncsession-start		    tigervncserver
 usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libthunar-tpa.so thunar
 usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd		    xfconf
+usr/lib/xorg/modules/extensions/libvnc.so		    tigervncserver
 usr/libexec/cpu-x-daemon				    cpu-x
 usr/libexec/engrampa-server				    engrampa
 usr/libexec/engrampa/isoinfo.sh				    engrampa
@@ -302,6 +317,7 @@ usr/libexec/pup-volume-monitor/umount			    pup-volume-monitor
 usr/sbin/gparted					    gparted
 usr/sbin/gsmartcontrol					    gsmartcontrol
 usr/sbin/nvme						    nvme-cli
+usr/sbin/tigervncsession				    tigervncserver
 usr/sbin/uhubctl					    uhubctl
 usr/share/Thunar/sendto/bluetooth-sendto.desktop	    thunar-data
 usr/share/Thunar/sendto/gnome-obex-send.desktop		    thunar-data
@@ -319,6 +335,7 @@ usr/share/applications/nvtop.desktop			    nvtop
 usr/share/applications/thunar-bulk-rename.desktop	    thunar
 usr/share/applications/thunar-settings.desktop		    thunar
 usr/share/applications/thunar.desktop			    thunar
+usr/share/applications/vncviewer.desktop		    xtigervncviewer
 usr/share/bash-completion/completions/cpu-x		    cpu-x
 usr/share/bash-completion/completions/fastfetch		    fastfetch
 usr/share/bash-completion/completions/nvme		    nvme-cli
@@ -549,6 +566,11 @@ usr/share/doc/thunar-data/copyright			    thunar-data
 usr/share/doc/thunar/changelog.Debian.gz		    thunar
 usr/share/doc/thunar/changelog.gz			    thunar
 usr/share/doc/thunar/copyright				    thunar
+usr/share/doc/tigervncserver/changelog.Debian.gz	    tigervncserver
+usr/share/doc/tigervncserver/copyright			    tigervncserver
+usr/share/doc/tigervncserver/tigervnc/HOWTO.md.gz	    tigervncserver
+usr/share/doc/tigervncserver/tigervnc/LICENCE.TXT.gz	    tigervncserver
+usr/share/doc/tigervncserver/tigervnc/README.rst.gz	    tigervncserver
 usr/share/doc/uhubctl/README.md.gz			    uhubctl
 usr/share/doc/uhubctl/changelog.Debian.gz		    uhubctl
 usr/share/doc/uhubctl/copyright				    uhubctl
@@ -570,6 +592,11 @@ usr/share/doc/xfconf-gsettings-backend/copyright	    xfconf-gsettings-backend
 usr/share/doc/xfconf/changelog.Debian.gz		    xfconf
 usr/share/doc/xfconf/changelog.gz			    xfconf
 usr/share/doc/xfconf/copyright				    xfconf
+usr/share/doc/xtigervncviewer/HOWTO.md.gz		    xtigervncviewer
+usr/share/doc/xtigervncviewer/LICENCE.TXT.gz		    xtigervncviewer
+usr/share/doc/xtigervncviewer/README.rst.gz		    xtigervncviewer
+usr/share/doc/xtigervncviewer/changelog.Debian.gz	    xtigervncviewer
+usr/share/doc/xtigervncviewer/copyright			    xtigervncviewer
 usr/share/doc/yad/NEWS.gz				    yad
 usr/share/doc/yad/changelog.Debian.gz			    yad
 usr/share/doc/yad/copyright				    yad
@@ -39722,6 +39749,7 @@ usr/share/icons/hicolor/128x128/apps/gsmartcontrol.png	    gsmartcontrol
 usr/share/icons/hicolor/128x128/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
 usr/share/icons/hicolor/128x128/apps/org.xfce.mousepad.png  mousepad
 usr/share/icons/hicolor/128x128/apps/org.xfce.thunar.png    thunar-data
+usr/share/icons/hicolor/128x128/apps/tigervnc.png	    xtigervncviewer
 usr/share/icons/hicolor/128x128/apps/yad.png		    yad
 usr/share/icons/hicolor/16x16/actions/add-files-to-archive.png engrampa-common
 usr/share/icons/hicolor/16x16/actions/add-folder-to-archive.png engrampa-common
@@ -39732,6 +39760,7 @@ usr/share/icons/hicolor/16x16/apps/gsmartcontrol.png	    gsmartcontrol
 usr/share/icons/hicolor/16x16/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
 usr/share/icons/hicolor/16x16/apps/org.xfce.mousepad.png    mousepad
 usr/share/icons/hicolor/16x16/apps/org.xfce.thunar.png	    thunar-data
+usr/share/icons/hicolor/16x16/apps/tigervnc.png		    xtigervncviewer
 usr/share/icons/hicolor/16x16/apps/yad.png		    yad
 usr/share/icons/hicolor/16x16/stock/navigation/stock_folder-copy.png thunar-data
 usr/share/icons/hicolor/16x16/stock/navigation/stock_folder-move.png thunar-data
@@ -39740,6 +39769,7 @@ usr/share/icons/hicolor/22x22/apps/engrampa.png		    engrampa-common
 usr/share/icons/hicolor/22x22/apps/gparted.png		    gparted-common
 usr/share/icons/hicolor/22x22/apps/gsmartcontrol.png	    gsmartcontrol
 usr/share/icons/hicolor/22x22/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
+usr/share/icons/hicolor/22x22/apps/tigervnc.png		    xtigervncviewer
 usr/share/icons/hicolor/24x24/actions/add-files-to-archive.png engrampa-common
 usr/share/icons/hicolor/24x24/actions/add-folder-to-archive.png engrampa-common
 usr/share/icons/hicolor/24x24/actions/extract-archive.png   engrampa-common
@@ -39747,6 +39777,7 @@ usr/share/icons/hicolor/24x24/apps/engrampa.png		    engrampa-common
 usr/share/icons/hicolor/24x24/apps/gparted.png		    gparted-common
 usr/share/icons/hicolor/24x24/apps/gsmartcontrol.png	    gsmartcontrol
 usr/share/icons/hicolor/24x24/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
+usr/share/icons/hicolor/24x24/apps/tigervnc.png		    xtigervncviewer
 usr/share/icons/hicolor/24x24/apps/yad.png		    yad
 usr/share/icons/hicolor/24x24/stock/navigation/stock_folder-copy.png thunar-data
 usr/share/icons/hicolor/24x24/stock/navigation/stock_folder-move.png thunar-data
@@ -39757,6 +39788,7 @@ usr/share/icons/hicolor/32x32/apps/gparted.png		    gparted-common
 usr/share/icons/hicolor/32x32/apps/gsmartcontrol.png	    gsmartcontrol
 usr/share/icons/hicolor/32x32/apps/gtkdialog.png	    gtkdialog
 usr/share/icons/hicolor/32x32/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
+usr/share/icons/hicolor/32x32/apps/tigervnc.png		    xtigervncviewer
 usr/share/icons/hicolor/32x32/apps/yad.png		    yad
 usr/share/icons/hicolor/36x36/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
 usr/share/icons/hicolor/384x384/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
@@ -39766,10 +39798,12 @@ usr/share/icons/hicolor/48x48/apps/gsmartcontrol.png	    gsmartcontrol
 usr/share/icons/hicolor/48x48/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
 usr/share/icons/hicolor/48x48/apps/org.xfce.mousepad.png    mousepad
 usr/share/icons/hicolor/48x48/apps/org.xfce.thunar.png	    thunar-data
+usr/share/icons/hicolor/48x48/apps/tigervnc.png		    xtigervncviewer
 usr/share/icons/hicolor/48x48/apps/yad.png		    yad
 usr/share/icons/hicolor/512x512/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
 usr/share/icons/hicolor/64x64/apps/gsmartcontrol.png	    gsmartcontrol
 usr/share/icons/hicolor/64x64/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
+usr/share/icons/hicolor/64x64/apps/tigervnc.png		    xtigervncviewer
 usr/share/icons/hicolor/72x72/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
 usr/share/icons/hicolor/96x96/apps/io.github.thetumultuousunicornofdarkness.cpu-x.png cpu-x
 usr/share/icons/hicolor/96x96/apps/yad.png		    yad
@@ -39777,6 +39811,7 @@ usr/share/icons/hicolor/scalable/apps/engrampa.svg	    engrampa-common
 usr/share/icons/hicolor/scalable/apps/gparted.svg	    gparted-common
 usr/share/icons/hicolor/scalable/apps/org.xfce.mousepad.svg mousepad
 usr/share/icons/hicolor/scalable/apps/org.xfce.thunar.svg   thunar-data
+usr/share/icons/hicolor/scalable/apps/tigervnc.svg	    xtigervncviewer
 usr/share/icons/nvtop.svg				    nvtop
 usr/share/info/ddrutility.info.gz			    ddrutility
 usr/share/licenses/adwaita-icon-theme/COPYING		    adwaita-icon-theme-legacy
@@ -39818,6 +39853,7 @@ usr/share/locale/bg/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/bg/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/bg/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/bg/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/bg/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/bg/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/bn/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/bn/LC_MESSAGES/gpicview.mo		    gpicview
@@ -39847,6 +39883,7 @@ usr/share/locale/cs/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/cs/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/cs/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/cs/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/cs/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/cs/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/cs_CZ/LC_MESSAGES/cpu-x.mo		    cpu-x
 usr/share/locale/cy/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -39856,6 +39893,7 @@ usr/share/locale/da/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/da/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/da/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/da/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/da/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/da/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/de/LC_MESSAGES/cpu-x.mo		    cpu-x
 usr/share/locale/de/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -39864,6 +39902,7 @@ usr/share/locale/de/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/de/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/de/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/de/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/de/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/de/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/de/LC_MESSAGES/yad.mo			    yad
 usr/share/locale/dz/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -39874,6 +39913,7 @@ usr/share/locale/el/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/el/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/el/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/el/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/el/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/el/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/en_AU/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/en_AU/LC_MESSAGES/mousepad.mo		    mousepad
@@ -39893,6 +39933,7 @@ usr/share/locale/eo/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/eo/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/eo/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/eo/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/eo/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/es/LC_MESSAGES/cpu-x.mo		    cpu-x
 usr/share/locale/es/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/es/LC_MESSAGES/gparted.mo		    gparted-common
@@ -39900,6 +39941,7 @@ usr/share/locale/es/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/es/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/es/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/es/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/es/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/es/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/es/LC_MESSAGES/yad.mo			    yad
 usr/share/locale/es_AR/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -39939,6 +39981,7 @@ usr/share/locale/fi/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/fi/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/fi/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/fi/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/fi/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/fi/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/fo/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/fr/LC_MESSAGES/cpu-x.mo		    cpu-x
@@ -39948,12 +39991,14 @@ usr/share/locale/fr/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/fr/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/fr/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/fr/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/fr/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/fr/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/fr/LC_MESSAGES/yad.mo			    yad
 usr/share/locale/fr_CA/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/frp/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/fur/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/fur/LC_MESSAGES/gparted.mo		    gparted-common
+usr/share/locale/fur/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/fy/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/ga/LC_MESSAGES/cpu-x.mo		    cpu-x
 usr/share/locale/ga/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -39974,6 +40019,7 @@ usr/share/locale/he/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/he/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/he/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/he/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/he/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/he/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/hi/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/hi/LC_MESSAGES/xfconf.mo		    xfconf
@@ -39990,6 +40036,7 @@ usr/share/locale/hu/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/hu/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/hu/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/hu/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/hu/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/hu/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/hy/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/hy/LC_MESSAGES/thunar.mo		    thunar-data
@@ -40006,6 +40053,7 @@ usr/share/locale/id/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/id/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/id/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/id/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/id/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/id/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/ie/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/ie/LC_MESSAGES/gparted.mo		    gparted-common
@@ -40025,6 +40073,7 @@ usr/share/locale/it/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/it/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/it/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/it/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/it/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/it/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/it/LC_MESSAGES/yad.mo			    yad
 usr/share/locale/ja/LC_MESSAGES/cpu-x.mo		    cpu-x
@@ -40039,6 +40088,7 @@ usr/share/locale/jv/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/ka/LC_MESSAGES/cpu-x.mo		    cpu-x
 usr/share/locale/ka/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/ka/LC_MESSAGES/gparted.mo		    gparted-common
+usr/share/locale/ka/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/ka/LC_MESSAGES/yad.mo			    yad
 usr/share/locale/kab/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/kab/LC_MESSAGES/mtpaint.mo		    mtpaint
@@ -40058,6 +40108,7 @@ usr/share/locale/ko/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/ko/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/ko/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/ko/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/ko/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/ko/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/ks/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/ku/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -40112,6 +40163,7 @@ usr/share/locale/nl/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/nl/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/nl/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/nl/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/nl/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/nl/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/nn/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/nn/LC_MESSAGES/gparted.mo		    gparted-common
@@ -40139,6 +40191,7 @@ usr/share/locale/pl/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/pl/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/pl/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/pl/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/pl/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/pl/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/pms/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/ps/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -40158,6 +40211,7 @@ usr/share/locale/pt_BR/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/pt_BR/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/pt_BR/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/pt_BR/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/pt_BR/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/pt_BR/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/pt_BR/LC_MESSAGES/yad.mo		    yad
 usr/share/locale/ro/LC_MESSAGES/cpu-x.mo		    cpu-x
@@ -40166,6 +40220,7 @@ usr/share/locale/ro/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/ro/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/ro/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/ro/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/ro/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/ro/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/ru/LC_MESSAGES/cpu-x.mo		    cpu-x
 usr/share/locale/ru/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -40174,6 +40229,7 @@ usr/share/locale/ru/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/ru/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/ru/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/ru/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/ru/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/ru/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/rw/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/rw/LC_MESSAGES/gparted.mo		    gparted-common
@@ -40189,6 +40245,7 @@ usr/share/locale/sk/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/sk/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/sk/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/sk/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/sk/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/sk/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/sk/LC_MESSAGES/yad.mo			    yad
 usr/share/locale/sl/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -40206,6 +40263,7 @@ usr/share/locale/sr/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/sr/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/sr/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/sr/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/sr/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/sr/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/sr@latin/LC_MESSAGES/engrampa.mo	    engrampa-common
 usr/share/locale/sr@latin/LC_MESSAGES/gparted.mo	    gparted-common
@@ -40217,6 +40275,7 @@ usr/share/locale/sv/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/sv/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/sv/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/sv/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/sv/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/sv/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/ta/LC_MESSAGES/cpu-x.mo		    cpu-x
 usr/share/locale/ta/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -40241,6 +40300,7 @@ usr/share/locale/tr/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/tr/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/tr/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/tr/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/tr/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/tr/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/tt/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/tt_RU/LC_MESSAGES/gpicview.mo		    gpicview
@@ -40256,6 +40316,7 @@ usr/share/locale/uk/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/uk/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/uk/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/uk/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/uk/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/uk/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/uk/LC_MESSAGES/yad.mo			    yad
 usr/share/locale/ur/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -40271,6 +40332,7 @@ usr/share/locale/vi/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/vi/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/vi/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/vi/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/vi/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/wa/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/xh/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/yi/LC_MESSAGES/engrampa.mo		    engrampa-common
@@ -40282,6 +40344,7 @@ usr/share/locale/zh_CN/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/zh_CN/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/zh_CN/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/zh_CN/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/zh_CN/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/zh_CN/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/zh_HK/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/zh_HK/LC_MESSAGES/gparted.mo		    gparted-common
@@ -40294,10 +40357,12 @@ usr/share/locale/zh_TW/LC_MESSAGES/gpicview.mo		    gpicview
 usr/share/locale/zh_TW/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/zh_TW/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/zh_TW/LC_MESSAGES/thunar.mo		    thunar-data
+usr/share/locale/zh_TW/LC_MESSAGES/tigervnc.mo		    tigervncserver
 usr/share/locale/zh_TW/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/zh_TW/LC_MESSAGES/yad.mo		    yad
 usr/share/locale/zu/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/man/man1/Thunar.1.gz				    thunar
+usr/share/man/man1/Xtigervnc.1.gz			    tigervncserver
 usr/share/man/man1/cpu-x.1.gz				    cpu-x
 usr/share/man/man1/ddru_diskutility.1.gz		    ddrutility
 usr/share/man/man1/ddru_findbad.1.gz			    ddrutility
@@ -40540,8 +40605,11 @@ usr/share/man/man1/sessreg.1.gz				    x11-xserver-utils
 usr/share/man/man1/showrgb.1.gz				    x11-xserver-utils
 usr/share/man/man1/thunar-settings.1.gz			    thunar
 usr/share/man/man1/thunar.1.gz				    thunar
+usr/share/man/man1/tigervncconfig.1.gz			    tigervncserver
+usr/share/man/man1/tigervncpasswd.1.gz			    tigervncserver
 usr/share/man/man1/unrar-nonfree.1.gz			    unrar
 usr/share/man/man1/wavemon.1.gz				    wavemon
+usr/share/man/man1/x0tigervncserver.1.gz		    tigervncserver
 usr/share/man/man1/xcmsdb.1.gz				    x11-xserver-utils
 usr/share/man/man1/xfconf-query.1.gz			    xfconf
 usr/share/man/man1/xgamma.1.gz				    x11-xserver-utils
@@ -40555,6 +40623,7 @@ usr/share/man/man1/xsetmode.1.gz			    x11-xserver-utils
 usr/share/man/man1/xsetpointer.1.gz			    x11-xserver-utils
 usr/share/man/man1/xsetroot.1.gz			    x11-xserver-utils
 usr/share/man/man1/xstdcmap.1.gz			    x11-xserver-utils
+usr/share/man/man1/xtigervncviewer.1.gz			    xtigervncviewer
 usr/share/man/man1/xvidtune.1.gz			    x11-xserver-utils
 usr/share/man/man1/yad-tools.1.gz			    yad
 usr/share/man/man1/yad.1.gz				    yad
@@ -41471,16 +41540,20 @@ usr/share/man/man8/fidentify.8.gz			    testdisk
 usr/share/man/man8/gparted.8.gz				    gparted-common
 usr/share/man/man8/photorec.8.gz			    testdisk
 usr/share/man/man8/testdisk.8.gz			    testdisk
+usr/share/man/man8/tigervncserver.8.gz			    tigervncserver
+usr/share/man/man8/tigervncsession.8.gz			    tigervncserver
 usr/share/man/man8/uhubctl.8.gz				    uhubctl
 usr/share/menu/luvcview					    luvcview
 usr/share/menu/wavemon					    wavemon
 usr/share/menu/x11-xserver-utils			    x11-xserver-utils
+usr/share/menu/xtigervncviewer				    xtigervncviewer
 usr/share/metainfo/engrampa.appdata.xml			    engrampa-common
 usr/share/metainfo/gparted.appdata.xml			    gparted
 usr/share/metainfo/gsmartcontrol.appdata.xml		    gsmartcontrol
 usr/share/metainfo/io.github.thetumultuousunicornofdarkness.cpu-x.appdata.xml cpu-x
 usr/share/metainfo/mousepad.appdata.xml			    mousepad
 usr/share/metainfo/nvtop.metainfo.xml			    nvtop
+usr/share/metainfo/org.tigervnc.vncviewer.metainfo.xml	    tigervncserver
 usr/share/metainfo/org.xfce.thunar.appdata.xml		    thunar
 usr/share/netsurf/Messages				    netsurf-common
 usr/share/netsurf/SearchEngines				    netsurf-common
