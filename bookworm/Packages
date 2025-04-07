@@ -53,6 +53,416 @@ Description: default icon theme of GNOME
  Other apps are recommended to include their own icons using the GNOME
  Design Team's Icon Development Kit.
 
+Package: alsaplayer-alsa
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 118
+Provides: alsaplayer-output
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.4), alsaplayer-common
+Conflicts: alsaplayer-esd
+Replaces: alsaplayer-esd
+Filename: ./alsaplayer-alsa_0.99.82-1_amd64.deb
+Size: 99940
+MD5sum: 24ce798d393421da7bf50660b1cee427
+SHA1: 708a19011871c163f56395c1dd7f28202756723f
+SHA256: 36832975295bdf8d027aecf1a53ac00658f282b58f4ec29575f69a0d433327a2
+SHA512: 193511f85c44f164a2fad70d5e035489ce9a9daeede343d96bd3ac0395a63756cb647ba4ec18f6532ef889dcf2d13e32de86433bcf1ba1897900cc10a849c0b7
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer output module for ALSA
+ This package provides a module for alsaplayer, an audio player, that will
+ output the sound through ALSA devices.
+
+Package: alsaplayer-alsa
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 118
+Provides: alsaplayer-output
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.4), alsaplayer-common
+Conflicts: alsaplayer-esd
+Replaces: alsaplayer-esd
+Filename: ./alsaplayer-alsa_0.99.82-1_i386.deb
+Size: 100064
+MD5sum: 7736fdf6de17df08e918cc837b41f1d1
+SHA1: 511a99de4025a638fd9272a1e137cc7d14df7d3d
+SHA256: 807619aa06ccd0bd1cf8c910eb3e5ff2cfe0d720022f8b447603469de73fb1a3
+SHA512: b45f91de9454efedd0d9c52072824f71227ab92d6df3373369924c037dead0e49f6cd36c06ca452dc970c8ad77232f522dfeee7036f395735c3368385d6404a5
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer output module for ALSA
+ This package provides a module for alsaplayer, an audio player, that will
+ output the sound through ALSA devices.
+
+Package: alsaplayer-common
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: foreign
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 577
+Provides: alsaplayer
+Depends: libalsaplayer0 (>= 0.99.82), libc6 (>= 2.34), libflac12 (>= 1.3.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libmad0 (>= 0.15.1b-3), libmikmod3 (>= 3.3.3), libsndfile1 (>= 1.0.20), libstdc++6 (>= 5.2), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), alsaplayer-alsa | alsaplayer-output, alsaplayer-text | alsaplayer-interface
+Filename: ./alsaplayer-common_0.99.82-1_amd64.deb
+Size: 231392
+MD5sum: e9e16cab1ddf8fd84ee9d61461c54c3e
+SHA1: b93cdb1b72f91a6df2ac7318a2c1b88b26efc8ad
+SHA256: f6af709aa7dcdb1c3f5d975a1f4bacde064f79f119151db94a60c610286b894b
+SHA512: c37343fea6175d2be2a28ed7fe4340fc884c7efbed27e168d15ac0781f1332208bae9481bd589fe3a13bdb9a9c3d407cd61d879b21fa656ed51954a3d79abbfa
+Homepage: https://alsaplayer.sourceforge.net/
+Description: audio player (common files)
+ Alsaplayer is a PCM player designed specifically for use with ALSA, but
+ works great with OSS or EsounD. It's heavily threaded which cuts down on
+ skipping, offers optional and even simultaneous visual scopes, plays
+ mp3, mp2, ogg, cdda, audiofs, and lots more.
+ .
+ This package contains the main alsaplayer program, and needs one interface
+ plugin and one output plugin. By default, GTK+ interface and alsa output will
+ be installed.
+
+Package: alsaplayer-common
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: foreign
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 565
+Provides: alsaplayer
+Depends: libalsaplayer0 (>= 0.99.82), libc6 (>= 2.34), libflac12 (>= 1.3.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libmad0 (>= 0.15.1b-3), libmikmod3 (>= 3.3.3), libsndfile1 (>= 1.0.20), libstdc++6 (>= 5.2), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), alsaplayer-alsa | alsaplayer-output, alsaplayer-text | alsaplayer-interface
+Filename: ./alsaplayer-common_0.99.82-1_i386.deb
+Size: 235580
+MD5sum: 97c9512f74e51855274e3a1f9e90467c
+SHA1: c970495737110c6282d11dae6f4b2d87b56d2932
+SHA256: 80760e3e8f737305e8006d7e09e60a75b16062233cb258c2fe9aab28dc0997e8
+SHA512: b941c97ce726d6d17909bb2e30a0e524018fab4ddb6e729ed925c5141e22dcccce31b61214f816496072090ba102512c350feafa557d3822b4204e87386ec13f
+Homepage: https://alsaplayer.sourceforge.net/
+Description: audio player (common files)
+ Alsaplayer is a PCM player designed specifically for use with ALSA, but
+ works great with OSS or EsounD. It's heavily threaded which cuts down on
+ skipping, offers optional and even simultaneous visual scopes, plays
+ mp3, mp2, ogg, cdda, audiofs, and lots more.
+ .
+ This package contains the main alsaplayer program, and needs one interface
+ plugin and one output plugin. By default, GTK+ interface and alsa output will
+ be installed.
+
+Package: alsaplayer-daemon
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 121
+Provides: alsaplayer-interface
+Depends: libc6 (>= 2.34), alsaplayer-common
+Filename: ./alsaplayer-daemon_0.99.82-1_amd64.deb
+Size: 99460
+MD5sum: c0d4e54a108f53e99a81303e07b44bba
+SHA1: 91c524ab19599ad4d293e53838116523c3fc6953
+SHA256: c1e3fab1ea866a3352cb07eea28f1c4433e781e393377758f6b7312a1e9d61dc
+SHA512: 24fd15c1f205f3b33107c051616020728573b0af99ae419320cb3f9271cfdafd31fd6bb609570bab40a3229e00b74904011f5c323d560f633f132c0296c3007d
+Homepage: https://alsaplayer.sourceforge.net/
+Description: non-interactive interface to alsaplayer (daemon)
+ This package provides a non-interactive interface to alsaplayer, an audio
+ player, so that it will be accessible via a remote control application.
+
+Package: alsaplayer-daemon
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 121
+Provides: alsaplayer-interface
+Depends: libc6 (>= 2.34), alsaplayer-common
+Filename: ./alsaplayer-daemon_0.99.82-1_i386.deb
+Size: 99652
+MD5sum: 622e0fbb85ec29706344a9999ea41d37
+SHA1: 42ad2bcc848250c41e36dbb2bfc21b4759dbd24a
+SHA256: aa5d0720a3f0a9e5dc6f32f11baf33b10c94dc5e95a769326850f62a1af5947d
+SHA512: c9d43a5bd523eb4e664f19ada20dacb89771c0556f631390a7f854f72f6d242ff5a34c0c7a86419d355c5b4b8536babdaf268552e4f3e3d94748f6c6cc9252aa
+Homepage: https://alsaplayer.sourceforge.net/
+Description: non-interactive interface to alsaplayer (daemon)
+ This package provides a non-interactive interface to alsaplayer, an audio
+ player, so that it will be accessible via a remote control application.
+
+Package: alsaplayer-gtk
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 760
+Provides: alsaplayer-interface
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 11), alsaplayer-common
+Filename: ./alsaplayer-gtk_0.99.82-1_amd64.deb
+Size: 213444
+MD5sum: 60953d4f9c868b514cab80c1629c765a
+SHA1: cacb380720d44f91192e9bbf19a813a1933f3c3d
+SHA256: f814e5184dfeeaa2fc1b124bfbf66f6e14182193318bfaa3a4a8f07c293673a4
+SHA512: e8fa8df6ac3859c60ed757d4cd24df209cacf1afde25115237a685072dcfdd2ee12892c4da373b5db9887fae8ba3f016e05e2092f8d52bf6d483ce14f39df0e9
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer gtk interface
+ This package provides a GTK+ interface to alsaplayer, an audio player.
+
+Package: alsaplayer-gtk
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 571
+Provides: alsaplayer-interface
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 11), alsaplayer-common
+Filename: ./alsaplayer-gtk_0.99.82-1_i386.deb
+Size: 207220
+MD5sum: 0f1933e0270dca147163ea02a7bf03fd
+SHA1: e0ef292dc02ac87d76aa314d03d89e4955246985
+SHA256: 744f98cc67bb344de06d5d22250c8750650921f807714446d5a389bafce7d19d
+SHA512: 8bd13bbea71044957690a400d63ebbb725f15e362923204c1fd11e425d7f21133ffd66649f98c4b5309eafc0725bea81e8be8a99d7dfb5a2662d9f9d574aa2be
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer gtk interface
+ This package provides a GTK+ interface to alsaplayer, an audio player.
+
+Package: alsaplayer-jack
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 122
+Provides: alsaplayer-output
+Depends: libc6 (>= 2.34), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, alsaplayer-common
+Filename: ./alsaplayer-jack_0.99.82-1_amd64.deb
+Size: 101356
+MD5sum: 8ac8c1d6d3a7aaec3250a44fa453dcff
+SHA1: e30e16629fb3278a9530aa47f70bc9bc681f64fe
+SHA256: 0cf0d136549de13d185232e617c5ddb0158060df9210260ac30bf9d6cc663639
+SHA512: 7a8836463645b9535444a5e5f1bf50dea755650951f2ce67d2833214512e77f2d53df6d9a97b356d350859517e19ac79e58b390a18a7908add20efc52f5a280d
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer output module for JACK
+ This package provides a module for alsaplayer, an audio player, that will
+ output the sound through JACK.
+
+Package: alsaplayer-jack
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 122
+Provides: alsaplayer-output
+Depends: libc6 (>= 2.34), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, alsaplayer-common
+Filename: ./alsaplayer-jack_0.99.82-1_i386.deb
+Size: 101484
+MD5sum: 4adfe70d78112db39cc993be155ab7af
+SHA1: a8f83cfc4cf486a3cba9efa8418b09c767cfc9a4
+SHA256: 4a98179ff17c8647f91583e4bdcbfc67695d6d3195c9e25cf9ec404dfc3a8c5d
+SHA512: b60a0450bd8eef0128f3ac82e4efb34493fe7b6625560664a16d39615ad4f4c8faf1081fe69435677398828fa1120b65f764bb630110455a5cca4a4b7b6c83e8
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer output module for JACK
+ This package provides a module for alsaplayer, an audio player, that will
+ output the sound through JACK.
+
+Package: alsaplayer-nas
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 118
+Provides: alsaplayer-output
+Depends: libaudio2, libc6 (>= 2.14), alsaplayer-common
+Filename: ./alsaplayer-nas_0.99.82-1_amd64.deb
+Size: 100192
+MD5sum: 4e47b56c8a06b9f7483b4a0764539356
+SHA1: 647459675faea44791d008ee9a9651ff1ce8814e
+SHA256: 8e39127aea6bf6550d9da66b2579b2e48bf7a380306f31febef09606e4bf9816
+SHA512: d7c6b747fb97dd89118c56b1355c457512ccb1c2004cd1a5dabb472f968ecb653141da3f0bcbe50c8000ec3f7bd0ed09d04f2b660abd5f5c2c36ae7e7b2aff20
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer output module for NAS
+ This package provides a module for alsaplayer, an audio player, that will
+ output the sound through the Network Audio System (NAS).
+
+Package: alsaplayer-nas
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 118
+Provides: alsaplayer-output
+Depends: libaudio2, libc6 (>= 2.4), alsaplayer-common
+Filename: ./alsaplayer-nas_0.99.82-1_i386.deb
+Size: 100216
+MD5sum: f801796453c843b1615ccf8695c96154
+SHA1: 9a75cdd41b9673d1efb35767a1e774c34d40705c
+SHA256: 8984145185e615e8f778ccd85accfb615d560193e1fb053c3f9023ef4c4ecbe3
+SHA512: 3c6174e8e705f572b3ca7e186a8ce2ef777fb6923e7f349c7cab8b11993c175f6c1f799d06a1052a2b2d86225bda47a973d2dbb3f11d40529cc2364e24ee9697
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer output module for NAS
+ This package provides a module for alsaplayer, an audio player, that will
+ output the sound through the Network Audio System (NAS).
+
+Package: alsaplayer-oss
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 118
+Provides: alsaplayer-output
+Depends: libc6 (>= 2.4), alsaplayer-common
+Filename: ./alsaplayer-oss_0.99.82-1_amd64.deb
+Size: 98612
+MD5sum: 1dffc1298ce82fb14b7b7ddd2eb6b039
+SHA1: e29bffdf4658ecd289597ad24d4b5fdbb4d2ddae
+SHA256: 0648047d013a2437b773bb8debb88fa1c97a2730d28f211355a892561538381d
+SHA512: 3df020faa8c319b8994d41d729eb822136c35c00e225a487aaea3b7d47f218347602a06e598a4b676e2c386eef35e3a8952a0151e2149097cbf23c243ca0ed43
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer output module for OSS
+ This package provides a module for alsaplayer, an audio player, that will
+ output the sound through OSS devices.
+
+Package: alsaplayer-oss
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 118
+Provides: alsaplayer-output
+Depends: libc6 (>= 2.4), alsaplayer-common
+Filename: ./alsaplayer-oss_0.99.82-1_i386.deb
+Size: 98728
+MD5sum: 16da1f8599208ee4f3065a3d6330e0f0
+SHA1: a196fb8adec5ede332859cb8e694c1ab5f5ad406
+SHA256: 29b6f74aa77d2ba7242041cf9331fe1cf57c2b679d38326ab06ff82bb69063f6
+SHA512: 0eacb967c7d32fbed2728c1172c868bd94e8b4b9a4c80bcbe18bf61dcaa48333f0803db8a9782be8923925c06702d46ef343bf71fc55166ab3f31265f36a0eaa
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer output module for OSS
+ This package provides a module for alsaplayer, an audio player, that will
+ output the sound through OSS devices.
+
+Package: alsaplayer-text
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 121
+Provides: alsaplayer-interface
+Depends: libc6 (>= 2.34), alsaplayer-common
+Filename: ./alsaplayer-text_0.99.82-1_amd64.deb
+Size: 100148
+MD5sum: 9129ab01a2cf74a9ed941bfa448378a5
+SHA1: e9a47e239a038d73b8ee256239cdb1f62c7d4067
+SHA256: d1f545c38c31dd773492cd20100c5775356be42526f7966907e225dcb764531d
+SHA512: 464d90e1cfe4049b14fdae7f768c64afe777820f6c35e9383970104d2cb2b12785dfb6b78a225a433b507bcae8beeca19c6872069b59277b7d1ffc868b260833
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer text interface
+ This package provides a text interface to alsaplayer, an audio player, and
+ does not require X or GTK+ to run.
+
+Package: alsaplayer-text
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 121
+Provides: alsaplayer-interface
+Depends: libc6 (>= 2.34), alsaplayer-common
+Filename: ./alsaplayer-text_0.99.82-1_i386.deb
+Size: 100468
+MD5sum: 51fefc05f5ef063a69e3a144d5ce3b01
+SHA1: 94dfa71074685e1944e2b06676b23c90d8bb9308
+SHA256: 1bd3cf13327394cacf2ae185ded46663bf1339dd64fc0cfb7da1cc877b71a970
+SHA512: 58a3ebd0f3427651c5f26a54d923f5afabcb79487b4a13d773d07534c164f32cc893b759eda5e92a3e5b7dc6e04c6da091d357be23fa165331f4d414813478bd
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer text interface
+ This package provides a text interface to alsaplayer, an audio player, and
+ does not require X or GTK+ to run.
+
+Package: alsaplayer-xosd
+Architecture: amd64
+Version: 0.99.82-1
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 125
+Provides: alsaplayer-interface
+Depends: libc6 (>= 2.34), libxosd2 (>= 2.2.14), alsaplayer-common
+Filename: ./alsaplayer-xosd_0.99.82-1_amd64.deb
+Size: 100196
+MD5sum: 4ea75c841a6cb41161ca7131daab09b2
+SHA1: 3cfa6c49ca93aa37cdbbf9b02f14ea839614f754
+SHA256: 0c0ac1d7292d8a65b1258ac1a2fab580e086fc329de2ed2ac67de108713267f6
+SHA512: 55a18b0366ddb8382fb1229e50fe66d3c8064fdddd253a6445259a6ba4917b07ac23b583b868b5f5b4ea0e447797cbec2370be01b1241dcd8553fca9661d9ca3
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer XOSD display module
+ This package provides a non-interactive interface to alsaplayer, an audio
+ player. Information about the file currently being played will be displayed on
+ screen through the X On-Screen Display library (xosd).
+
+Package: alsaplayer-xosd
+Architecture: i386
+Version: 0.99.82-1
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 121
+Provides: alsaplayer-interface
+Depends: libc6 (>= 2.34), libxosd2 (>= 2.2.14), alsaplayer-common
+Filename: ./alsaplayer-xosd_0.99.82-1_i386.deb
+Size: 100332
+MD5sum: 2b80793a734555369e4fdf272ba23b7e
+SHA1: faa34bc947c86ba477dbcb65c53d1af989ca7f4f
+SHA256: 5a46496796752dce5aa6e9d979b55d1a8843fee2a61a8e469324b4905f8aaf85
+SHA512: b93571aa7f6783c1de0510dd8d1452b867690a80682248de3bdd20999d1a7a4ea3fe633f8957bcf39a213681f2906583bfc792c3a538e7bad8652586c8fae1e8
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer XOSD display module
+ This package provides a non-interactive interface to alsaplayer, an audio
+ player. Information about the file currently being played will be displayed on
+ screen through the X On-Screen Display library (xosd).
+
 Package: cpu-x
 Architecture: amd64
 Version: 5.1.1-0.1
@@ -723,6 +1133,88 @@ Homepage: https://github.com/puppylinux-woof-CE/gtkdialog
 Description: Small utility for fast and easy GUI building
  Gtkdialog is a program that allows you to build graphical user
  interfaces quickly and easily.
+
+Package: libalsaplayer-dev
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 619
+Depends: libalsaplayer0 (= 0.99.82-1)
+Filename: ./libalsaplayer-dev_0.99.82-1_amd64.deb
+Size: 145724
+MD5sum: e100e938f3cd4a718d33c496d73f8266
+SHA1: 2a10b87a44fb4dbe2a5c8689ea0b60b5e689ac1b
+SHA256: 5c3654a18403f63424fb1836561bd2d29ba9c0d595996203eb9083735a3a91ed
+SHA512: 6530b7154969f306e6cb18cf7ff6c4f3d313c4cbaa1b925048f4f260a6423bf2b8c33bf5ecf60b3c1d74da53f30bf92cf60c63588f63485bfe553acdea336be2
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer plugin library (development files)
+ This package contains the development files for the alsaplayer interface
+ library to create your own alsaplayer plugins.
+
+Package: libalsaplayer-dev
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 613
+Depends: libalsaplayer0 (= 0.99.82-1)
+Filename: ./libalsaplayer-dev_0.99.82-1_i386.deb
+Size: 146024
+MD5sum: 6c480947235e66419a59178dd440408c
+SHA1: 99c44ddb7836a7035163ffdb2af9c06478c3243c
+SHA256: 0175bef9fc8f73f020e684fc44214960a1cd562da6f7952ed160042469e04e16
+SHA512: 4f1c8ff2f34f30294db253d5d8fab94eb24c7ade8373c7e08bcf4d27fb084e1a705ce8fcc60977d0742ac484f4a204b6229d510fe3326f1abc2b99e8675511bb
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer plugin library (development files)
+ This package contains the development files for the alsaplayer interface
+ library to create your own alsaplayer plugins.
+
+Package: libalsaplayer0
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 135
+Depends: libc6 (>= 2.33)
+Filename: ./libalsaplayer0_0.99.82-1_amd64.deb
+Size: 104544
+MD5sum: 95bfe7bfb9973d574c66a533f5f43f96
+SHA1: 682dd56532f7bcccba518d92f69f1cbd226489cb
+SHA256: c73d59191f5cc00a15e91ebdfbed059562c29a212a9289cf592d88fbdfe1d1ec
+SHA512: 478d4f66f16a0313f39eed5d28a0096fb1989382fbe6962f147b6e816ab2f52b6002a52e107c8c9b11efbda2e1753a6eb65cca8ea4bcb03f5bf17e4fec7810fa
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer plugin library
+ This package contains the interface library for alsaplayer plugins.
+
+Package: libalsaplayer0
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 135
+Depends: libc6 (>= 2.33)
+Filename: ./libalsaplayer0_0.99.82-1_i386.deb
+Size: 104808
+MD5sum: 8ef2f3e7e802e3e3b4decc48380c2225
+SHA1: 64e86b921ba0518627f448c1e83678bef6fa7555
+SHA256: 507a4b976dbd3c2037bca6d7015df348ae892a110c7a83446043d3883fe4049c
+SHA512: 478565cbd93b02eea1ef0642c80743ca5734dd0ae0fc5fdbb0ce4a80f1f5883e0fca9f7c1f6f3fa75a0599ff5bea020d0fa048e78975697156799a67ee69380f
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer plugin library
+ This package contains the interface library for alsaplayer plugins.
 
 Package: libcpuid-dev
 Architecture: amd64

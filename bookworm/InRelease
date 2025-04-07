@@ -9,12 +9,30 @@ Codename: bookworm
 Version: 1.0
 Architectures: amd64 i386
 Components: main
-Date: Sat, 05 Apr 2025 17:44:06 +0000
+Date: Mon, 07 Apr 2025 13:54:09 +0000
 MD5Sum:
  d3b58df67a035bf27b7e0d45a7e3890e 463104 adwaita-icon-theme_47.0-2_all.deb
  68c59fca5f414a619f8eb5f24dbd2d61 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- d21850e836d28457f94bf7b1736b1d9e 3273452 Contents
- 1a83a0aa98b4bacdc4ce9f49d0207beb 226124 Contents.gz
+ 24ce798d393421da7bf50660b1cee427 99940 alsaplayer-alsa_0.99.82-1_amd64.deb
+ 7736fdf6de17df08e918cc837b41f1d1 100064 alsaplayer-alsa_0.99.82-1_i386.deb
+ e9e16cab1ddf8fd84ee9d61461c54c3e 231392 alsaplayer-common_0.99.82-1_amd64.deb
+ 97c9512f74e51855274e3a1f9e90467c 235580 alsaplayer-common_0.99.82-1_i386.deb
+ c0d4e54a108f53e99a81303e07b44bba 99460 alsaplayer-daemon_0.99.82-1_amd64.deb
+ 622e0fbb85ec29706344a9999ea41d37 99652 alsaplayer-daemon_0.99.82-1_i386.deb
+ 60953d4f9c868b514cab80c1629c765a 213444 alsaplayer-gtk_0.99.82-1_amd64.deb
+ 0f1933e0270dca147163ea02a7bf03fd 207220 alsaplayer-gtk_0.99.82-1_i386.deb
+ 8ac8c1d6d3a7aaec3250a44fa453dcff 101356 alsaplayer-jack_0.99.82-1_amd64.deb
+ 4adfe70d78112db39cc993be155ab7af 101484 alsaplayer-jack_0.99.82-1_i386.deb
+ 4e47b56c8a06b9f7483b4a0764539356 100192 alsaplayer-nas_0.99.82-1_amd64.deb
+ f801796453c843b1615ccf8695c96154 100216 alsaplayer-nas_0.99.82-1_i386.deb
+ 1dffc1298ce82fb14b7b7ddd2eb6b039 98612 alsaplayer-oss_0.99.82-1_amd64.deb
+ 16da1f8599208ee4f3065a3d6330e0f0 98728 alsaplayer-oss_0.99.82-1_i386.deb
+ 9129ab01a2cf74a9ed941bfa448378a5 100148 alsaplayer-text_0.99.82-1_amd64.deb
+ 51fefc05f5ef063a69e3a144d5ce3b01 100468 alsaplayer-text_0.99.82-1_i386.deb
+ 4ea75c841a6cb41161ca7131daab09b2 100196 alsaplayer-xosd_0.99.82-1_amd64.deb
+ 2b80793a734555369e4fdf272ba23b7e 100332 alsaplayer-xosd_0.99.82-1_i386.deb
+ bb4559ac412fe8c43f4acb27e06ab796 3284273 Contents
+ 4e06d4182c359b75f49d513ca94df88a 226916 Contents.gz
  b581b08310507b4d1c8bb5d2df0f6fc1 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  c20a5bf0b10dd089e3e5f98350a28030 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  54c07b774091aab6a63acbea831ad0a2 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -41,6 +59,10 @@ MD5Sum:
  0e6e3737b55386a521b8c61cbff0d592 2244780 gsmartcontrol_2.0.1-1_i386.deb
  beba9073e3cbb1389b255cc79ad3415b 101408 gtkdialog_0.8.5e-1_amd64.deb
  05833e872f3a8d4e3ca9392895062923 109332 gtkdialog_0.8.5e-1_i386.deb
+ 95bfe7bfb9973d574c66a533f5f43f96 104544 libalsaplayer0_0.99.82-1_amd64.deb
+ 8ef2f3e7e802e3e3b4decc48380c2225 104808 libalsaplayer0_0.99.82-1_i386.deb
+ e100e938f3cd4a718d33c496d73f8266 145724 libalsaplayer-dev_0.99.82-1_amd64.deb
+ 6c480947235e66419a59178dd440408c 146024 libalsaplayer-dev_0.99.82-1_i386.deb
  29b55ca44eee80101789c33dd2936d41 54268 libcpuid17_0.7.1+repack1-0.1_amd64.deb
  ffb3efbd2c2a6a5811ed98cb45062e93 56360 libcpuid17_0.7.1+repack1-0.1_i386.deb
  4b045d987e80592390d7c611509dde3d 108620 libcpuid-dev_0.7.1+repack1-0.1_amd64.deb
@@ -81,8 +103,8 @@ MD5Sum:
  41bcc0c06de080f99ad4594d79f619b7 1930600 numix-icon-theme_0~20241212-1_all.deb
  96ea31bce201200105deeaeffbb23484 725504 nvme-cli_2.11-1_amd64.deb
  13657a587698234b9dae67a114575192 68540 nvtop_3.1.0-1+b1_amd64.deb
- 6c2271f4baccfdeb5b6992509e61b366 121502 Packages
- abb330f48d91dd03a960bd837e3a5092 34149 Packages.gz
+ 002f6d1594f5400ea2666b61cf0738f9 142482 Packages
+ 94f1eb8e4071ce747d910a1584f37c99 39509 Packages.gz
  de12fbdcdc4688b18b6d76e7651b1ffd 93048 pup-volume-monitor_0.2w_amd64.deb
  fc9b44911ded48d042b5eae8022b7b67 100936 pup-volume-monitor_0.2w_i386.deb
  af5493cab7028ab4a5632013284b4e5d 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -116,8 +138,26 @@ MD5Sum:
 SHA1:
  7289805c0d68ddd5c0e55db85bc674a80010dd8c 463104 adwaita-icon-theme_47.0-2_all.deb
  bb7557a9fa02cecd598b83eda63b08f5054627f7 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- 4f778936960d19e67edb1b85f7bd21d9ab9a1ad2 3273452 Contents
- 7e9d60f3e36aac95d0c496beb0577e3ab52801c1 226124 Contents.gz
+ 708a19011871c163f56395c1dd7f28202756723f 99940 alsaplayer-alsa_0.99.82-1_amd64.deb
+ 511a99de4025a638fd9272a1e137cc7d14df7d3d 100064 alsaplayer-alsa_0.99.82-1_i386.deb
+ b93cdb1b72f91a6df2ac7318a2c1b88b26efc8ad 231392 alsaplayer-common_0.99.82-1_amd64.deb
+ c970495737110c6282d11dae6f4b2d87b56d2932 235580 alsaplayer-common_0.99.82-1_i386.deb
+ 91c524ab19599ad4d293e53838116523c3fc6953 99460 alsaplayer-daemon_0.99.82-1_amd64.deb
+ 42ad2bcc848250c41e36dbb2bfc21b4759dbd24a 99652 alsaplayer-daemon_0.99.82-1_i386.deb
+ cacb380720d44f91192e9bbf19a813a1933f3c3d 213444 alsaplayer-gtk_0.99.82-1_amd64.deb
+ e0ef292dc02ac87d76aa314d03d89e4955246985 207220 alsaplayer-gtk_0.99.82-1_i386.deb
+ e30e16629fb3278a9530aa47f70bc9bc681f64fe 101356 alsaplayer-jack_0.99.82-1_amd64.deb
+ a8f83cfc4cf486a3cba9efa8418b09c767cfc9a4 101484 alsaplayer-jack_0.99.82-1_i386.deb
+ 647459675faea44791d008ee9a9651ff1ce8814e 100192 alsaplayer-nas_0.99.82-1_amd64.deb
+ 9a75cdd41b9673d1efb35767a1e774c34d40705c 100216 alsaplayer-nas_0.99.82-1_i386.deb
+ e29bffdf4658ecd289597ad24d4b5fdbb4d2ddae 98612 alsaplayer-oss_0.99.82-1_amd64.deb
+ a196fb8adec5ede332859cb8e694c1ab5f5ad406 98728 alsaplayer-oss_0.99.82-1_i386.deb
+ e9a47e239a038d73b8ee256239cdb1f62c7d4067 100148 alsaplayer-text_0.99.82-1_amd64.deb
+ 94dfa71074685e1944e2b06676b23c90d8bb9308 100468 alsaplayer-text_0.99.82-1_i386.deb
+ 3cfa6c49ca93aa37cdbbf9b02f14ea839614f754 100196 alsaplayer-xosd_0.99.82-1_amd64.deb
+ faa34bc947c86ba477dbcb65c53d1af989ca7f4f 100332 alsaplayer-xosd_0.99.82-1_i386.deb
+ 4e55c79baeb8d7dd693f14e24c679d3bf0f20ffb 3284273 Contents
+ 1a2913760b8f0bdd0f28d873a9a423eaf40873a5 226916 Contents.gz
  07f7b349ea5b8e12b5c9f29fa3461fdb60514790 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  abf8a62c51b35f76b392b69d1d8096b71520aa4d 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  b3712707cf9397ab31cb52820e4ec449cfb10d02 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -144,6 +184,10 @@ SHA1:
  028c2b9d3bec9cf7f0717273d311c3eb2eb24204 2244780 gsmartcontrol_2.0.1-1_i386.deb
  1e13c17a580506502cb6e51a8e88ecf8a627a46b 101408 gtkdialog_0.8.5e-1_amd64.deb
  83193901d7d99a0d37056bec765ea1f2b0121fb5 109332 gtkdialog_0.8.5e-1_i386.deb
+ 682dd56532f7bcccba518d92f69f1cbd226489cb 104544 libalsaplayer0_0.99.82-1_amd64.deb
+ 64e86b921ba0518627f448c1e83678bef6fa7555 104808 libalsaplayer0_0.99.82-1_i386.deb
+ 2a10b87a44fb4dbe2a5c8689ea0b60b5e689ac1b 145724 libalsaplayer-dev_0.99.82-1_amd64.deb
+ 99c44ddb7836a7035163ffdb2af9c06478c3243c 146024 libalsaplayer-dev_0.99.82-1_i386.deb
  fa7a14069b63414729ab21e0b9e3c11b44b2c31d 54268 libcpuid17_0.7.1+repack1-0.1_amd64.deb
  5754c7445bf3e53655b4167737e9ca685b6f9ac0 56360 libcpuid17_0.7.1+repack1-0.1_i386.deb
  ffa21e94a08513d57e40586181f3cd5db618a297 108620 libcpuid-dev_0.7.1+repack1-0.1_amd64.deb
@@ -184,8 +228,8 @@ SHA1:
  cc0f088c2e4712f7b84e128fc9c1e6a887b782ba 1930600 numix-icon-theme_0~20241212-1_all.deb
  30b6278ca2e913147eb733236ec380ab9324c4dd 725504 nvme-cli_2.11-1_amd64.deb
  d594d5802e69fd14c3660a132e38b27186cc6872 68540 nvtop_3.1.0-1+b1_amd64.deb
- 3ca0184e1cc27d09b5cfb3b763dca15dc6e0ccb9 121502 Packages
- 7834895231be6bc72596a321238aa4eb380b84fd 34149 Packages.gz
+ b0a1c2d343b53f2993817c05bfdf181e4cd6277a 142482 Packages
+ 41a3bf903520e918461eae4251ffe627ba5e74bf 39509 Packages.gz
  98df307213a9a7e884ecdfd3495c477f0ef04b9e 93048 pup-volume-monitor_0.2w_amd64.deb
  e82524ecb3538d5e917f5b82cfc9d2dfbe1e2a3d 100936 pup-volume-monitor_0.2w_i386.deb
  c5a3221a6a79b87a51bf1912987bca84ad974019 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -219,8 +263,26 @@ SHA1:
 SHA256:
  9fb75c4ce32965e2c7c7715d58917ef795f5cc53366516d1b81b8e19fae80621 463104 adwaita-icon-theme_47.0-2_all.deb
  0320628c9ee4e93fcbcd9e84a8a78930a00bb5d923feec32d988dff3f0aa087d 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
- 7b9781312f5df62905c347f7385cec471287e2b6d3f86d88ba1f7872c4112ed4 3273452 Contents
- 79dc5d849c3340e8245ef2eac9f6a8763f6743100bb37fd9f935b287e5dc480e 226124 Contents.gz
+ 36832975295bdf8d027aecf1a53ac00658f282b58f4ec29575f69a0d433327a2 99940 alsaplayer-alsa_0.99.82-1_amd64.deb
+ 807619aa06ccd0bd1cf8c910eb3e5ff2cfe0d720022f8b447603469de73fb1a3 100064 alsaplayer-alsa_0.99.82-1_i386.deb
+ f6af709aa7dcdb1c3f5d975a1f4bacde064f79f119151db94a60c610286b894b 231392 alsaplayer-common_0.99.82-1_amd64.deb
+ 80760e3e8f737305e8006d7e09e60a75b16062233cb258c2fe9aab28dc0997e8 235580 alsaplayer-common_0.99.82-1_i386.deb
+ c1e3fab1ea866a3352cb07eea28f1c4433e781e393377758f6b7312a1e9d61dc 99460 alsaplayer-daemon_0.99.82-1_amd64.deb
+ aa5d0720a3f0a9e5dc6f32f11baf33b10c94dc5e95a769326850f62a1af5947d 99652 alsaplayer-daemon_0.99.82-1_i386.deb
+ f814e5184dfeeaa2fc1b124bfbf66f6e14182193318bfaa3a4a8f07c293673a4 213444 alsaplayer-gtk_0.99.82-1_amd64.deb
+ 744f98cc67bb344de06d5d22250c8750650921f807714446d5a389bafce7d19d 207220 alsaplayer-gtk_0.99.82-1_i386.deb
+ 0cf0d136549de13d185232e617c5ddb0158060df9210260ac30bf9d6cc663639 101356 alsaplayer-jack_0.99.82-1_amd64.deb
+ 4a98179ff17c8647f91583e4bdcbfc67695d6d3195c9e25cf9ec404dfc3a8c5d 101484 alsaplayer-jack_0.99.82-1_i386.deb
+ 8e39127aea6bf6550d9da66b2579b2e48bf7a380306f31febef09606e4bf9816 100192 alsaplayer-nas_0.99.82-1_amd64.deb
+ 8984145185e615e8f778ccd85accfb615d560193e1fb053c3f9023ef4c4ecbe3 100216 alsaplayer-nas_0.99.82-1_i386.deb
+ 0648047d013a2437b773bb8debb88fa1c97a2730d28f211355a892561538381d 98612 alsaplayer-oss_0.99.82-1_amd64.deb
+ 29b6f74aa77d2ba7242041cf9331fe1cf57c2b679d38326ab06ff82bb69063f6 98728 alsaplayer-oss_0.99.82-1_i386.deb
+ d1f545c38c31dd773492cd20100c5775356be42526f7966907e225dcb764531d 100148 alsaplayer-text_0.99.82-1_amd64.deb
+ 1bd3cf13327394cacf2ae185ded46663bf1339dd64fc0cfb7da1cc877b71a970 100468 alsaplayer-text_0.99.82-1_i386.deb
+ 0c0ac1d7292d8a65b1258ac1a2fab580e086fc329de2ed2ac67de108713267f6 100196 alsaplayer-xosd_0.99.82-1_amd64.deb
+ 5a46496796752dce5aa6e9d979b55d1a8843fee2a61a8e469324b4905f8aaf85 100332 alsaplayer-xosd_0.99.82-1_i386.deb
+ 9bd902af476f43a040513681bbc90b8a7a05e1f1d34dcbb9d75d9b4bc8e1d8d9 3284273 Contents
+ f2b3a15242f25462fbc3c98093504977e8631802bc0a8f91313d6c8718b2c959 226916 Contents.gz
  cd1e3f8f025d72b5c9741458bcfbfdb98cacbc0e1a748b0234db5adc2a2f1eb4 16844 cpuidtool_0.7.1+repack1-0.1_amd64.deb
  18b7f69ef29024deec9514758693fe34a93efe134aedda462fba5fc7f4e2aee6 16728 cpuidtool_0.7.1+repack1-0.1_i386.deb
  4113842970f15cfd0ec811c6bd80bc73a62d2d811fccc1c061440e80d5b9123c 2271144 cpu-x_5.1.1-0.1_amd64.deb
@@ -247,6 +309,10 @@ SHA256:
  3b4e96464c027b438f7b5a8e1f212426cb214bb696749c7128c7e6686e907488 2244780 gsmartcontrol_2.0.1-1_i386.deb
  657441ccd5ada62845d3745d6a451e2a985e52d0b3bdf6e1ef4c8c0e7f72c451 101408 gtkdialog_0.8.5e-1_amd64.deb
  157651738741c075208578e1d61248c3366b7dd7c9fd4fc4a293929c5d36f7ce 109332 gtkdialog_0.8.5e-1_i386.deb
+ c73d59191f5cc00a15e91ebdfbed059562c29a212a9289cf592d88fbdfe1d1ec 104544 libalsaplayer0_0.99.82-1_amd64.deb
+ 507a4b976dbd3c2037bca6d7015df348ae892a110c7a83446043d3883fe4049c 104808 libalsaplayer0_0.99.82-1_i386.deb
+ 5c3654a18403f63424fb1836561bd2d29ba9c0d595996203eb9083735a3a91ed 145724 libalsaplayer-dev_0.99.82-1_amd64.deb
+ 0175bef9fc8f73f020e684fc44214960a1cd562da6f7952ed160042469e04e16 146024 libalsaplayer-dev_0.99.82-1_i386.deb
  d88b1fb9a95a57383faeb2b040125720f52ceeb75a66f2c625d0fad55ef9cf88 54268 libcpuid17_0.7.1+repack1-0.1_amd64.deb
  a1cc45012fb5a172c0cde0942f3fa1b63a505132a8f9f10cc311544c63b02561 56360 libcpuid17_0.7.1+repack1-0.1_i386.deb
  588cc206e654d3644dc61d151cbd710db8c9bf21ef3d67c838b9d2f99e808a2c 108620 libcpuid-dev_0.7.1+repack1-0.1_amd64.deb
@@ -287,8 +353,8 @@ SHA256:
  beb26deedbb1e3daa62de67e02ed4a5b176063374aaa54edc06839d7d9b2e9df 1930600 numix-icon-theme_0~20241212-1_all.deb
  489493969fb61214d02cb1d9fa9ad49ea4ba7059c2b01c76aafec2c5ce5817b2 725504 nvme-cli_2.11-1_amd64.deb
  34391dfb03cb1c7584f6a8c13dae21a64dff12cd2d4a0e80bdbaf0d70561fa08 68540 nvtop_3.1.0-1+b1_amd64.deb
- c8312e006b35626c08ce569254f2fde09605629ba3cc986f218e6e08399809db 121502 Packages
- 1ce60e73ea038870f292fb5e0d47e413afc3426f836884af38eabd86dae384e1 34149 Packages.gz
+ 678c51681aae3aab4b8e881f52d3bb1478e415db02d0495f6e59802518fcbd02 142482 Packages
+ 31ad28198cf0e33b7e5597531e5aa5f6a79830b3f0adcd5263d8a66262e8074a 39509 Packages.gz
  277c68c159f006ccd2bf4f17710511f64d0049743e2801f1956baf3bf970bc9d 93048 pup-volume-monitor_0.2w_amd64.deb
  a45433ef3df284a02014140c863db3daf3ea56e7cb9c1abde99bc56dabe0b58d 100936 pup-volume-monitor_0.2w_i386.deb
  bbf2fa82d424c0eab1d5752b33586ed9bb85766cf86e68482e31b18161dbd6f8 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -321,15 +387,15 @@ SHA256:
  6072420a710d1240ff11c9fad09dfb0d10737b3d26c22a00d0c7eb13d4922971 212760 yad_14.1-1_i386.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmfxa+4ACgkQZ9Vqr4Ht
-qtlrDwv+KgtMRGkI9lNP6wDGIQnVepYBlg3fN9sB+ZSBWHcvHPdyWK3dOsT05T+o
-q7VbRH+jCZB3j7XbPoIRUBUjWY7FU9oOg0itd+MTptVWj3/rQZlHIPT3F5Mcc59k
-zy0ZLJXIxQYy5/bHCUkN/mnpDzwRoSaQ4J6Pxm2273/cd6kD6cjxDrVKcQPpTqeR
-ZD+TNG2FYqvnAMmnWrWNVbZww5EOIOnfDYM61EgHhyzhFOWogM9R9QWe2NUlVu+s
-KA1RUUQBwhy6FryzhI5qeSv8ekrPfkfEEpv+lxy+m7YcCHtHuj9Ox9YOo92LcgM8
-qckNEP70YppvGa3nJvFM/Zn4qcJSFkrc5x0xDt3RlN3PYN+wcYB7OZZ8CEEy4N3V
-ix0S6wy7sDfvuYNztqT0jISN9MRy4lD4b5K5Odj1vnyR3JEiw1QcgEMGTlPtK9vI
-qdDPu973d/HUWiumE0QUjpgMGvD6xShcysr/ZZyINe9OwyDDK7KtojeKOZKwt/s3
-3sD/4avm
-=W8Qw
+iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmfz2QkACgkQZ9Vqr4Ht
+qtnmtwv+Mgv7kO7c4YSnA6134FGq4/YpiCuc/lsgB/Ng9C9lc3+iV30ITAPhb0wC
+w8HonriqJP4I22/wCmtiKoxbgqzabLB63oEl5btaocvUP0we1ayHgPaDFFy02z5I
+Kqs/ErxP4N5Lb9tc0W9rEFJsjJYZHrALml9lWvMnj/8Hd/edwKnR+D01ogjVJNn1
+lEVT8nQyrCN/fPEV0uopFBpdLVGyKaUbjN5fn9TP1zWM9evDZV37SjgSF/S6FqS2
+y/P5ls4n1c/MHNRTDrJTJpNnevn630TI3StrS+mo8CubkRzs4w22f0hrLASVhegX
+glB9h6MALGQ2PvzTaxx6f4+czIlDaxOIziGiZ0RbuWMSVZOz9OefVC9pPQGDkkVL
+y302vNE9ZLwCaIuiFh2y4ltThkQ6jJITNlM5KM+JCZcleYlGpzVEgrY/RuZkd9r8
+t/6vbY+8mHRU77mfKaDQoPGI1vrf2i/r0N5keJoXuc63lhugzHQZPcD1sKu2/A2R
+8RkVIi/A
+=ASPn
 -----END PGP SIGNATURE-----
