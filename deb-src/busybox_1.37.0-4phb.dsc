@@ -19,10 +19,10 @@ Package-List:
  udhcpd deb net optional arch=all
 Checksums-Sha1:
  50efee4e4438b8aea90ea6895dac818d23125549 2565764 busybox_1.37.0.orig.tar.bz2
- 93b89c1f507f2c207ce2940bc437927c6a0fc782 65684 busybox_1.37.0-4phb.debian.tar.xz
+ c63cf77f2372d6815315bfab66e4c77fa3ce104c 65688 busybox_1.37.0-4phb.debian.tar.xz
 Checksums-Sha256:
  3311dff32e746499f4df0d5df04d7eb396382d7e108bb9250e7b519b837043a4 2565764 busybox_1.37.0.orig.tar.bz2
- 3f6f2034e3c5fcc66468bb13e4821fc44d03d657b178269ee94c90096ffe97ac 65684 busybox_1.37.0-4phb.debian.tar.xz
+ 02eef927e4e41a4f8ff19667876a1c9720ef0806f65c91998eaaff8bc11211aa 65688 busybox_1.37.0-4phb.debian.tar.xz
 Files:
  865b68ab41b923d9cdbebf3f2c8b04ec 2565764 busybox_1.37.0.orig.tar.bz2
- a35f11e35afc7ddbf51aed4073596995 65684 busybox_1.37.0-4phb.debian.tar.xz
+ ffbaf371b75283dd006fd848f2827ded 65688 busybox_1.37.0-4phb.debian.tar.xz

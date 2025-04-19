@@ -476,11 +476,11 @@ Provides: busybox
 Conflicts: busybox
 Replaces: busybox
 Filename: ./busybox-static_1.37.0-4phb_amd64.deb
-Size: 654124
-MD5sum: 797764acc5177a31eca102a54e44a13e
-SHA1: 4af43bdc97e5060e28cbe6d53f3d25deb0d63ca9
-SHA256: 38ded9b54a49bb26ded244528d14977eccf3b100d6954293a0cce7c33a90c5ac
-SHA512: ed366726f3bebea2b399fe9f10371d61d13af1494973a08a48a85569c5f58449c4ca865a964ef4eb62847aa71ccbf3763be4c3160bd8fe947f938db6bd98396d
+Size: 656608
+MD5sum: d976cc0d9e1c884d783d84c1588928d6
+SHA1: 524766ca88e094b34c2805ed3a6fbdbd94eb87d9
+SHA256: 17db6ae6a9f21f221716d4fcd4e098589611e9d588c86dbc2709883c11f4b79e
+SHA512: ebfc9c300e82a3e2c377ac766c08a84101ab981debf2f4f9f1667bb26987b9e11f4a353071f4b40edc510e7e8082838831adee49d58bf122196bbcad37924637
 Homepage: http://www.busybox.net
 Description: Standalone rescue shell with tons of builtin utilities
  BusyBox combines tiny versions of many common UNIX utilities into a single
@@ -506,16 +506,16 @@ Priority: optional
 Section: shells
 Source: busybox
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Installed-Size: 1608
+Installed-Size: 1612
 Provides: busybox
 Conflicts: busybox
 Replaces: busybox
 Filename: ./busybox-static_1.37.0-4phb_i386.deb
-Size: 687140
-MD5sum: 7381b45e847cc71530a23a49d1ed399e
-SHA1: feda4cb15fc4cb01c1307fca0f4b94657b73736e
-SHA256: 9f66e293c4d3a1456b73822ac77393f96e6b44d09774d833cec6c58ebf733672
-SHA512: f85ad6e7eb913381bcc147266feebffe1a1acce5392854c86df2f6689bd18a2e9fa89f9ca325dc727ef4b153a7e6006321a6d03165c629eae93c5c8626c1a2af
+Size: 689436
+MD5sum: dffb0fa83362f2caa644454b59653af3
+SHA1: 53a0c9797433feedfa29c94713af99fc7c308652
+SHA256: 49c368c07ade4821ccf8e1f9c3fe426491872dfb336c9281d954d8d593fb6c18
+SHA512: f6a5e0d3f5a9d35f4e00ffaa0cd9979e9300e69ffeb54a4d2900d87a98630b904117630524046220f314f32d6abcf42e355e60f6540e9efda99d5e9417d23db3
 Homepage: http://www.busybox.net
 Description: Standalone rescue shell with tons of builtin utilities
  BusyBox combines tiny versions of many common UNIX utilities into a single
