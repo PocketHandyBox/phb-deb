@@ -10,9 +10,6 @@ etc/tigervnc/vncserver.users				    tigervncserver
 etc/xdg/Thunar/uca.xml					    thunar-data
 etc/xdg/pup-volume-monitor/main.conf			    pup-volume-monitor
 lib/systemd/system/vncserver@.service			    tigervncserver
-opt/gsmartcontrol/gsmartcontrol				    gsmartcontrol
-opt/gsmartcontrol/libstdc++.so.6			    gsmartcontrol
-opt/gsmartcontrol/libstdc++.so.6.0.32			    gsmartcontrol
 usr/bin/Thunar						    thunar
 usr/bin/Xtigervnc					    tigervncserver
 usr/bin/alsaplayer					    alsaplayer-common
