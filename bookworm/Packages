@@ -1204,6 +1204,23 @@ Description: Small utility for fast and easy GUI building
  Gtkdialog is a program that allows you to build graphical user
  interfaces quickly and easily.
 
+Package: kbt
+Architecture: amd64
+Version: 2.1.0
+Priority: optional
+Section: utils
+Maintainer: gumanzoy <gumanzoy@gmail.com>
+Installed-Size: 1256
+Depends: libc6, libx11-6, libxcb1
+Filename: ./kbt_2.1.0_amd64.deb
+Size: 424980
+MD5sum: ef04ecd1f09f3fbd5d9b1e683506aaea
+SHA1: 7f95487410b2b508110f3dcccbc5a5653c5aeeb0
+SHA256: fd0336f883a7350d411a9124b2a16ba6933938f7bbee355ce0751e8c2d161d85
+SHA512: df89ba255003a85313f21443084cf5068c18094a5c31a7f92c5c414463b18a31b718e68a1e5a5a4964d06fc84bedc908a4d668f84a8530cf97ecd704a369ad21
+Homepage: https://github.com/bloznelis/kbt
+Description: Keyboard tester in terminal
+
 Package: libalsaplayer-dev
 Architecture: amd64
 Version: 0.99.82-1

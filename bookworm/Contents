@@ -392,6 +392,7 @@ usr/libexec/engrampa/isoinfo.sh				    engrampa
 usr/libexec/gpartedbin					    gparted
 usr/libexec/pup-volume-monitor/mount			    pup-volume-monitor
 usr/libexec/pup-volume-monitor/umount			    pup-volume-monitor
+usr/local/bin/kbt					    kbt
 usr/sbin/gparted					    gparted
 usr/sbin/gsmartcontrol					    gsmartcontrol
 usr/sbin/nvme						    nvme-cli
