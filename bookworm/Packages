@@ -535,18 +535,18 @@ Description: Standalone rescue shell with tons of builtin utilities
 
 Package: cpu-x
 Architecture: amd64
-Version: 5.1.1-0.1
+Version: 5.3.1-0.3
 Priority: optional
 Section: x11
 Maintainer: Martin Wimpress <code@wimpress.io>
-Installed-Size: 4422
-Depends: libc6 (>= 2.34), libcairomm-1.0-1v5 (>= 1.14.4), libcpuid17 (>= 0.7.0), libgcc-s1 (>= 3.0), libgl1, libglfw3 (>= 3.3), libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.66.5), libgtkmm-3.0-1v5 (>= 3.24.7), libncursesw6 (>= 6), libpangomm-1.4-1v5 (>= 2.46.3), libpci3 (>= 1:3.8.0), libproc2-0 (>= 2:4.0.2), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 11), libtinfo6 (>= 6), libvulkan1 (>= 1.2.131.2), dconf-gsettings-backend | gsettings-backend, procps
-Filename: ./cpu-x_5.1.1-0.1_amd64.deb
-Size: 2271144
-MD5sum: 54c07b774091aab6a63acbea831ad0a2
-SHA1: b3712707cf9397ab31cb52820e4ec449cfb10d02
-SHA256: 4113842970f15cfd0ec811c6bd80bc73a62d2d811fccc1c061440e80d5b9123c
-SHA512: 7418e45dca910fb522bfda1730472882fb788eb91c0c5ad3cd237a7a3a1c8946cf4fcb1b07ebcdd8d70cbb477fe398b6e9dc857ba12094aa523815c8c53d84b0
+Installed-Size: 4588
+Depends: libc6 (>= 2.34), libcairomm-1.0-1v5 (>= 1.14.4), libcpuid18 (>= 0.8.0+repack1-0.3), libegl1, libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.66.5), libgtkmm-3.0-1v5 (>= 3.24.7), libncursesw6 (>= 6), libopengl0, libpangomm-1.4-1v5 (>= 2.46.3), libpci3 (>= 1:3.8.0), libproc2-0 (>= 2:4.0.2), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 11), libtinfo6 (>= 6), libvulkan1 (>= 1.2.131.2), ocl-icd-libopencl1 | libopencl1, dconf-gsettings-backend | gsettings-backend, procps
+Filename: ./cpu-x_5.3.1-0.3_amd64.deb
+Size: 2298492
+MD5sum: 788de5357282afaf84e68b37f82e4daa
+SHA1: 1e688f52f2df09e85b1bdce1f450fe01fde3e705
+SHA256: 371a797916c04f130f001a32cfa8d7760546b5a668c0314c5e569e3b5d7a759f
+SHA512: c857da7a83b6f715858937cacce03378fd6b135c677e7542686f574ba4cf3f7801133210127a9b0bc61b1a2572b0c42fac3120a5e4c57f7043a6250cf552d865
 Homepage: https://github.com/X0rg/CPU-X
 Description: Tool that gathers information on CPU, motherboard and more
  CPU-X is similar to CPU-Z (for MS Windows). It can be used in graphical
@@ -555,18 +555,18 @@ Description: Tool that gathers information on CPU, motherboard and more
 
 Package: cpu-x
 Architecture: i386
-Version: 5.1.1-0.1
+Version: 5.3.1-0.3
 Priority: optional
 Section: x11
 Maintainer: Martin Wimpress <code@wimpress.io>
-Installed-Size: 4406
-Depends: libc6 (>= 2.34), libcairomm-1.0-1v5 (>= 1.14.4), libcpuid17 (>= 0.7.0), libgcc-s1 (>= 4.2), libgl1, libglfw3 (>= 3.3), libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.66.5), libgtkmm-3.0-1v5 (>= 3.24.7), libncursesw6 (>= 6), libpangomm-1.4-1v5 (>= 2.46.3), libpci3 (>= 1:3.8.0), libproc2-0 (>= 2:4.0.2), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 11), libtinfo6 (>= 6), libvulkan1 (>= 1.2.131.2), dconf-gsettings-backend | gsettings-backend, procps
-Filename: ./cpu-x_5.1.1-0.1_i386.deb
-Size: 2280960
-MD5sum: 59ff2fcec9a58e8f9ef91ad83f48f658
-SHA1: 21dbf0f4e168e47c324005db3d63754b9bada512
-SHA256: 5f4294b3160a828a535030dabfc906e0ddef7abf2f71c8da838056e9a43f1899
-SHA512: 91d3c14c99539ede1efca9822c22d97151a8f9a8bcdf0e1900f43d62700e50ccd8c74331c5cecf90182466137da24790618c077886a7cd07ba904732c670d269
+Installed-Size: 4564
+Depends: libc6 (>= 2.34), libcairomm-1.0-1v5 (>= 1.14.4), libcpuid18 (>= 0.8.0+repack1-0.3), libegl1, libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.66.5), libgtkmm-3.0-1v5 (>= 3.24.7), libncursesw6 (>= 6), libopengl0, libpangomm-1.4-1v5 (>= 2.46.3), libpci3 (>= 1:3.8.0), libproc2-0 (>= 2:4.0.2), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 11), libtinfo6 (>= 6), libvulkan1 (>= 1.2.131.2), ocl-icd-libopencl1 | libopencl1, dconf-gsettings-backend | gsettings-backend, procps
+Filename: ./cpu-x_5.3.1-0.3_i386.deb
+Size: 2310940
+MD5sum: 32e6b917cbcb954451050890ecf5ad90
+SHA1: 0998059b8f6ed2ab5579331b240f1ce898b1e814
+SHA256: 6b0ead3b64a1f7bb189484e882cabce72a8b1264db0180582be7adac4821ede8
+SHA512: 9d38e7264ca4f3955bb9314aaf1ff1e2d75bc53349d2dc374290ec3a461379a6f921dbd04ba445b748377bb800f7b5bf1118c6c12a45925b84b42a4005143596
 Homepage: https://github.com/X0rg/CPU-X
 Description: Tool that gathers information on CPU, motherboard and more
  CPU-X is similar to CPU-Z (for MS Windows). It can be used in graphical
@@ -575,23 +575,23 @@ Description: Tool that gathers information on CPU, motherboard and more
 
 Package: cpuidtool
 Architecture: amd64
-Version: 0.7.1+repack1-0.1
+Version: 0.8.0+repack1-0.3
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: libcpuid
 Maintainer: Martin Wimpress <code@wimpress.io>
 Installed-Size: 51
-Depends: libc6 (>= 2.34), libcpuid17 (>= 0.7.0)
-Filename: ./cpuidtool_0.7.1+repack1-0.1_amd64.deb
-Size: 16844
-MD5sum: b581b08310507b4d1c8bb5d2df0f6fc1
-SHA1: 07f7b349ea5b8e12b5c9f29fa3461fdb60514790
-SHA256: cd1e3f8f025d72b5c9741458bcfbfdb98cacbc0e1a748b0234db5adc2a2f1eb4
-SHA512: 0e866a47c665942811a707a8caeca5785148997859c88e3cccec7c4fea012c81ead72de198f8bfdf0ef642f3167d411b219571939fc1a162a6d6bf7eba95bbaf
+Depends: libc6 (>= 2.34), libcpuid18 (>= 0.8.0)
+Filename: ./cpuidtool_0.8.0+repack1-0.3_amd64.deb
+Size: 17640
+MD5sum: 946755ffa70bd5b7075eb1ac5dfdf378
+SHA1: ae346ea384db3a64549a27e16b0c131394ee8f3e
+SHA256: 2a9e65de239dafdf0d8139b3d860b3470fdd532833b01f01a42ebbf4ae236299
+SHA512: 2a8571adcb477181286be1253a5c7a2b11cef16bffc72db1f5caeeefd854b50c8d773e3bc3daa14dee38981ed65f384c24c9c009b084a2c1cc8473a937201bc7
 Homepage: https://github.com/anrieff/libcpuid
-Description: C library for x86/x86_64 CPU detection and feature extraction (tool)
- libcpuid is a small C library for x86 CPU detection and feature
+Description: C library for x86/ARM CPU detection and feature extraction (tool)
+ libcpuid is a small C library for x86/ARM CPU detection and feature
  extraction. Using it, you can:
  .
     - get the processor vendor, model, brand string, code name,
@@ -605,23 +605,23 @@ Description: C library for x86/x86_64 CPU detection and feature extraction (tool
 
 Package: cpuidtool
 Architecture: i386
-Version: 0.7.1+repack1-0.1
+Version: 0.8.0+repack1-0.3
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: libcpuid
 Maintainer: Martin Wimpress <code@wimpress.io>
 Installed-Size: 46
-Depends: libc6 (>= 2.34), libcpuid17 (>= 0.7.0)
-Filename: ./cpuidtool_0.7.1+repack1-0.1_i386.deb
-Size: 16728
-MD5sum: c20a5bf0b10dd089e3e5f98350a28030
-SHA1: abf8a62c51b35f76b392b69d1d8096b71520aa4d
-SHA256: 18b7f69ef29024deec9514758693fe34a93efe134aedda462fba5fc7f4e2aee6
-SHA512: f11ef47a36648c0170cc3342cf27814d0ce8ec00ddd8d8b2a8dcf64f40657a5d03c704e0406536529018df379bf83bc4a165a62d14aaf3c935fde1da4c205226
+Depends: libc6 (>= 2.34), libcpuid18 (>= 0.8.0)
+Filename: ./cpuidtool_0.8.0+repack1-0.3_i386.deb
+Size: 17472
+MD5sum: 8494a3891817f1929952379ba46ed88a
+SHA1: f3d3a7c543bf0bbf700d4d208d2675de2bb90ac9
+SHA256: 05d877882a2774855f1695ac36192f13b843e06509d4ff944e40f1449bac7636
+SHA512: b78e9caba79b9b1bd7dad6a1fc630b4c7d388d4035283e6f43d7fea91185a4b33b8262cf74b3012dbd805054b9061c5d91f6450e77082b259d71d7bf49d94bee
 Homepage: https://github.com/anrieff/libcpuid
-Description: C library for x86/x86_64 CPU detection and feature extraction (tool)
- libcpuid is a small C library for x86 CPU detection and feature
+Description: C library for x86/ARM CPU detection and feature extraction (tool)
+ libcpuid is a small C library for x86/ARM CPU detection and feature
  extraction. Using it, you can:
  .
     - get the processor vendor, model, brand string, code name,
@@ -1305,23 +1305,23 @@ Description: alsaplayer plugin library
 
 Package: libcpuid-dev
 Architecture: amd64
-Version: 0.7.1+repack1-0.1
+Version: 0.8.0+repack1-0.3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: libcpuid
 Maintainer: Martin Wimpress <code@wimpress.io>
-Installed-Size: 421
-Depends: libcpuid17 (= 0.7.1+repack1-0.1)
-Filename: ./libcpuid-dev_0.7.1+repack1-0.1_amd64.deb
-Size: 108620
-MD5sum: 4b045d987e80592390d7c611509dde3d
-SHA1: ffa21e94a08513d57e40586181f3cd5db618a297
-SHA256: 588cc206e654d3644dc61d151cbd710db8c9bf21ef3d67c838b9d2f99e808a2c
-SHA512: d43ab94965fb24ec50554f0a53add911c4238f84b5f7da68cc7c5c7cf813d3597ff093de10d94f7ebbbca3dbe1b761b157eae31d323e7113358bd980cb0dcb05
+Installed-Size: 484
+Depends: libcpuid18 (= 0.8.0+repack1-0.3)
+Filename: ./libcpuid-dev_0.8.0+repack1-0.3_amd64.deb
+Size: 110372
+MD5sum: 5c5922415ad02de863c4f39296e20dc4
+SHA1: 958f4a756fa46d6e71d5bf13e94578d6343b4583
+SHA256: 2a9acb2f212fae7388f19f05e773c1e28c7b9a0f85d9a738a5aa259b8c7d5c05
+SHA512: 8389d83dc8b6bc92a9b5ace3fe36cee083e757ed9230b51be3b59395581b46dd6d6a8b07b01d760354d46d749244c8ea5c0f2d9370b4ab7306a771898d35d111
 Homepage: https://github.com/anrieff/libcpuid
-Description: C library for x86/x86_64 CPU detection and feature extraction (headers)
- libcpuid is a small C library for x86 CPU detection and feature
+Description: C library for x86/ARM CPU detection and feature extraction (headers)
+ libcpuid is a small C library for x86/ARM CPU detection and feature
  extraction. Using it, you can:
  .
     - get the processor vendor, model, brand string, code name,
@@ -1335,23 +1335,23 @@ Description: C library for x86/x86_64 CPU detection and feature extraction (head
 
 Package: libcpuid-dev
 Architecture: i386
-Version: 0.7.1+repack1-0.1
+Version: 0.8.0+repack1-0.3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: libcpuid
 Maintainer: Martin Wimpress <code@wimpress.io>
-Installed-Size: 376
-Depends: libcpuid17 (= 0.7.1+repack1-0.1)
-Filename: ./libcpuid-dev_0.7.1+repack1-0.1_i386.deb
-Size: 111768
-MD5sum: 8c9f6eaa2bc586709fea3e24e1b4e49f
-SHA1: 8f1661aaac74926b3c225539cfa5a94ab501faef
-SHA256: 6fb4c7f8c87878daeec475312a7f2cd32b9a8da4a09cc29604d4f895f49453c6
-SHA512: 3376acd2ad1871185c199473e02dc8be09f1b20195beea53f3f61fd476ba19401a8bff02394105a6099dfa1b9de03807af77f0ca3e97613550f4f5a1f2d00159
+Installed-Size: 445
+Depends: libcpuid18 (= 0.8.0+repack1-0.3)
+Filename: ./libcpuid-dev_0.8.0+repack1-0.3_i386.deb
+Size: 113152
+MD5sum: 8d011b4f684053edaa1024bc6a0d66d8
+SHA1: 59e960f12a09a178095e370fff0dfcca08ab0b46
+SHA256: bf3b84a68f10a945e5785e001586ef8d4225924c7ddf6f0714f838e6c504835f
+SHA512: 6b076f8243974ca11a56110ba28c0ce30864697a6728e30125fda84b447a2b8408dc0e9d959f46557c9a611cddcd361686cd54eda5f53c29d7a7e8a55e3fecfe
 Homepage: https://github.com/anrieff/libcpuid
-Description: C library for x86/x86_64 CPU detection and feature extraction (headers)
- libcpuid is a small C library for x86 CPU detection and feature
+Description: C library for x86/ARM CPU detection and feature extraction (headers)
+ libcpuid is a small C library for x86/ARM CPU detection and feature
  extraction. Using it, you can:
  .
     - get the processor vendor, model, brand string, code name,
@@ -1363,25 +1363,25 @@ Description: C library for x86/x86_64 CPU detection and feature extraction (head
  .
  This package ships the libcpuid development headers.
 
-Package: libcpuid17
+Package: libcpuid18
 Architecture: amd64
-Version: 0.7.1+repack1-0.1
+Version: 0.8.0+repack1-0.3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libcpuid
 Maintainer: Martin Wimpress <code@wimpress.io>
-Installed-Size: 232
+Installed-Size: 300
 Depends: libc6 (>= 2.34)
-Filename: ./libcpuid17_0.7.1+repack1-0.1_amd64.deb
-Size: 54268
-MD5sum: 29b55ca44eee80101789c33dd2936d41
-SHA1: fa7a14069b63414729ab21e0b9e3c11b44b2c31d
-SHA256: d88b1fb9a95a57383faeb2b040125720f52ceeb75a66f2c625d0fad55ef9cf88
-SHA512: 0fd2c3494f6733aa18200875cbdecc32abde68933dbc488fe4246003f759d197af3d70b7e75e0bd0e5a9fa6188e19919ab277768a676e82ade410fc86cb4eab6
+Filename: ./libcpuid18_0.8.0+repack1-0.3_amd64.deb
+Size: 55384
+MD5sum: d840cebb4458ac5f9594dba704d9f336
+SHA1: b707f00ecb780667b5a0bc41ecadcc8af38aad04
+SHA256: f401222ab631e37f729c8f0166449414456ccf7bfd373e01ee7da3b9b3157142
+SHA512: 475daea5fc143da2422303cd925371bf4d7348bf97cd5f9b7c983ed84edf4f18775ed6d2102c70d702ec62e43c82f053b2276a1b37595f703e4f1efc9280336a
 Homepage: https://github.com/anrieff/libcpuid
-Description: C library for x86/x86_64 CPU detection and feature extraction (shared lib)
- libcpuid is a small C library for x86 CPU detection and feature
+Description: C library for x86/ARM CPU detection and feature extraction (shared lib)
+ libcpuid is a small C library for x86/ARM CPU detection and feature
  extraction. Using it, you can:
  .
     - get the processor vendor, model, brand string, code name,
@@ -1393,25 +1393,25 @@ Description: C library for x86/x86_64 CPU detection and feature extraction (shar
  .
  This package ships the libcpuid shared library.
 
-Package: libcpuid17
+Package: libcpuid18
 Architecture: i386
-Version: 0.7.1+repack1-0.1
+Version: 0.8.0+repack1-0.3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libcpuid
 Maintainer: Martin Wimpress <code@wimpress.io>
-Installed-Size: 217
+Installed-Size: 288
 Depends: libc6 (>= 2.34)
-Filename: ./libcpuid17_0.7.1+repack1-0.1_i386.deb
-Size: 56360
-MD5sum: ffb3efbd2c2a6a5811ed98cb45062e93
-SHA1: 5754c7445bf3e53655b4167737e9ca685b6f9ac0
-SHA256: a1cc45012fb5a172c0cde0942f3fa1b63a505132a8f9f10cc311544c63b02561
-SHA512: c3757f5efe91dd64ea0152956825e42df5eea0a2946586d0823c3ee9c5dda3caf1e618e7d5bfba6a966b4d6ede32eddbc967fc994537d3187bda871b9cdb8006
+Filename: ./libcpuid18_0.8.0+repack1-0.3_i386.deb
+Size: 57292
+MD5sum: bef9521d05cebaaad65dc5454d9200f7
+SHA1: cf5e6a598607d117090d6cb85805d997cb570f5a
+SHA256: 457e009fcf0af7ee8f5dcf31a8f71472e10f881c32cc8e2ba168d51cb485e541
+SHA512: f6acf5e9f944c4eff7a0499e4791b48707a72f7c35280cb844bcae49ea9a2fa862db219bd9b5436a2ba8e3bb42ddcfc9eab41d3a4e8a93e17161ca87e3823ac0
 Homepage: https://github.com/anrieff/libcpuid
-Description: C library for x86/x86_64 CPU detection and feature extraction (shared lib)
- libcpuid is a small C library for x86 CPU detection and feature
+Description: C library for x86/ARM CPU detection and feature extraction (shared lib)
+ libcpuid is a small C library for x86/ARM CPU detection and feature
  extraction. Using it, you can:
  .
     - get the processor vendor, model, brand string, code name,

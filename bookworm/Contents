@@ -237,8 +237,8 @@ usr/lib/i386-linux-gnu/libalsaplayer.so.0.0.2		    libalsaplayer0
 usr/lib/i386-linux-gnu/libcpuid.a			    libcpuid-dev
 usr/lib/i386-linux-gnu/libcpuid.la			    libcpuid-dev
 usr/lib/i386-linux-gnu/libcpuid.so			    libcpuid-dev
-usr/lib/i386-linux-gnu/libcpuid.so.17			    libcpuid17
-usr/lib/i386-linux-gnu/libcpuid.so.17.0.1		    libcpuid17
+usr/lib/i386-linux-gnu/libcpuid.so.18			    libcpuid18
+usr/lib/i386-linux-gnu/libcpuid.so.18.1.0		    libcpuid18
 usr/lib/i386-linux-gnu/libpng12.so.0			    libpng12-0
 usr/lib/i386-linux-gnu/libpng12.so.0.59.0		    libpng12-0
 usr/lib/i386-linux-gnu/libpupvm.a			    pup-volume-monitor
@@ -336,8 +336,8 @@ usr/lib/x86_64-linux-gnu/libalsaplayer.so.0.0.2		    libalsaplayer0
 usr/lib/x86_64-linux-gnu/libcpuid.a			    libcpuid-dev
 usr/lib/x86_64-linux-gnu/libcpuid.la			    libcpuid-dev
 usr/lib/x86_64-linux-gnu/libcpuid.so			    libcpuid-dev
-usr/lib/x86_64-linux-gnu/libcpuid.so.17			    libcpuid17
-usr/lib/x86_64-linux-gnu/libcpuid.so.17.0.1		    libcpuid17
+usr/lib/x86_64-linux-gnu/libcpuid.so.18			    libcpuid18
+usr/lib/x86_64-linux-gnu/libcpuid.so.18.1.0		    libcpuid18
 usr/lib/x86_64-linux-gnu/libnvme-mi.a			    libnvme-dev
 usr/lib/x86_64-linux-gnu/libnvme-mi.so			    libnvme-dev
 usr/lib/x86_64-linux-gnu/libnvme-mi.so.1		    libnvme1
@@ -612,9 +612,9 @@ usr/share/doc/libcpuid-dev/Readme.md.gz			    libcpuid-dev
 usr/share/doc/libcpuid-dev/changelog.Debian.gz		    libcpuid-dev
 usr/share/doc/libcpuid-dev/changelog.gz			    libcpuid-dev
 usr/share/doc/libcpuid-dev/copyright			    libcpuid-dev
-usr/share/doc/libcpuid17/changelog.Debian.gz		    libcpuid17
-usr/share/doc/libcpuid17/changelog.gz			    libcpuid17
-usr/share/doc/libcpuid17/copyright			    libcpuid17
+usr/share/doc/libcpuid18/changelog.Debian.gz		    libcpuid18
+usr/share/doc/libcpuid18/changelog.gz			    libcpuid18
+usr/share/doc/libcpuid18/copyright			    libcpuid18
 usr/share/doc/libnvme-dev/changelog.Debian.gz		    libnvme-dev
 usr/share/doc/libnvme-dev/copyright			    libnvme-dev
 usr/share/doc/libnvme-dev/examples/discover-loop.c	    libnvme-dev
@@ -40086,6 +40086,7 @@ usr/share/locale/en_GB/LC_MESSAGES/mousepad.mo		    mousepad
 usr/share/locale/en_GB/LC_MESSAGES/thunar.mo		    thunar-data
 usr/share/locale/en_GB/LC_MESSAGES/xfconf.mo		    xfconf
 usr/share/locale/en_US/LC_MESSAGES/engrampa.mo		    engrampa-common
+usr/share/locale/eo/LC_MESSAGES/cpu-x.mo		    cpu-x
 usr/share/locale/eo/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/eo/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/eo/LC_MESSAGES/gpicview.mo		    gpicview
@@ -40162,6 +40163,7 @@ usr/share/locale/ga/LC_MESSAGES/cpu-x.mo		    cpu-x
 usr/share/locale/ga/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/gd/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/gd/LC_MESSAGES/gparted.mo		    gparted-common
+usr/share/locale/gl/LC_MESSAGES/cpu-x.mo		    cpu-x
 usr/share/locale/gl/LC_MESSAGES/engrampa.mo		    engrampa-common
 usr/share/locale/gl/LC_MESSAGES/gparted.mo		    gparted-common
 usr/share/locale/gl/LC_MESSAGES/gpicview.mo		    gpicview
