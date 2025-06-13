@@ -1,0 +1,1061 @@
+Package: alsaplayer-gtk
+Architecture: amd64
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 741
+Provides: alsaplayer-interface
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libglib2.0-0t64 (>= 2.12.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 11), alsaplayer-common
+Filename: ./alsaplayer-gtk_0.99.82-1_amd64.deb
+Size: 212208
+MD5sum: 2a74ab2b9e21512bd86573960510fa02
+SHA1: 865e638964f5560be1ef6be99f08dfee80579e3c
+SHA256: d3f6aa6f1ba54907be613227903ba84aba5c2871fb51c96de0e07a669925909c
+SHA512: 0d2f3121ef8d7e6a8b446faeb17183a70cbfb694fc346c0ff7fcf48d4c5a23fa2eddcdf6e2a476de8340e03d9a2911dc54db676e6000e6d5e1da669ba8a20df7
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer gtk interface
+ This package provides a GTK+ interface to alsaplayer, an audio player.
+
+Package: alsaplayer-gtk
+Architecture: i386
+Version: 0.99.82-1
+Multi-Arch: same
+Priority: optional
+Section: sound
+Source: alsaplayer
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 559
+Provides: alsaplayer-interface
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libglib2.0-0t64 (>= 2.12.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 11), alsaplayer-common
+Filename: ./alsaplayer-gtk_0.99.82-1_i386.deb
+Size: 203884
+MD5sum: 42b8ed59d8ce324060234f88cae72e82
+SHA1: 1ba5e5857edcba4d261f5cc322c17bf7bbf2ab4f
+SHA256: daed2762a9c44cc079e486de37fb2aabe0d33efa8f92951968741dd8ab6d9734
+SHA512: 0a0a89a5f6f5e0f70b35919708cc97503d2f285fa553ac8e8449772a750a93013229f62d4cb8e89bcb3ce1cb2e4fc413c6c8677fcf7f22b92faee60b3a4869f1
+Homepage: https://alsaplayer.sourceforge.net/
+Description: alsaplayer gtk interface
+ This package provides a GTK+ interface to alsaplayer, an audio player.
+
+Package: busybox-static
+Architecture: amd64
+Version: 2:1.37.0-6phb
+Static-Built-Using: glibc (= 2.41-8)
+Priority: optional
+Section: shells
+Source: busybox
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 1584
+Provides: busybox
+Conflicts: busybox
+Replaces: busybox
+Filename: ./busybox-static_1.37.0-6phb_amd64.deb
+Size: 674508
+MD5sum: 3f0ea4e75bf814f3ba091256e0d32caf
+SHA1: 4295e7196199da796d9e6a9b00f1ce4da17f9f44
+SHA256: 4dbcbe0c6fed3f23a86e55405a80825215e247096c816ae19082cb3e2a12596c
+SHA512: be411e199dd52d62eb3ba7b625fc5f5d8046b67e01ae643ffb098ed18b5688b419e5d5f9c2fe30916d2d5b76bcedcf88dc9f97105dd929d1d66f8e2d5ee448e7
+Homepage: http://www.busybox.net
+Description: Standalone rescue shell with tons of builtin utilities
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.).  The utilities in BusyBox generally have fewer options than
+ their full-featured GNU cousins; however, the options that are included
+ provide the expected functionality and behave very much like their GNU
+ counterparts.
+ .
+ busybox-static provides you with a statically linked simple stand alone shell
+ that provides all the utilities available in BusyBox. This package is
+ intended to be used as a rescue shell, in the event that you screw up your
+ system. Invoke "busybox sh" and you have a standalone shell ready to save
+ your system from certain destruction. Invoke "busybox", and it will list the
+ available builtin commands.
+
+Package: busybox-static
+Architecture: i386
+Version: 2:1.37.0-6phb
+Static-Built-Using: glibc (= 2.41-8)
+Priority: optional
+Section: shells
+Source: busybox
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 1661
+Provides: busybox
+Conflicts: busybox
+Replaces: busybox
+Filename: ./busybox-static_1.37.0-6phb_i386.deb
+Size: 708192
+MD5sum: 05522c363550bd29b1da75a1536de145
+SHA1: faf68d8ebfeeec1a6b127040e5b4643426e8b052
+SHA256: d25b89714e042e9179b8aea8791cf889659921f3e41ddf25f48c324a2be271fb
+SHA512: 5de85ae3008f4e687426cd0555e3b73c3bfa6a284fe81cc4ff10a1a87820c882bebb1278c12bdf103a26e67edda9f24b1f46f7aad90bcc55b52dbbfb4b432957
+Homepage: http://www.busybox.net
+Description: Standalone rescue shell with tons of builtin utilities
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.).  The utilities in BusyBox generally have fewer options than
+ their full-featured GNU cousins; however, the options that are included
+ provide the expected functionality and behave very much like their GNU
+ counterparts.
+ .
+ busybox-static provides you with a statically linked simple stand alone shell
+ that provides all the utilities available in BusyBox. This package is
+ intended to be used as a rescue shell, in the event that you screw up your
+ system. Invoke "busybox sh" and you have a standalone shell ready to save
+ your system from certain destruction. Invoke "busybox", and it will list the
+ available builtin commands.
+
+Package: cpu-x
+Architecture: amd64
+Version: 5.3.1-0.3
+Priority: optional
+Section: x11
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 4663
+Depends: libc6 (>= 2.38), libcairomm-1.0-1v5 (>= 1.14.5), libcpuid18 (>= 0.8.0+repack1-0.3), libegl1, libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.12.0), libglibmm-2.4-1t64 (>= 2.66.8), libgtkmm-3.0-1t64 (>= 3.24.10), libncursesw6 (>= 6), libopengl0, libpangomm-1.4-1v5 (>= 2.46.4), libpci3 (>= 1:3.13.0), libproc2-0 (>= 2:4.0.4), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 13.1), libtinfo6 (>= 6), libvulkan1 (>= 1.2.131.2), ocl-icd-libopencl1 | libopencl1, dconf-gsettings-backend | gsettings-backend, procps
+Filename: ./cpu-x_5.3.1-0.3_amd64.deb
+Size: 2315184
+MD5sum: 3108de6a07b2d76237aaecf5bd2a6915
+SHA1: b0a63b05b97237bb31f797d06f5726cf001f7c6e
+SHA256: 0c4c81b37a9d4abb86e7c25caeda30f4818231c81983b0850be0a86f52dbd543
+SHA512: 687650e6c35b87af0840b0a07fca9904c171b71ac8c589d9963048c79ec4445a4d6a9adc798d2ab3523ca902c77ea482a7410d47d1b67723ec74f7fb29eb19c1
+Homepage: https://github.com/X0rg/CPU-X
+Description: Tool that gathers information on CPU, motherboard and more
+ CPU-X is similar to CPU-Z (for MS Windows). It can be used in graphical
+ mode by using GTK or in text-based mode by using NCurses. A dump mode is
+ present from the command line.
+
+Package: cpuidtool
+Architecture: amd64
+Version: 0.8.0+repack1-0.3
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Source: libcpuid
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 51
+Depends: libc6 (>= 2.34), libcpuid18 (>= 0.8.0)
+Filename: ./cpuidtool_0.8.0+repack1-0.3_amd64.deb
+Size: 17652
+MD5sum: a7d1bd1105532ddf2367e36ce7a8d4af
+SHA1: 726450e2beec6b03c4f842ef04b53528b6754672
+SHA256: ac534f4b586306bdbf0b71ec5ba074991d8ef314c759a0ab9943f7ef18715b2a
+SHA512: 155426d256d978c81b3c167b26cbfa7c7981ba7932cac766011f0f0efe425a3c0be7c0815fa244078bee001bb8b02c9e5ca95c8de55a7b6f3d745c470dfceca4
+Homepage: https://github.com/anrieff/libcpuid
+Description: C library for x86/ARM CPU detection and feature extraction (tool)
+ libcpuid is a small C library for x86/ARM CPU detection and feature
+ extraction. Using it, you can:
+ .
+    - get the processor vendor, model, brand string, code name,
+    - get information about CPU features such as: number of cores or logical
+      CPUs, cache sizes, CPU clock,
+    - check if the processor implements a specific instruction set such as
+      the SSE2, 3DNow!,
+    - execute the CPUID and RDTSC instructions (portably!)
+ .
+ This package ships the cpuidtool.
+
+Package: ddrescueview-gtk2
+Architecture: amd64
+Version: 0.4.5-1gtk2
+Priority: optional
+Section: utils
+Source: ddrescueview
+Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
+Installed-Size: 3665
+Provides: ddrescueview
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libx11-6
+Conflicts: ddrescueview
+Replaces: ddrescueview
+Enhances: gddrescue
+Filename: ./ddrescueview-gtk2_0.4.5-1gtk2_amd64.deb
+Size: 1035976
+MD5sum: 17e44d269667f73c7583905d121d4d09
+SHA1: aa6fb57830f04a98a769328e36a561c1d7047fba
+SHA256: 89769a541fc9b37606e692370434597e973328d52f0a95c73790c8fdfbd2644c
+SHA512: 3ea72a09f452d5841b818e4fd2023f3f3a9d441c39a9add1fb750e353713d7b66bc149a9fcc6ad76871b6283d65fb0e98d1acb72695d7ff49aac8487a8ca2c1a
+Homepage: https://sourceforge.net/projects/ddrescueview/
+Description: graphical viewer for GNU ddrescue map files
+ This small tool allows the user to graphically examine ddrescue's map files
+ in a user friendly GUI application. The Main window displays a block grid
+ with each block's color representing the block types it contains. Many people
+ know this type of view from defragmentation programs.
+ .
+ Features:
+  * Display ddrescue map in a colored block graphic
+  * Examine each block in the image, see a detailed list of
+    map entries contained
+  * To keep track of the rescue process, ddrescueview can automatically
+    re-read the mapfile
+  * Units can be displayed with decimal (KB, MB...) or
+    binary (KiB, MiB...) prefixes
+
+Package: ddrescueview-gtk2
+Architecture: i386
+Version: 0.4.5-1gtk2
+Priority: optional
+Section: utils
+Source: ddrescueview
+Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
+Installed-Size: 3263
+Provides: ddrescueview
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libx11-6
+Conflicts: ddrescueview
+Replaces: ddrescueview
+Enhances: gddrescue
+Filename: ./ddrescueview-gtk2_0.4.5-1gtk2_i386.deb
+Size: 1065304
+MD5sum: 1997016635a7e26490628fe3ed152756
+SHA1: 3aa7b555fffa37f84293c9331b63ac74a13981aa
+SHA256: 975effd857f2864e04de0bc569ca43074ef796ceaa6e4dde7d311e6947415135
+SHA512: 93ad89e1fac6213d4c56c7a0767466bcab38b1403dd186159a06bf8b90ba191ea77acfa3552096be4cfbb5e8b30279b1b75d8f5961f832154814d2d99462a8e4
+Homepage: https://sourceforge.net/projects/ddrescueview/
+Description: graphical viewer for GNU ddrescue map files
+ This small tool allows the user to graphically examine ddrescue's map files
+ in a user friendly GUI application. The Main window displays a block grid
+ with each block's color representing the block types it contains. Many people
+ know this type of view from defragmentation programs.
+ .
+ Features:
+  * Display ddrescue map in a colored block graphic
+  * Examine each block in the image, see a detailed list of
+    map entries contained
+  * To keep track of the rescue process, ddrescueview can automatically
+    re-read the mapfile
+  * Units can be displayed with decimal (KB, MB...) or
+    binary (KiB, MiB...) prefixes
+
+Package: ddrutility
+Architecture: amd64
+Version: 1:2.8-4
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Paulo Roberto Alves de Oliveira (aka kretcheu) <kretcheu@gmail.com>
+Installed-Size: 226
+Depends: libc6 (>= 2.7), fdisk, ntfs-3g
+Enhances: gddrescue, sleuthkit
+Filename: ./ddrutility_2.8-4_amd64.deb
+Size: 69688
+MD5sum: 9a8c292f258292bb151fa42086d57478
+SHA1: 4dab4f2d01c6500a97f2c72b7587ecb61ef912bd
+SHA256: 70e811b1a0ae2e2b2db9619a5ecb832314db487491d15e1419669d481e3a7818
+SHA512: 0ead64ca8ddfe332b59c3f8334d2afbfe40eb8f93963fdadbfe1f351c60ff4a306db1a0ae250d9f745124f6a2c2fccf0bcf9e1649c8099f398cffb142440a0a4
+Homepage: http://ddrutility.sourceforge.net/
+Description: set of data recovery utilities for use with GNU ddrescue
+ Meant to be a compliment to gnuddrescue. It is a LINUX based set of utilities
+ to help with data rescue. Find what files are related to the bad sectors using
+ a ddrescue logfile, special NTFS utility to find files related to bad sectors,
+ create a domain logfile to use with ddrescue to only recover the used portion
+ of an NTFS partition, create a domain logfile to use with ddrescue to focus on
+ recovering the MFT of an NTFS partition and perform some advanced disk read
+ functions.
+
+Package: ddrutility
+Architecture: i386
+Version: 1:2.8-4
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Paulo Roberto Alves de Oliveira (aka kretcheu) <kretcheu@gmail.com>
+Installed-Size: 230
+Depends: libc6 (>= 2.7), fdisk, ntfs-3g
+Enhances: gddrescue, sleuthkit
+Filename: ./ddrutility_2.8-4_i386.deb
+Size: 74880
+MD5sum: f3cbdfdb4a67bdd19e2f682441e56e4a
+SHA1: 9805b916cd08a8988b27f334db75e8b2424e01d1
+SHA256: e0b8cdbd976b50b468fa5e4dc52aada412f10db1024fa595579000ba3811942f
+SHA512: 41fe8455c4dee48e768a1dba1479bcd2ccccd7647d7913a9207a6e8360d0a093dc9c144ba435f51cb79167e2ab6060603732f5a37c0c3e9907b18308eb182289
+Homepage: http://ddrutility.sourceforge.net/
+Description: set of data recovery utilities for use with GNU ddrescue
+ Meant to be a compliment to gnuddrescue. It is a LINUX based set of utilities
+ to help with data rescue. Find what files are related to the bad sectors using
+ a ddrescue logfile, special NTFS utility to find files related to bad sectors,
+ create a domain logfile to use with ddrescue to only recover the used portion
+ of an NTFS partition, create a domain logfile to use with ddrescue to focus on
+ recovering the MFT of an NTFS partition and perform some advanced disk read
+ functions.
+
+Package: gnome-themes-extra
+Architecture: amd64
+Version: 1:3.28-4
+Multi-Arch: same
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 534
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.38.0), gtk2-engines-pixbuf
+Recommends: gnome-themes-extra-data (>= 3.28-4), gnome-accessibility-themes, adwaita-icon-theme
+Filename: ./gnome-themes-extra_3.28-4_amd64.deb
+Size: 518584
+MD5sum: 55d029ca465a21db08730e5ab6dc3cc4
+SHA1: 928db37b52a3fa4062b10ffa1044680bfdb87ca9
+SHA256: b2dd79d0581870d80b202a4a59ad3d5101b4f95fe0361580753a6926385ef986
+SHA512: a9da7bcd2cc05c306aab41dde0a90ec9c190ba67f1ad5fa415a92afb25999e447a4b4d5933f980663f577c061b6f40d125e6c6c8f7a3be1104869898c0443ca0
+Description: Adwaita GTK 2 theme — engine
+ This is the version of Adwaita, the standard GNOME theme, for the
+ GTK 2.x toolkit.
+ .
+ The GTK 3.x version is already included in libgtk-3-0.
+ .
+ This package contains the Adwaita theme engine.
+
+Package: gnome-themes-extra
+Architecture: i386
+Version: 1:3.28-4
+Multi-Arch: same
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 534
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.38.0), gtk2-engines-pixbuf
+Recommends: gnome-themes-extra-data (>= 3.28-4), gnome-accessibility-themes, adwaita-icon-theme
+Filename: ./gnome-themes-extra_3.28-4_i386.deb
+Size: 518764
+MD5sum: d77175fb5ba067028bcaca3432c47907
+SHA1: d4f857d3203d9ef5c4e2a77fbcf47de6acdfeb10
+SHA256: 6de3a5fd36a2de76f2c7df94e90a6545776e2445e3cbd94ee9ae5d6507ff1c74
+SHA512: f3e2be990c64e0413cb4fa6d58e30e78a5021ce997aacb0e7e31d2b7a61487a5146672988b8933d7968a3dc8586482bdb46e62529de7ca5b372e65ef33e18fb9
+Description: Adwaita GTK 2 theme — engine
+ This is the version of Adwaita, the standard GNOME theme, for the
+ GTK 2.x toolkit.
+ .
+ The GTK 3.x version is already included in libgtk-3-0.
+ .
+ This package contains the Adwaita theme engine.
+
+Package: gtkdialog
+Architecture: amd64
+Version: 0.8.5e-1
+Priority: optional
+Section: utils
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 298
+Depends: libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.32.0), libgtk-3-0t64 (>= 3.21.4)
+Filename: ./gtkdialog_0.8.5e-1_amd64.deb
+Size: 98680
+MD5sum: 30423ee115414946ece14190ef17da1d
+SHA1: 29731216cb8ebbbd6e520c6f776421b2b807f102
+SHA256: 1cca0cf24dcdaad1c6a282a81d2a8068d96d4aee4dc79ba2a601746bd08ca53a
+SHA512: 5e9ae60ddae91cab4e5c8c07889e7361ed6dd7728fbc1018c531b9e441ae7eee3e4d567a41f296c202b32e674725e3d1afbae3ff4aa96c92855d7c2834208860
+Homepage: https://github.com/puppylinux-woof-CE/gtkdialog
+Description: Small utility for fast and easy GUI building
+ Gtkdialog is a program that allows you to build graphical user
+ interfaces quickly and easily.
+
+Package: gtkdialog
+Architecture: i386
+Version: 0.8.5e-1
+Priority: optional
+Section: utils
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 340
+Depends: libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.32.0), libgtk-3-0t64 (>= 3.21.4)
+Filename: ./gtkdialog_0.8.5e-1_i386.deb
+Size: 105832
+MD5sum: 4e399d1cae49b0bea0eb6071239f44e7
+SHA1: 77eb1a8125982e2dd82d5dc341710ac561bcdfe3
+SHA256: c6264841bb3ef5ca32ebb16105ba8485dbbfb793418c00969be20261bc54f5e9
+SHA512: 8e644ba4b2c1afdfe4188fb9d74ac3aa78e6730bc0fe74ef27ba89647b37882eab25e8f8d5162593fe15dcf6fb43d6dbb78961eea34057d1e229afdd21754f17
+Homepage: https://github.com/puppylinux-woof-CE/gtkdialog
+Description: Small utility for fast and easy GUI building
+ Gtkdialog is a program that allows you to build graphical user
+ interfaces quickly and easily.
+
+Package: kbt
+Architecture: amd64
+Version: 2.1.0
+Priority: optional
+Section: utils
+Maintainer: gumanzoy <gumanzoy@gmail.com>
+Installed-Size: 1256
+Depends: libc6, libx11-6, libxcb1
+Filename: ./kbt_2.1.0_amd64.deb
+Size: 424980
+MD5sum: ef04ecd1f09f3fbd5d9b1e683506aaea
+SHA1: 7f95487410b2b508110f3dcccbc5a5653c5aeeb0
+SHA256: fd0336f883a7350d411a9124b2a16ba6933938f7bbee355ce0751e8c2d161d85
+SHA512: df89ba255003a85313f21443084cf5068c18094a5c31a7f92c5c414463b18a31b718e68a1e5a5a4964d06fc84bedc908a4d668f84a8530cf97ecd704a369ad21
+Homepage: https://github.com/bloznelis/kbt
+Description: Keyboard tester in terminal
+
+Package: libcpuid18
+Architecture: amd64
+Version: 0.8.0+repack1-0.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libcpuid
+Maintainer: Martin Wimpress <code@wimpress.io>
+Installed-Size: 300
+Depends: libc6 (>= 2.38)
+Filename: ./libcpuid18_0.8.0+repack1-0.3_amd64.deb
+Size: 55332
+MD5sum: bd426b70dc2d2fabc966a1ec28e0b344
+SHA1: 6c23ea1dd98fee733f5957d7c20d2e22a05e7aa5
+SHA256: b2aea9a6a2b4a93b31cccf3cb1abb412ad4f878fdb75493c9e1765e5b0dabe03
+SHA512: db24be6f9c9da95cc60a91d660ed308c2ee75e9836abb7df308d99d49e3f024840ae45cd71d6856d16e31ad86138968c4d588bf1e898e83dad98abbfd2213255
+Homepage: https://github.com/anrieff/libcpuid
+Description: C library for x86/ARM CPU detection and feature extraction (shared lib)
+ libcpuid is a small C library for x86/ARM CPU detection and feature
+ extraction. Using it, you can:
+ .
+    - get the processor vendor, model, brand string, code name,
+    - get information about CPU features such as: number of cores or logical
+      CPUs, cache sizes, CPU clock,
+    - check if the processor implements a specific instruction set such as
+      the SSE2, 3DNow!,
+    - execute the CPUID and RDTSC instructions (portably!)
+ .
+ This package ships the libcpuid shared library.
+
+Package: libpng12-0
+Architecture: amd64
+Version: 1.2.59-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libpng
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 278
+Depends: libc6 (>= 2.29), zlib1g (>= 1:1.1.4)
+Conflicts: libpng12-dev (<= 1.2.8rel-7), mzscheme (<= 1:209-5), pngcrush (<= 1.5.10-2), pngmeta (<= 1.11-3), povray-3.5 (<= 3.5.0c-10), qemacs (<= 0.3.1-5)
+Replaces: libpng12-dev (<= 1.2.8rel-7)
+Filename: ./libpng12-0_1.2.59-1_amd64.deb
+Size: 163868
+MD5sum: c4ec0b768d94ff880985fbcd7e0c9f6d
+SHA1: b031db4d61276fc1cc14868101408711061453d1
+SHA256: e36c1d1f2204d4dde54befc1c4b94f148278f00637db5bd9ff6911ae0cf323f6
+SHA512: fb3dd7d9a6f6cbdfae89076bddf7b9f65685da92670fd28b7272b9c758c72da8efb587136113612d90ebb06ebc7730d2e7794719695ebf968cc44207d3c98612
+Homepage: http://libpng.org/pub/png/libpng.html
+Description: PNG library - runtime
+ libpng is a library implementing an interface for reading and writing
+ PNG (Portable Network Graphics) format files.
+ .
+ This package contains the runtime library files needed to run software
+ using libpng.
+
+Package: libpng12-0
+Architecture: i386
+Version: 1.2.59-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libpng
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 293
+Depends: libc6 (>= 2.29), zlib1g (>= 1:1.1.4)
+Conflicts: libpng12-dev (<= 1.2.8rel-7), mzscheme (<= 1:209-5), pngcrush (<= 1.5.10-2), pngmeta (<= 1.11-3), povray-3.5 (<= 3.5.0c-10), qemacs (<= 0.3.1-5)
+Replaces: libpng12-dev (<= 1.2.8rel-7)
+Filename: ./libpng12-0_1.2.59-1_i386.deb
+Size: 168584
+MD5sum: aae69665d10adfaca8d9fa6dee33b6f5
+SHA1: bbfb1e29d4aa26c4b72b128b97bcd7669042efa9
+SHA256: a8a8d73ab610a1d514b955c3d5d455bb053c91a6fb5837ce25979fe7a2495446
+SHA512: 380cdf952b098986e9ed8c4df0451484cd4e38b18079ac73857ef6ae6b1cf30dd353d19bd5a5e2da3f25a0cd147cd9041882ca63d93ce4ebf629fd8e122250f4
+Homepage: http://libpng.org/pub/png/libpng.html
+Description: PNG library - runtime
+ libpng is a library implementing an interface for reading and writing
+ PNG (Portable Network Graphics) format files.
+ .
+ This package contains the runtime library files needed to run software
+ using libpng.
+
+Package: luvcview
+Architecture: amd64
+Version: 1:0.2.6-6
+Priority: optional
+Section: x11
+Maintainer: Aurelien Jarno <aurel32@debian.org>
+Installed-Size: 114
+Depends: libc6 (>= 2.34), libsdl1.2debian (>= 1.2.15), libv4l-0 (>= 0.5.0)
+Filename: ./luvcview_0.2.6-6_amd64.deb
+Size: 48228
+MD5sum: d195e6bd44410c9c512564e229c3d22d
+SHA1: 26db4f0aa378ed5fd6699f11776013fdf4c02777
+SHA256: bfe129421937f1d578174994a229d1b405e8dc4e1468cd860c093717b3093e1b
+SHA512: 0e2c4f0dbc010fab2dade4c1efad44d9ea9e1e7d46cfded8d5384ba5937f140d802a5ffc1c9203a3a8b90c677133978f4649ed6e1d3126be48ea0d2091593a4b
+Homepage: http://luvcview.sourceforge.net
+Description: USB Video Class grabber
+ luvcview is a camera viewer for UVC based webcams. It includes an mjpeg
+ decoder and is able to save the video stream as an AVI file.
+
+Package: luvcview
+Architecture: i386
+Version: 1:0.2.6-6
+Priority: optional
+Section: x11
+Maintainer: Aurelien Jarno <aurel32@debian.org>
+Installed-Size: 112
+Depends: libc6 (>= 2.34), libsdl1.2debian (>= 1.2.15), libv4l-0 (>= 0.5.0)
+Filename: ./luvcview_0.2.6-6_i386.deb
+Size: 49824
+MD5sum: 454f58b34d2b4e90c78a86f51ebcfa95
+SHA1: cd68c385a4be514f608188de75ca0ad322dd108a
+SHA256: fe5c983c7f75019d444059e3ededc597780d307b9907c513d2596ff82089b5da
+SHA512: e483a25d170aedc271db438a0d4a8b1677409aea8b9261de05ddfcd8cccb2fd99200e6fe564d309c998a67f44931902f3c621a9e9122a72965d3539afa2a7e65
+Homepage: http://luvcview.sourceforge.net
+Description: USB Video Class grabber
+ luvcview is a camera viewer for UVC based webcams. It includes an mjpeg
+ decoder and is able to save the video stream as an AVI file.
+
+Package: mousepad
+Architecture: amd64
+Version: 1:0.5.4-1
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2082
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libglib2.0-0t64 (>= 2.56.0), libgtk-3-0t64 (>= 3.21.5), libgtksourceview-4-0 (>= 3.23.90), libpango-1.0-0 (>= 1.14.0), libxfconf-0-3 (>= 4.12)
+Filename: ./mousepad_0.5.4-1_amd64.deb
+Size: 478444
+MD5sum: c72777698b093abdf2512f4cf8870083
+SHA1: 92837903da04ee2e8086bb6326d1b13a21960f8f
+SHA256: ebfa5d3f4d0e0526dd7538079fe7de8eb7840717e161c0ec0f8dbbe6d469c193
+SHA512: 6e5f4d4120a98ca05e65d59f17cb9e717f01a7564f38c481b05f03f2a235f91738ec1b054cf0076f7260594f1dca2368b230f0587bd2f012e35301b7d8a8c9a3
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
+ .
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
+
+Package: mousepad
+Architecture: i386
+Version: 1:0.5.4-1
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2092
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libglib2.0-0t64 (>= 2.56.0), libgtk-3-0t64 (>= 3.21.5), libgtksourceview-4-0 (>= 3.23.90), libpango-1.0-0 (>= 1.14.0), libxfconf-0-3 (>= 4.12)
+Filename: ./mousepad_0.5.4-1_i386.deb
+Size: 485844
+MD5sum: fb6585415dcf206e25a0088f722ad28c
+SHA1: 9248855cb44014eb2ce03536ab1557b98d609130
+SHA256: eb780574f00562cb30e042f901f5e4bddf3023090448d75677cf3d61b9897559
+SHA512: 1c09ebb9b0a5bbace31d3c2026e7ef980c1158bce8bbd1adf4bc0f5a98b141536ac087c27f90a1f59894736033c23c322df88f0a8ac5a2342ffc876c16f7cfa2
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
+ .
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
+
+Package: netsurf-common
+Architecture: all
+Version: 1:3.11-2
+Priority: optional
+Section: web
+Source: netsurf
+Maintainer: Vincent Sanders <vince@debian.org>
+Installed-Size: 1010
+Depends: ca-certificates, fonts-dejavu-core
+Breaks: netsurf-gtk (<< 2.9-2)
+Replaces: netsurf-gtk (<< 2.9-2)
+Filename: ./netsurf-common_3.11-2_all.deb
+Size: 175508
+MD5sum: ead853fff1714323c5402e6c9cad1f30
+SHA1: e2c90a0831684cff1227c44d8e46c75594ef955f
+SHA256: a3755dd24967c7e350c1c3ebd223520cb393fa54733ee94384d85ced899be673
+SHA512: e16cb994a20a758fd1d7c81a8a316c3bc82ab9841dc633725e509030c50f8dbb3028dbdde3f0e1dfaccecc05d10d65700654ebfcebfa366352eb09a602df1466
+Homepage: https://www.netsurf-browser.org
+Description: small web browser with CSS support common files
+ NetSurf is a multi-platform lightweight web browser. It aims to provide
+ comprehensive rendering of HTML 5 with CSS 2 in a small resource footprint
+ without compromising performance.
+ .
+ These are the common resources for all versions.
+
+Package: netsurf-fb
+Architecture: amd64
+Version: 1:3.11-2
+Priority: optional
+Section: web
+Source: netsurf
+Maintainer: Vincent Sanders <vince@debian.org>
+Installed-Size: 4191
+Provides: www-browser
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.56.1), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.3.5), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libsdl1.2debian (>= 1.2.15), libssl3t64 (>= 3.0.0), libvncserver1 (>= 0.9.10), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2), libxcb-keysyms1 (>= 0.4.1), libxcb-shm0, libxcb-util1 (>= 0.4.0), libxcb1, zlib1g (>= 1:1.1.4), netsurf-common (= 1:3.11-2)
+Recommends: media-types
+Filename: ./netsurf-fb_3.11-2_amd64.deb
+Size: 1237652
+MD5sum: 00abfc0452cee67d232cf87507149988
+SHA1: fc3df6e62b4473a702ce6991dcde02b6b9439f2a
+SHA256: 79aa4e10c7be377ea5127b7cb94bbd30d416f85f2cc377973dc7037a762514cd
+SHA512: bd8dc736a3b6249af919090b5ec27ad65d76c5fde0c3daa931f015660a674bcdf5ac5bed6d92089b15b9ea8fb0f11fd29d58369ed59cfa7dcc6daf3907e6e0c0
+Homepage: https://www.netsurf-browser.org
+Description: small web browser with CSS support for framebuffers
+ NetSurf is a multi-platform lightweight web browser. It aims to provide
+ comprehensive rendering of HTML 5 with CSS 2 in a small resource footprint
+ without compromising performance.
+ .
+ This version uses no toolkit and displays output on various framebuffers.
+
+Package: netsurf-fb
+Architecture: i386
+Version: 1:3.11-2
+Priority: optional
+Section: web
+Source: netsurf
+Maintainer: Vincent Sanders <vince@debian.org>
+Installed-Size: 4764
+Provides: www-browser
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.56.1), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.3.5), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libsdl1.2debian (>= 1.2.15), libssl3t64 (>= 3.0.0), libvncserver1 (>= 0.9.10), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2), libxcb-keysyms1 (>= 0.4.1), libxcb-shm0, libxcb-util1 (>= 0.4.0), libxcb1, zlib1g (>= 1:1.1.4), netsurf-common (= 1:3.11-2)
+Recommends: media-types
+Filename: ./netsurf-fb_3.11-2_i386.deb
+Size: 1313592
+MD5sum: 3b9a6f756db84ebc43fe0a38d122511f
+SHA1: afd3d6e0a1158ffbc2cc604b2aa7394d323e615b
+SHA256: b8318cf9c913f38d2911799451a6b09b267517f9cbb82de7c546af2200a1aee7
+SHA512: f56333381936674bc79e19d61dda6afc5185ffe0b2bdec874971860a905c36c65a9c8a52d5c111dcc4dbe00625566498ec68d5c95f507cebdc176a57cf303fd5
+Homepage: https://www.netsurf-browser.org
+Description: small web browser with CSS support for framebuffers
+ NetSurf is a multi-platform lightweight web browser. It aims to provide
+ comprehensive rendering of HTML 5 with CSS 2 in a small resource footprint
+ without compromising performance.
+ .
+ This version uses no toolkit and displays output on various framebuffers.
+
+Package: netsurf-gtk
+Architecture: amd64
+Version: 1:3.11-2
+Priority: optional
+Section: web
+Source: netsurf
+Maintainer: Vincent Sanders <vince@debian.org>
+Installed-Size: 5415
+Provides: www-browser
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.4.10), libcurl4t64 (>= 7.56.1), libexpat1 (>= 2.0.1), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.32.0), libgtk-3-0t64 (>= 3.21.5), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), librsvg2-2 (>= 2.52.5), libssl3t64 (>= 3.0.0), libwebp7 (>= 1.5.0), zlib1g (>= 1:1.1.4), netsurf-common (= 1:3.11-2)
+Recommends: media-types
+Filename: ./netsurf-gtk_3.11-2_amd64.deb
+Size: 1485628
+MD5sum: 16d291b9b731e3f1c3e182ff5ceaa3f4
+SHA1: a4be4c19642ca3f52faaa87c8c52f26bf47de236
+SHA256: ade412cfa46b0ad1d1e55f5b1e0de91c91bf27a016d127d3285c14710dcf42c5
+SHA512: 54294c1010857c4a669f35ed493d8f8daf0e5da9c746ea6409f3d3fdd65146650d0e2329706872fd01bd4f3f9f2aa7bc21730946a3f9aabb7d0140f16571dca0
+Homepage: https://www.netsurf-browser.org
+Description: small web browser with CSS support for GTK
+ NetSurf is a multi-platform lightweight web browser. It aims to provide
+ comprehensive rendering of HTML 5 with CSS 2 in a small resource footprint
+ without compromising performance.
+ .
+ This version uses the GTK+ toolkit.
+
+Package: netsurf-gtk
+Architecture: i386
+Version: 1:3.11-2
+Priority: optional
+Section: web
+Source: netsurf
+Maintainer: Vincent Sanders <vince@debian.org>
+Installed-Size: 5963
+Provides: www-browser
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.4.10), libcurl4t64 (>= 7.56.1), libexpat1 (>= 2.0.1), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.32.0), libgtk-3-0t64 (>= 3.21.5), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), librsvg2-2 (>= 2.52.5), libssl3t64 (>= 3.0.0), libwebp7 (>= 1.5.0), zlib1g (>= 1:1.1.4), netsurf-common (= 1:3.11-2)
+Recommends: media-types
+Filename: ./netsurf-gtk_3.11-2_i386.deb
+Size: 1565896
+MD5sum: cc52dd385c5d180c8a5d3d257577ea62
+SHA1: 464a523510bf019b3555c3cc63450946786f8c06
+SHA256: 52cccb21ec5cd947750f5728e5794ec72c05f0ce4fd37507a45c1de62e169303
+SHA512: 721e7074f7614299d75e7de06a736f017bebe417877533d00c164ebd61ee0e83842df757a959dc062cdf1af843115b1dd6f2b3d93c25713034b4675311f96f76
+Homepage: https://www.netsurf-browser.org
+Description: small web browser with CSS support for GTK
+ NetSurf is a multi-platform lightweight web browser. It aims to provide
+ comprehensive rendering of HTML 5 with CSS 2 in a small resource footprint
+ without compromising performance.
+ .
+ This version uses the GTK+ toolkit.
+
+Package: numix-colors-icon-theme
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: x11
+Maintainer: Debian Desktop Theme Team <numix-icon-theme@packages.debian.org>
+Depends: gtk-update-icon-cache, numix-icon-theme
+Recommends: librsvg2-common
+Suggests: adwaita-icon-theme, adwaita-icon-theme-legacy
+Filename: ./numix-colors-icon-theme_1.0_all.deb
+Size: 37712
+MD5sum: 9a72c12b70036c45dc0fedb529db9599
+SHA1: d21da36aec48db869fa7ed5ad4e14db06a4b54b1
+SHA256: da94ef6f8ae8cd621fdeda367d8573122ff4043f1ae4a43350a9f84c06ef8da2
+SHA512: 3771c8d2f91a455178a59e6bb0a333ea6cf55e7293193d7d25dab39bd7e9f564dcbe2d228b5f0c56fff9b6abd53cadff9219c4bc19202a546027b516e0dcc4fb
+Homepage: https://github.com/numixproject/numix-icon-theme
+Description: modern icon theme from the Numix project
+ The Numix icon theme is designed to look fresh, swishy and modern using
+ white symbols on vividly coloured background for applications and simplistic
+ devices, toolbars and status icons.
+
+Package: pup-volume-monitor
+Architecture: amd64
+Version: 0.2w
+Priority: optional
+Section: utils
+Maintainer: gumanzoy <gumanzoy@gmail.com>
+Installed-Size: 509
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libudev1 (>= 183)
+Filename: ./pup-volume-monitor_0.2w_amd64.deb
+Size: 89964
+MD5sum: 1e0cdba590ca6213f3c55286c24a40a5
+SHA1: 7c4bd0c4c0ab993d541a7859a3cf245138a315c2
+SHA256: 32fe517b0feb74472ea091c1cae661469b50c628e39b3e3782cf38c1a8cc2368
+SHA512: ac3a8e73a9b75478b585ad03b5de5559d03c4849438cccecfe500899e108726c7b9ab95d5c9bd3e443609ccb2a46d0b160b9d7e28fb21cdd736fec435f0cdf29
+Homepage: https://github.com/01micko/pup-volume-monitor
+Description: lightweight drive and volume management backend
+ It is this kind of software responsible for displaying drives in
+ file managers and file open/save dialogs in many linux distributions.
+
+Package: pup-volume-monitor
+Architecture: i386
+Version: 0.2w
+Priority: optional
+Section: utils
+Maintainer: gumanzoy <gumanzoy@gmail.com>
+Installed-Size: 474
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libudev1 (>= 183)
+Filename: ./pup-volume-monitor_0.2w_i386.deb
+Size: 96680
+MD5sum: 5531ac442499e366b601fcf1268a08aa
+SHA1: 861a48ba4332e42f430774ffc6521f36b1f98d30
+SHA256: cd141287bb5ef1870b9869b335c763470932d8fcf23405c2948e729b706d774f
+SHA512: bf5c4d0fd9a34939924951ddb5085dcf6e6e427fccda1bf9798f2cd6596b7433a781b2dd3a5b41a731787a0d2abe3d785fa7792263fd7697251274e09fd7efce
+Homepage: https://github.com/01micko/pup-volume-monitor
+Description: lightweight drive and volume management backend
+ It is this kind of software responsible for displaying drives in
+ file managers and file open/save dialogs in many linux distributions.
+
+Package: thunar-data
+Architecture: all
+Version: 1:4.20.2-1phb
+Multi-Arch: foreign
+Priority: optional
+Section: xfce
+Source: thunar
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 5757
+Filename: ./thunar-data_4.20.2-1phb_all.deb
+Size: 882124
+MD5sum: 61fe99918d91d1ff9556ad4f9cdf8235
+SHA1: eef000fc4cd4807d2a5d79ed4a7b97b758c090a2
+SHA256: ff56a68f2035c172adb48c73b2a3c2bbd038f3300ebfd5b6d5d2376d6e74b2c8
+SHA512: 039c9ebff21ad3d34ecd36bbf8539e5a33564fdb8aaaaa494346ab9525448d3291f42c9856dff1f42bc8e78d51587febde5f29f18230c25ce27a0c3dade6a223
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Description: Provides thunar documentation, icons and translations
+ This package contains architecture-independent files for thunar, the file
+ manager and file management libraries for Xfce desktop environment.
+
+Package: thunar
+Architecture: amd64
+Version: 1:4.20.2-1phb
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1238
+Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 1:4.20.2-1phb), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libexo-2-0 (>= 4.19.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6 (>= 2:1.2.6), libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.17.6), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.6.0)
+Recommends: default-dbus-session-bus | dbus-session-bus, gvfs, policykit-1-gnome | polkit-1-auth-agent, thunar-volman, tumbler, udisks2, xdg-user-dirs, libxfce4panel-2.0-4 (>= 4.13.0)
+Suggests: thunar-archive-plugin, thunar-media-tags-plugin, gvfs-backends
+Breaks: thunar-data (<< 1.2.3-3)
+Replaces: thunar-data (<< 1.2.3-3)
+Filename: ./thunar_4.20.2-1phb_amd64.deb
+Size: 408636
+MD5sum: f872bf96a9132f54c6e9160069622932
+SHA1: 4a956b2524cdd4c8be07b46e1157b49aff04e67a
+SHA256: 32dd004ab7bd31a7e4948a41f32bb67af19990f9c984347ff94c425f9354ed32
+SHA512: fd0eecea1f28c932f687e9f8508eb27af2e81ac3d53eecff76166d471612ca4959275e09eb476dcbb656121058e044c933d75211d1ef7784fea8686846332861
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Description: File Manager for Xfce
+ Thunar is the file manager designed to be the default file manager for the
+ Xfce desktop environment. It has been designed to be fast and easy to use.
+ .
+ Also included is an Xfce panel plugin which can manage the desktop trash.
+
+Package: thunar
+Architecture: i386
+Version: 1:4.20.2-1phb
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1355
+Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 1:4.20.2-1phb), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libexo-2-0 (>= 4.19.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6 (>= 2:1.2.6), libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.17.6), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.6.0)
+Recommends: default-dbus-session-bus | dbus-session-bus, gvfs, policykit-1-gnome | polkit-1-auth-agent, thunar-volman, tumbler, udisks2, xdg-user-dirs, libxfce4panel-2.0-4 (>= 4.13.0)
+Suggests: thunar-archive-plugin, thunar-media-tags-plugin, gvfs-backends
+Breaks: thunar-data (<< 1.2.3-3)
+Replaces: thunar-data (<< 1.2.3-3)
+Filename: ./thunar_4.20.2-1phb_i386.deb
+Size: 441504
+MD5sum: 2ba8115794d6ce7535a41a6367e89897
+SHA1: 989335594f579085feac3362e025046a1f33ceb7
+SHA256: edcdc7722d732ab4ac66918f3c38ba22f5da323d8e06f82009f49c038fa164c4
+SHA512: 7acd6dafb7a40d03cb6d2083adf6bed98de285de3c5c44e25eababd986cc0944fbe03601c5a0789c3001cc280c09ffe1933c8964724f3fc8d3efd3d369a80dfd
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Description: File Manager for Xfce
+ Thunar is the file manager designed to be the default file manager for the
+ Xfce desktop environment. It has been designed to be fast and easy to use.
+ .
+ Also included is an Xfce panel plugin which can manage the desktop trash.
+
+Package: wavemon
+Architecture: amd64
+Version: 0.9.6-1
+Priority: optional
+Section: net
+Source: wavemon (0.9.6-1)
+Maintainer: Jonathan McCrohan <jmccrohan@gmail.com>
+Installed-Size: 124
+Depends: libc6 (>= 2.29), libncursesw6 (>= 6), libnl-cli-3-200 (>= 3.2.7), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libtinfo6 (>= 6)
+Filename: ./wavemon_0.9.6-1_amd64.deb
+Size: 52532
+MD5sum: 2404b94f914189164b650ae1c6175b6e
+SHA1: 62526c8fcd1281d523f97a5cc4b89127ba6b73a8
+SHA256: 67fbd2003149a4684c3b5b5ff58af40bfefd723b1680894f5505a9b9b5228a79
+SHA512: 96d5d9a072a7593c42ef8085b64f6052e3d262ccdaedd8c2640ec30d777bdea7c0a5103386a14c43382abf98937f1b82fdfa329f723617bf1fef48a9e148851f
+Homepage: https://github.com/uoaerg/wavemon/
+Description: Wireless Device Monitoring Application
+ Wavemon allows you to watch signal and noise levels, packet
+ statistics, device configuration and network parameters of your
+ wireless network hardware.
+
+Package: wavemon
+Architecture: i386
+Version: 0.9.6-1
+Priority: optional
+Section: net
+Source: wavemon (0.9.6-1)
+Maintainer: Jonathan McCrohan <jmccrohan@gmail.com>
+Installed-Size: 124
+Depends: libc6 (>= 2.29), libncursesw6 (>= 6), libnl-cli-3-200 (>= 3.2.7), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libtinfo6 (>= 6)
+Filename: ./wavemon_0.9.6-1_i386.deb
+Size: 55964
+MD5sum: 3381ec6c3de0f85e53afef64647e29d7
+SHA1: 07130af670c60e160ab6c5ea8d8ae5a44d718431
+SHA256: 178756a888be85269e573276ed0f6079201ab7879d7b717fbba46da1cabdf9df
+SHA512: 73a3923de570727a05feb0d38cfe6b9fd7fe45378bf1ab087738437f375d3cf022564aea41e3b58883a9827966c40e7eb29db69c49d1c5ac6c13e2cb2aeeb13d
+Homepage: https://github.com/uoaerg/wavemon/
+Description: Wireless Device Monitoring Application
+ Wavemon allows you to watch signal and noise levels, packet
+ statistics, device configuration and network parameters of your
+ wireless network hardware.
+
+Package: whdd
+Architecture: amd64
+Version: 3.1.0.20241015
+Priority: extra
+Section: utils
+Maintainer: Eugene San (eugenesan) <eugenesan@gmail.com>
+Installed-Size: 76
+Depends: libc6 (>= 2.38), libdialog15 (>= 1.3-20250116), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Recommends: smartmontools
+Filename: ./whdd_3.1.0.20241015_amd64.deb
+Size: 24800
+MD5sum: feb737de94cf13c4bc9cb19762d47aeb
+SHA1: 8ca6950c818b9694a0934de8334264f5c4f03be4
+SHA256: cc6d070132785b7260d13676209d7c5dd47bab5edd4275b173bd368dd81b5c80
+SHA512: ec70af8852e1b1bf432b377aa8730cb1f94a8cbb36fef229e26659b93ede51a011d5589151b4cb855c47edc73597122ee8d613f195beefb091ca82929dd6ad00
+Homepage: http://whdd.org/
+Description: diagnostic and recovery tool for block devices
+ A diagnostic and recovery tool for block devices
+ (near to replace MHDD for Linux).
+ .
+ Functionality:
+ - List available block devices (HDD, Flash drives etc.)
+ - List S.M.A.R.T. parameters and SMART tests info
+ - Perform tests:
+   * Read
+   * Write zeros
+ - Visualize results of tests
+ - Low-level device copying (not implemented yet)
+ Program is designed for adding more complex tests or
+ recovery procedures, and different front-ends.
+
+Package: whdd
+Architecture: i386
+Version: 3.1.0.20241015
+Priority: extra
+Section: utils
+Maintainer: Eugene San (eugenesan) <eugenesan@gmail.com>
+Installed-Size: 82
+Depends: libc6 (>= 2.38), libdialog15 (>= 1.3-20250116), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Recommends: smartmontools
+Filename: ./whdd_3.1.0.20241015_i386.deb
+Size: 30084
+MD5sum: 4f2c4960fc634c390b1b8294f0346a38
+SHA1: 48bf9bc16873430c6436849ef0378202e5dfda61
+SHA256: 3a7bda3a76b878e02c992a19ed918100d757a5114187f307565b244093e647b4
+SHA512: da765bcef65c7d7d9ceed3bfc3cde20c198deca868c4142e5a3285ca5abd29b5e1e98aef4995fa5c8d3448260acfee436040a6290d29f071e8ade0bd5b3f7b02
+Homepage: http://whdd.org/
+Description: diagnostic and recovery tool for block devices
+ A diagnostic and recovery tool for block devices
+ (near to replace MHDD for Linux).
+ .
+ Functionality:
+ - List available block devices (HDD, Flash drives etc.)
+ - List S.M.A.R.T. parameters and SMART tests info
+ - Perform tests:
+   * Read
+   * Write zeros
+ - Visualize results of tests
+ - Low-level device copying (not implemented yet)
+ Program is designed for adding more complex tests or
+ recovery procedures, and different front-ends.
+
+Package: x11-xserver-utils
+Architecture: amd64
+Version: 1:7.7+11
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 559
+Depends: libc6 (>= 2.38), libice6 (>= 1:1.0.0), libx11-6, libxaw7 (>= 2:1.0.16), libxcursor1 (>> 1.1.2), libxext6, libxi6, libxmu6 (>= 2:1.1.3), libxmuu1 (>= 2:1.1.3), libxrandr2 (>= 2:1.5.0), libxt6t64, libxxf86vm1
+Suggests: nickle, cairo-5c, xorg-docs-core, cpp
+Filename: ./x11-xserver-utils_7.7+11_amd64.deb
+Size: 163396
+MD5sum: 424c17ee84dbde2927b6fb812ae619b0
+SHA1: 5a577043881081a57c76c22f03db6e4039314552
+SHA256: 3ebb25f1a78125df9381efee856d6d34c831a6f39ef5911b87bda26b9712f5d2
+SHA512: 9171ddce1eedf6b6e1bd4487e902080ed97f5cac619955f9a711cf649c2c7a831dc085da6488785f447fc9ae741318c9779c41a6e7be5a32a67d8211d0644d88
+Description: X server utilities
+ An X client is a program that interfaces with an X server (almost always via
+ the X libraries), and thus with some input and output hardware like a
+ graphics card, monitor, keyboard, and pointing device (such as a mouse).
+ .
+ This package provides a miscellaneous assortment of X Server utilities
+ that ship with the X Window System, including:
+  - iceauth, a tool for manipulating ICE protocol authorization records;
+  - rgb;
+  - sessreg, a simple program for managing utmp/wtmp entries;
+  - xcmsdb, a device color characteristic utility for the X Color Management
+    System;
+  - xgamma, a tool for querying and setting a monitor's gamma correction;
+  - xhost, a very dangerous program that you should never use;
+  - xmodmap, a utility for modifying keymaps and pointer button mappings in X;
+  - xrandr, a command-line interface to the RandR extension;
+  - xrdb, a tool to manage the X server resource database;
+  - xrefresh, a tool that forces a redraw of the X screen;
+  - xset, a tool for setting miscellaneous X server parameters;
+  - xsetmode and xsetpointer, tools for handling X Input devices;
+  - xsetroot, a tool for tailoring the appearance of the root window;
+  - xstdcmap, a utility to selectively define standard colormap properties;
+  - xvidtune, a tool for customizing X server modelines for your monitor.
+
+Package: x11-xserver-utils
+Architecture: i386
+Version: 1:7.7+11
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 531
+Depends: libc6 (>= 2.38), libice6 (>= 1:1.0.0), libx11-6, libxaw7 (>= 2:1.0.16), libxcursor1 (>> 1.1.2), libxext6, libxi6, libxmu6 (>= 2:1.1.3), libxmuu1 (>= 2:1.1.3), libxrandr2 (>= 2:1.5.0), libxt6t64, libxxf86vm1
+Suggests: nickle, cairo-5c, xorg-docs-core, cpp
+Filename: ./x11-xserver-utils_7.7+11_i386.deb
+Size: 165492
+MD5sum: 40dfae95d0611ada9af53bd973e14442
+SHA1: dc7371327ce5894e0c6336a50387547342626f01
+SHA256: 8421b6b8c7b06670a8de9a73932a62ebf57a07f93ba515025722342390e7a0b1
+SHA512: d5fe14230bd0df08e16615bf58c28f802b15a5d443bcdc5a1352f622ea2a37b7f34ff56569c908c5b58c7e4b84308b4882e21fda6d28a23a399819bbe0436189
+Description: X server utilities
+ An X client is a program that interfaces with an X server (almost always via
+ the X libraries), and thus with some input and output hardware like a
+ graphics card, monitor, keyboard, and pointing device (such as a mouse).
+ .
+ This package provides a miscellaneous assortment of X Server utilities
+ that ship with the X Window System, including:
+  - iceauth, a tool for manipulating ICE protocol authorization records;
+  - rgb;
+  - sessreg, a simple program for managing utmp/wtmp entries;
+  - xcmsdb, a device color characteristic utility for the X Color Management
+    System;
+  - xgamma, a tool for querying and setting a monitor's gamma correction;
+  - xhost, a very dangerous program that you should never use;
+  - xmodmap, a utility for modifying keymaps and pointer button mappings in X;
+  - xrandr, a command-line interface to the RandR extension;
+  - xrdb, a tool to manage the X server resource database;
+  - xrefresh, a tool that forces a redraw of the X screen;
+  - xset, a tool for setting miscellaneous X server parameters;
+  - xsetmode and xsetpointer, tools for handling X Input devices;
+  - xsetroot, a tool for tailoring the appearance of the root window;
+  - xstdcmap, a utility to selectively define standard colormap properties;
+  - xvidtune, a tool for customizing X server modelines for your monitor.
+
+Package: yad
+Architecture: amd64
+Version: 14.1-1
+Priority: optional
+Section: utils
+Maintainer: Gustavo Soares de Lima <gustavo@logicus.com.br>
+Installed-Size: 691
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.21.6), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), dconf-gsettings-backend | gsettings-backend
+Filename: ./yad_14.1-1_amd64.deb
+Size: 201752
+MD5sum: 5046e1b75f11ac3845f78a82a81a23a5
+SHA1: 8c69e918db4d7f3be010038c38ae67b8f12fb52b
+SHA256: 73ce6e041ab1ba22553e14475222bd7c4fbeed1e63a650d1759e2745fd9b0b26
+SHA512: 9ab8289bf16dc18b70097773dd14bc760cce11e4c7c0fcba17f1e6a6f2d2653f0b54e8b501cd9fcdda0703ad659110ed31fd8276f9fb0530b0359fddc254705b
+Homepage: https://github.com/v1cont/yad/
+Description: tool for creating graphical dialogs from shell scripts
+ Yad allows you to display GTK+ dialog boxes from command line or shell
+ scripts. It is similar to Zenity but with more dialog types and options.
+
+Package: yad
+Architecture: i386
+Version: 14.1-1
+Priority: optional
+Section: utils
+Maintainer: Gustavo Soares de Lima <gustavo@logicus.com.br>
+Installed-Size: 688
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.21.6), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), dconf-gsettings-backend | gsettings-backend
+Filename: ./yad_14.1-1_i386.deb
+Size: 206532
+MD5sum: e9507a8335f2bf9d5cf831b7e1258f93
+SHA1: 226ddedfe427ff1b602faf845b09f096bf2d8679
+SHA256: dee0d85ca26245d4b1b146f1f726950da34f8518a64d33c7c538d999cc933c47
+SHA512: 267ed7a850b9825ed9b98719e3beb9a3f5407bc4704315812597c64f79e74b6828d412186e29d55212f899695b0524e7877e7dbbc5df6f60bc7ca10c785f6955
+Homepage: https://github.com/v1cont/yad/
+Description: tool for creating graphical dialogs from shell scripts
+ Yad allows you to display GTK+ dialog boxes from command line or shell
+ scripts. It is similar to Zenity but with more dialog types and options.
+

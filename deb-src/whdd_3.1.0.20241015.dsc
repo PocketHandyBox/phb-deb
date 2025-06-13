@@ -7,12 +7,12 @@ Maintainer: Eugene San (eugenesan) <eugenesan@gmail.com>
 Homepage: http://whdd.org/
 Standards-Version: 3.9.4
 Vcs-Browser: https://github.com/whdd/whdd/
-Build-Depends: debhelper (>= 10.0~), libncurses-dev, libncursesw5-dev, libtinfo-dev, dialog, pkg-config
+Build-Depends: debhelper (>= 10.0~), libncurses-dev, libncursesw5-dev, libtinfo-dev, dialog, libdialog-dev, pkg-config
 Package-List:
  whdd deb utils extra arch=any
 Checksums-Sha1:
- f0386b8b79e962b19c191050f6f143e495cd6c02 42256 whdd_3.1.0.20241015.tar.xz
+ 8c4f1032e277ddec85481f3fad9e7d00fbb456d1 42276 whdd_3.1.0.20241015.tar.xz
 Checksums-Sha256:
- 693c8352fa66250851ec555801bfe50a36e72cdcc20b76c50e9adabe23140840 42256 whdd_3.1.0.20241015.tar.xz
+ 7f56d53e3da6fa0fdcaf8ab3ff8efeec90623166c2e67038fc2708e51d931dcf 42276 whdd_3.1.0.20241015.tar.xz
 Files:
- 3e579bbf1baf2a4b657a271607f34d76 42256 whdd_3.1.0.20241015.tar.xz
+ 919aaae83a65854e6e19bbf51423017f 42276 whdd_3.1.0.20241015.tar.xz

@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: netsurf
 Binary: netsurf-gtk, netsurf-fb, netsurf-common
 Architecture: any all
-Version: 3.11-2
+Version: 1:3.11-2
 Maintainer: Vincent Sanders <vince@debian.org>
 Uploaders: Alex Myczko <tar@debian.org>
 Homepage: https://www.netsurf-browser.org
@@ -16,10 +16,10 @@ Package-List:
  netsurf-gtk deb web optional arch=any
 Checksums-Sha1:
  bbd5309600a217e21392d766eff1ac9547372c93 9080781 netsurf_3.11.orig.tar.gz
- 321d3a16b873bf5c818ee0304132378450234b8c 14964 netsurf_3.11-2.debian.tar.xz
+ 6b58afd7b3df1cca306015c49c39273b560ec1d3 15000 netsurf_3.11-2.debian.tar.xz
 Checksums-Sha256:
  4dea880ff3c2f698bfd62c982b259340f9abcd7f67e6c8eb2b32c61f71644b7b 9080781 netsurf_3.11.orig.tar.gz
- 277d9bc8a782ef6e6ad96c5f2edc931ba3b43c84b03da56875bd2be330265f46 14964 netsurf_3.11-2.debian.tar.xz
+ 3ababacb724d265db67e8037a03ec42b0983b9ffdd13020fb6c44e2c950a42e8 15000 netsurf_3.11-2.debian.tar.xz
 Files:
  1554bb1093ef582da6b81883e181a3cf 9080781 netsurf_3.11.orig.tar.gz
- eff2d089edeb149ba3f518cbb6bb4014 14964 netsurf_3.11-2.debian.tar.xz
+ 00ec8c658379b6d980638372bb724660 15000 netsurf_3.11-2.debian.tar.xz
