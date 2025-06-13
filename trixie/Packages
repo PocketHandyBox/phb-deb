@@ -415,6 +415,58 @@ Description: C library for x86/ARM CPU detection and feature extraction (shared 
  .
  This package ships the libcpuid shared library.
 
+Package: libncursesw5
+Architecture: amd64
+Version: 6.4-4
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 384
+Depends: libtinfo5 (= 6.4-4), libc6 (>= 2.34)
+Recommends: libgpm2
+Filename: ./libncursesw5_6.4-4_amd64.deb
+Size: 121284
+MD5sum: 424861cfb0d4d795c985ce0aa549789a
+SHA1: 17117ac1df015cd9f6ad155e08faa73b738fe18a
+SHA256: 6f9a385db9f01f80b7de8b201a678bc79a32104f5b4ee55f5385bb3d4b227c0f
+SHA512: eb69b031f2724c2cc30a8d62bf9d1c92799621fa1712a234b2b4b1614170720c892c2dd05345cc0757c11e084efc8dcccd9d8379de46da485800d38278533234
+Homepage: https://invisible-island.net/ncurses/
+Description: shared libraries for terminal handling (wide character legacy version)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the legacy shared libraries necessary to run
+ programs compiled with ncursesw, which includes support for wide
+ characters.
+
+Package: libncursesw5
+Architecture: i386
+Version: 6.4-4
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 402
+Depends: libtinfo5 (= 6.4-4), libc6 (>= 2.34)
+Recommends: libgpm2
+Filename: ./libncursesw5_6.4-4_i386.deb
+Size: 131756
+MD5sum: 60e502ea686d5885029e07d766fbfe20
+SHA1: 096a5c4394b5760b7ff0c000565b24e47ba97833
+SHA256: 2c342b0442da9627750cf1be9b05a2291b438435d2b41c34c23a844b6778f8b2
+SHA512: 143c145c77665c8fcf855d4603e3371fb3e0ba5328bbfebb23eb5d6894e44fa1444ea80c389f4e613efcd762acca54b29e246dd749de6f709e6f58616a0e540d
+Homepage: https://invisible-island.net/ncurses/
+Description: shared libraries for terminal handling (wide character legacy version)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the legacy shared libraries necessary to run
+ programs compiled with ncursesw, which includes support for wide
+ characters.
+
 Package: libpng12-0
 Architecture: amd64
 Version: 1.2.59-1
@@ -468,6 +520,54 @@ Description: PNG library - runtime
  .
  This package contains the runtime library files needed to run software
  using libpng.
+
+Package: libtinfo5
+Architecture: amd64
+Version: 6.4-4
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 531
+Depends: libc6 (>= 2.34)
+Filename: ./libtinfo5_6.4-4_amd64.deb
+Size: 329032
+MD5sum: f38b99ed9f4fb0564d963a39b09cb6fd
+SHA1: 0e44987bce6888ce785e4e8d16c66ccd68ac4d75
+SHA256: 77064aef84ac5865717dab598fa6f7dadd4094f4639d7337631cda837318449a
+SHA512: 7db30506c51b0d984dce6c436977e149da9a5c12641c7804925230dcdbd38e678f74df2f1d2d1e820fde48ebed291c5d6cc5b2e67db0936f4edf7e78c8cd1e89
+Homepage: https://invisible-island.net/ncurses/
+Description: shared low-level terminfo library (legacy version)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the legacy version of the shared low-level
+ terminfo library.
+
+Package: libtinfo5
+Architecture: i386
+Version: 6.4-4
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 505
+Depends: libc6 (>= 2.34)
+Filename: ./libtinfo5_6.4-4_i386.deb
+Size: 329212
+MD5sum: efe35dad85308e9eebdf06779343f297
+SHA1: 1cb9c5a2aadeefccbd3ea5fb92a9bc56bfd3d5b5
+SHA256: 9613ac76a0587ef6483dd8982f8c3ef6a07a506a2c74c50ecfcf6d6d7d8f527b
+SHA512: f0e5ca282892cfd0fc6ea2ef0f6473dc2eccce882bff578ca7788168fb7f25fa0392dad482345842bd135e098b8f77835c60d6524ff880ac40ee830f0dc28f72
+Homepage: https://invisible-island.net/ncurses/
+Description: shared low-level terminfo library (legacy version)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the legacy version of the shared low-level
+ terminfo library.
 
 Package: luvcview
 Architecture: amd64

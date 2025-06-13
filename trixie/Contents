@@ -3,6 +3,14 @@ etc/X11/app-defaults/Xvidtune				    x11-xserver-utils
 etc/init.d/pup-vm					    pup-volume-monitor
 etc/xdg/Thunar/uca.xml					    thunar-data
 etc/xdg/pup-volume-monitor/main.conf			    pup-volume-monitor
+lib/i386-linux-gnu/libncursesw.so.5			    libncursesw5
+lib/i386-linux-gnu/libncursesw.so.5.9			    libncursesw5
+lib/i386-linux-gnu/libtinfo.so.5			    libtinfo5
+lib/i386-linux-gnu/libtinfo.so.5.9			    libtinfo5
+lib/x86_64-linux-gnu/libncursesw.so.5			    libncursesw5
+lib/x86_64-linux-gnu/libncursesw.so.5.9			    libncursesw5
+lib/x86_64-linux-gnu/libtinfo.so.5			    libtinfo5
+lib/x86_64-linux-gnu/libtinfo.so.5.9			    libtinfo5
 usr/bin/Thunar						    thunar
 usr/bin/busybox						    busybox-static
 usr/bin/cpu-x						    cpu-x
@@ -67,6 +75,12 @@ usr/lib/i386-linux-gnu/gio/modules/libpup-volume-monitor.a  pup-volume-monitor
 usr/lib/i386-linux-gnu/gio/modules/libpup-volume-monitor.la pup-volume-monitor
 usr/lib/i386-linux-gnu/gio/modules/libpup-volume-monitor.so pup-volume-monitor
 usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/engines/libadwaita.so gnome-themes-extra
+usr/lib/i386-linux-gnu/libformw.so.5			    libncursesw5
+usr/lib/i386-linux-gnu/libformw.so.5.9			    libncursesw5
+usr/lib/i386-linux-gnu/libmenuw.so.5			    libncursesw5
+usr/lib/i386-linux-gnu/libmenuw.so.5.9			    libncursesw5
+usr/lib/i386-linux-gnu/libpanelw.so.5			    libncursesw5
+usr/lib/i386-linux-gnu/libpanelw.so.5.9			    libncursesw5
 usr/lib/i386-linux-gnu/libpng12.so.0			    libpng12-0
 usr/lib/i386-linux-gnu/libpng12.so.0.59.0		    libpng12-0
 usr/lib/i386-linux-gnu/libpupvm.a			    pup-volume-monitor
@@ -74,6 +88,8 @@ usr/lib/i386-linux-gnu/libpupvm.la			    pup-volume-monitor
 usr/lib/i386-linux-gnu/libpupvm.so			    pup-volume-monitor
 usr/lib/i386-linux-gnu/libpupvm.so.0			    pup-volume-monitor
 usr/lib/i386-linux-gnu/libpupvm.so.0.0.0		    pup-volume-monitor
+usr/lib/i386-linux-gnu/libtic.so.5			    libtinfo5
+usr/lib/i386-linux-gnu/libtic.so.5.9			    libtinfo5
 usr/lib/i386-linux-gnu/pkgconfig/pupvm.pc		    pup-volume-monitor
 usr/lib/i386-linux-gnu/pup-volume-monitor/libcdrom.a	    pup-volume-monitor
 usr/lib/i386-linux-gnu/pup-volume-monitor/libcdrom.la	    pup-volume-monitor
@@ -97,6 +113,12 @@ usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.so pup-volume-monitor
 usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libadwaita.so gnome-themes-extra
 usr/lib/x86_64-linux-gnu/libcpuid.so.18			    libcpuid18
 usr/lib/x86_64-linux-gnu/libcpuid.so.18.1.0		    libcpuid18
+usr/lib/x86_64-linux-gnu/libformw.so.5			    libncursesw5
+usr/lib/x86_64-linux-gnu/libformw.so.5.9		    libncursesw5
+usr/lib/x86_64-linux-gnu/libmenuw.so.5			    libncursesw5
+usr/lib/x86_64-linux-gnu/libmenuw.so.5.9		    libncursesw5
+usr/lib/x86_64-linux-gnu/libpanelw.so.5			    libncursesw5
+usr/lib/x86_64-linux-gnu/libpanelw.so.5.9		    libncursesw5
 usr/lib/x86_64-linux-gnu/libpng12.so.0			    libpng12-0
 usr/lib/x86_64-linux-gnu/libpng12.so.0.59.0		    libpng12-0
 usr/lib/x86_64-linux-gnu/libpupvm.a			    pup-volume-monitor
@@ -104,6 +126,8 @@ usr/lib/x86_64-linux-gnu/libpupvm.la			    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/libpupvm.so			    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/libpupvm.so.0			    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/libpupvm.so.0.0.0		    pup-volume-monitor
+usr/lib/x86_64-linux-gnu/libtic.so.5			    libtinfo5
+usr/lib/x86_64-linux-gnu/libtic.so.5.9			    libtinfo5
 usr/lib/x86_64-linux-gnu/pkgconfig/pupvm.pc		    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/pup-volume-monitor/libcdrom.a	    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/pup-volume-monitor/libcdrom.la	    pup-volume-monitor
@@ -201,6 +225,7 @@ usr/share/doc/gtkdialog/copyright			    gtkdialog
 usr/share/doc/libcpuid18/changelog.Debian.gz		    libcpuid18
 usr/share/doc/libcpuid18/changelog.gz			    libcpuid18
 usr/share/doc/libcpuid18/copyright			    libcpuid18
+usr/share/doc/libncursesw5				    libncursesw5
 usr/share/doc/libpng12-0/ANNOUNCE			    libpng12-0
 usr/share/doc/libpng12-0/KNOWNBUG			    libpng12-0
 usr/share/doc/libpng12-0/README.Debian			    libpng12-0
@@ -210,6 +235,9 @@ usr/share/doc/libpng12-0/changelog.Debian.gz		    libpng12-0
 usr/share/doc/libpng12-0/changelog.gz			    libpng12-0
 usr/share/doc/libpng12-0/copyright			    libpng12-0
 usr/share/doc/libpng12-0/libpng-1.2.59.txt.gz		    libpng12-0
+usr/share/doc/libtinfo5/changelog.Debian.gz		    libtinfo5
+usr/share/doc/libtinfo5/changelog.gz			    libtinfo5
+usr/share/doc/libtinfo5/copyright			    libtinfo5
 usr/share/doc/luvcview/README				    luvcview
 usr/share/doc/luvcview/ToDo				    luvcview
 usr/share/doc/luvcview/changelog.Debian.gz		    luvcview
