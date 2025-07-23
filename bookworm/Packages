@@ -465,22 +465,22 @@ Description: alsaplayer XOSD display module
 
 Package: busybox-static
 Architecture: amd64
-Version: 1:1.37.0-4phb
-Static-Built-Using: glibc (= 2.36-9+deb12u10)
+Version: 2:1.37.0-6phb
+Static-Built-Using: glibc (= 2.41-8)
 Priority: optional
 Section: shells
 Source: busybox
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Installed-Size: 1541
+Installed-Size: 1584
 Provides: busybox
 Conflicts: busybox
 Replaces: busybox
-Filename: ./busybox-static_1.37.0-4phb_amd64.deb
-Size: 656608
-MD5sum: d976cc0d9e1c884d783d84c1588928d6
-SHA1: 524766ca88e094b34c2805ed3a6fbdbd94eb87d9
-SHA256: 17db6ae6a9f21f221716d4fcd4e098589611e9d588c86dbc2709883c11f4b79e
-SHA512: ebfc9c300e82a3e2c377ac766c08a84101ab981debf2f4f9f1667bb26987b9e11f4a353071f4b40edc510e7e8082838831adee49d58bf122196bbcad37924637
+Filename: ./busybox-static_1.37.0-6phb_amd64.deb
+Size: 674508
+MD5sum: 3f0ea4e75bf814f3ba091256e0d32caf
+SHA1: 4295e7196199da796d9e6a9b00f1ce4da17f9f44
+SHA256: 4dbcbe0c6fed3f23a86e55405a80825215e247096c816ae19082cb3e2a12596c
+SHA512: be411e199dd52d62eb3ba7b625fc5f5d8046b67e01ae643ffb098ed18b5688b419e5d5f9c2fe30916d2d5b76bcedcf88dc9f97105dd929d1d66f8e2d5ee448e7
 Homepage: http://www.busybox.net
 Description: Standalone rescue shell with tons of builtin utilities
  BusyBox combines tiny versions of many common UNIX utilities into a single
@@ -500,22 +500,22 @@ Description: Standalone rescue shell with tons of builtin utilities
 
 Package: busybox-static
 Architecture: i386
-Version: 1:1.37.0-4phb
-Static-Built-Using: glibc (= 2.36-9+deb12u10)
+Version: 2:1.37.0-6phb
+Static-Built-Using: glibc (= 2.41-8)
 Priority: optional
 Section: shells
 Source: busybox
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Installed-Size: 1612
+Installed-Size: 1661
 Provides: busybox
 Conflicts: busybox
 Replaces: busybox
-Filename: ./busybox-static_1.37.0-4phb_i386.deb
-Size: 689436
-MD5sum: dffb0fa83362f2caa644454b59653af3
-SHA1: 53a0c9797433feedfa29c94713af99fc7c308652
-SHA256: 49c368c07ade4821ccf8e1f9c3fe426491872dfb336c9281d954d8d593fb6c18
-SHA512: f6a5e0d3f5a9d35f4e00ffaa0cd9979e9300e69ffeb54a4d2900d87a98630b904117630524046220f314f32d6abcf42e355e60f6540e9efda99d5e9417d23db3
+Filename: ./busybox-static_1.37.0-6phb_i386.deb
+Size: 708192
+MD5sum: 05522c363550bd29b1da75a1536de145
+SHA1: faf68d8ebfeeec1a6b127040e5b4643426e8b052
+SHA256: d25b89714e042e9179b8aea8791cf889659921f3e41ddf25f48c324a2be271fb
+SHA512: 5de85ae3008f4e687426cd0555e3b73c3bfa6a284fe81cc4ff10a1a87820c882bebb1278c12bdf103a26e67edda9f24b1f46f7aad90bcc55b52dbbfb4b432957
 Homepage: http://www.busybox.net
 Description: Standalone rescue shell with tons of builtin utilities
  BusyBox combines tiny versions of many common UNIX utilities into a single
