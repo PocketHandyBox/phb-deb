@@ -53,6 +53,9 @@ usr/bin/xstdcmap					    x11-xserver-utils
 usr/bin/xvidtune					    x11-xserver-utils
 usr/bin/yad						    yad
 usr/bin/yad-tools					    yad
+usr/include/libcpuid/libcpuid.h				    libcpuid-dev
+usr/include/libcpuid/libcpuid_constants.h		    libcpuid-dev
+usr/include/libcpuid/libcpuid_types.h			    libcpuid-dev
 usr/include/pupvm/conv.h				    pup-volume-monitor
 usr/include/pupvm/core.h				    pup-volume-monitor
 usr/include/pupvm/protocol.h				    pup-volume-monitor
@@ -77,6 +80,11 @@ usr/lib/i386-linux-gnu/gio/modules/libpup-volume-monitor.a  pup-volume-monitor
 usr/lib/i386-linux-gnu/gio/modules/libpup-volume-monitor.la pup-volume-monitor
 usr/lib/i386-linux-gnu/gio/modules/libpup-volume-monitor.so pup-volume-monitor
 usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/engines/libadwaita.so gnome-themes-extra
+usr/lib/i386-linux-gnu/libcpuid.a			    libcpuid-dev
+usr/lib/i386-linux-gnu/libcpuid.la			    libcpuid-dev
+usr/lib/i386-linux-gnu/libcpuid.so			    libcpuid-dev
+usr/lib/i386-linux-gnu/libcpuid.so.18			    libcpuid18
+usr/lib/i386-linux-gnu/libcpuid.so.18.1.0		    libcpuid18
 usr/lib/i386-linux-gnu/libformw.so.5			    libncursesw5
 usr/lib/i386-linux-gnu/libformw.so.5.9			    libncursesw5
 usr/lib/i386-linux-gnu/libmenuw.so.5			    libncursesw5
@@ -92,6 +100,7 @@ usr/lib/i386-linux-gnu/libpupvm.so.0			    pup-volume-monitor
 usr/lib/i386-linux-gnu/libpupvm.so.0.0.0		    pup-volume-monitor
 usr/lib/i386-linux-gnu/libtic.so.5			    libtinfo5
 usr/lib/i386-linux-gnu/libtic.so.5.9			    libtinfo5
+usr/lib/i386-linux-gnu/pkgconfig/libcpuid.pc		    libcpuid-dev
 usr/lib/i386-linux-gnu/pkgconfig/pupvm.pc		    pup-volume-monitor
 usr/lib/i386-linux-gnu/pup-volume-monitor/libcdrom.a	    pup-volume-monitor
 usr/lib/i386-linux-gnu/pup-volume-monitor/libcdrom.la	    pup-volume-monitor
@@ -113,6 +122,9 @@ usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.a pup-volume-monitor
 usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.la pup-volume-monitor
 usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.so pup-volume-monitor
 usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libadwaita.so gnome-themes-extra
+usr/lib/x86_64-linux-gnu/libcpuid.a			    libcpuid-dev
+usr/lib/x86_64-linux-gnu/libcpuid.la			    libcpuid-dev
+usr/lib/x86_64-linux-gnu/libcpuid.so			    libcpuid-dev
 usr/lib/x86_64-linux-gnu/libcpuid.so.18			    libcpuid18
 usr/lib/x86_64-linux-gnu/libcpuid.so.18.1.0		    libcpuid18
 usr/lib/x86_64-linux-gnu/libformw.so.5			    libncursesw5
@@ -130,6 +142,7 @@ usr/lib/x86_64-linux-gnu/libpupvm.so.0			    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/libpupvm.so.0.0.0		    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/libtic.so.5			    libtinfo5
 usr/lib/x86_64-linux-gnu/libtic.so.5.9			    libtinfo5
+usr/lib/x86_64-linux-gnu/pkgconfig/libcpuid.pc		    libcpuid-dev
 usr/lib/x86_64-linux-gnu/pkgconfig/pupvm.pc		    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/pup-volume-monitor/libcdrom.a	    pup-volume-monitor
 usr/lib/x86_64-linux-gnu/pup-volume-monitor/libcdrom.la	    pup-volume-monitor
@@ -232,6 +245,10 @@ usr/share/doc/gnome-themes-extra/copyright		    gnome-themes-extra
 usr/share/doc/gtkdialog/changelog.Debian.gz		    gtkdialog
 usr/share/doc/gtkdialog/changelog.gz			    gtkdialog
 usr/share/doc/gtkdialog/copyright			    gtkdialog
+usr/share/doc/libcpuid-dev/Readme.md.gz			    libcpuid-dev
+usr/share/doc/libcpuid-dev/changelog.Debian.gz		    libcpuid-dev
+usr/share/doc/libcpuid-dev/changelog.gz			    libcpuid-dev
+usr/share/doc/libcpuid-dev/copyright			    libcpuid-dev
 usr/share/doc/libcpuid18/changelog.Debian.gz		    libcpuid18
 usr/share/doc/libcpuid18/changelog.gz			    libcpuid18
 usr/share/doc/libcpuid18/copyright			    libcpuid18
@@ -5333,7 +5350,12 @@ usr/share/man/man1/xstdcmap.1.gz			    x11-xserver-utils
 usr/share/man/man1/xvidtune.1.gz			    x11-xserver-utils
 usr/share/man/man1/yad-tools.1.gz			    yad
 usr/share/man/man1/yad.1.gz				    yad
+usr/share/man/man3/cpu_id_t.3.gz			    libcpuid-dev
+usr/share/man/man3/cpu_list_t.3.gz			    libcpuid-dev
+usr/share/man/man3/cpu_mark_t.3.gz			    libcpuid-dev
+usr/share/man/man3/cpu_raw_data_t.3.gz			    libcpuid-dev
 usr/share/man/man3/cpuid_tool.3.gz			    cpuidtool
+usr/share/man/man3/libcpuid.3.gz			    libcpuid-dev
 usr/share/man/man5/wavemonrc.5.gz			    wavemon
 usr/share/menu/luvcview					    luvcview
 usr/share/menu/wavemon					    wavemon
