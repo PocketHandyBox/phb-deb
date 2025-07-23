@@ -688,7 +688,6 @@ usr/share/doc/numix-icon-theme/copyright		    numix-icon-theme
 usr/share/doc/nvme-cli/TODO.Debian			    nvme-cli
 usr/share/doc/nvme-cli/changelog.Debian.gz		    nvme-cli
 usr/share/doc/nvme-cli/copyright			    nvme-cli
-usr/share/doc/nvtop/changelog.Debian.amd64.gz		    nvtop
 usr/share/doc/nvtop/changelog.Debian.gz			    nvtop
 usr/share/doc/nvtop/copyright				    nvtop
 usr/share/doc/pup-volume-monitor/changelog.gz		    pup-volume-monitor

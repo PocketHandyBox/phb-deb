@@ -2312,19 +2312,18 @@ Description: NVMe management tool
 
 Package: nvtop
 Architecture: amd64
-Version: 3.1.0-1+b1
+Version: 3.2.0-1
 Priority: optional
 Section: utils
-Source: nvtop (3.1.0-1)
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 196
+Installed-Size: 215
 Depends: libc6 (>= 2.34), libncursesw6 (>= 6), libsystemd0 (>= 240), libtinfo6 (>= 6)
-Filename: ./nvtop_3.1.0-1+b1_amd64.deb
-Size: 68540
-MD5sum: 13657a587698234b9dae67a114575192
-SHA1: d594d5802e69fd14c3660a132e38b27186cc6872
-SHA256: 34391dfb03cb1c7584f6a8c13dae21a64dff12cd2d4a0e80bdbaf0d70561fa08
-SHA512: 35e9b9ac21fc8425dedf4318b9a1a7c0135aaddcaa8ee9f20c999abd89b853837c30ea22381dd61624593ad9ffb3e258cb4212f6967889a3cd9f4357567530b4
+Filename: ./nvtop_3.2.0-1_amd64.deb
+Size: 76100
+MD5sum: f186895ab592bf2252779878f87cd147
+SHA1: 63d14eb2deefa7c09ba1a8053b00edc8534d416c
+SHA256: c3c54e0764f2b63b517c7dd72f0845d79dba9b42449c114d594ed8785f1e19f0
+SHA512: b12ca57a1f3fa9e2f079476d1da9675c7b30d079ff7166e8ac9263166dc0cc73483abd06a08338711d62c256754ed4977d55e3b4abe1fabc16180675f46d0586
 Homepage: https://github.com/Syllo/nvtop
 Description: Neat Videocard TOP
  NVTOP stands for Neat Videocard TOP, a (h)top like task monitor for AMD, Intel
