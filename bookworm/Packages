@@ -1992,6 +1992,50 @@ Description: USB Video Class grabber
  luvcview is a camera viewer for UVC based webcams. It includes an mjpeg
  decoder and is able to save the video stream as an AVI file.
 
+Package: mesa-utils-bin
+Architecture: amd64
+Version: 9.0.0-2
+Multi-Arch: same
+Priority: optional
+Section: x11
+Source: mesa-demos
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 979
+Depends: libc6 (>= 2.34), libdecor-0-0 (>= 0.1.0), libegl1, libgl1, libgles2, libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libx11-6, libxcb1, libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0)
+Filename: ./mesa-utils-bin_9.0.0-2_amd64.deb
+Size: 156448
+MD5sum: f22b4ab6c06f919ef1f6136c1a2071e5
+SHA1: 80c7751c7c4e56054e493bea671a532ff2b308ac
+SHA256: e63a3f46badd75b54eb5d3a595195b3ff7369cbe97ba1c5aff1b5f0d84663bba
+SHA512: 1f61e1f9284e43c7934723a00fed60bdce3fbd58629a9c3b12db109da1aad7dfd2fedbad8d1077c3373ce4a67541551deedd4673cfe108f31e5ab47c23a26d70
+Homepage: https://mesa3d.org/
+Description: Miscellaneous Mesa utilities -- native applications
+ This package provides native builds of utilities provided by Mesa, including
+ glxinfo and glxgears.
+
+Package: mesa-utils
+Architecture: amd64
+Version: 9.0.0-2
+Priority: optional
+Section: x11
+Source: mesa-demos
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2150
+Provides: mesa-utils-extra
+Depends: mesa-utils-bin
+Conflicts: mesa-utils-extra
+Replaces: mesa-utils-extra
+Filename: ./mesa-utils_9.0.0-2_amd64.deb
+Size: 953620
+MD5sum: bd46140d272caf39aec5deb06687a0a8
+SHA1: 5c69907a88fdd5b9bd22aeae5cfb4c96339b8600
+SHA256: 7ba7649a19f902ce42c630f0fc78c25afd0b9515f1dd6c82e246504557b64c54
+SHA512: 1dc7bf0433fab1ab9e3a33b18c8a108c5653cafd6191dc6ed1d4a34458c7968d2077e312237889ce04361cf160196a7adb0eef4c72c0ee950257b0e1d2071c92
+Homepage: https://mesa3d.org/
+Description: Miscellaneous Mesa utilities -- symlinks
+ This package provides symlinks to several native utilities provided by Mesa,
+ including glxinfo and glxgears.
+
 Package: mousepad
 Architecture: amd64
 Version: 1:0.5.4-1

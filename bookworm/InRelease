@@ -9,7 +9,7 @@ Codename: bookworm
 Version: 1.0
 Architectures: amd64 i386
 Components: main
-Date: Wed, 23 Jul 2025 10:31:54 +0000
+Date: Wed, 23 Jul 2025 21:08:19 +0000
 MD5Sum:
  d3b58df67a035bf27b7e0d45a7e3890e 463104 adwaita-icon-theme_47.0-2_all.deb
  68c59fca5f414a619f8eb5f24dbd2d61 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
@@ -33,8 +33,8 @@ MD5Sum:
  2b80793a734555369e4fdf272ba23b7e 100332 alsaplayer-xosd_0.99.82-1_i386.deb
  3f0ea4e75bf814f3ba091256e0d32caf 674508 busybox-static_1.37.0-6phb_amd64.deb
  05522c363550bd29b1da75a1536de145 708192 busybox-static_1.37.0-6phb_i386.deb
- b274b8eb1a8d1b2405b9ac2d13a4caf0 3285346 Contents
- 15fc0d6edd2d9bd952ab187ace2fbcca 227067 Contents.gz
+ 343dea55688549c00d19bda3653ed88a 3288186 Contents
+ be01dfa5fc2f118bd5234e4b481407ab 227431 Contents.gz
  946755ffa70bd5b7075eb1ac5dfdf378 17640 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  8494a3891817f1929952379ba46ed88a 17472 cpuidtool_0.8.0+repack1-0.3_i386.deb
  788de5357282afaf84e68b37f82e4daa 2298492 cpu-x_5.3.1-0.3_amd64.deb
@@ -93,6 +93,8 @@ MD5Sum:
  72cdc9bf95a7c3b926ad17515ab0a1ef 36520 libyyjson-dev_0.10.0+ds-1_i386.deb
  d195e6bd44410c9c512564e229c3d22d 48228 luvcview_0.2.6-6_amd64.deb
  454f58b34d2b4e90c78a86f51ebcfa95 49824 luvcview_0.2.6-6_i386.deb
+ bd46140d272caf39aec5deb06687a0a8 953620 mesa-utils_9.0.0-2_amd64.deb
+ f22b4ab6c06f919ef1f6136c1a2071e5 156448 mesa-utils-bin_9.0.0-2_amd64.deb
  d229afa943d2f5abfc6eaddf49dc06e7 484188 mousepad_0.5.4-1_amd64.deb
  84675a2d2b6635aa260cc0b5bdd1e7a2 494312 mousepad_0.5.4-1_i386.deb
  9a22dc93c4dce27d73ed713ccfa6b8bf 621912 mtpaint_3.50.11-1_amd64.deb
@@ -106,8 +108,8 @@ MD5Sum:
  41bcc0c06de080f99ad4594d79f619b7 1930600 numix-icon-theme_0~20241212-1_all.deb
  96ea31bce201200105deeaeffbb23484 725504 nvme-cli_2.11-1_amd64.deb
  f186895ab592bf2252779878f87cd147 76100 nvtop_3.2.0-1_amd64.deb
- 70270e2a1cbab5bec4075e50006c6bda 146511 Packages
- 8b3db8521b0bfde9963bb12c5ccac9d1 40747 Packages.gz
+ 49bb1a83cec8e359f094aed7bc5f93cf 148361 Packages
+ 3fabb13cb620b83e28799f4e2e049bec 41406 Packages.gz
  de12fbdcdc4688b18b6d76e7651b1ffd 93048 pup-volume-monitor_0.2w_amd64.deb
  fc9b44911ded48d042b5eae8022b7b67 100936 pup-volume-monitor_0.2w_i386.deb
  af5493cab7028ab4a5632013284b4e5d 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -161,8 +163,8 @@ SHA1:
  faa34bc947c86ba477dbcb65c53d1af989ca7f4f 100332 alsaplayer-xosd_0.99.82-1_i386.deb
  4295e7196199da796d9e6a9b00f1ce4da17f9f44 674508 busybox-static_1.37.0-6phb_amd64.deb
  faf68d8ebfeeec1a6b127040e5b4643426e8b052 708192 busybox-static_1.37.0-6phb_i386.deb
- e47a447e0b5235809665937e15d56287559c067a 3285346 Contents
- ed18c58b5b54001a7554e745dc10e38d1cba067b 227067 Contents.gz
+ 0e1e0e4de242dbfde7354c26b0c96c5301907352 3288186 Contents
+ ba50547a31c8fa983542c892d6bd9f6cd579390e 227431 Contents.gz
  ae346ea384db3a64549a27e16b0c131394ee8f3e 17640 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  f3d3a7c543bf0bbf700d4d208d2675de2bb90ac9 17472 cpuidtool_0.8.0+repack1-0.3_i386.deb
  1e688f52f2df09e85b1bdce1f450fe01fde3e705 2298492 cpu-x_5.3.1-0.3_amd64.deb
@@ -221,6 +223,8 @@ SHA1:
  c17dd5c5fcce2c47e60adaeb309fb187001c22fc 36520 libyyjson-dev_0.10.0+ds-1_i386.deb
  26db4f0aa378ed5fd6699f11776013fdf4c02777 48228 luvcview_0.2.6-6_amd64.deb
  cd68c385a4be514f608188de75ca0ad322dd108a 49824 luvcview_0.2.6-6_i386.deb
+ 5c69907a88fdd5b9bd22aeae5cfb4c96339b8600 953620 mesa-utils_9.0.0-2_amd64.deb
+ 80c7751c7c4e56054e493bea671a532ff2b308ac 156448 mesa-utils-bin_9.0.0-2_amd64.deb
  f91869abbacbc4f61374d32f56a75eb46d6846fb 484188 mousepad_0.5.4-1_amd64.deb
  744b96697a9bc1a60248b42b58f02e74d9cf50e6 494312 mousepad_0.5.4-1_i386.deb
  28dcd920e2d1a81ed2665fe7b61030b4bacd083a 621912 mtpaint_3.50.11-1_amd64.deb
@@ -234,8 +238,8 @@ SHA1:
  cc0f088c2e4712f7b84e128fc9c1e6a887b782ba 1930600 numix-icon-theme_0~20241212-1_all.deb
  30b6278ca2e913147eb733236ec380ab9324c4dd 725504 nvme-cli_2.11-1_amd64.deb
  63d14eb2deefa7c09ba1a8053b00edc8534d416c 76100 nvtop_3.2.0-1_amd64.deb
- a7bf276bc84bf42fb14f18a8a6ded6aa19737434 146511 Packages
- 1aafdbe55f6475f6c203897c91420cc0421d5205 40747 Packages.gz
+ cfdfd70abe4bf6e769e92d52bc5515a3200e961f 148361 Packages
+ 74f897a00587c8db4091c8fa1127b262bc9cfa00 41406 Packages.gz
  98df307213a9a7e884ecdfd3495c477f0ef04b9e 93048 pup-volume-monitor_0.2w_amd64.deb
  e82524ecb3538d5e917f5b82cfc9d2dfbe1e2a3d 100936 pup-volume-monitor_0.2w_i386.deb
  c5a3221a6a79b87a51bf1912987bca84ad974019 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -289,8 +293,8 @@ SHA256:
  5a46496796752dce5aa6e9d979b55d1a8843fee2a61a8e469324b4905f8aaf85 100332 alsaplayer-xosd_0.99.82-1_i386.deb
  4dbcbe0c6fed3f23a86e55405a80825215e247096c816ae19082cb3e2a12596c 674508 busybox-static_1.37.0-6phb_amd64.deb
  d25b89714e042e9179b8aea8791cf889659921f3e41ddf25f48c324a2be271fb 708192 busybox-static_1.37.0-6phb_i386.deb
- 63459535bfb6f021b640d68336be77ad41682b2e5923d24d712635e9503bdf29 3285346 Contents
- 9452768a31b43d1e820d932426b68a819442530317b581f0e77d9e784db7288b 227067 Contents.gz
+ 262d0dcee76f7ffb344d3669f183c4becd89c44ddf54e6efce21707178f7ea03 3288186 Contents
+ 0d7609f739b656a1e675b17e1091a63a2f504ac54f0bbf3f062df894e7f786ad 227431 Contents.gz
  2a9e65de239dafdf0d8139b3d860b3470fdd532833b01f01a42ebbf4ae236299 17640 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  05d877882a2774855f1695ac36192f13b843e06509d4ff944e40f1449bac7636 17472 cpuidtool_0.8.0+repack1-0.3_i386.deb
  371a797916c04f130f001a32cfa8d7760546b5a668c0314c5e569e3b5d7a759f 2298492 cpu-x_5.3.1-0.3_amd64.deb
@@ -349,6 +353,8 @@ SHA256:
  fdd015ecec3b9d2f6a231784e138c1c9745f8b73fa0a106edbe211f34b24fce7 36520 libyyjson-dev_0.10.0+ds-1_i386.deb
  bfe129421937f1d578174994a229d1b405e8dc4e1468cd860c093717b3093e1b 48228 luvcview_0.2.6-6_amd64.deb
  fe5c983c7f75019d444059e3ededc597780d307b9907c513d2596ff82089b5da 49824 luvcview_0.2.6-6_i386.deb
+ 7ba7649a19f902ce42c630f0fc78c25afd0b9515f1dd6c82e246504557b64c54 953620 mesa-utils_9.0.0-2_amd64.deb
+ e63a3f46badd75b54eb5d3a595195b3ff7369cbe97ba1c5aff1b5f0d84663bba 156448 mesa-utils-bin_9.0.0-2_amd64.deb
  1a2e348a1fa3fe544f5032fd339e6bcbbb89b30eb3b16e26d8fba191c50e8693 484188 mousepad_0.5.4-1_amd64.deb
  6edcb6f0234115cd31ed45054d442d76dde775b68717aeedb2e6b1ca9fdb91ee 494312 mousepad_0.5.4-1_i386.deb
  182b9a6ed72257f0b46338f1d3fd601b131e216f8791e1a650cd5814038ec955 621912 mtpaint_3.50.11-1_amd64.deb
@@ -362,8 +368,8 @@ SHA256:
  beb26deedbb1e3daa62de67e02ed4a5b176063374aaa54edc06839d7d9b2e9df 1930600 numix-icon-theme_0~20241212-1_all.deb
  489493969fb61214d02cb1d9fa9ad49ea4ba7059c2b01c76aafec2c5ce5817b2 725504 nvme-cli_2.11-1_amd64.deb
  c3c54e0764f2b63b517c7dd72f0845d79dba9b42449c114d594ed8785f1e19f0 76100 nvtop_3.2.0-1_amd64.deb
- be3d8017ed5b38e1ae320ce7af96b805378ef90d5917ed705c2200cb98360e7a 146511 Packages
- 91ef7d835b740fdb51af04fbec6a561353bdfbf13f3057bf6069a1f3392f709a 40747 Packages.gz
+ 6740c980eb3d2c8a92b30f0145b34a9de96c0bbcc6c1a37b44bb929424e78ce9 148361 Packages
+ d1277babea893abd03f6103d36aacf0de43724adf213adaa4c2974c976b859f7 41406 Packages.gz
  277c68c159f006ccd2bf4f17710511f64d0049743e2801f1956baf3bf970bc9d 93048 pup-volume-monitor_0.2w_amd64.deb
  a45433ef3df284a02014140c863db3daf3ea56e7cb9c1abde99bc56dabe0b58d 100936 pup-volume-monitor_0.2w_i386.deb
  bbf2fa82d424c0eab1d5752b33586ed9bb85766cf86e68482e31b18161dbd6f8 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -396,15 +402,15 @@ SHA256:
  6072420a710d1240ff11c9fad09dfb0d10737b3d26c22a00d0c7eb13d4922971 212760 yad_14.1-1_i386.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmiAuiQACgkQZ9Vqr4Ht
-qtk5SQv9F51C1BBzGfvS8eISe7wddM5PTHWxwHX6mx7wqUv/m17U3NNIfnD297se
-ATqs9hmGk0jbZMTUUDlbo+rNevb27/HA0xcGhdieaUJdbmmBBDH7no92uBZ6ZZrn
-95IM3dRNspG+ALfPeOKl/Q57q8UgHug6vQ29+21JmYb3uc7YCwOH4Jgd3yGwlZX3
-AmygDlcJ3urS7sRJLoNmELJJ2yZnYOD0qiwqiJxioQzHLvcwTuDGG0UqgdZOP3d6
-xP6x92ZDP7Os2x2s1/SbOLhRONDMYgZPlZR/d/auqt+t0wBv7EUVMU0aiuocoF0t
-VG9A0JRvubVLP5B4V/buBmQTSyOjsgsrwkKb9GUBeJ6rOq2IU5bJr6pkR8FsI7LI
-OHJC7evikbuaWdEeykACQOjzu8eeicSJ7ssVa+lCKIVmgEP40oX63ROQQKS+QXQv
-nTl29Zzs6XMAC7hl35u3jliIf/NZRQBDas13QdkIxZwRRSy97ie5m4mAGk4FH+9D
-B/cPdi0S
-=Nvhc
+iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmiBT1EACgkQZ9Vqr4Ht
+qtkF2wv9Hd6txgOAphzbqv4+thuUfu0roQWEEcuh8NqHvsHTqWBItPHDutISA6tG
+LxKpomG6fxuAOFFhM4rt9QvaKqJ3wUoru9EgBWhCwPCoQnSELzwEXz9doM9z8zhm
+pcZCt6zVrzQ8mdMDOxHkHS/LNXCBuwhapDkVciAa8ALN0XY9L4RGTwx5lYgY6MPg
+Ipj43BZyI523KdcqSACoghItrWy9pj2ood1Xd1pka+UqhgkGrsYJEVHVBjZPbqG4
+NcQeKcoLBYvw/yNmI5g29LqKs3cOjOJRwWrgKNGJ55L15358SWw5r2nyV5y7H3rO
+is052hJ0nX4odHBPJqEA03qtBAnQVnGdEoT8gpMZIvuLjjfTPsTuGEbvxUdP1Ddo
+IeTBU+VKtdngzo8M2IRQmzYprA1NHhyZeNgQxBZ6GM59mF7kch6/w0VkipPpqy5H
+x19tjPa9IU/gezBvYAebgM/5SMwc2lSzr2CiqURXVdC3Bc1htSOF/Zk7E14cdKUD
+nIhVLyFE
+=V9fE
 -----END PGP SIGNATURE-----
