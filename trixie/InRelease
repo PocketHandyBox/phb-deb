@@ -9,14 +9,14 @@ Codename: trixie
 Version: 1.0
 Architectures: amd64 i386
 Components: main
-Date: Wed, 23 Jul 2025 09:57:45 +0000
+Date: Thu, 24 Jul 2025 12:14:55 +0000
 MD5Sum:
  2a74ab2b9e21512bd86573960510fa02 212208 alsaplayer-gtk_0.99.82-1_amd64.deb
  42b8ed59d8ce324060234f88cae72e82 203884 alsaplayer-gtk_0.99.82-1_i386.deb
  3f0ea4e75bf814f3ba091256e0d32caf 674508 busybox-static_1.37.0-6phb_amd64.deb
  05522c363550bd29b1da75a1536de145 708192 busybox-static_1.37.0-6phb_i386.deb
- c829624145d39248d21ac2641327cbd8 457728 Contents
- 5e304966620bfb238049c6ccfa5be541 24050 Contents.gz
+ 98a335854bb438c7baa0bd60469e9416 1772245 Contents
+ a101b6d4004873c45e650ff54cda659f 111749 Contents.gz
  a7d1bd1105532ddf2367e36ce7a8d4af 17652 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  d322dd9f8ce7165c1b0595c397b45749 17496 cpuidtool_0.8.0+repack1-0.3_i386.deb
  3108de6a07b2d76237aaecf5bd2a6915 2315184 cpu-x_5.3.1-0.3_amd64.deb
@@ -40,6 +40,7 @@ MD5Sum:
  aae69665d10adfaca8d9fa6dee33b6f5 168584 libpng12-0_1.2.59-1_i386.deb
  f38b99ed9f4fb0564d963a39b09cb6fd 329032 libtinfo5_6.4-4_amd64.deb
  efe35dad85308e9eebdf06779343f297 329212 libtinfo5_6.4-4_i386.deb
+ b507d7eeee197e1ddaf0df5f9d25ef3c 8610380 linux-headers_6.1.140-phb-686_i386.deb
  d195e6bd44410c9c512564e229c3d22d 48228 luvcview_0.2.6-6_amd64.deb
  454f58b34d2b4e90c78a86f51ebcfa95 49824 luvcview_0.2.6-6_i386.deb
  c72777698b093abdf2512f4cf8870083 478444 mousepad_0.5.4-1_amd64.deb
@@ -50,8 +51,8 @@ MD5Sum:
  16d291b9b731e3f1c3e182ff5ceaa3f4 1485628 netsurf-gtk_3.11-2_amd64.deb
  cc52dd385c5d180c8a5d3d257577ea62 1565896 netsurf-gtk_3.11-2_i386.deb
  9a72c12b70036c45dc0fedb529db9599 37712 numix-colors-icon-theme_1.0_all.deb
- c8ed81839adfa504a3c05a6b450f3d0b 64519 Packages
- 6bdb96372b2c0a8f2bd42428eafe97da 18449 Packages.gz
+ 190bad4c8aecaa0432a6e46e2f5dfd06 65312 Packages
+ b038187b93e363ba6f26c93f0b7f18a2 18772 Packages.gz
  1e0cdba590ca6213f3c55286c24a40a5 89964 pup-volume-monitor_0.2w_amd64.deb
  5531ac442499e366b601fcf1268a08aa 96680 pup-volume-monitor_0.2w_i386.deb
  1a7bd43a5c9f07bca1caa99f2808aa10 740 sqv-dummy_1.0_all.deb
@@ -74,8 +75,8 @@ SHA1:
  1ba5e5857edcba4d261f5cc322c17bf7bbf2ab4f 203884 alsaplayer-gtk_0.99.82-1_i386.deb
  4295e7196199da796d9e6a9b00f1ce4da17f9f44 674508 busybox-static_1.37.0-6phb_amd64.deb
  faf68d8ebfeeec1a6b127040e5b4643426e8b052 708192 busybox-static_1.37.0-6phb_i386.deb
- ffea4491b776b1ee5ac6601b1c22b542cedfa0c1 457728 Contents
- 29ad0000ea7046be9f84ecd17b40f94adc472b98 24050 Contents.gz
+ 618bc8c941cc1aa3847d5243eae4c5e29f565930 1772245 Contents
+ d94e1335b2f48476c7fb87e2d00f410b5c95d15f 111749 Contents.gz
  726450e2beec6b03c4f842ef04b53528b6754672 17652 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  ca61e33389f1e0ec0ece3470da5c77a53cbf6fa3 17496 cpuidtool_0.8.0+repack1-0.3_i386.deb
  b0a63b05b97237bb31f797d06f5726cf001f7c6e 2315184 cpu-x_5.3.1-0.3_amd64.deb
@@ -99,6 +100,7 @@ SHA1:
  bbfb1e29d4aa26c4b72b128b97bcd7669042efa9 168584 libpng12-0_1.2.59-1_i386.deb
  0e44987bce6888ce785e4e8d16c66ccd68ac4d75 329032 libtinfo5_6.4-4_amd64.deb
  1cb9c5a2aadeefccbd3ea5fb92a9bc56bfd3d5b5 329212 libtinfo5_6.4-4_i386.deb
+ ecf7291fdc4015c0621e791d7b2a868715652a1c 8610380 linux-headers_6.1.140-phb-686_i386.deb
  26db4f0aa378ed5fd6699f11776013fdf4c02777 48228 luvcview_0.2.6-6_amd64.deb
  cd68c385a4be514f608188de75ca0ad322dd108a 49824 luvcview_0.2.6-6_i386.deb
  92837903da04ee2e8086bb6326d1b13a21960f8f 478444 mousepad_0.5.4-1_amd64.deb
@@ -109,8 +111,8 @@ SHA1:
  a4be4c19642ca3f52faaa87c8c52f26bf47de236 1485628 netsurf-gtk_3.11-2_amd64.deb
  464a523510bf019b3555c3cc63450946786f8c06 1565896 netsurf-gtk_3.11-2_i386.deb
  d21da36aec48db869fa7ed5ad4e14db06a4b54b1 37712 numix-colors-icon-theme_1.0_all.deb
- a35cd7a1fc317ba938e2fa363fe731867299513d 64519 Packages
- 8203db3cb4b20314e73d20eaa0397ccef3ccfb8c 18449 Packages.gz
+ 786476aa74632f6e992d796bb954f63b4696956c 65312 Packages
+ ee52589fad2a5d4770ed8270336d267bf1cf6225 18772 Packages.gz
  7c4bd0c4c0ab993d541a7859a3cf245138a315c2 89964 pup-volume-monitor_0.2w_amd64.deb
  861a48ba4332e42f430774ffc6521f36b1f98d30 96680 pup-volume-monitor_0.2w_i386.deb
  54b48464d8df0f89ef673c705b4e2f6253b537ad 740 sqv-dummy_1.0_all.deb
@@ -133,8 +135,8 @@ SHA256:
  daed2762a9c44cc079e486de37fb2aabe0d33efa8f92951968741dd8ab6d9734 203884 alsaplayer-gtk_0.99.82-1_i386.deb
  4dbcbe0c6fed3f23a86e55405a80825215e247096c816ae19082cb3e2a12596c 674508 busybox-static_1.37.0-6phb_amd64.deb
  d25b89714e042e9179b8aea8791cf889659921f3e41ddf25f48c324a2be271fb 708192 busybox-static_1.37.0-6phb_i386.deb
- f06313a2f368860b2d597ec66ef118083148c3a1aa774ec2a1b59fe7864b08d6 457728 Contents
- 89f00d730227cbfed4c290a44feea66f66776deeb3eb94230e5934109143f920 24050 Contents.gz
+ afe412a6796f48763e96f0d3c8afa0a46bab63a46ef08c196b046dda97c7c961 1772245 Contents
+ ce4af184c187beb3a337ed1465e8758c550c248051b1dc9d8520421f9d52534e 111749 Contents.gz
  ac534f4b586306bdbf0b71ec5ba074991d8ef314c759a0ab9943f7ef18715b2a 17652 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  a316f8fd477224fe7cdcd1aaa63e8991291abdb391ffce511638d93617f054d9 17496 cpuidtool_0.8.0+repack1-0.3_i386.deb
  0c4c81b37a9d4abb86e7c25caeda30f4818231c81983b0850be0a86f52dbd543 2315184 cpu-x_5.3.1-0.3_amd64.deb
@@ -158,6 +160,7 @@ SHA256:
  a8a8d73ab610a1d514b955c3d5d455bb053c91a6fb5837ce25979fe7a2495446 168584 libpng12-0_1.2.59-1_i386.deb
  77064aef84ac5865717dab598fa6f7dadd4094f4639d7337631cda837318449a 329032 libtinfo5_6.4-4_amd64.deb
  9613ac76a0587ef6483dd8982f8c3ef6a07a506a2c74c50ecfcf6d6d7d8f527b 329212 libtinfo5_6.4-4_i386.deb
+ a5b861a4a04d8e3985c386131b5d647ae1b85a50a83d9eb78127cefc6b9a80a0 8610380 linux-headers_6.1.140-phb-686_i386.deb
  bfe129421937f1d578174994a229d1b405e8dc4e1468cd860c093717b3093e1b 48228 luvcview_0.2.6-6_amd64.deb
  fe5c983c7f75019d444059e3ededc597780d307b9907c513d2596ff82089b5da 49824 luvcview_0.2.6-6_i386.deb
  ebfa5d3f4d0e0526dd7538079fe7de8eb7840717e161c0ec0f8dbbe6d469c193 478444 mousepad_0.5.4-1_amd64.deb
@@ -168,8 +171,8 @@ SHA256:
  ade412cfa46b0ad1d1e55f5b1e0de91c91bf27a016d127d3285c14710dcf42c5 1485628 netsurf-gtk_3.11-2_amd64.deb
  52cccb21ec5cd947750f5728e5794ec72c05f0ce4fd37507a45c1de62e169303 1565896 netsurf-gtk_3.11-2_i386.deb
  da94ef6f8ae8cd621fdeda367d8573122ff4043f1ae4a43350a9f84c06ef8da2 37712 numix-colors-icon-theme_1.0_all.deb
- 6ad0413b548c88c242d020f5aedd3e715215cb479c2bd6f7839d55dcedaa7cec 64519 Packages
- d571879af9c67680fd9d067ad9c7f6e81f93d00fce4b9fa10d7fd18049182d59 18449 Packages.gz
+ ed0d9e91ed4fe9fd416b6533f7c22cd136f2fcbf8f8d361f2343b794736adeec 65312 Packages
+ 538031c0bf5ddc7e2c5823c9704565f54281594a323425184addb6b1774069b0 18772 Packages.gz
  32fe517b0feb74472ea091c1cae661469b50c628e39b3e3782cf38c1a8cc2368 89964 pup-volume-monitor_0.2w_amd64.deb
  cd141287bb5ef1870b9869b335c763470932d8fcf23405c2948e729b706d774f 96680 pup-volume-monitor_0.2w_i386.deb
  3cc50eef75aee2141f399bd8102b5e9db4102556d98ea5d49c6d2c100d2c50af 740 sqv-dummy_1.0_all.deb
@@ -189,15 +192,15 @@ SHA256:
  dee0d85ca26245d4b1b146f1f726950da34f8518a64d33c7c538d999cc933c47 206532 yad_14.1-1_i386.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmiAshoACgkQZ9Vqr4Ht
-qtnVZAv+IJxRKEDFVMnoFCUieHMc5h0itNlbu29bn8tnm3sRkTYtYwXyTh+rdgqH
-frMuLferkidEZYnT1NmDDd0OmZg9HSVT8ZPoXnzavmKsSrCZuy80vW/tmBrkNCLt
-lVmjuyGCxOpghkJrk57nZY9YSdkQEacCgMZTWWboyguJOp6O0xLcFZohOlly8Dw1
-7FF/RMUOR2u5/mj2xNLcvJddumKRT0fn0CsFG1HuAqBUKu1Oc/LfBYmkcNpe3ope
-Ok9k7ywTgsL2PovL/gXrgs0FhULcoLP7Xqc8XNAYKeLsRax2DCtx5lASOJYq2D1W
-l2s7QzuhUo9VaSfdPN2L1sX0kx+rkCc56rzZvbRhcCRBhLwo6YZNrQcy1Fgo4tM4
-klSsr0jF+p/KBoGylMoMGQRzyxEn8zPAZfTVOPzDLWJBt2seMavklNCPdIrOuGBG
-yZwdRzJH0hygCAfvbQuhqAlCVRqDp+CkFPmYs9QpETH3Rrfmn/rvmq7nVR4hp4o+
-WJ0997Dh
-=ofm1
+iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmiCI8AACgkQZ9Vqr4Ht
+qtkWfwv9EHXKp1sAwThZHEdFnZ9dkk+0rlVndW7sUgouzY9qHp0VYB/B6bd3aXeI
+K3mZzQS2fn815EHADXns3q3+Qb2/m2QIYJLqaJvlFJ/58CXdTGAOBX+bJ2R35yfO
+pSbNE5dlV9YypkQgFbbq+/LqNNTpKVPSrvND0pKp+S5g8PYBxFUdk5MutofsaI8r
+qAbWJ4JfdnGpPwTrbqqVZJPyy20ms9abfvq7+36f+pBF1XqtTwOC7/PbxyghhREa
+A4PiIkk2NhZAxuJg5c/XL03+6jXElW2u9iKBl8EYf5j0BHHJZ454jdhxxLXR36DU
+2BnA97Ohl/BB+EPX1C3y8cdBb6D8R8DrdqVR0EpdrVOAWvDWTdeWYhfF+4j6a8m2
+shooCjNqjgrIjF91biNS84fkwBhJrW/qM8xVXqozYh8rW1XVto82dgVJyFozg7u3
+79wT8QyVrS5lGEk0FD28q+VzoIRm/MakvS19Hth3xT8hFfxfGCJ1hQMiwemCu9bM
+G4KUZxok
+=3ROY
 -----END PGP SIGNATURE-----

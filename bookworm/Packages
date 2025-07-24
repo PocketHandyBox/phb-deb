@@ -1954,6 +1954,46 @@ Description: high performance JSON library written in ANSI C
  .
  This package contains the shared library.
 
+Package: linux-headers-5.10.234-phb-amd64
+Architecture: amd64
+Version: 5.10.234-phb-amd64-1
+Priority: optional
+Section: kernel
+Source: linux-5.10.234-phb-amd64
+Maintainer: gumanzoy <gumanzoy@komnata>
+Installed-Size: 49849
+Filename: ./linux-headers_5.10.234-phb_amd64.deb
+Size: 8167452
+MD5sum: 5ab231c18bf0e9ba8858b88cbf8265aa
+SHA1: a969f6cfbb0e28bfbc85eec2de156c3c8dc7dcd0
+SHA256: 87e474db61481e0c615486a83d62b39cfd6bf22794a26f4b59e9c655dc5e06a2
+SHA512: 81e35ec7c73a55a3932664f8a8d384e3cc8058b2033cae74bb7436236a5389e631d218a251246aae9c24ff52f09fccb0b3a902fdec47057c27e15cd39c3f3a2d
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.10.234-phb-amd64 on amd64
+ This package provides kernel header files for 5.10.234-phb-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.12.38-phb-amd64
+Architecture: amd64
+Version: 6.12.38-phb-2
+Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: gumanzoy <gumanzoy@komnata>
+Installed-Size: 53115
+Filename: ./linux-headers_6.12.38-phb_amd64.deb
+Size: 9165044
+MD5sum: 54e5bb33825777e477b5cf357def7c4f
+SHA1: 33d3c322578291781896f799ae1db13dc375388d
+SHA256: de290dbe6e50824bacecfa5c1a9f5127a85dc5c0b44dc2d24c9616c80c91d076
+SHA512: c6e4c5ead1d8551c280a0f3d898b2435e7e11d774d6099eb188c9fcc0cc03894be89365f88dac40a47d4a90a4551a74b0ebd18d6437a516857ffbe18f5062e41
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.12.38-phb-amd64 on amd64
+ This package provides kernel header files for 6.12.38-phb-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: luvcview
 Architecture: amd64
 Version: 1:0.2.6-6

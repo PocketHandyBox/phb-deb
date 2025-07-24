@@ -709,6 +709,26 @@ Description: shared low-level terminfo library (legacy version)
  This package contains the legacy version of the shared low-level
  terminfo library.
 
+Package: linux-headers-6.1.140-phb-686
+Architecture: i386
+Version: 6.1.140-phb-686-1
+Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: root <root@komnata>
+Installed-Size: 51227
+Filename: ./linux-headers_6.1.140-phb-686_i386.deb
+Size: 8610380
+MD5sum: b507d7eeee197e1ddaf0df5f9d25ef3c
+SHA1: ecf7291fdc4015c0621e791d7b2a868715652a1c
+SHA256: a5b861a4a04d8e3985c386131b5d647ae1b85a50a83d9eb78127cefc6b9a80a0
+SHA512: 18f49a3d2f00857eaf7164bbba53048ab3387e6caf63f7263c0b4136c3bc6849b213876c438467ebdf6276d4c33241fdac79a472c49c27cf35e843ec1c8fc22a
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.1.140-phb-686 on i386
+ This package provides kernel header files for 6.1.140-phb-686 on i386
+ .
+ This is useful for people who need to build external modules
+
 Package: luvcview
 Architecture: amd64
 Version: 1:0.2.6-6
