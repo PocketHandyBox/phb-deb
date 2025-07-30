@@ -9,7 +9,7 @@ Codename: bookworm
 Version: 1.0
 Architectures: amd64 i386
 Components: main
-Date: Thu, 24 Jul 2025 12:14:38 +0000
+Date: Wed, 30 Jul 2025 10:58:14 +0000
 MD5Sum:
  d3b58df67a035bf27b7e0d45a7e3890e 463104 adwaita-icon-theme_47.0-2_all.deb
  68c59fca5f414a619f8eb5f24dbd2d61 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
@@ -33,8 +33,8 @@ MD5Sum:
  2b80793a734555369e4fdf272ba23b7e 100332 alsaplayer-xosd_0.99.82-1_i386.deb
  3f0ea4e75bf814f3ba091256e0d32caf 674508 busybox-static_1.37.0-6phb_amd64.deb
  05522c363550bd29b1da75a1536de145 708192 busybox-static_1.37.0-6phb_i386.deb
- e2d426cb90decbf87c24efe369b88e6b 5340151 Contents
- 6e3e23e1ed7328467cffbce3f2031b18 350425 Contents.gz
+ a1feedcbc5ceb432735efd3218e91a89 5340284 Contents
+ a1d0b45c38eab2039ad7901c21ecf0a6 350460 Contents.gz
  946755ffa70bd5b7075eb1ac5dfdf378 17640 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  8494a3891817f1929952379ba46ed88a 17472 cpuidtool_0.8.0+repack1-0.3_i386.deb
  788de5357282afaf84e68b37f82e4daa 2298492 cpu-x_5.3.1-0.3_amd64.deb
@@ -110,8 +110,8 @@ MD5Sum:
  41bcc0c06de080f99ad4594d79f619b7 1930600 numix-icon-theme_0~20241212-1_all.deb
  96ea31bce201200105deeaeffbb23484 725504 nvme-cli_2.11-1_amd64.deb
  f186895ab592bf2252779878f87cd147 76100 nvtop_3.2.0-1_amd64.deb
- 6bb5190e73ba540743fe2149d7cd1e82 149988 Packages
- 58c701626fda787caa1143c7d9fd52c8 41950 Packages.gz
+ b11d85f8f845349515ddae729a64117e 150635 Packages
+ b808bfc5b9d9a88d7755e21ef413cb24 42210 Packages.gz
  de12fbdcdc4688b18b6d76e7651b1ffd 93048 pup-volume-monitor_0.2w_amd64.deb
  fc9b44911ded48d042b5eae8022b7b67 100936 pup-volume-monitor_0.2w_i386.deb
  af5493cab7028ab4a5632013284b4e5d 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -126,6 +126,7 @@ MD5Sum:
  022090932bf90b2f1dfff4f035cf3f30 1438032 tigervncserver_1.15.0-1_i386.deb
  0e4522367a28f6ea98067b8df355cf6b 23200 uhubctl_2.6.0-1_amd64.deb
  5999ce49b9b75afc65f2e84090d698ff 23496 uhubctl_2.6.0-1_i386.deb
+ f9a850e852b879f28481a89f117451ca 9768 uniginex_0.3.1_amd64.deb
  3f8a2e4d5f2e36a51d9de982167d2011 164872 unrar_7.1.2-3_amd64.deb
  c40f4f4988faa86536ec93a4f3f612e1 170924 unrar_7.1.2-3_i386.deb
  2404b94f914189164b650ae1c6175b6e 52532 wavemon_0.9.6-1_amd64.deb
@@ -165,8 +166,8 @@ SHA1:
  faa34bc947c86ba477dbcb65c53d1af989ca7f4f 100332 alsaplayer-xosd_0.99.82-1_i386.deb
  4295e7196199da796d9e6a9b00f1ce4da17f9f44 674508 busybox-static_1.37.0-6phb_amd64.deb
  faf68d8ebfeeec1a6b127040e5b4643426e8b052 708192 busybox-static_1.37.0-6phb_i386.deb
- 99ce0cc670da654c582f7ffba62ac4c2ae864469 5340151 Contents
- 1ac81396617e5fee2489b3018a47272c8c18b2dd 350425 Contents.gz
+ 1a41fa899392f7039799e1cbe7796b7b539d5ec7 5340284 Contents
+ 4b38cfd6238493585aff02674290dbb7b7e8b0c4 350460 Contents.gz
  ae346ea384db3a64549a27e16b0c131394ee8f3e 17640 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  f3d3a7c543bf0bbf700d4d208d2675de2bb90ac9 17472 cpuidtool_0.8.0+repack1-0.3_i386.deb
  1e688f52f2df09e85b1bdce1f450fe01fde3e705 2298492 cpu-x_5.3.1-0.3_amd64.deb
@@ -242,8 +243,8 @@ SHA1:
  cc0f088c2e4712f7b84e128fc9c1e6a887b782ba 1930600 numix-icon-theme_0~20241212-1_all.deb
  30b6278ca2e913147eb733236ec380ab9324c4dd 725504 nvme-cli_2.11-1_amd64.deb
  63d14eb2deefa7c09ba1a8053b00edc8534d416c 76100 nvtop_3.2.0-1_amd64.deb
- 3b60a7162c3d66330eb5c2b50821733bca187824 149988 Packages
- 48ec30702d17f981033a8326ef80c0b02286deb5 41950 Packages.gz
+ 5e7703e99dc0fa586a91602dea0958330a43de00 150635 Packages
+ 7021405c1dbceca1b5c2ba27333e7a15adab372d 42210 Packages.gz
  98df307213a9a7e884ecdfd3495c477f0ef04b9e 93048 pup-volume-monitor_0.2w_amd64.deb
  e82524ecb3538d5e917f5b82cfc9d2dfbe1e2a3d 100936 pup-volume-monitor_0.2w_i386.deb
  c5a3221a6a79b87a51bf1912987bca84ad974019 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -258,6 +259,7 @@ SHA1:
  2e21c6ef41ef768d6e23d2ccdcc7c94a362ecd8a 1438032 tigervncserver_1.15.0-1_i386.deb
  015f3d63503a93e039f131f9238b646f7595f376 23200 uhubctl_2.6.0-1_amd64.deb
  ee4d1fdc85923eba5d84a96ec1bf16e86b151195 23496 uhubctl_2.6.0-1_i386.deb
+ 43d19c45970c73ee3b800152346ebe525e359c61 9768 uniginex_0.3.1_amd64.deb
  eacc061d3e521d4cb71e1c4e0bb5d0386ae4d9a9 164872 unrar_7.1.2-3_amd64.deb
  e7d05412540ba2bbddd86773d8262e8a6ba9e531 170924 unrar_7.1.2-3_i386.deb
  62526c8fcd1281d523f97a5cc4b89127ba6b73a8 52532 wavemon_0.9.6-1_amd64.deb
@@ -297,8 +299,8 @@ SHA256:
  5a46496796752dce5aa6e9d979b55d1a8843fee2a61a8e469324b4905f8aaf85 100332 alsaplayer-xosd_0.99.82-1_i386.deb
  4dbcbe0c6fed3f23a86e55405a80825215e247096c816ae19082cb3e2a12596c 674508 busybox-static_1.37.0-6phb_amd64.deb
  d25b89714e042e9179b8aea8791cf889659921f3e41ddf25f48c324a2be271fb 708192 busybox-static_1.37.0-6phb_i386.deb
- b0363af6ad95d0fcea830fe65fc053375156d983102198622ea454b924ec8780 5340151 Contents
- 79fd32a1c15e702ad937c7852c0b0ee2319a71777827d65ea60601a30b4be6a2 350425 Contents.gz
+ 3c3f05ef0919e928369f0a5e173be58e04da05d09db3a0264bb46a720f1677b1 5340284 Contents
+ 5cb91b60fc80a9199a877f912190a75994be2222cecebadab3fefe9f94546f40 350460 Contents.gz
  2a9e65de239dafdf0d8139b3d860b3470fdd532833b01f01a42ebbf4ae236299 17640 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  05d877882a2774855f1695ac36192f13b843e06509d4ff944e40f1449bac7636 17472 cpuidtool_0.8.0+repack1-0.3_i386.deb
  371a797916c04f130f001a32cfa8d7760546b5a668c0314c5e569e3b5d7a759f 2298492 cpu-x_5.3.1-0.3_amd64.deb
@@ -374,8 +376,8 @@ SHA256:
  beb26deedbb1e3daa62de67e02ed4a5b176063374aaa54edc06839d7d9b2e9df 1930600 numix-icon-theme_0~20241212-1_all.deb
  489493969fb61214d02cb1d9fa9ad49ea4ba7059c2b01c76aafec2c5ce5817b2 725504 nvme-cli_2.11-1_amd64.deb
  c3c54e0764f2b63b517c7dd72f0845d79dba9b42449c114d594ed8785f1e19f0 76100 nvtop_3.2.0-1_amd64.deb
- a859faef49c1098150a470e57971820e8c111a07fc3b481443f034855c8f0cec 149988 Packages
- 3f3b268c9af1aa11e664d237f575ed649836ae0b67bda0f5e9c4699c05acbf86 41950 Packages.gz
+ 79db9ff166e0dc9198818e3a953d2047e857c222a65dc17871eafc5a5b3bb6e0 150635 Packages
+ a8f81e2564c72f71fb74440ad6a71408ef31451e1671a3d2725c084820622039 42210 Packages.gz
  277c68c159f006ccd2bf4f17710511f64d0049743e2801f1956baf3bf970bc9d 93048 pup-volume-monitor_0.2w_amd64.deb
  a45433ef3df284a02014140c863db3daf3ea56e7cb9c1abde99bc56dabe0b58d 100936 pup-volume-monitor_0.2w_i386.deb
  bbf2fa82d424c0eab1d5752b33586ed9bb85766cf86e68482e31b18161dbd6f8 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -390,6 +392,7 @@ SHA256:
  82e8f8ea264e853ea967f1a2319f986bb07cd4bfa336c6958bbfb567a2f8fc53 1438032 tigervncserver_1.15.0-1_i386.deb
  2e1ef776fd2c92f87b85d2a7ec608fbd1e390b4a98b277250c4b2d6646833723 23200 uhubctl_2.6.0-1_amd64.deb
  7d1072fb5b9992169e136ac56aff1acfa468b77a0212e9d2730a94d744234288 23496 uhubctl_2.6.0-1_i386.deb
+ 3fd80a23f814bf41eb934575af8dda2256f9fa918ce207160d1f9fb475ddb021 9768 uniginex_0.3.1_amd64.deb
  440032f752407d2e89d089ea6e6dbc4f70b7d8794de40aebd08b2480d121546a 164872 unrar_7.1.2-3_amd64.deb
  edc1b7f4ea404620ef408efa4c11cb80d8320dd8fd6e2452fa20bc3b54a7de80 170924 unrar_7.1.2-3_i386.deb
  67fbd2003149a4684c3b5b5ff58af40bfefd723b1680894f5505a9b9b5228a79 52532 wavemon_0.9.6-1_amd64.deb
@@ -408,15 +411,15 @@ SHA256:
  6072420a710d1240ff11c9fad09dfb0d10737b3d26c22a00d0c7eb13d4922971 212760 yad_14.1-1_i386.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmiCI7UACgkQZ9Vqr4Ht
-qtkiLwwAg1PQuZf6gd69FbDovbzOpTP3Dz7AqV7GEZLntwqIp3ZHFVnOwHvKKsAt
-FEAl0kompUAIZtKQI4rYbj1nTGiUjoTVlnVT8fFRKtIX3l6FxsI5/Z2jXUqnw13r
-ld/O8Or1bFoHdJGxhCv04Nfa2uxHcOMhCKn7ETvfY8DSZRt1QoLHkwW7HDyrG0qv
-/47vs/l/Zfx7YBAWyzcCd159GztuoDSO9gFh2hcvt+qBHkiha7TBE5xNCWjTOJA7
-/sZSQNTKFCjbrzvSXIauGNbOfDg9cibmv+0J49QEZREgD2F4RfP4ZJCRd8kPkyU9
-B0mRKAYJBfVH2oR9ekkXNVjam4oSCi7+bZSUFc0I8r7o+sTCINxwZNvEu6DHm9zQ
-L7BuLiR29ycOh2Eod9U+KDT9qvh7CiThRNwsuiwMOPcX5aHqJPTx5hAm/YutTcm9
-jaqUSzJjMcSupyax2G60sVqBBpDsS8p/ppH2drSuquO9CRpGPSVaIvCuHHBRDaZb
-CqMtPEu/
-=xUfX
+iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmiJ+sgACgkQZ9Vqr4Ht
+qtnp8gv9HdmTJspZqS3SZfiQq79Y8RLu35gLc3zygI41qIorc8ZD0uO4uZv0Phhj
+1VbeT0IgVrXqJYdN8okBOL+8VKuh8bL1nnpUEp5MJP3WviPXqKn0tUIaJwRi5E7D
+G0fxRFS8BKjT3lw13oqZxZInQLjcRP9plb6zWUkFEicNsiXeN8HsYRC9OumV3ewq
+cDsInKjJtcan0m8QOxjFeN28BRWJtxfgwuzDUh7jLs7vGCZmPBwODmSt4+eGzNty
+x8ey+05kywfY30jOAz6L4+mia4ppVtGFfg/Ld2myPgZjxL0T6f3CduD60o01pdfc
+OsjDDdj2qPKz+G53g5hPdIgX0RcBdrlGAenRMIRiiBjN26tIBWWRieOSQE8+pt+/
+NBU5GwMqEXcDuFMUHsRJ8XDsNA4vVg7LH2EH7GJ/WtPotTpGT655++XaVQiNSAe4
+soYllsA1Ylqde8Rl8SJxh6M+m1I9GvHhwZdU0UxEdkX7JtAc3+M5+BEeOvvTnA3r
+djSdvvBO
+=iZme
 -----END PGP SIGNATURE-----

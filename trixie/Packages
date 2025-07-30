@@ -1114,6 +1114,22 @@ Description: File Manager for Xfce
  .
  Also included is an Xfce panel plugin which can manage the desktop trash.
 
+Package: uniginex
+Architecture: amd64
+Version: 0.3.1
+Priority: optional
+Section: utils
+Maintainer: gumanzoy <gumanzoy@gmail.com>
+Installed-Size: 37
+Depends: libc6 (>= 2.34), liblz4-1 (>= 0.0~r113), zlib1g (>= 1:1.1.4)
+Filename: ./uniginex_0.3.1_amd64.deb
+Size: 9776
+MD5sum: 59ee63fc00b4fe85165ce569a79047be
+SHA1: ee6a1a502aff30b05af1fa06cf104ceb3282784e
+SHA256: 1ae2ee561d639cb93e796ab7eedb3da3312373115900872275f501eb33930ac2
+SHA512: 735b42c3ec7a01a544ce9599dc76c701c4ec0fd7c8cf2090fb9f446a4417ef97a5598eb7191d1faafd287641acc635d1ed6e9dbdfe0949a41959600b3d899da1
+Description: files extractor for the ung archives used by the Unigine game engine
+
 Package: wavemon
 Architecture: amd64
 Version: 0.9.6-1

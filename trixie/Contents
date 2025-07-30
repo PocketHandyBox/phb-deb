@@ -35,6 +35,7 @@ usr/bin/sessreg						    x11-xserver-utils
 usr/bin/showrgb						    x11-xserver-utils
 usr/bin/thunar						    thunar
 usr/bin/thunar-settings					    thunar
+usr/bin/uniginex					    uniginex
 usr/bin/wavemon						    wavemon
 usr/bin/xcmsdb						    x11-xserver-utils
 usr/bin/xfdesktop					    xfdesktop4
@@ -302,6 +303,8 @@ usr/share/doc/thunar-data/copyright			    thunar-data
 usr/share/doc/thunar/changelog.Debian.gz		    thunar
 usr/share/doc/thunar/changelog.gz			    thunar
 usr/share/doc/thunar/copyright				    thunar
+usr/share/doc/uniginex/changelog.gz			    uniginex
+usr/share/doc/uniginex/copyright			    uniginex
 usr/share/doc/wavemon/README.md				    wavemon
 usr/share/doc/wavemon/copyright				    wavemon
 usr/share/doc/whdd/changelog.gz				    whdd

@@ -2857,6 +2857,22 @@ Description: USB hub per-port power control
  Original idea for this code was inspired by hub-ctrl.c by Niibe Yutaka:
  http://www.gniibe.org/development/ac-power-control-by-USB-hub
 
+Package: uniginex
+Architecture: amd64
+Version: 0.3.1
+Priority: optional
+Section: utils
+Maintainer: gumanzoy <gumanzoy@gmail.com>
+Installed-Size: 37
+Depends: libc6 (>= 2.34), liblz4-1 (>= 0.0~r113), zlib1g (>= 1:1.1.4)
+Filename: ./uniginex_0.3.1_amd64.deb
+Size: 9768
+MD5sum: f9a850e852b879f28481a89f117451ca
+SHA1: 43d19c45970c73ee3b800152346ebe525e359c61
+SHA256: 3fd80a23f814bf41eb934575af8dda2256f9fa918ce207160d1f9fb475ddb021
+SHA512: 3fd74eff785db5dd4644aa3270b199c76cd02e7c1528b3454c49a96c849b027c43d10b92478f33d9c563e3f960cea8fde90cc605a70ba6eca5724c816851fc66
+Description: files extractor for the ung archives used by the Unigine game engine
+
 Package: unrar
 Architecture: amd64
 Version: 1:7.1.2-3
