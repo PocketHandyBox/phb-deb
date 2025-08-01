@@ -5829,6 +5829,7 @@ usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/asm/xor_32.h linux-header
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/asm/xor_64.h linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/asm/xor_avx.h linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/asm/.syscalls_32.h.cmd linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/asm/.xen-hypercalls.h.cmd linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/asm/early_ioremap.h linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/asm/export.h linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/asm/irq_regs.h linux-headers-6.1.140-phb-686
@@ -5840,6 +5841,7 @@ usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/asm/module.lds.
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/asm/rwonce.h linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/asm/syscalls_32.h linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/asm/unaligned.h linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/asm/xen-hypercalls.h linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/uapi/asm/.unistd_32.h.cmd linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/uapi/asm/.unistd_64.h.cmd linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/arch/x86/include/generated/uapi/asm/.unistd_x32.h.cmd linux-headers-6.1.140-phb-686
@@ -6229,7 +6231,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/AD7923 linux-headers-6.1.14
 usr/src/linux-headers-6.1.140-phb-686/include/config/AD7949 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/AD799X linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/AD8801 linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/AD9467 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ADAPTEC_STARFIRE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ADFS_FS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ADIS16080 linux-headers-6.1.140-phb-686
@@ -6241,7 +6242,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/ADIS16260 linux-headers-6.1
 usr/src/linux-headers-6.1.140-phb-686/include/config/ADIS16460 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ADIS16475 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ADIS16480 linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/ADI_AXI_ADC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ADJD_S311 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ADM8211 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ADUX1020 linux-headers-6.1.140-phb-686
@@ -6294,7 +6294,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/AL3320A linux-headers-6.1.1
 usr/src/linux-headers-6.1.140-phb-686/include/config/ALIENWARE_WMI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ALIM1535_WDT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ALIM7101_WDT linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/ALIX   linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ALLOW_DEV_COREDUMP linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ALTERA_STAPL linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ALX    linux-headers-6.1.140-phb-686
@@ -6320,6 +6319,8 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_CLOCKSOURCE_INIT linux
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_CONFIGURES_CPU_MITIGATIONS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_CORRECT_STACKTRACE_ON_KRETPROBE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_CPUIDLE_HALTPOLL linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_DMA_ADDR_T_64BIT linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_ENABLE_SPLIT_PMD_PTLOCK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_FLATMEM_ENABLE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_ACPI_TABLE_UPGRADE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_CACHE_LINE_SIZE linux-headers-6.1.140-phb-686
@@ -6327,7 +6328,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_CPU_FINALIZE_INIT 
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_CPU_RELAX linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_CURRENT_STACK_POINTER linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_DEBUG_VIRTUAL linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_DEBUG_VM_PGTABLE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_DEBUG_WX linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_DEVMEM_IS_ALLOWED linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_ELF_RANDOMIZE linux-headers-6.1.140-phb-686
@@ -6336,6 +6336,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_FORTIFY_SOURCE lin
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_GCOV_PROFILE_ALL linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_MEMBARRIER_SYNC_CORE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_MEM_ENCRYPT linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_NONLEAF_PMD_YOUNG linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_NON_OVERLAPPING_ADDRESS_SPACE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_PARANOID_L1D_FLUSH linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/ARCH_HAS_PTE_SPECIAL linux-headers-6.1.140-phb-686
@@ -6539,7 +6540,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/BATTERY_BQ27XXX linux-heade
 usr/src/linux-headers-6.1.140-phb-686/include/config/BATTERY_BQ27XXX_HDQ linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BATTERY_DS2760 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BATTERY_MAX17042 linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/BATTERY_OLPC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BATTERY_SBS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BATTERY_SURFACE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BAYCOM_EPP linux-headers-6.1.140-phb-686
@@ -6599,6 +6599,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/BLK_DEV_NBD linux-headers-6
 usr/src/linux-headers-6.1.140-phb-686/include/config/BLK_DEV_NULL_BLK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BLK_DEV_NVME linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BLK_DEV_PCIESSD_MTIP32XX linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/BLK_DEV_PMEM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BLK_DEV_RAM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BLK_DEV_RAM_COUNT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BLK_DEV_RAM_SIZE linux-headers-6.1.140-phb-686
@@ -6704,6 +6705,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/BT	    linux-headers-6.1.14
 usr/src/linux-headers-6.1.140-phb-686/include/config/BTREE  linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BTRFS_FS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BTRFS_FS_POSIX_ACL linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/BTT    linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BT_6LOWPAN linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BT_ATH3K linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/BT_BCM linux-headers-6.1.140-phb-686
@@ -7127,7 +7129,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/CROS_EC_PROTO linux-headers
 usr/src/linux-headers-6.1.140-phb-686/include/config/CROS_EC_SENSORHUB linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/CROS_EC_SYSFS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/CROS_EC_TYPEC linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/CROS_EC_VBC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/CROS_KBD_LED_BACKLIGHT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/CROS_TYPEC_SWITCH linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/CROS_USBPD_NOTIFY linux-headers-6.1.140-phb-686
@@ -7176,8 +7177,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/CRYPTO_DEV_CCP_CRYPTO linux
 usr/src/linux-headers-6.1.140-phb-686/include/config/CRYPTO_DEV_CCP_DD linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/CRYPTO_DEV_CHELSIO linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/CRYPTO_DEV_GEODE linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/CRYPTO_DEV_HIFN_795X linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/CRYPTO_DEV_HIFN_795X_RNG linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/CRYPTO_DEV_PADLOCK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/CRYPTO_DEV_PADLOCK_AES linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/CRYPTO_DEV_PADLOCK_SHA linux-headers-6.1.140-phb-686
@@ -7293,6 +7292,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/CYPRESS_FIRMWARE linux-head
 usr/src/linux-headers-6.1.140-phb-686/include/config/DA280  linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DA311  linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DAVICOM_PHY linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/DAX    linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DCACHE_WORD_ACCESS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DCB    linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DCDBAS linux-headers-6.1.140-phb-686
@@ -7301,6 +7301,8 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/DE2104X_DSL linux-headers-6
 usr/src/linux-headers-6.1.140-phb-686/include/config/DEBUG_BUGVERBOSE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DEBUG_FS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DEBUG_FS_ALLOW_ALL linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/DEBUG_INFO linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/DEBUG_INFO_DWARF_TOOLCHAIN_DEFAULT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DEBUG_INFO_NONE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DEBUG_KERNEL linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DEBUG_LIST linux-headers-6.1.140-phb-686
@@ -7344,6 +7346,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/DEVPORT linux-headers-6.1.1
 usr/src/linux-headers-6.1.140-phb-686/include/config/DEVTMPFS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DEV_APPLETALK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DEV_COREDUMP linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/DEV_DAX linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DIMLIB linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DL2K   linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DLHL60D linux-headers-6.1.140-phb-686
@@ -7355,7 +7358,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/DMARD09 linux-headers-6.1.1
 usr/src/linux-headers-6.1.140-phb-686/include/config/DMARD10 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DMA_ACPI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DMA_ENGINE linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/DMA_OF linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DMA_OPS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DMA_SHARED_BUFFER linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DMA_VIRTUAL_CHANNELS linux-headers-6.1.140-phb-686
@@ -7466,6 +7468,8 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/DRM_VGEM linux-headers-6.1.
 usr/src/linux-headers-6.1.140-phb-686/include/config/DRM_VIRTIO_GPU linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DRM_VMWGFX linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DRM_VRAM_HELPER linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/DRM_XEN linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/DRM_XEN_FRONTEND linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DS1682 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DS4424 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/DST_CACHE linux-headers-6.1.140-phb-686
@@ -7800,10 +7804,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/FB_CYBER2000_DDC linux-head
 usr/src/linux-headers-6.1.140-phb-686/include/config/FB_DDC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/FB_DEFERRED_IO linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/FB_EFI linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/FB_GEODE linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/FB_GEODE_GX linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/FB_GEODE_GX1 linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/FB_GEODE_LX linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/FB_HECUBA linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/FB_HGA linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/FB_I810 linux-headers-6.1.140-phb-686
@@ -7981,7 +7981,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/GENERIC_VDSO_32 linux-heade
 usr/src/linux-headers-6.1.140-phb-686/include/config/GENERIC_VDSO_TIME_NS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/GENEVE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/GEODE_WDT linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/GEOS   linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/GFS2_FS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/GFS2_FS_LOCKING_DLM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/GIGABYTE_WMI linux-headers-6.1.140-phb-686
@@ -8025,6 +8024,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/GREENASIA_FF linux-headers-
 usr/src/linux-headers-6.1.140-phb-686/include/config/GRO_CELLS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/GTP    linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/GUEST_PERF_EVENTS linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/GUP_GET_PTE_LOW_HIGH linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HALTPOLL_CPUIDLE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HAMACHI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HAMRADIO linux-headers-6.1.140-phb-686
@@ -8041,6 +8041,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/HAVE_ACPI_APEI linux-header
 usr/src/linux-headers-6.1.140-phb-686/include/config/HAVE_ACPI_APEI_NMI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HAVE_ALIGNED_STRUCT_PAGE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HAVE_ARCH_AUDITSYSCALL linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/HAVE_ARCH_HUGE_VMAP linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HAVE_ARCH_JUMP_LABEL linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HAVE_ARCH_KFENCE linux-headers-6.1.140-phb-686
@@ -8277,7 +8278,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/HID_XINMO linux-headers-6.1
 usr/src/linux-headers-6.1.140-phb-686/include/config/HID_ZEROPLUS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HID_ZYDACRON linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HIGHMEM linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/HIGHMEM4G linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/HIGHMEM64G linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HIGHPTE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HIGH_RES_TIMERS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HINIC  linux-headers-6.1.140-phb-686
@@ -8321,6 +8322,9 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/HUAWEI_WMI linux-headers-6.
 usr/src/linux-headers-6.1.140-phb-686/include/config/HUGETLBFS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HUGETLB_PAGE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HVC_DRIVER linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/HVC_IRQ linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/HVC_XEN linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/HVC_XEN_FRONTEND linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HWMON  linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HWMON_VID linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/HWPOISON_INJECT linux-headers-6.1.140-phb-686
@@ -8370,7 +8374,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_EG20T linux-headers-6.1
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_HELPER_AUTO linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_HID_ACPI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_HID_CORE linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_HID_OF linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_I801 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_ISCH linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_ISMT linux-headers-6.1.140-phb-686
@@ -8383,8 +8386,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_PARPORT linux-headers-6
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_PCA_ISA linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_PCA_PLATFORM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_PIIX4 linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_PXA linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_PXA_PCI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_ROBOTFUZZ_OSIF linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_SCMI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/I2C_SIMTEC linux-headers-6.1.140-phb-686
@@ -8440,9 +8441,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/IIO    linux-headers-6.1.14
 usr/src/linux-headers-6.1.140-phb-686/include/config/IIO_ADIS_LIB linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/IIO_ADIS_LIB_BUFFER linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/IIO_BUFFER linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/IIO_BUFFER_DMA linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/IIO_BUFFER_DMAENGINE linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/IIO_BUFFER_HW_CONSUMER linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/IIO_CONSUMERS_PER_TRIGGER linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/IIO_KFIFO_BUF linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/IIO_MS_SENSORS_I2C linux-headers-6.1.140-phb-686
@@ -8560,6 +8558,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/INPUT_TOUCHSCREEN linux-hea
 usr/src/linux-headers-6.1.140-phb-686/include/config/INPUT_UINPUT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/INPUT_VIVALDIFMAP linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/INPUT_WISTRON_BTNS linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/INPUT_XEN_KBDDEV_FRONTEND linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/INPUT_YEALINK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/INSTRUCTION_DECODER linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/INTEGRITY linux-headers-6.1.140-phb-686
@@ -8776,7 +8775,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/IP_VS_SH_TAB_BITS linux-hea
 usr/src/linux-headers-6.1.140-phb-686/include/config/IP_VS_TAB_BITS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/IP_VS_WLC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/IP_VS_WRR linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/IRQCHIP linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/IRQ_BYPASS_MANAGER linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/IRQ_DOMAIN linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/IRQ_DOMAIN_HIERARCHY linux-headers-6.1.140-phb-686
@@ -9007,6 +9005,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/LIBERTAS_USB linux-headers-
 usr/src/linux-headers-6.1.140-phb-686/include/config/LIBFC  linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/LIBFCOE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/LIBIPW linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/LIBNVDIMM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/LIDAR_LITE_V2 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/LINEAR_RANGES linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/LIRC   linux-headers-6.1.140-phb-686
@@ -9057,6 +9056,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/LZ4_DECOMPRESS linux-header
 usr/src/linux-headers-6.1.140-phb-686/include/config/LZO_COMPRESS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/LZO_DECOMPRESS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/M62332 linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/M686   linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MAC80211 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MAC80211_HAS_RC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MAC80211_HWSIM linux-headers-6.1.140-phb-686
@@ -9185,6 +9185,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/MEMORY linux-headers-6.1.14
 usr/src/linux-headers-6.1.140-phb-686/include/config/MEMORY_BALLOON linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MEMORY_FAILURE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MEMORY_ISOLATION linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/MEMREGION linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MEMSTICK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MEMSTICK_JMICRON_38X linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MEMSTICK_R592 linux-headers-6.1.140-phb-686
@@ -9208,7 +9209,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/MFD_MENF21BMC linux-headers
 usr/src/linux-headers-6.1.140-phb-686/include/config/MFD_SYSCON linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MFD_VIPERBOARD linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MFD_VX855 linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/MGEODE_LX linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MHI_BUS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MHI_BUS_PCI_GENERIC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MHI_NET linux-headers-6.1.140-phb-686
@@ -9337,7 +9337,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/MOUSE_PS2_ELANTECH_SMBUS li
 usr/src/linux-headers-6.1.140-phb-686/include/config/MOUSE_PS2_FOCALTECH linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MOUSE_PS2_LIFEBOOK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MOUSE_PS2_LOGIPS2PP linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/MOUSE_PS2_OLPC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MOUSE_PS2_SENTELIC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MOUSE_PS2_SMBUS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MOUSE_PS2_SYNAPTICS linux-headers-6.1.140-phb-686
@@ -9429,7 +9428,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/MTD_NAND_ECC_SW_HAMMING lin
 usr/src/linux-headers-6.1.140-phb-686/include/config/MTD_NAND_NANDSIM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MTD_NAND_RICOH linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MTD_NETtel linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/MTD_OF_PARTS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MTD_ONENAND linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MTD_ONENAND_2X_PROGRAM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/MTD_ONENAND_VERIFY_WRITE linux-headers-6.1.140-phb-686
@@ -9479,13 +9477,15 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/NAMESPACES linux-headers-6.
 usr/src/linux-headers-6.1.140-phb-686/include/config/NATIONAL_PHY linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NATSEMI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NAU7802 linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/ND_BTT linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/ND_CLAIM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NE2000 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NE2K_PCI linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/NEED_DMA_MAP_STATE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NEED_PER_CPU_EMBED_FIRST_CHUNK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NEED_PER_CPU_PAGE_FIRST_CHUNK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NEED_SG_DMA_LENGTH linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NET    linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/NET5501 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NETCONSOLE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NETCONSOLE_DYNAMIC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NETDEVICES linux-headers-6.1.140-phb-686
@@ -9595,6 +9595,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/NET_9P linux-headers-6.1.14
 usr/src/linux-headers-6.1.140-phb-686/include/config/NET_9P_FD linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NET_9P_RDMA linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NET_9P_VIRTIO linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/NET_9P_XEN linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NET_ACT_BPF linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NET_ACT_CONNMARK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NET_ACT_CSUM linux-headers-6.1.140-phb-686
@@ -9996,6 +9997,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/NS83820 linux-headers-6.1.1
 usr/src/linux-headers-6.1.140-phb-686/include/config/NSC_GPIO linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NTFS3_FS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NTFS3_LZX_XPRESS linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/NVDIMM_KEYS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NVIDIA_WMI_EC_BACKLIGHT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NVMEM  linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/NVMEM_SYSFS linux-headers-6.1.140-phb-686
@@ -10018,20 +10020,9 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/OCFS2_FS linux-headers-6.1.
 usr/src/linux-headers-6.1.140-phb-686/include/config/OCFS2_FS_O2CB linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/OCFS2_FS_STATS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/OCFS2_FS_USERSPACE_CLUSTER linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OF	    linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OF_ADDRESS linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OF_GPIO linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OF_IOMMU linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OF_IRQ linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OF_KOBJ linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OF_MDIO linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OF_PROMTREE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/OID_REGISTRY linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/OLD_SIGACTION linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/OLD_SIGSUSPEND3 linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OLPC   linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OLPC_EC linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/OLPC_XO15_SCI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/OMFS_FS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/OPENVSWITCH linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/OPENVSWITCH_GENEVE linux-headers-6.1.140-phb-686
@@ -10062,6 +10053,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/PAGE_POOL linux-headers-6.1
 usr/src/linux-headers-6.1.140-phb-686/include/config/PAGE_REPORTING linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PAGE_SIZE_LESS_THAN_256KB linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PAGE_SIZE_LESS_THAN_64KB linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/PAGE_TABLE_ISOLATION linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PAHOLE_VERSION linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PANASONIC_LAPTOP linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PANIC_ON_OOPS_VALUE linux-headers-6.1.140-phb-686
@@ -10150,13 +10142,13 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_LOCKLESS_CONFIG linux-h
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_MMCONFIG linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_MSI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_MSI_IRQ_DOMAIN linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_OLPC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_PASID linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_PF_STUB linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_PRI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_QUIRKS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_REALLOC_ENABLE_AUTO linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_STUB linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/PCI_XEN linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCMCIA linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCMCIA_3C574 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PCMCIA_3C589 linux-headers-6.1.140-phb-686
@@ -10201,6 +10193,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/PHYLIB linux-headers-6.1.14
 usr/src/linux-headers-6.1.140-phb-686/include/config/PHYLINK linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PHYSICAL_ALIGN linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PHYSICAL_START linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/PHYS_ADDR_T_64BIT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PID_NS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PINCONF linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PINCTRL linux-headers-6.1.140-phb-686
@@ -10237,7 +10230,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/PM_CLK linux-headers-6.1.14
 usr/src/linux-headers-6.1.140-phb-686/include/config/PM_DEBUG linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PM_DEVFREQ linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PM_GENERIC_DOMAINS linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/PM_GENERIC_DOMAINS_OF linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PM_GENERIC_DOMAINS_SLEEP linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PM_NOTIFIER_ERROR_INJECT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PM_OPP linux-headers-6.1.140-phb-686
@@ -10325,6 +10317,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/PTP_1588_CLOCK_OCP linux-he
 usr/src/linux-headers-6.1.140-phb-686/include/config/PTP_1588_CLOCK_OPTIONAL linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PTP_1588_CLOCK_PCH linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PTP_1588_CLOCK_VMW linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/PVH    linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PVPANIC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PVPANIC_MMIO linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PVPANIC_PCI linux-headers-6.1.140-phb-686
@@ -10333,8 +10326,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/PWM_CRC linux-headers-6.1.1
 usr/src/linux-headers-6.1.140-phb-686/include/config/PWM_LPSS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PWM_LPSS_PLATFORM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/PWM_SYSFS linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/PWRSEQ_EMMC linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/PWRSEQ_SIMPLE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/QCOM_QMI_HELPERS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/QED    linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/QEDE   linux-headers-6.1.140-phb-686
@@ -10899,7 +10890,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/SERIAL_JSM linux-headers-6.
 usr/src/linux-headers-6.1.140-phb-686/include/config/SERIAL_MCTRL_GPIO linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SERIAL_MULTI_INSTANTIATE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SERIAL_NONSTANDARD linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/SERIAL_OF_PLATFORM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SERIAL_PCH_UART linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SERIAL_RP2 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SERIAL_RP2_NR_UARTS linux-headers-6.1.140-phb-686
@@ -11360,6 +11350,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/SND_VX_LIB linux-headers-6.
 usr/src/linux-headers-6.1.140-phb-686/include/config/SND_WAVEFRONT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SND_WSS_LIB linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SND_X86 linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/SND_XEN_FRONTEND linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SND_YMFPCI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SOCK_CGROUP_DATA linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SOCK_RX_QUEUE_MAPPING linux-headers-6.1.140-phb-686
@@ -11402,7 +11393,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/SPEAKUP_SYNTH_TXPRT linux-h
 usr/src/linux-headers-6.1.140-phb-686/include/config/SPI    linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SPI_BITBANG linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SPI_BUTTERFLY linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/SPI_CADENCE_QUADSPI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SPI_DYNAMIC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SPI_LM70_LLP linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SPI_MASTER linux-headers-6.1.140-phb-686
@@ -11491,6 +11481,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/SURFACE_PRO3_BUTTON linux-h
 usr/src/linux-headers-6.1.140-phb-686/include/config/SUSPEND linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SUSPEND_FREEZER linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SWAP   linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/SWIOTLB linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SWPHY  linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SX9310 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SX_COMMON linux-headers-6.1.140-phb-686
@@ -11513,6 +11504,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/SYSTEM_TRUSTED_KEYS linux-h
 usr/src/linux-headers-6.1.140-phb-686/include/config/SYSVIPC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SYSVIPC_SYSCTL linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/SYSV_FS linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/SYS_HYPERVISOR linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/T5403  linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/TABLET_SERIAL_WACOM4 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/TABLET_USB_ACECAD linux-headers-6.1.140-phb-686
@@ -11547,6 +11539,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/TCG_TIS_ST33ZP24 linux-head
 usr/src/linux-headers-6.1.140-phb-686/include/config/TCG_TIS_ST33ZP24_I2C linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/TCG_TPM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/TCG_VTPM_PROXY linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/TCG_XEN linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/TCIC   linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/TCM_FC linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/TCM_FILEIO linux-headers-6.1.140-phb-686
@@ -12134,6 +12127,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/VIDEOBUF2_VMALLOC linux-hea
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIDEOBUF_DMA_SG linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIDEOBUF_GEN linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIDEOBUF_VMALLOC linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/VIDEOMODE_HELPERS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIDEO_ADV7170 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIDEO_ADV7175 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIDEO_AU0828 linux-headers-6.1.140-phb-686
@@ -12243,6 +12237,7 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/VIRTIO_PCI linux-headers-6.
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIRTIO_PCI_LEGACY linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIRTIO_PCI_LIB linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIRTIO_PCI_LIB_LEGACY linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/VIRTIO_PMEM linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIRTIO_VSOCKETS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIRTIO_VSOCKETS_COMMON linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/VIRTUALIZATION linux-headers-6.1.140-phb-686
@@ -12355,7 +12350,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/X509_CERTIFICATE_PARSER lin
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86    linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_16BIT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_32 linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/X86_32_IRIS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_32_SMP linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_ACPI_CPUFREQ linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_ACPI_CPUFREQ_CPB linux-headers-6.1.140-phb-686
@@ -12398,12 +12392,15 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/X86_MPPARSE linux-headers-6
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_MSR linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_NEED_RELOCS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_P4_CLOCKMOD linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/X86_PAE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_PAT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_PCC_CPUFREQ linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_PKG_TEMP_THERMAL linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_PLATFORM_DEVICES linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_PLATFORM_DRIVERS_DELL linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_PLATFORM_DRIVERS_HP linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/X86_PMEM_LEGACY linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/X86_PMEM_LEGACY_DEVICE linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_PM_TIMER linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_POWERNOW_K6 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_POWERNOW_K7 linux-headers-6.1.140-phb-686
@@ -12425,6 +12422,36 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/X86_USE_PPRO_CHECKSUM linux
 usr/src/linux-headers-6.1.140-phb-686/include/config/X86_VMX_FEATURE_NAMES linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/XARRAY_MULTI linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/XDP_SOCKETS linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN    linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XENFS  linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_ACPI linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_AUTO_XLATE linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_BACKEND linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_BALLOON linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_BLKDEV_BACKEND linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_BLKDEV_FRONTEND linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_COMPAT_XENFS linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_DEV_EVTCHN linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_FBDEV_FRONTEND linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_FRONT_PGDIR_SHBUF linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_GNTDEV linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_GRANT_DEV_ALLOC linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_NETDEV_BACKEND linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_NETDEV_FRONTEND linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_PCIDEV_BACKEND linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_PCI_STUB linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_PRIVCMD linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_PVH linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_PVHVM linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_PVHVM_GUEST linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_PVHVM_SMP linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_SAVE_RESTORE linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_SCRUB_PAGES_DEFAULT linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_SCSI_BACKEND linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_SCSI_FRONTEND linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_SYS_HYPERVISOR linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_WDT linux-headers-6.1.140-phb-686
+usr/src/linux-headers-6.1.140-phb-686/include/config/XEN_XENBUS_FRONTEND linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/XFRM   linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/XFRM_AH linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/XFRM_ALGO linux-headers-6.1.140-phb-686
@@ -12442,8 +12469,6 @@ usr/src/linux-headers-6.1.140-phb-686/include/config/XFS_QUOTA linux-headers-6.1
 usr/src/linux-headers-6.1.140-phb-686/include/config/XFS_RT linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/XFS_SUPPORT_V4 linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/XIAOMI_WMI linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/XO15_EBOOK linux-headers-6.1.140-phb-686
-usr/src/linux-headers-6.1.140-phb-686/include/config/XO1_RFKILL linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/XOR_BLOCKS linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/XPOWER_PMIC_OPREGION linux-headers-6.1.140-phb-686
 usr/src/linux-headers-6.1.140-phb-686/include/config/XPS    linux-headers-6.1.140-phb-686

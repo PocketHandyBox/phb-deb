@@ -716,13 +716,13 @@ Priority: optional
 Section: kernel
 Source: linux-upstream
 Maintainer: root <root@komnata>
-Installed-Size: 51227
+Installed-Size: 51224
 Filename: ./linux-headers_6.1.140-phb-686_i386.deb
-Size: 8610380
-MD5sum: b507d7eeee197e1ddaf0df5f9d25ef3c
-SHA1: ecf7291fdc4015c0621e791d7b2a868715652a1c
-SHA256: a5b861a4a04d8e3985c386131b5d647ae1b85a50a83d9eb78127cefc6b9a80a0
-SHA512: 18f49a3d2f00857eaf7164bbba53048ab3387e6caf63f7263c0b4136c3bc6849b213876c438467ebdf6276d4c33241fdac79a472c49c27cf35e843ec1c8fc22a
+Size: 8610020
+MD5sum: 2040dc8d70219ac03bf6248579775c81
+SHA1: ad5ccfecc7951c4fc85bec31d93d548dd940db01
+SHA256: 46815d19fae38b1230e626e7dbb80c3c7558a2ca8de1cf66743a8166d5d4086b
+SHA512: 8fe76124f14d058ddee0b5a542da69fc6f27c5bcfcf31f9b63f457f9f2bc194f9fb63b185465d301ba1dbf14bd5319d3880bf794354e1b23003c3d3430bf8614
 Homepage: https://www.kernel.org/
 Description: Linux kernel headers for 6.1.140-phb-686 on i386
  This package provides kernel header files for 6.1.140-phb-686 on i386
