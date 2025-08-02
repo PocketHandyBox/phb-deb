@@ -1614,47 +1614,47 @@ Description: Development files for libthunarx
 
 Package: libunrar-dev
 Architecture: amd64
-Version: 1:7.1.2-3
+Version: 1:7.1.10-1deb12
 Multi-Arch: same
 Priority: optional
 Section: non-free/libdevel
 Source: unrar-nonfree
 Maintainer: UnRar maintainer team <team+unrar-nonfree@tracker.debian.org>
-Installed-Size: 738
-Depends: libunrar5 (= 1:7.1.2-3), libunrar-headers (= 1:7.1.2-3)
-Filename: ./libunrar-dev_7.1.2-3_amd64.deb
-Size: 179652
-MD5sum: 7c85bbacbf201304720cd524a661427b
-SHA1: 6762fcfc195966114cedac98a23be73809e888be
-SHA256: 57049917bed84d1caebd2eb8e9306da2ef950731a411aa31081b5bd74152550b
-SHA512: 818101ec2283b5fd2a3ad3299386d8789d2ec48fbb28b0428aa7d34ce75e5c60c529dedb87937c51fb2827b9e26818f418b5da7c3a8b3bf609284cd3334c04e8
+Installed-Size: 739
+Depends: libunrar5 (= 1:7.1.10-1deb12), libunrar-headers (= 1:7.1.10-1deb12)
+Filename: ./libunrar-dev_7.1.10-1deb12_amd64.deb
+Size: 180224
+MD5sum: 21525fc7e777f96223ec608955b1edea
+SHA1: 5d70efcf09123c901ee8a522c96112611fc3c994
+SHA256: acd8ba46169879edec786b5ce6a56a466a306952e96f155317b9b7fe825ffe2d
+SHA512: c8f583fa1fe33f70d90bc66e9fbff1dfd63693359a4d9b058ff2339a330ecf9a27c501a0512978841784afce538cb4b06a89d769cecb05dd414a077acfa7f0a5
 Homepage: https://www.rarlab.com/
 Description: Unarchiver for .rar files (non-free version) - development files
  This package contains the static library for the libunrar library.
 
 Package: libunrar-dev
 Architecture: i386
-Version: 1:7.1.2-3
+Version: 1:7.1.10-1deb12
 Multi-Arch: same
 Priority: optional
 Section: non-free/libdevel
 Source: unrar-nonfree
 Maintainer: UnRar maintainer team <team+unrar-nonfree@tracker.debian.org>
 Installed-Size: 662
-Depends: libunrar5 (= 1:7.1.2-3), libunrar-headers (= 1:7.1.2-3)
-Filename: ./libunrar-dev_7.1.2-3_i386.deb
-Size: 196856
-MD5sum: 70ef25abb56f7810c0aa6cfeb0b5e298
-SHA1: 736b65552cfa4e5914db476d0bffc032fcadfa76
-SHA256: b1ad7419cd02e7fe6ab35b094440f34e0e75476f504e868fe41eca0b106dd60d
-SHA512: 799e863bec6c73b4702db1ab2c20a5bbee79797447846c319267a831cac04d2d67a3234958558a2200653fdb6eb119d07ae395a8359291b7213f8087bce75166
+Depends: libunrar5 (= 1:7.1.10-1deb12), libunrar-headers (= 1:7.1.10-1deb12)
+Filename: ./libunrar-dev_7.1.10-1deb12_i386.deb
+Size: 197216
+MD5sum: 1333982ed31d6b48f0b48dda6c3b6884
+SHA1: dc739861eda23987b596018623649862b9da122b
+SHA256: 2a30f1999b0bd28888c214aa3316a5ec8a3ececfaa6176674183dfe421a8ce6b
+SHA512: ed7ff900c0d1ff5749fb727a8b545e01967f986f6b44dc873ba0f85aec3c4fccf46e770c6692a49797db32179ea876473b3889fa25e012a44f0f2a85a82f7fbd
 Homepage: https://www.rarlab.com/
 Description: Unarchiver for .rar files (non-free version) - development files
  This package contains the static library for the libunrar library.
 
 Package: libunrar-headers
 Architecture: all
-Version: 1:7.1.2-3
+Version: 1:7.1.10-1deb12
 Multi-Arch: foreign
 Priority: optional
 Section: non-free/libdevel
@@ -1662,19 +1662,19 @@ Source: unrar-nonfree
 Maintainer: UnRar maintainer team <team+unrar-nonfree@tracker.debian.org>
 Installed-Size: 219
 Breaks: libunrar-dev (<= 1:5.9.4-1)
-Filename: ./libunrar-headers_7.1.2-3_all.deb
-Size: 53796
-MD5sum: 4ecbe7eabbe770e65d79eb4b4808d2d6
-SHA1: 338be485d46dce9f9eb4efebeab553dc4d642754
-SHA256: 414afa704a2b84fa53efdf0af4988cda5cf2c526b637032a63a0a500c71c7ccb
-SHA512: dec525c2fdf5f2539eb896363d70ea5b355beb39cf345f1fdb9f7f4e7b152654b91d7a03589ae74964abe091c626e5937ef77174cf72a4b0235282036f04f9ef
+Filename: ./libunrar-headers_7.1.10-1deb12_all.deb
+Size: 54120
+MD5sum: abb62a5683ccce665e33fa09ee1c61bb
+SHA1: 72ad1922450ff1f1600ea684b0d2476253cec4f8
+SHA256: 8eb7626e64fbf499e574091edb12d34e9f410a6e0574cc6c7e11626aab5a4499
+SHA512: 2b1f26964098b020adf47de3825ac7dbd76e1f0db0e3203029d4c8c19726d25594ab07e5f2ccbcf5503d1155bccfddf848bcd43b71967a5a5db9cb96d1de7868
 Homepage: https://www.rarlab.com/
 Description: Unarchiver for .rar files (non-free version) - development header files
  This package contains the header files for the libunrar library.
 
 Package: libunrar5
 Architecture: amd64
-Version: 1:7.1.2-3
+Version: 1:7.1.10-1deb12
 Multi-Arch: same
 Priority: optional
 Section: non-free/libs
@@ -1682,19 +1682,19 @@ Source: unrar-nonfree
 Maintainer: UnRar maintainer team <team+unrar-nonfree@tracker.debian.org>
 Installed-Size: 238
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
-Filename: ./libunrar5_7.1.2-3_amd64.deb
-Size: 108592
-MD5sum: 9ec8396da45cdcf0c887275202994af5
-SHA1: ab6b59b92750e2cadc1474251bc8349c8f16efb4
-SHA256: 7d9e2adecc8f00b620428bdcf3367f54e7360712b82026f12c677b7ef2fd1e43
-SHA512: 7b5baff58a0f4fc09cc0ccf405b261bb9d99ea87a2933dd2c4b0b3b3d83c0870725e3b70766a0726211227fca6dc8e5deb37dbaa2ca7f53382e8da559fddec78
+Filename: ./libunrar5_7.1.10-1deb12_amd64.deb
+Size: 109004
+MD5sum: 1b4d63379f5e252c27edc874f74590a8
+SHA1: 241a2bf27f6adeab18875a1fff7167f37671c7f6
+SHA256: 9b5a82ebc91abce190406b292138d51fcea81d6b48e3063aaeca1e2b0317cea8
+SHA512: 7947d8f7b82373985a8e0cd66113e08f49f1d545c51e22bde05ba0bbb8668352dba678e1e624dbb0c7856e6431ab0104cddbbb4234943932442f1f7b2cfb934a
 Homepage: https://www.rarlab.com/
 Description: Unarchiver for .rar files (non-free version) - shared library
  library for unarchiving .rar files
 
 Package: libunrar5
 Architecture: i386
-Version: 1:7.1.2-3
+Version: 1:7.1.10-1deb12
 Multi-Arch: same
 Priority: optional
 Section: non-free/libs
@@ -1702,12 +1702,12 @@ Source: unrar-nonfree
 Maintainer: UnRar maintainer team <team+unrar-nonfree@tracker.debian.org>
 Installed-Size: 245
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11)
-Filename: ./libunrar5_7.1.2-3_i386.deb
-Size: 112252
-MD5sum: f8895996229f3699309b8b7217f4872a
-SHA1: 1e88346899f8ca1831f71b90d9aacc1ed2eefec1
-SHA256: 0c3bc035bffcff8e336b7c3cb6c6a2b2d4b483338d7e4baace773c97d4ecf29f
-SHA512: 6091e14055ee86cbffa530e8387775bdb3adabebac150d6c64a42626ee8051db639294e24e2f3a055f78118aa87085ebd49bf23d31012e1399f92d2e904100bc
+Filename: ./libunrar5_7.1.10-1deb12_i386.deb
+Size: 112540
+MD5sum: 62b04c525580e24ae23f6ae9d50b11be
+SHA1: ae08f07395879dde6ad95f9109e3e816d15ff377
+SHA256: b6e96d444308d47e85f10dbda09c58979e2239d5f22d87e6ebeb750d6bc9a926
+SHA512: 3565324a8d173e03204c59395ad1212e315c1783a1e4e877c731eed04c8e48381e0ff0b10792514c1d40227ad2c3ce09c65915a4ed4eafa3eab9dd8ece26ebee
 Homepage: https://www.rarlab.com/
 Description: Unarchiver for .rar files (non-free version) - shared library
  library for unarchiving .rar files
@@ -2875,19 +2875,19 @@ Description: files extractor for the ung archives used by the Unigine game engin
 
 Package: unrar
 Architecture: amd64
-Version: 1:7.1.2-3
+Version: 1:7.1.10-1deb12
 Priority: optional
 Section: non-free/utils
 Source: unrar-nonfree
 Maintainer: UnRar maintainer team <team+unrar-nonfree@tracker.debian.org>
 Installed-Size: 388
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
-Filename: ./unrar_7.1.2-3_amd64.deb
-Size: 164872
-MD5sum: 3f8a2e4d5f2e36a51d9de982167d2011
-SHA1: eacc061d3e521d4cb71e1c4e0bb5d0386ae4d9a9
-SHA256: 440032f752407d2e89d089ea6e6dbc4f70b7d8794de40aebd08b2480d121546a
-SHA512: f553ee7e993030a3d0ca913c2bd8964419d33c67f499dabcf7b362eecfd23bdfa2959844ca01dde2fe3b13afc948cf2b3ab54d1fa55ee31081990d529c22adf1
+Filename: ./unrar_7.1.10-1deb12_amd64.deb
+Size: 165552
+MD5sum: bde46d5430efde8bbd2a8a77ca5485b7
+SHA1: f3d826f75427cbaa556a0eccd7a82c893be4e660
+SHA256: 7d864624b2db31b261d6f9d7619c9ebd1625f0963f4f961c6848b1b2b6e9c37a
+SHA512: 4be16a4581a73cd8dc983d2d942c97ebd6e2a131055849e08701cb8567eb3221f9a7777c092060d3d5933599a7b990cb1283c84f5498799bd9546022fa1275bc
 Homepage: https://www.rarlab.com/
 Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar
@@ -2895,19 +2895,19 @@ Description: Unarchiver for .rar files (non-free version)
 
 Package: unrar
 Architecture: i386
-Version: 1:7.1.2-3
+Version: 1:7.1.10-1deb12
 Priority: optional
 Section: non-free/utils
 Source: unrar-nonfree
 Maintainer: UnRar maintainer team <team+unrar-nonfree@tracker.debian.org>
 Installed-Size: 399
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11)
-Filename: ./unrar_7.1.2-3_i386.deb
-Size: 170924
-MD5sum: c40f4f4988faa86536ec93a4f3f612e1
-SHA1: e7d05412540ba2bbddd86773d8262e8a6ba9e531
-SHA256: edc1b7f4ea404620ef408efa4c11cb80d8320dd8fd6e2452fa20bc3b54a7de80
-SHA512: b57249ece13bf0088d762c35a6ca30b67027d2efc97243bc9257377792e4dc203d37174b84c7ec69b43539e4555dcc9bfe9b5ac42e93e3ce150acb85b86757bd
+Filename: ./unrar_7.1.10-1deb12_i386.deb
+Size: 171976
+MD5sum: 9e1e04e25dc177d6cffcc3c146bb8f2d
+SHA1: c8279628468ef65a4051f895a415f44c5f8f499c
+SHA256: a0bc2d12f6868acaf44292f968039d4fa8ccaacf73f446974ab3a9bb1116f9af
+SHA512: 0566d9e5c9a533bdad1b1825c954c177a3c1bc598207aa6c4698125214a18955972d13a50437b4e88c2dcd5d2b2c05f87d423eb62c74eb815c2d3713234c1881
 Homepage: https://www.rarlab.com/
 Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar
