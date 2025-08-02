@@ -2535,6 +2535,56 @@ Description: dkms source for the Realtek rtw89 driver
  field above, you can download it directly from
  https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git.
 
+Package: smartmontools
+Architecture: amd64
+Version: 7.5-1
+Priority: optional
+Section: utils
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 2414
+Depends: debianutils (>= 2.2), sysvinit-utils (>= 3.05-4~), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libgcc-s1 (>= 3.0), libselinux1 (>= 3.1~), libstdc++6 (>= 11), libsystemd0
+Suggests: gsmartcontrol, smart-notifier, mailx | mailutils, curl | wget | lynx, gpg
+Conflicts: smartsuite, ucsc-smartsuite
+Breaks: smart-notifier (<= 0.28-8)
+Filename: ./smartmontools_7.5-1_amd64.deb
+Size: 661560
+MD5sum: d467c1ce27bed18e6a6b81acf6cabfb3
+SHA1: ba87957a66161547e16168e6a375c7ad755d4a06
+SHA256: 4a9d83e39578f82fba08c0e2471eeacb36654809df068af47d59f33879474d0c
+SHA512: eb8bd2d7039b60f9e36ae76c4b4ac2ddea3ac2c091c421e5c9ae2bce1a1e0f3c10dc78ade5267e38cd32ad374351535b14449b4ae33651e116d92409ffd9f257
+Homepage: https://www.smartmontools.org/
+Description: control and monitor storage systems using S.M.A.R.T.
+ The smartmontools package contains two utility programs (smartctl and smartd)
+ to control and monitor storage systems using the Self-Monitoring, Analysis and
+ Reporting Technology System (S.M.A.R.T.) built into most modern ATA and SCSI
+ hard disks. It is derived from the smartsuite package, and includes support
+ for ATA/ATAPI-5 disks. It should run on any modern Linux system.
+
+Package: smartmontools
+Architecture: i386
+Version: 7.5-1
+Priority: optional
+Section: utils
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 2232
+Depends: debianutils (>= 2.2), sysvinit-utils (>= 3.05-4~), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libgcc-s1 (>= 4.2), libselinux1 (>= 3.1~), libstdc++6 (>= 11), libsystemd0
+Suggests: gsmartcontrol, smart-notifier, mailx | mailutils, curl | wget | lynx, gpg
+Conflicts: smartsuite, ucsc-smartsuite
+Breaks: smart-notifier (<= 0.28-8)
+Filename: ./smartmontools_7.5-1_i386.deb
+Size: 660188
+MD5sum: 86eb2e2ed115f65360f83667dc2d0379
+SHA1: cc9f25542fc14acfb8b4adcf2fccba81b7a5d83e
+SHA256: 962cfc62ed9178c22f6bc93b68adbce8b7c20311fcda2ce6d03aaa2086e4c756
+SHA512: 6753f0a60ddbe6fba5ca1fe66735343abcf51574baedf411f743f2751509aa339ba944513a38599435e4cda6d39989989fd9ae8565704dd196184bbf64e4cf79
+Homepage: https://www.smartmontools.org/
+Description: control and monitor storage systems using S.M.A.R.T.
+ The smartmontools package contains two utility programs (smartctl and smartd)
+ to control and monitor storage systems using the Self-Monitoring, Analysis and
+ Reporting Technology System (S.M.A.R.T.) built into most modern ATA and SCSI
+ hard disks. It is derived from the smartsuite package, and includes support
+ for ATA/ATAPI-5 disks. It should run on any modern Linux system.
+
 Package: testdisk
 Architecture: amd64
 Version: 7.2-0.1

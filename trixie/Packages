@@ -1027,6 +1027,56 @@ Description: lightweight drive and volume management backend
  It is this kind of software responsible for displaying drives in
  file managers and file open/save dialogs in many linux distributions.
 
+Package: smartmontools
+Architecture: amd64
+Version: 7.5-1
+Priority: optional
+Section: utils
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 2455
+Depends: debianutils (>= 2.2), sysvinit-utils (>= 3.05-4~), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libgcc-s1 (>= 3.0), libselinux1 (>= 3.1~), libstdc++6 (>= 11), libsystemd0
+Suggests: gsmartcontrol, smart-notifier, mailx | mailutils, curl | wget | lynx, gpg
+Conflicts: smartsuite, ucsc-smartsuite
+Breaks: smart-notifier (<= 0.28-8)
+Filename: ./smartmontools_7.5-1_amd64.deb
+Size: 671196
+MD5sum: 881fc13727d7e6e776d959567808c3e8
+SHA1: 3047b5114d2b3d275a82d6942eaa290f5b7643a2
+SHA256: 47280125d67e7e8b79fa6d0309339b7cb74bd0310ec314ce815c8d1f205c3491
+SHA512: 0e84deb5a3a8dee6ca3b6410386fecfa84b8420eb355c42bd1375b70380b9c3e1648bbf9dad09200e04a2da4a8151c5cec413ff44cb93539122670104abdcc14
+Homepage: https://www.smartmontools.org/
+Description: control and monitor storage systems using S.M.A.R.T.
+ The smartmontools package contains two utility programs (smartctl and smartd)
+ to control and monitor storage systems using the Self-Monitoring, Analysis and
+ Reporting Technology System (S.M.A.R.T.) built into most modern ATA and SCSI
+ hard disks. It is derived from the smartsuite package, and includes support
+ for ATA/ATAPI-5 disks. It should run on any modern Linux system.
+
+Package: smartmontools
+Architecture: i386
+Version: 7.5-1
+Priority: optional
+Section: utils
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 2253
+Depends: debianutils (>= 2.2), sysvinit-utils (>= 3.05-4~), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libgcc-s1 (>= 4.2), libselinux1 (>= 3.1~), libstdc++6 (>= 11), libsystemd0
+Suggests: gsmartcontrol, smart-notifier, mailx | mailutils, curl | wget | lynx, gpg
+Conflicts: smartsuite, ucsc-smartsuite
+Breaks: smart-notifier (<= 0.28-8)
+Filename: ./smartmontools_7.5-1_i386.deb
+Size: 667484
+MD5sum: f82455158ef8a3b6fbea48ecf2ba64b1
+SHA1: a882e646feaa64a4453568c380b9fb4950048b34
+SHA256: 36bdc9635b996a13dcc97ca308b27605aacf24b5872e336f1d70834aac0f0c49
+SHA512: d383b26861300b534034e8d5314ccbfb8ce457624a8b4b6bb5f5fbc09a24d9d88b1d3a8f2f9effc0102de5511f87637d450e77c14947056dc9350ba6dc4ee9bf
+Homepage: https://www.smartmontools.org/
+Description: control and monitor storage systems using S.M.A.R.T.
+ The smartmontools package contains two utility programs (smartctl and smartd)
+ to control and monitor storage systems using the Self-Monitoring, Analysis and
+ Reporting Technology System (S.M.A.R.T.) built into most modern ATA and SCSI
+ hard disks. It is derived from the smartsuite package, and includes support
+ for ATA/ATAPI-5 disks. It should run on any modern Linux system.
+
 Package: sqv-dummy
 Architecture: all
 Version: 1.0

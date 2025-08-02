@@ -9,14 +9,14 @@ Codename: trixie
 Version: 1.0
 Architectures: amd64 i386
 Components: main
-Date: Fri, 01 Aug 2025 13:07:19 +0000
+Date: Sat, 02 Aug 2025 17:36:56 +0000
 MD5Sum:
  2a74ab2b9e21512bd86573960510fa02 212208 alsaplayer-gtk_0.99.82-1_amd64.deb
  42b8ed59d8ce324060234f88cae72e82 203884 alsaplayer-gtk_0.99.82-1_i386.deb
  3f0ea4e75bf814f3ba091256e0d32caf 674508 busybox-static_1.37.0-6phb_amd64.deb
  05522c363550bd29b1da75a1536de145 708192 busybox-static_1.37.0-6phb_i386.deb
- 06c6e6914ac11b783cfbd30e23510ce2 1774976 Contents
- a2702b32d68c139ca5e2de81eb661fde 111996 Contents.gz
+ 65c301135a53325fa61c5fb006a66340 1777122 Contents
+ 775094c06166862bf953967b3f566821 112429 Contents.gz
  a7d1bd1105532ddf2367e36ce7a8d4af 17652 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  d322dd9f8ce7165c1b0595c397b45749 17496 cpuidtool_0.8.0+repack1-0.3_i386.deb
  3108de6a07b2d76237aaecf5bd2a6915 2315184 cpu-x_5.3.1-0.3_amd64.deb
@@ -51,10 +51,12 @@ MD5Sum:
  16d291b9b731e3f1c3e182ff5ceaa3f4 1485628 netsurf-gtk_3.11-2_amd64.deb
  cc52dd385c5d180c8a5d3d257577ea62 1565896 netsurf-gtk_3.11-2_i386.deb
  9a72c12b70036c45dc0fedb529db9599 37712 numix-colors-icon-theme_1.0_all.deb
- acd6fb05723b468975f1f1acfddd211a 65959 Packages
- b7ac007b35065c4c0a6177a584f92c67 19040 Packages.gz
+ 2149bd66a48d9c7cd7b395ac07d5714b 68627 Packages
+ 66bc7360f49d6643c992ae384a11a4a7 19822 Packages.gz
  1e0cdba590ca6213f3c55286c24a40a5 89964 pup-volume-monitor_0.2w_amd64.deb
  5531ac442499e366b601fcf1268a08aa 96680 pup-volume-monitor_0.2w_i386.deb
+ 881fc13727d7e6e776d959567808c3e8 671196 smartmontools_7.5-1_amd64.deb
+ f82455158ef8a3b6fbea48ecf2ba64b1 667484 smartmontools_7.5-1_i386.deb
  1a7bd43a5c9f07bca1caa99f2808aa10 740 sqv-dummy_1.0_all.deb
  72201b08de814aa2aefce1f4d7133dd3 374088 thunar_4.18.11-1_amd64.deb
  3e4ff2d1abc1d994dc8973069f258b4b 404548 thunar_4.18.11-1_i386.deb
@@ -76,8 +78,8 @@ SHA1:
  1ba5e5857edcba4d261f5cc322c17bf7bbf2ab4f 203884 alsaplayer-gtk_0.99.82-1_i386.deb
  4295e7196199da796d9e6a9b00f1ce4da17f9f44 674508 busybox-static_1.37.0-6phb_amd64.deb
  faf68d8ebfeeec1a6b127040e5b4643426e8b052 708192 busybox-static_1.37.0-6phb_i386.deb
- 6d6d2c9d297703f5b2da4cb4d8cc59e2a36cbae8 1774976 Contents
- d53cb57fe3e4f3f33b29134e150621a3dd1675b2 111996 Contents.gz
+ ffb776fc304e67594f1daa199d307739609b27c9 1777122 Contents
+ 2e4e52b1103a4b4916a658f840e49a2bbccb1091 112429 Contents.gz
  726450e2beec6b03c4f842ef04b53528b6754672 17652 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  ca61e33389f1e0ec0ece3470da5c77a53cbf6fa3 17496 cpuidtool_0.8.0+repack1-0.3_i386.deb
  b0a63b05b97237bb31f797d06f5726cf001f7c6e 2315184 cpu-x_5.3.1-0.3_amd64.deb
@@ -112,10 +114,12 @@ SHA1:
  a4be4c19642ca3f52faaa87c8c52f26bf47de236 1485628 netsurf-gtk_3.11-2_amd64.deb
  464a523510bf019b3555c3cc63450946786f8c06 1565896 netsurf-gtk_3.11-2_i386.deb
  d21da36aec48db869fa7ed5ad4e14db06a4b54b1 37712 numix-colors-icon-theme_1.0_all.deb
- b0983bb494da73a1db78f8b64de60ca67b6154e9 65959 Packages
- b467cb330cf6cdc004b08ce9bb7b3c798b9209a9 19040 Packages.gz
+ 0db99ff888489ee1dbd8aaa9368c58e11133946d 68627 Packages
+ 4bafaec85d7a8a8cc1b77a72884bdf35fa9d1cdb 19822 Packages.gz
  7c4bd0c4c0ab993d541a7859a3cf245138a315c2 89964 pup-volume-monitor_0.2w_amd64.deb
  861a48ba4332e42f430774ffc6521f36b1f98d30 96680 pup-volume-monitor_0.2w_i386.deb
+ 3047b5114d2b3d275a82d6942eaa290f5b7643a2 671196 smartmontools_7.5-1_amd64.deb
+ a882e646feaa64a4453568c380b9fb4950048b34 667484 smartmontools_7.5-1_i386.deb
  54b48464d8df0f89ef673c705b4e2f6253b537ad 740 sqv-dummy_1.0_all.deb
  72fcf83a73903cf579136b9bda63f2eba6f9a92a 374088 thunar_4.18.11-1_amd64.deb
  a4fbc930faf0ede5e36f073e4423d34dcffd3eaa 404548 thunar_4.18.11-1_i386.deb
@@ -137,8 +141,8 @@ SHA256:
  daed2762a9c44cc079e486de37fb2aabe0d33efa8f92951968741dd8ab6d9734 203884 alsaplayer-gtk_0.99.82-1_i386.deb
  4dbcbe0c6fed3f23a86e55405a80825215e247096c816ae19082cb3e2a12596c 674508 busybox-static_1.37.0-6phb_amd64.deb
  d25b89714e042e9179b8aea8791cf889659921f3e41ddf25f48c324a2be271fb 708192 busybox-static_1.37.0-6phb_i386.deb
- f8305882eb8ac8571303415e26448da4f95885ec538b43430e526750380235af 1774976 Contents
- 3aa79185963200496b1d65c4a0ab40ed9c27a31a7330d23004fac2a406352816 111996 Contents.gz
+ e87492ac649cacc50d7e398c0f4cf94e2c8fce36b5c6596c5168005f28061bea 1777122 Contents
+ 73714b4aff746c6eca300a5088843b3c64a1f26c1c99a5045e5ee26d296b6e32 112429 Contents.gz
  ac534f4b586306bdbf0b71ec5ba074991d8ef314c759a0ab9943f7ef18715b2a 17652 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  a316f8fd477224fe7cdcd1aaa63e8991291abdb391ffce511638d93617f054d9 17496 cpuidtool_0.8.0+repack1-0.3_i386.deb
  0c4c81b37a9d4abb86e7c25caeda30f4818231c81983b0850be0a86f52dbd543 2315184 cpu-x_5.3.1-0.3_amd64.deb
@@ -173,10 +177,12 @@ SHA256:
  ade412cfa46b0ad1d1e55f5b1e0de91c91bf27a016d127d3285c14710dcf42c5 1485628 netsurf-gtk_3.11-2_amd64.deb
  52cccb21ec5cd947750f5728e5794ec72c05f0ce4fd37507a45c1de62e169303 1565896 netsurf-gtk_3.11-2_i386.deb
  da94ef6f8ae8cd621fdeda367d8573122ff4043f1ae4a43350a9f84c06ef8da2 37712 numix-colors-icon-theme_1.0_all.deb
- c31be6577ba536d49bde36e7323d7f92589af679cc2e8619ff29e61ee5d1a2c3 65959 Packages
- cda0a964d66232ff33f2ef053575f38ef74d6dfa69cb08d499c74b32517e16ee 19040 Packages.gz
+ 2dafb0c3287b2208f28586c6eaf4bcc6e31382a0eafc4275a0f0869feb749575 68627 Packages
+ 989e0d1ceb9f5c47c0c18343af228ce93d658f1713802319ab4af47903072f7e 19822 Packages.gz
  32fe517b0feb74472ea091c1cae661469b50c628e39b3e3782cf38c1a8cc2368 89964 pup-volume-monitor_0.2w_amd64.deb
  cd141287bb5ef1870b9869b335c763470932d8fcf23405c2948e729b706d774f 96680 pup-volume-monitor_0.2w_i386.deb
+ 47280125d67e7e8b79fa6d0309339b7cb74bd0310ec314ce815c8d1f205c3491 671196 smartmontools_7.5-1_amd64.deb
+ 36bdc9635b996a13dcc97ca308b27605aacf24b5872e336f1d70834aac0f0c49 667484 smartmontools_7.5-1_i386.deb
  3cc50eef75aee2141f399bd8102b5e9db4102556d98ea5d49c6d2c100d2c50af 740 sqv-dummy_1.0_all.deb
  72282e1a03fa62c8fc9328c177692f61b20a597652604b99ca0bdb3506866675 374088 thunar_4.18.11-1_amd64.deb
  e62719a683f29de4a985bac2ed826d3b73df0252534518d79b02362396d1a1cd 404548 thunar_4.18.11-1_i386.deb
@@ -195,15 +201,15 @@ SHA256:
  dee0d85ca26245d4b1b146f1f726950da34f8518a64d33c7c538d999cc933c47 206532 yad_14.1-1_i386.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmiMvA4ACgkQZ9Vqr4Ht
-qtkTFQv/SFg2PLm7KOOMU/bymQVntTBwjVbh1QT4G2m2TY6o6wjorFkoL24bH1XO
-DYj9n3Qfw1iHqnVInD/iU7J5BUnXeUza+nKPBUwOZ5/KFEc+/kb/RwW7bIxS7txS
-plFG1kFFMebdgALnoccVYQNeqI/GFVbVpH7m0ToGjVaHK3iDtdmM8T4zu6TT+ifU
-xBK0YRfgOZb50NoGheCOepYUDT5uqEHhG9HGzjBt2o3VJ87EA7W5lc5OeX2SV8xU
-W4nfXjRaMi3HJ8Sv84Z9Idv3ndIEDeq0+FlRlTZS15UzWVuFMytrpCdD26hudp6q
-CxT+7mLA9sGw6OFyPizd2d77KXiwwBsOqdggxBJaKnge7Jc4jIEe2qw272CbSy1b
-VvEvbjN+KTE+ycyVFTPGKKTjPzN2MNKPmSxzPIgEiQSUOnAcE5b8i+2n1Akd1nJE
-KDQiwjS+QSxm4irlHg+4t8ir70auwEms6/6fE3XLY2Tpix71xZFNZC2lQyzBbxPv
-qTl1RM3G
-=c9cH
+iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmiOTMAACgkQZ9Vqr4Ht
+qtkpmAv/Ss+dnLtF97DbjmKNmgEa5cpJyeqcxwg/iNxEKbl1juZDwg305qJZTg8o
+jDWycCmhRv4DAWXZ5FMeVft+HR4re5OnfAyzAJOK9L4AE7m09JvILhQhW839sUtM
+ixHt8ezYkz+IYVASTT7s8hdZEKZ8y6QHt5YN3ibWfHrPKoSDymElRk8XbIeuSq0N
+3W8TvhOQfGSs8+zz6LmvTt5vNcWOiEqYXivfG0B4Wh494NP95SV2lZLTyg67/R6u
+wvBuFRhryM5birjqzeDT4P+GW1M33YFHsSx2y+Vu53+u10FkRAUXBWkZwd8wL7Tk
+XW6ClnI/wuDnlmHi7im79WD2F5EDAYyRSnbBv3wPbdkXDlnKz5Shfo7WxnhEE9Mx
+Ndl15Kg6Mhq835DHFXENAGWcRIrj8C89iMJxJIwMHmL9zz3iR758Cu6EuW3mqdNU
+voHa3smfCReVTgqXQ0LTyapKW7pEzCIDbiJ1ITP+6qgqVEEFJPz/Inxc/+W5mUYS
+28/BNQTZ
+=sToZ
 -----END PGP SIGNATURE-----
