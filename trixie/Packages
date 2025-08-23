@@ -555,6 +555,228 @@ Description: C library for x86/ARM CPU detection and feature extraction (shared 
  .
  This package ships the libcpuid shared library.
 
+Package: libegl-amber0
+Architecture: amd64
+Version: 21.3.9-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mesa-amber
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 265
+Provides: libegl-vendor
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.107-4), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libglapi-amber (>= 21.3.9), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.15.0), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-xfixes0, libxcb1
+Filename: ./libegl-amber0_21.3.9-1_amd64.deb
+Size: 86632
+MD5sum: e594f3981d5c2ebcb862a6240b50dc55
+SHA1: a634fdf1edfdb4832113e9adb3a7e6555924e283
+SHA256: c7199e536760bc8a46075b17fc8879c9e2fbf7256ee5b8ca0bc878628e4f7ae1
+SHA512: 096f85365435a8a98f88575718ef12074c6ad66040bbce50436c46a42ec9666bcee8d42cf7c5461d1fd569b586d473ebfd60eeedd2767497ecca81a669888a89
+Homepage: https://mesa3d.org/
+Description: free implementation of the EGL API -- Amber vendor library
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES.
+ .
+ This package contains the Mesa Amber vendor library for EGL.
+
+Package: libegl-amber0
+Architecture: i386
+Version: 21.3.9-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mesa-amber
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 275
+Provides: libegl-vendor
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.107-4), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libglapi-amber (>= 21.3.9), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.15.0), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-xfixes0, libxcb1
+Filename: ./libegl-amber0_21.3.9-1_i386.deb
+Size: 91232
+MD5sum: a2f3c0a186a12a573f4007671a9771bf
+SHA1: ec9becb4bea6a14cdc4d361c934c17fe3783f56d
+SHA256: 3cb7295f91f07a1c7e64e4a112e507e23efaebfd07bd3146438f9bd9e6e3e4d3
+SHA512: 117e838a719f86f9ee19bc77e31fa41274db3eafbabcd0decb42f095099ca272315d338559761459acb6e4cb953c1ff3f9b40a0a8d2dc6550b752f26cc3d5efe
+Homepage: https://mesa3d.org/
+Description: free implementation of the EGL API -- Amber vendor library
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES.
+ .
+ This package contains the Mesa Amber vendor library for EGL.
+
+Package: libgl1-amber-dri
+Architecture: amd64
+Version: 21.3.9-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mesa-amber
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 5783
+Provides: dri-drivers
+Depends: libc6 (>= 2.38), libdrm-intel1 (>= 2.4.107-4), libdrm2 (>= 2.4.107-4), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libglapi-amber (>= 21.3.9), libstdc++6 (>= 5), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Conflicts: libgl1-mesa-dri (<< 22.0.0~)
+Replaces: libgl1-mesa-dri (<< 22.0.0~)
+Filename: ./libgl1-amber-dri_21.3.9-1_amd64.deb
+Size: 1642784
+MD5sum: d6d82df667a4762846b11e31738987a5
+SHA1: 715736b50fea39250e638a37df8d3c021cddcaf9
+SHA256: 7624aa7cfcaf5c0571cdf8f06cba759907586066c3bc242cdadffdc108bac869
+SHA512: 5214821226dbe8526ab434526a72e4660bd39f4a8f4d4e2e05d3953937b9a7c79d7f3ec6bcc03cdf3cc8fae6d16299d5e90b02dc12f40d3872dfe216aff04187
+Homepage: https://mesa3d.org/
+Description: free implementation of the OpenGL API -- Amber DRI modules
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the OpenGL library itself, only the DRI
+ modules for accelerating direct rendering.
+ .
+ For a complete description of Mesa Amber, please look at the
+ libglx-amber0 package.
+
+Package: libgl1-amber-dri
+Architecture: i386
+Version: 21.3.9-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mesa-amber
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 6156
+Provides: dri-drivers
+Depends: libc6 (>= 2.38), libdrm-intel1 (>= 2.4.107-4), libdrm2 (>= 2.4.107-4), libexpat1 (>= 2.0.1), libgcc-s1 (>= 4.2), libglapi-amber (>= 21.3.9), libstdc++6 (>= 5), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Conflicts: libgl1-mesa-dri (<< 22.0.0~)
+Replaces: libgl1-mesa-dri (<< 22.0.0~)
+Filename: ./libgl1-amber-dri_21.3.9-1_i386.deb
+Size: 1677324
+MD5sum: c5e19173e38294d223d56ac68279ee3f
+SHA1: cfce6f5e4cc72120379924cec9c32abb54a94815
+SHA256: cf94caeacd03b3cd412443d50cad696f504090f0a8c15e2d542f6c3d7fec04d8
+SHA512: d9550f887798ea1f5fa946fc072613682c5ab899b40532baab503aa5ec9f7b9b2135d497b80db82260785091989541d20f2242430f6424a38179f7e480a2ad06
+Homepage: https://mesa3d.org/
+Description: free implementation of the OpenGL API -- Amber DRI modules
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the OpenGL library itself, only the DRI
+ modules for accelerating direct rendering.
+ .
+ For a complete description of Mesa Amber, please look at the
+ libglx-amber0 package.
+
+Package: libglapi-amber
+Architecture: amd64
+Version: 21.3.9-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mesa-amber
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 259
+Depends: libc6 (>= 2.34)
+Filename: ./libglapi-amber_21.3.9-1_amd64.deb
+Size: 28948
+MD5sum: bd74c1a44139c85425d24e2fb53115bd
+SHA1: 7c646e7af35fc0fc1dbf4d8f5dc1f51d0fb6e951
+SHA256: 785e2f08423d5b1b9cee93c925314689ba265e72b70d930100368074943b45bf
+SHA512: 478ebd821fe8b97f24f94ae54bf19a30ac7fbca8ec821e3185537c0c458a7360ce4d53ac2912a4f7fc1a5459ed4f569bd911fd5ce2c31e8b01e2dab8802b51d2
+Homepage: https://mesa3d.org/
+Description: free implementation of the GL API -- shared library
+ The Mesa GL API module is responsible for dispatching all the gl*
+ functions. It is intended to be mainly used by libgl1-amber-dri
+ package.
+
+Package: libglapi-amber
+Architecture: i386
+Version: 21.3.9-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mesa-amber
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 194
+Depends: libc6 (>= 2.34)
+Filename: ./libglapi-amber_21.3.9-1_i386.deb
+Size: 28692
+MD5sum: 5fe25aad0fb4b31e0bb2229c6cb99fc1
+SHA1: edfca270b871e266616bcc1d963d16f80f8ce809
+SHA256: 2f0e33e2b4254207ce9a498c3c6ba98130ab45c574f6c65d4bdd41aaa728fc24
+SHA512: 391e71f05cf28faf4c43c0f22f9881fa10d6286020bc1e90af39e4f7bf6c4e578ae992362aa718360b83406c8ba4f4c4bf851a3bd6997e787c16ed5c38ef02a4
+Homepage: https://mesa3d.org/
+Description: free implementation of the GL API -- shared library
+ The Mesa GL API module is responsible for dispatching all the gl*
+ functions. It is intended to be mainly used by libgl1-amber-dri
+ package.
+
+Package: libglx-amber0
+Architecture: amd64
+Version: 21.3.9-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mesa-amber
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 457
+Provides: libglx-vendor
+Depends: libgl1-amber-dri, libc6 (>= 2.38), libdrm2 (>= 2.4.107-4), libexpat1 (>= 2.0.1), libglapi-amber (>= 21.3.9), libstdc++6 (>= 4.1.1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-glx0 (>= 1.8), libxcb-shm0, libxcb1, libxext6, libxfixes3, libxxf86vm1
+Filename: ./libglx-amber0_21.3.9-1_amd64.deb
+Size: 123580
+MD5sum: 44ce54a86311b218c4578601b01d85a8
+SHA1: 253a129df082faea3d306821f47185b94ba01a6a
+SHA256: f8a2a7d08faa8b04ec9f2476938036b3a7cf2605bf032143bfb0343154e1252c
+SHA512: c807970fa97c002f0938a43466cf2174c525f9806c59e88cfdfcb8b38e3f5caf5b55a796a2bc1164812e7c845631e6d518d49e93ac1fdc99a0208e449ac7e097
+Homepage: https://mesa3d.org/
+Description: free implementation of the OpenGL API -- Amber GLX vendor library
+ Mesa is a 3-D graphics library with an API which is very similar to
+ that of OpenGL.  To the extent that Mesa utilizes the OpenGL command
+ syntax or state machine, it is being used with authorization from
+ Silicon Graphics, Inc.  However, the authors make no claim that Mesa
+ is in any way a compatible replacement for OpenGL or associated with
+ Silicon Graphics, Inc.
+ .
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-amber-dri package to accelerate drawing.
+ .
+ This package does not include the modules themselves: these can be found
+ in the libgl1-amber-dri package.
+
+Package: libglx-amber0
+Architecture: i386
+Version: 21.3.9-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mesa-amber
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 471
+Provides: libglx-vendor
+Depends: libgl1-amber-dri, libc6 (>= 2.38), libdrm2 (>= 2.4.107-4), libexpat1 (>= 2.0.1), libglapi-amber (>= 21.3.9), libstdc++6 (>= 4.1.1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-glx0 (>= 1.8), libxcb-shm0, libxcb1, libxext6, libxfixes3, libxxf86vm1
+Filename: ./libglx-amber0_21.3.9-1_i386.deb
+Size: 127428
+MD5sum: ed7af7a96e6dcac3145af02fbb7bd2c1
+SHA1: 626721d5ee0d880e1d4175f6e1c82ce23d4efbf5
+SHA256: 36a7e42bb84ba26c858353d31e73083095092b7d4b9d3471cf629687597bb02a
+SHA512: 8bd4be148e4ca7b9e847667db60d39bef38743b2223b7d87a7a8a1c027b5963ad39b460614159bbd72c48853ff263e0fa110e7d0a670d55ffc322b364564ca05
+Homepage: https://mesa3d.org/
+Description: free implementation of the OpenGL API -- Amber GLX vendor library
+ Mesa is a 3-D graphics library with an API which is very similar to
+ that of OpenGL.  To the extent that Mesa utilizes the OpenGL command
+ syntax or state machine, it is being used with authorization from
+ Silicon Graphics, Inc.  However, the authors make no claim that Mesa
+ is in any way a compatible replacement for OpenGL or associated with
+ Silicon Graphics, Inc.
+ .
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-amber-dri package to accelerate drawing.
+ .
+ This package does not include the modules themselves: these can be found
+ in the libgl1-amber-dri package.
+
 Package: libncursesw5
 Architecture: amd64
 Version: 6.4-4
