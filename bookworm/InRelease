@@ -9,7 +9,7 @@ Codename: bookworm
 Version: 1.0
 Architectures: amd64 i386
 Components: main
-Date: Sat, 02 Aug 2025 17:37:35 +0000
+Date: Sat, 06 Dec 2025 17:42:54 +0000
 MD5Sum:
  d3b58df67a035bf27b7e0d45a7e3890e 463104 adwaita-icon-theme_47.0-2_all.deb
  68c59fca5f414a619f8eb5f24dbd2d61 2102864 adwaita-icon-theme-legacy_46.2-2_all.deb
@@ -33,12 +33,20 @@ MD5Sum:
  2b80793a734555369e4fdf272ba23b7e 100332 alsaplayer-xosd_0.99.82-1_i386.deb
  3f0ea4e75bf814f3ba091256e0d32caf 674508 busybox-static_1.37.0-6phb_amd64.deb
  05522c363550bd29b1da75a1536de145 708192 busybox-static_1.37.0-6phb_i386.deb
- b5ed1ef3511fda28b8c13ff376b0c15c 5342426 Contents
- eb67a8a4c6a9897356b025435c639001 350771 Contents.gz
+ 178f3f6a79d8a45718a3385bf4939464 5343612 Contents
+ 1b20be41e01bfe1672998e6e8b6f47d5 350981 Contents.gz
  946755ffa70bd5b7075eb1ac5dfdf378 17640 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  8494a3891817f1929952379ba46ed88a 17472 cpuidtool_0.8.0+repack1-0.3_i386.deb
  788de5357282afaf84e68b37f82e4daa 2298492 cpu-x_5.3.1-0.3_amd64.deb
  32e6b917cbcb954451050890ecf5ad90 2310940 cpu-x_5.3.1-0.3_i386.deb
+ b5511a73f45142f28ad766a67065acc8 92484 ddrescue_1.99.21-1_amd64.deb
+ a227defb70691a76d5b3d3b6a0b4b941 94052 ddrescue_1.99.21-1_i386.deb
+ 381d5ad35e8ac48f74fc4c4e0a805e05 71412 ddrescue-crypt_1.99.21-1_amd64.deb
+ 854d1fd6007c31bf65b4662052b9d2c9 72008 ddrescue-crypt_1.99.21-1_i386.deb
+ 18ca5208c882b2a3f03bd26c0a3c4196 15804 ddrescue-lzma_1.99.21-1_amd64.deb
+ 593eb305469fb6172b54d1de414b5c16 15632 ddrescue-lzma_1.99.21-1_i386.deb
+ 7778ea82f0a6495db9509d162d955042 25692 ddrescue-lzo_1.99.21-1_amd64.deb
+ 442fbacbb0b3484301975993ab7b85e6 24532 ddrescue-lzo_1.99.21-1_i386.deb
  c2d3f930198cddfe98248b8ec5e60174 69644 ddrutility_2.8-4_amd64.deb
  30dd22385367e3fca6eda1e23d9e8815 74860 ddrutility_2.8-4_i386.deb
  f9075fd2fca5cc83418d6d27e2aef42a 247332 engrampa_1.26.2-4_amd64.deb
@@ -110,8 +118,8 @@ MD5Sum:
  41bcc0c06de080f99ad4594d79f619b7 1930600 numix-icon-theme_0~20241212-1_all.deb
  96ea31bce201200105deeaeffbb23484 725504 nvme-cli_2.11-1_amd64.deb
  f186895ab592bf2252779878f87cd147 76100 nvtop_3.2.0-1_amd64.deb
- f3333b6def61f2e911dc5f988c63fa52 153411 Packages
- dda91e770f83ca8c4c4713aca0245d8c 42974 Packages.gz
+ a1550084871aec48d2834d2093cbf7a8 162519 Packages
+ 5225e661ab2f5589a385dc6002caae24 45945 Packages.gz
  de12fbdcdc4688b18b6d76e7651b1ffd 93048 pup-volume-monitor_0.2w_amd64.deb
  fc9b44911ded48d042b5eae8022b7b67 100936 pup-volume-monitor_0.2w_i386.deb
  af5493cab7028ab4a5632013284b4e5d 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -168,12 +176,20 @@ SHA1:
  faa34bc947c86ba477dbcb65c53d1af989ca7f4f 100332 alsaplayer-xosd_0.99.82-1_i386.deb
  4295e7196199da796d9e6a9b00f1ce4da17f9f44 674508 busybox-static_1.37.0-6phb_amd64.deb
  faf68d8ebfeeec1a6b127040e5b4643426e8b052 708192 busybox-static_1.37.0-6phb_i386.deb
- fb832d858de8773fd5d613be8cb6ccac3de87021 5342426 Contents
- de99530186deee9a83dff710a079b234748beb9d 350771 Contents.gz
+ 35777ccbafa21531c2bdc29d2b6653149f0fc565 5343612 Contents
+ 6ce4701f550f019dd81eae34add8ae150aa7a4a0 350981 Contents.gz
  ae346ea384db3a64549a27e16b0c131394ee8f3e 17640 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  f3d3a7c543bf0bbf700d4d208d2675de2bb90ac9 17472 cpuidtool_0.8.0+repack1-0.3_i386.deb
  1e688f52f2df09e85b1bdce1f450fe01fde3e705 2298492 cpu-x_5.3.1-0.3_amd64.deb
  0998059b8f6ed2ab5579331b240f1ce898b1e814 2310940 cpu-x_5.3.1-0.3_i386.deb
+ 7fe62cc1fab1bb206b68abb10db41b5c932041c7 92484 ddrescue_1.99.21-1_amd64.deb
+ 81e5195b97b7744411d04f3dcfd85222e8addcc5 94052 ddrescue_1.99.21-1_i386.deb
+ 69190d83b2f81e0aa0a2132f84fd3dcffeecd48e 71412 ddrescue-crypt_1.99.21-1_amd64.deb
+ a4e69bb8757b5c1027e027eea483d990c7819641 72008 ddrescue-crypt_1.99.21-1_i386.deb
+ 2ca08a82ceb6d3bc54ea7875ffe1efe24e030557 15804 ddrescue-lzma_1.99.21-1_amd64.deb
+ d1fef68e878468c10e87029cc20ab319d0945c33 15632 ddrescue-lzma_1.99.21-1_i386.deb
+ 1a894990c6fadcc7c0a798aeeab2705e7041589d 25692 ddrescue-lzo_1.99.21-1_amd64.deb
+ f514cca455c389d534acc809dee3eec46bdfbe98 24532 ddrescue-lzo_1.99.21-1_i386.deb
  196ab9e6cf97d9427dbd0a851851f72697ff8779 69644 ddrutility_2.8-4_amd64.deb
  72e6f1654f3964dd1302f47e9e5dbca9c61d8aee 74860 ddrutility_2.8-4_i386.deb
  f553696f1ad1fe2f2cafca773d4228df775fe2ab 247332 engrampa_1.26.2-4_amd64.deb
@@ -245,8 +261,8 @@ SHA1:
  cc0f088c2e4712f7b84e128fc9c1e6a887b782ba 1930600 numix-icon-theme_0~20241212-1_all.deb
  30b6278ca2e913147eb733236ec380ab9324c4dd 725504 nvme-cli_2.11-1_amd64.deb
  63d14eb2deefa7c09ba1a8053b00edc8534d416c 76100 nvtop_3.2.0-1_amd64.deb
- 70005a4c788dfd5d90f985830bd3f9b4604562c5 153411 Packages
- f59abe84c5c95ea451ba71651ced344c146561c8 42974 Packages.gz
+ ece88ac9308bdf4bfa6290e244a43d53f9cb58e1 162519 Packages
+ 1e372babf6450be5f4d217fc6e446b4248cf2c9e 45945 Packages.gz
  98df307213a9a7e884ecdfd3495c477f0ef04b9e 93048 pup-volume-monitor_0.2w_amd64.deb
  e82524ecb3538d5e917f5b82cfc9d2dfbe1e2a3d 100936 pup-volume-monitor_0.2w_i386.deb
  c5a3221a6a79b87a51bf1912987bca84ad974019 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -303,12 +319,20 @@ SHA256:
  5a46496796752dce5aa6e9d979b55d1a8843fee2a61a8e469324b4905f8aaf85 100332 alsaplayer-xosd_0.99.82-1_i386.deb
  4dbcbe0c6fed3f23a86e55405a80825215e247096c816ae19082cb3e2a12596c 674508 busybox-static_1.37.0-6phb_amd64.deb
  d25b89714e042e9179b8aea8791cf889659921f3e41ddf25f48c324a2be271fb 708192 busybox-static_1.37.0-6phb_i386.deb
- 22e8f9253fdb9c141cef8413ff7cd0ea209cfaa957e8f2159a951cb810ad3545 5342426 Contents
- 9296b51a2d5b7014cbb5dba13fae2c4d1eccce458f5f2785a200426e1e0f8bad 350771 Contents.gz
+ cc1300d0ce972dfce6471457d84b42d4dbf1ea0a8a3a04bf1150a5f7f208f2bc 5343612 Contents
+ 031c798e5ba23ce2147b52f7345a7cbef95ade42c70c70aa0150d7afeea58e2f 350981 Contents.gz
  2a9e65de239dafdf0d8139b3d860b3470fdd532833b01f01a42ebbf4ae236299 17640 cpuidtool_0.8.0+repack1-0.3_amd64.deb
  05d877882a2774855f1695ac36192f13b843e06509d4ff944e40f1449bac7636 17472 cpuidtool_0.8.0+repack1-0.3_i386.deb
  371a797916c04f130f001a32cfa8d7760546b5a668c0314c5e569e3b5d7a759f 2298492 cpu-x_5.3.1-0.3_amd64.deb
  6b0ead3b64a1f7bb189484e882cabce72a8b1264db0180582be7adac4821ede8 2310940 cpu-x_5.3.1-0.3_i386.deb
+ 4e0b887156473a0ed59f7cbb99fc6d76fb59af3d671817157255b9112629e2bc 92484 ddrescue_1.99.21-1_amd64.deb
+ 8e30a020ec7c63e2e0a83c417aca1a5995f8d952cd6b8c3f661b020b8b0cdd01 94052 ddrescue_1.99.21-1_i386.deb
+ 248c8523e740b81a281b11741d8cbe74fd4258e57cea444ec6b7c8d63476dd18 71412 ddrescue-crypt_1.99.21-1_amd64.deb
+ bf1f7a10578fc69d33a9b3d75fd62d80d69260ad9511d3d148310aa43d8b70dc 72008 ddrescue-crypt_1.99.21-1_i386.deb
+ 5cb545c025ac14f78fcb3e7e37331981b4fabd24f61d05b61ef278401be546d2 15804 ddrescue-lzma_1.99.21-1_amd64.deb
+ 10914eac539866f5261b7314e426c0c6f0d7804b5a598f248dff0165407e8370 15632 ddrescue-lzma_1.99.21-1_i386.deb
+ 71388d3302dca838c39032ac93d181e81f728ea1e5fa462eb70f8e3ad3848636 25692 ddrescue-lzo_1.99.21-1_amd64.deb
+ a533ce70993299dd6f6901e02899b04fe46a3c33557b77f8616c727ce351c038 24532 ddrescue-lzo_1.99.21-1_i386.deb
  c1a1b1cbecf2578cdc5c7462390cd7f2596f4d5b42736b96693c4ba13c78be94 69644 ddrutility_2.8-4_amd64.deb
  97ad2aa8774973921ce87c88e1c1f233e73c1bd22776736f065ca22b70ce6d99 74860 ddrutility_2.8-4_i386.deb
  186d6c0322b2591244bedbacc3b6771f69183f39b914f34950a222d75f6f1f5d 247332 engrampa_1.26.2-4_amd64.deb
@@ -380,8 +404,8 @@ SHA256:
  beb26deedbb1e3daa62de67e02ed4a5b176063374aaa54edc06839d7d9b2e9df 1930600 numix-icon-theme_0~20241212-1_all.deb
  489493969fb61214d02cb1d9fa9ad49ea4ba7059c2b01c76aafec2c5ce5817b2 725504 nvme-cli_2.11-1_amd64.deb
  c3c54e0764f2b63b517c7dd72f0845d79dba9b42449c114d594ed8785f1e19f0 76100 nvtop_3.2.0-1_amd64.deb
- a6afb97a9b05a9338cce5e388a701afbe51a0d364bef78542beb01fb1c433b03 153411 Packages
- b6a4ec84b06c4fe160f57485a13efd1615d43f529c8a5bc0444c2838f9e274e8 42974 Packages.gz
+ 13bc0469f0f5a3ce8bcb5e84ec003f95bb48ac42b93eb3b234a052801719d9fb 162519 Packages
+ 725fb084cc831dd5d14c765374e47402b1cc612c5a6459d46c683f710b02b1ed 45945 Packages.gz
  277c68c159f006ccd2bf4f17710511f64d0049743e2801f1956baf3bf970bc9d 93048 pup-volume-monitor_0.2w_amd64.deb
  a45433ef3df284a02014140c863db3daf3ea56e7cb9c1abde99bc56dabe0b58d 100936 pup-volume-monitor_0.2w_i386.deb
  bbf2fa82d424c0eab1d5752b33586ed9bb85766cf86e68482e31b18161dbd6f8 70464 python3-libnvme_1.11.1-1_amd64.deb
@@ -417,15 +441,15 @@ SHA256:
  6072420a710d1240ff11c9fad09dfb0d10737b3d26c22a00d0c7eb13d4922971 212760 yad_14.1-1_i386.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmiOTOIACgkQZ9Vqr4Ht
-qtm8fAv9GcBYTBLNUXMROdcEgGljSX4MMM1Yx2Its3E8MPcNW0JQDZ+lMN2g0vlv
-BUOxIVu8Ro6ER+WssJkJpVtdb77bFMC4NtJBaLZ6lwTWeTKmLLZG0WzfFHbTwo+V
-cn+ofDT8G6Z7hIO/tSjhm2PSrCNqCUQIi8E8XMosq84LoN67t0jMEB5zLU1hXjyo
-QgK6secNzEiW5P2FKB4VHCEFa5jBHDWgDyCDwZNfMjOquLWr0R3QnBACY85CFLvT
-krbHZLrZbaeRchU8UKNpM0xOvEJKBzpDxa1Ds6vdikX5q1OOUv1bOneMPu6hmCPx
-sbOTN82TV74HXwnakaXBBjpSKG6ZYHUo8iygc4+792dqkZSAC1EHVxFOAIqb8wIb
-4mWeKpjOQ7bAllbvDFCHlRj1NtC9SnkyCRBkJmktT79phhZkPb96LkLxIK0IC/Vz
-/paHqx64XkfuZaJUWS8eqkf4Tu4CgPKtk07g3C3k1RltrFyAk00po1v27pRNoE3h
-Nzlr40WF
-=ZjA0
+iQGzBAEBCgAdFiEEjc0Z8TJPdjZuV3yKZ9Vqr4HtqtkFAmk0aycACgkQZ9Vqr4Ht
+qtmFygv+NSB5P1l4Mw0FSlzq7rsi5P0Z5joTfx5A3iw7zfJe1K72DKhT0lLS21+5
+xkg6IFcGj5vtysOgdPZ+n0fO2jkyJ1toFIcUhok1vLtceN0wIw+D46bTEeUfT9I2
+qKnwnH9IJZlh1lY6OHYy1Xcn1lqUqvdoKr7uwuhcmv4YA8DfE636bJ8f/H2CMNON
+xhxVrUbLDRnCyyY2X6sOZ4OcmWPNhmABUbhOJ/jk2fweh2wJQg3kkrMAfyskaeC7
+pydKw2R7OhZq3OjD5IF9xf4CbVRkqcPNUZ+kPI9TeBeQhuDSLz3F/btESRpF//dO
+rZywljvKAHwrZlPD475gXUtQCazMYADrDonZrYdTmlGGf7lbu3XuMbnynut+bTY4
+PieLiNX0LdqAesmb2/ZXGRoIHmOvo2CymsQTcIRumV/3W/PN45ach0h0AEIbylX8
+6SJPThS/Cnv59OVphOCwdWMiMVId+Am8NwGCnar+NIIJ7sLoStsp6x/SWSOIhyW7
+L2Wh2a+M
+=br/X
 -----END PGP SIGNATURE-----

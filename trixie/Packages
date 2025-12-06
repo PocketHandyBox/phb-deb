@@ -210,6 +210,206 @@ Description: C library for x86/ARM CPU detection and feature extraction (tool)
  .
  This package ships the cpuidtool.
 
+Package: ddrescue-crypt
+Architecture: amd64
+Version: 1.99.21-1
+Priority: optional
+Section: SystemUtilities
+Source: ddrescue
+Maintainer: Kurt Garloff <kurt@garloff.de>
+Installed-Size: 206
+Depends: libc6 (>= 2.38), libssl3t64 (>= 3.0.0)
+Recommends: ddrescue (= 1.99.21-1)
+Filename: ./ddrescue-crypt_1.99.21-1_amd64.deb
+Size: 72288
+MD5sum: 62d6521c2f7b9796b9059097c80029eb
+SHA1: 95e79ab92e7f909d1e55a9a303a1005d8a1e82b2
+SHA256: 17ea1dea0ab1a1fc136dd7015da6fa10f4952c92827bf11611b3f2cda4f3b4a5
+SHA512: 97b7bc021d0bc8d1fe023a8bef98bed76a3bafc8844227fde017e7411a1b0572e9efb8b73f3e3242255b1dafee1cdbacfa8ddf4377b3226839cdd69f303fbe63
+Description: The ddr_crypt plugin enables dd_rescue to de/encrypt data on
+ the fly while it's copied with dd_rescue.
+ ddr_crypt uses the AES family of algorithms for this purpose. AES is
+ considered safe by most cryptographers. It's fairly efficient to implement
+ and some modern CPUs have hardware support for it. The x86 AES support
+ is used by the plugin, ARMv8 is planned for the future.
+ There are various numbers of bits and enhance number of rounds
+ supported as well as various ways to handle and generate keys.
+
+Package: ddrescue-crypt
+Architecture: i386
+Version: 1.99.21-1
+Priority: optional
+Section: SystemUtilities
+Source: ddrescue
+Maintainer: Kurt Garloff <kurt@garloff.de>
+Installed-Size: 185
+Depends: libc6 (>= 2.38), libssl3t64 (>= 3.0.0)
+Recommends: ddrescue (= 1.99.21-1)
+Filename: ./ddrescue-crypt_1.99.21-1_i386.deb
+Size: 72008
+MD5sum: 854d1fd6007c31bf65b4662052b9d2c9
+SHA1: a4e69bb8757b5c1027e027eea483d990c7819641
+SHA256: bf1f7a10578fc69d33a9b3d75fd62d80d69260ad9511d3d148310aa43d8b70dc
+SHA512: cc1d024cfacfd241d09d47a1952adc0b82cc61b2e747c347ecaed74cda65f52909b21ef0fa29e86e98b07511714c3e9d14db43c7547952160eafaba19d07c788
+Description: The ddr_crypt plugin enables dd_rescue to de/encrypt data on
+ the fly while it's copied with dd_rescue.
+ ddr_crypt uses the AES family of algorithms for this purpose. AES is
+ considered safe by most cryptographers. It's fairly efficient to implement
+ and some modern CPUs have hardware support for it. The x86 AES support
+ is used by the plugin, ARMv8 is planned for the future.
+ There are various numbers of bits and enhance number of rounds
+ supported as well as various ways to handle and generate keys.
+
+Package: ddrescue-lzma
+Architecture: amd64
+Version: 1.99.21-1
+Priority: optional
+Section: SystemUtilities
+Source: ddrescue
+Maintainer: Kurt Garloff <kurt@garloff.de>
+Installed-Size: 38
+Depends: libc6 (>= 2.38), liblzma5 (>= 5.1.1alpha+20120614)
+Recommends: ddrescue (= 1.99.21-1)
+Filename: ./ddrescue-lzma_1.99.21-1_amd64.deb
+Size: 15788
+MD5sum: 9c8fe8e5776414557d7220a2a3ec00f0
+SHA1: 95453f11e6f839434cbe8332cc8ddd790ea9e030
+SHA256: 8c4ff23c032685e537c7fec6797a9df9c59ba10f56cadeb1b9190975e800dbc1
+SHA512: 1b354481565b9813652f402c910f16770233e211fed72feec4225f7aeaabdf36cd17a646683767354d8fce8ce522781e63798a472d6e0489f4663b6c99ac08c8
+Description: The ddr_lzma plugin enables dd_rescue to de/compress data on
+ the fly while it's copied with dd_rescue.
+ ddr_lzma uses the lzma algorithm which is used by xz. LZMA is slow
+ on compression, but achieved very high compression ratios. Decompression
+ is fast. The plugin is new and may not work well with corrupt or
+ malicious data.
+
+Package: ddrescue-lzma
+Architecture: i386
+Version: 1.99.21-1
+Priority: optional
+Section: SystemUtilities
+Source: ddrescue
+Maintainer: Kurt Garloff <kurt@garloff.de>
+Installed-Size: 37
+Depends: libc6 (>= 2.38), liblzma5 (>= 5.1.1alpha+20120614)
+Recommends: ddrescue (= 1.99.21-1)
+Filename: ./ddrescue-lzma_1.99.21-1_i386.deb
+Size: 15632
+MD5sum: 593eb305469fb6172b54d1de414b5c16
+SHA1: d1fef68e878468c10e87029cc20ab319d0945c33
+SHA256: 10914eac539866f5261b7314e426c0c6f0d7804b5a598f248dff0165407e8370
+SHA512: 620b740e1a1ab7bd777766a80382085526ebba03f074bc4bd364f464d5a54edab6130a4f7308ad7f19a0f509cc03187a84356991e623cb786986e116f1d9eb87
+Description: The ddr_lzma plugin enables dd_rescue to de/compress data on
+ the fly while it's copied with dd_rescue.
+ ddr_lzma uses the lzma algorithm which is used by xz. LZMA is slow
+ on compression, but achieved very high compression ratios. Decompression
+ is fast. The plugin is new and may not work well with corrupt or
+ malicious data.
+
+Package: ddrescue-lzo
+Architecture: amd64
+Version: 1.99.21-1
+Priority: optional
+Section: SystemUtilities
+Source: ddrescue
+Maintainer: Kurt Garloff <kurt@garloff.de>
+Installed-Size: 62
+Depends: libc6 (>= 2.38), liblzo2-2 (>= 2.02)
+Recommends: ddrescue (= 1.99.21-1)
+Filename: ./ddrescue-lzo_1.99.21-1_amd64.deb
+Size: 25616
+MD5sum: 2045132bebaba385e49baed379e98c8f
+SHA1: 0f4bdb8d6e9bfb62b590523e101dc9a0f18fd6a3
+SHA256: b4f6e1f7f94e14a10dc05d5f9165e634d0d91be41f5f82f0087a653ea8345dc2
+SHA512: 62cfee74612db687dc7019d267e9591b2a495a497fd61cc2f0cd69adc7c93d90b38748e24673edd92c5439f3065bc0ef728ca0ca70be85a25801ebd3e41b9c77
+Description: The ddr_lzo plugin enables dd_rescue to de/compress data on
+ the fly while it's copied with dd_rescue.
+ ddr_lzo uses the lzo family of algorithms for this purpose. LZO is
+ remarkably fast for decompression and still very fast when compressing
+ at moderate compression levels. On the flipside, it does not compress
+ as well as zlib. With the lzo1x family, ddr_lzo is compatible with lzop.
+ The plugin has a number of features to support data recovery in case
+ .lzo files have been corrupted.
+
+Package: ddrescue-lzo
+Architecture: i386
+Version: 1.99.21-1
+Priority: optional
+Section: SystemUtilities
+Source: ddrescue
+Maintainer: Kurt Garloff <kurt@garloff.de>
+Installed-Size: 57
+Depends: libc6 (>= 2.38), liblzo2-2 (>= 2.02)
+Recommends: ddrescue (= 1.99.21-1)
+Filename: ./ddrescue-lzo_1.99.21-1_i386.deb
+Size: 24532
+MD5sum: 442fbacbb0b3484301975993ab7b85e6
+SHA1: f514cca455c389d534acc809dee3eec46bdfbe98
+SHA256: a533ce70993299dd6f6901e02899b04fe46a3c33557b77f8616c727ce351c038
+SHA512: c14df3273bba92bba9d5b1940a8cc1b9d606fb69358964995dec05760bef71312dae6f4806bcf6201850e945238b525be36af9e992fdf14b8599dc5477f88da2
+Description: The ddr_lzo plugin enables dd_rescue to de/compress data on
+ the fly while it's copied with dd_rescue.
+ ddr_lzo uses the lzo family of algorithms for this purpose. LZO is
+ remarkably fast for decompression and still very fast when compressing
+ at moderate compression levels. On the flipside, it does not compress
+ as well as zlib. With the lzo1x family, ddr_lzo is compatible with lzop.
+ The plugin has a number of features to support data recovery in case
+ .lzo files have been corrupted.
+
+Package: ddrescue
+Architecture: amd64
+Version: 1.99.21-1
+Priority: optional
+Section: SystemUtilities
+Maintainer: Kurt Garloff <kurt@garloff.de>
+Installed-Size: 208
+Depends: libc6 (>= 2.38)
+Filename: ./ddrescue_1.99.21-1_amd64.deb
+Size: 92884
+MD5sum: 93f2542f64e599bb8675c28f43d458ea
+SHA1: eb1e27eae6e64a78422e54f141a5c63fb9639a56
+SHA256: 5eab70a98a88c2988cb5388d41d978073dfc195dff4f7696bd82bec64c2686df
+SHA512: 3a3f4d9a67f741fc017137fd7e3f273b7bfcb05a4aa67fba5a9e1d131d09eda591f75ab3a13ae4e4bf443af76a8a45893a1016d57ce674c23ceb5a9673bf9678
+Description: dd_rescue is a data recovery and protection tool.
+ When your disk has crashed and you try to copy it over to another one,
+ standard Unix tools like cp, cat, and dd will abort on every I/O error,
+ dd_rescue does not.
+ It optimizes copying by using large blocks as long as no errors occur
+ and falls back to smaller blocks. It supports reverse direction copying
+ (to approach a bad spot from the top), sparse copying, preallocating
+ space, splice zerocopy, and bypassing the kernel pagecache with O_DIRECT.
+ dd_rescue provides safe deletion of data by overwriting files (or better
+ partitions/disks) multiple times with fast random numbers.
+ With the ddr_hash plugin, it supports calculating a hash value (such as
+ a sha256sum) or an HMAC during copying.
+
+Package: ddrescue
+Architecture: i386
+Version: 1.99.21-1
+Priority: optional
+Section: SystemUtilities
+Maintainer: Kurt Garloff <kurt@garloff.de>
+Installed-Size: 209
+Depends: libc6 (>= 2.38)
+Filename: ./ddrescue_1.99.21-1_i386.deb
+Size: 94052
+MD5sum: a227defb70691a76d5b3d3b6a0b4b941
+SHA1: 81e5195b97b7744411d04f3dcfd85222e8addcc5
+SHA256: 8e30a020ec7c63e2e0a83c417aca1a5995f8d952cd6b8c3f661b020b8b0cdd01
+SHA512: 1832f5c137344c16e3657dd61719830f3ce8294008d555896485057682f8be6f18c55dee3978bd051367992a951ec41d31de37c3b7e88fecc6247a3bf4d2df8b
+Description: dd_rescue is a data recovery and protection tool.
+ When your disk has crashed and you try to copy it over to another one,
+ standard Unix tools like cp, cat, and dd will abort on every I/O error,
+ dd_rescue does not.
+ It optimizes copying by using large blocks as long as no errors occur
+ and falls back to smaller blocks. It supports reverse direction copying
+ (to approach a bad spot from the top), sparse copying, preallocating
+ space, splice zerocopy, and bypassing the kernel pagecache with O_DIRECT.
+ dd_rescue provides safe deletion of data by overwriting files (or better
+ partitions/disks) multiple times with fast random numbers.
+ With the ddr_hash plugin, it supports calculating a hash value (such as
+ a sha256sum) or an HMAC during copying.
+
 Package: ddrescueview-gtk2
 Architecture: amd64
 Version: 0.4.5-1gtk2
