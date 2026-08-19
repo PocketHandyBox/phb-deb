@@ -887,7 +887,7 @@ Description: set of data recovery utilities for use with GNU ddrescue
 
 Package: engrampa-common
 Architecture: all
-Version: 1.26.2-4
+Version: 1.26.2-5
 Priority: optional
 Section: x11
 Source: engrampa
@@ -896,12 +896,12 @@ Installed-Size: 13713
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: engrampa (<= 1.0.3-1), parchives (<< 1.1.5-1~)
 Replaces: parchives (<< 1.1.5-1~)
-Filename: ./engrampa-common_1.26.2-4_all.deb
-Size: 960912
-MD5sum: 7d440d422739ce5b85cd01fe793a3a08
-SHA1: ba9b19b32d9a9049a7c7193a393debe1b0a1b32c
-SHA256: f0f277b0c0836049a951ad948609e62592451db2d7ced5ecccad4f25ac98ddfc
-SHA512: 19aa9648e9246ba159f2eea58dd8f97ada99fc5ab2fbe0098a63e3a828e1429eb91acbc8b7421967d2eca7b02f88ac88aa0ed402507da6c4cbd8663f3f385447
+Filename: ./engrampa-common_1.26.2-5_all.deb
+Size: 961112
+MD5sum: 1d466bb4d51c7922c5b057e055fb23f2
+SHA1: cf157363d3699637bbe281ab1962bf2a7cf45566
+SHA256: c7aa4674faaa60a7344c1061efb2e0e4c7d40161626de1f613ab8c5c540a2a14
+SHA512: 10cc8e72803444219e0c0586db1f5e9ad6d84f19818837b2b28c7533f39911f6d9994281e3d8172c5d2432a21fa5c2d1f0d5ff273786dd69309874e495ad5673
 Homepage: http://www.mate-desktop.org/
 Description: archive manager for MATE (common files)
  Engrampa is an archive manager for the MATE environment. It allows you to:
@@ -915,21 +915,21 @@ Description: archive manager for MATE (common files)
 
 Package: engrampa
 Architecture: amd64
-Version: 1.26.2-4
+Version: 1.26.2-5
 Priority: optional
 Section: x11
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
 Installed-Size: 1037
-Depends: bzip2 (>= 1.0.1), engrampa-common (= 1.26.2-4), gzip (>= 1.3.2), 7zip, tar (>= 1.13.25), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcaja-extension1 (>= 1.18), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmagic1 (>= 5.12), libpango-1.0-0 (>= 1.14.0), libsm6
+Depends: bzip2 (>= 1.0.1), engrampa-common (= 1.26.2-5), gzip (>= 1.3.2), 7zip, tar (>= 1.13.25), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcaja-extension1 (>= 1.18), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmagic1 (>= 5.12), libpango-1.0-0 (>= 1.14.0), libsm6
 Recommends: gvfs, unzip, xz-utils, zip
 Suggests: arj, binutils, cpio, lha, lzip, lzma, lzop, ncompress, rar, rpm2cpio, rzip, sharutils, unace, unalz, unar | unrar | 7zip-rar, zoo
 Breaks: engrampa-common (<< 1.8.0)
-Filename: ./engrampa_1.26.2-4_amd64.deb
-Size: 247332
-MD5sum: f9075fd2fca5cc83418d6d27e2aef42a
-SHA1: f553696f1ad1fe2f2cafca773d4228df775fe2ab
-SHA256: 186d6c0322b2591244bedbacc3b6771f69183f39b914f34950a222d75f6f1f5d
-SHA512: 963cfe6d470ba8e378334bc44e8385cf81c7081e14c63798f4d84ee4e59a7f7c9542608f95b56329c94e51519b6e608ae91b4339123dac51878bd91bdcad0ec3
+Filename: ./engrampa_1.26.2-5_amd64.deb
+Size: 247764
+MD5sum: ac882ec0fd74d5b56c8df2482ba47516
+SHA1: 5f29126dddae6eb47585a577494baa192fb0e9ad
+SHA256: c8d99f35811ed09277e686dd8a8d0b122f72f213b35487ad446f9964fed8f62b
+SHA512: 5ea1888fc62fbfb971f27b6e6ff634995dcb13155d05c902481bfbd8b7e1c800c5ad35e828bee967a783f68d1c526951f9796ab7e1305ebaa8e526c899bf20b1
 Homepage: http://www.mate-desktop.org/
 Description: archive manager for MATE
  Engrampa is an archive manager for the MATE environment. It allows you to:
@@ -957,21 +957,21 @@ Description: archive manager for MATE
 
 Package: engrampa
 Architecture: i386
-Version: 1.26.2-4
+Version: 1.26.2-5
 Priority: optional
 Section: x11
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
 Installed-Size: 1160
-Depends: bzip2 (>= 1.0.1), engrampa-common (= 1.26.2-4), gzip (>= 1.3.2), 7zip, tar (>= 1.13.25), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcaja-extension1 (>= 1.18), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmagic1 (>= 5.12), libpango-1.0-0 (>= 1.14.0), libsm6
+Depends: bzip2 (>= 1.0.1), engrampa-common (= 1.26.2-5), gzip (>= 1.3.2), 7zip, tar (>= 1.13.25), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcaja-extension1 (>= 1.18), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmagic1 (>= 5.12), libpango-1.0-0 (>= 1.14.0), libsm6
 Recommends: gvfs, unzip, xz-utils, zip
 Suggests: arj, binutils, cpio, lha, lzip, lzma, lzop, ncompress, rar, rpm2cpio, rzip, sharutils, unace, unalz, unar | unrar | 7zip-rar, zoo
 Breaks: engrampa-common (<< 1.8.0)
-Filename: ./engrampa_1.26.2-4_i386.deb
-Size: 264340
-MD5sum: c8893669d1dac615cfc94465515b10c8
-SHA1: 99f1db917750c207f724a8ed4cfb020dca327d74
-SHA256: db238eea6905e2098c4f9cdaff4b10ec954d7c984a8d0e24f82d23d69b02f6c7
-SHA512: 535aa32229da58ca8d92e1c33a17502fa1e18bb1934f82d5881963a7cc5a3b6159d01a805206c82ce5b94264fdf89f74ec172b55505530c6914d59f780ee3b60
+Filename: ./engrampa_1.26.2-5_i386.deb
+Size: 265228
+MD5sum: 10ebc75866efe0aa29a219f4e6c76415
+SHA1: 61cf6e7e98885326ed0520b3c69e9f6e9a738701
+SHA256: 7ac3c413f171607e7a5c94f8f6aacbb0e9e2b3250908a7b22521f61be9ba6ef9
+SHA512: 728ee95a60e7efa019facc5a90a19230f21c6f6c0a8a1382c18e23201ec455c1b16f7075ec3549b5240fc009ecd1e563d5d19886cfa1ebcb3ae0d98bb39b8865
 Homepage: http://www.mate-desktop.org/
 Description: archive manager for MATE
  Engrampa is an archive manager for the MATE environment. It allows you to:
