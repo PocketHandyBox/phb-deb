@@ -666,14 +666,14 @@ Section: SystemUtilities
 Source: ddrescue
 Maintainer: Kurt Garloff <kurt@garloff.de>
 Installed-Size: 185
-Depends: libc6 (>= 2.38), libssl3t64 (>= 3.0.0)
+Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0)
 Recommends: ddrescue (= 1.99.21-1)
 Filename: ./ddrescue-crypt_1.99.21-1_i386.deb
-Size: 72008
-MD5sum: 854d1fd6007c31bf65b4662052b9d2c9
-SHA1: a4e69bb8757b5c1027e027eea483d990c7819641
-SHA256: bf1f7a10578fc69d33a9b3d75fd62d80d69260ad9511d3d148310aa43d8b70dc
-SHA512: cc1d024cfacfd241d09d47a1952adc0b82cc61b2e747c347ecaed74cda65f52909b21ef0fa29e86e98b07511714c3e9d14db43c7547952160eafaba19d07c788
+Size: 71872
+MD5sum: b685f453022f2b343af6f6964ededf80
+SHA1: f87b48cb2378cd1745cc0cf6d779878da6d870b1
+SHA256: 1e0202ddf461707a417fe3cc57435933f5c44775a86dd5a515533a19a0abce71
+SHA512: 332b9e81028747cb8d266c4b84353e48df79a31f88ede8780a6038f74cf4adb319485d574b98b18b67c96c22394ea4de7cd5a2e95f0dce782b9e8ab2bf016d71
 Description: The ddr_crypt plugin enables dd_rescue to de/encrypt data on
  the fly while it's copied with dd_rescue.
  ddr_crypt uses the AES family of algorithms for this purpose. AES is
@@ -714,14 +714,14 @@ Section: SystemUtilities
 Source: ddrescue
 Maintainer: Kurt Garloff <kurt@garloff.de>
 Installed-Size: 37
-Depends: libc6 (>= 2.38), liblzma5 (>= 5.1.1alpha+20120614)
+Depends: libc6 (>= 2.3.4), liblzma5 (>= 5.1.1alpha+20120614)
 Recommends: ddrescue (= 1.99.21-1)
 Filename: ./ddrescue-lzma_1.99.21-1_i386.deb
-Size: 15632
-MD5sum: 593eb305469fb6172b54d1de414b5c16
-SHA1: d1fef68e878468c10e87029cc20ab319d0945c33
-SHA256: 10914eac539866f5261b7314e426c0c6f0d7804b5a598f248dff0165407e8370
-SHA512: 620b740e1a1ab7bd777766a80382085526ebba03f074bc4bd364f464d5a54edab6130a4f7308ad7f19a0f509cc03187a84356991e623cb786986e116f1d9eb87
+Size: 15608
+MD5sum: ef9bb142aa224c9b77d53adf185eeddc
+SHA1: c2d3aa776b6448c33a2ba75494c58ffab6e59fad
+SHA256: abcaa923c4ab7cd8d8fa4e2377d654932ce12c7553ae1133797edaa0b699f1dc
+SHA512: ce8e147e07fb3a2d891355c30a33b97385738a7468f1ef0b25c22dfb486b242288333a61b0205d88dd100662094f72e559ba81c34582bb13174491d4a96f39fa
 Description: The ddr_lzma plugin enables dd_rescue to de/compress data on
  the fly while it's copied with dd_rescue.
  ddr_lzma uses the lzma algorithm which is used by xz. LZMA is slow
@@ -762,14 +762,14 @@ Section: SystemUtilities
 Source: ddrescue
 Maintainer: Kurt Garloff <kurt@garloff.de>
 Installed-Size: 57
-Depends: libc6 (>= 2.38), liblzo2-2 (>= 2.02)
+Depends: libc6 (>= 2.33), liblzo2-2 (>= 2.02)
 Recommends: ddrescue (= 1.99.21-1)
 Filename: ./ddrescue-lzo_1.99.21-1_i386.deb
-Size: 24532
-MD5sum: 442fbacbb0b3484301975993ab7b85e6
-SHA1: f514cca455c389d534acc809dee3eec46bdfbe98
-SHA256: a533ce70993299dd6f6901e02899b04fe46a3c33557b77f8616c727ce351c038
-SHA512: c14df3273bba92bba9d5b1940a8cc1b9d606fb69358964995dec05760bef71312dae6f4806bcf6201850e945238b525be36af9e992fdf14b8599dc5477f88da2
+Size: 24580
+MD5sum: e8798dbbbf19d1b2bd3e87a9fa262635
+SHA1: 5a0d01d877d265c2ce0bc95d1adeae87bad00979
+SHA256: 57c67ec5afd3788251ff6c3f5780e4b1c02542581dbcf6efd8ec652dbd9c7af8
+SHA512: 04ea9272447618391c34c0f51d43c1c3134c33ef073d2efdeb619cf22db73f27cc2835efb503a4ea376c2247e43ed63bcfab37f35a08f2c971055737f31efd5e
 Description: The ddr_lzo plugin enables dd_rescue to de/compress data on
  the fly while it's copied with dd_rescue.
  ddr_lzo uses the lzo family of algorithms for this purpose. LZO is
@@ -813,13 +813,13 @@ Priority: optional
 Section: SystemUtilities
 Maintainer: Kurt Garloff <kurt@garloff.de>
 Installed-Size: 209
-Depends: libc6 (>= 2.38)
+Depends: libc6 (>= 2.34)
 Filename: ./ddrescue_1.99.21-1_i386.deb
-Size: 94052
-MD5sum: a227defb70691a76d5b3d3b6a0b4b941
-SHA1: 81e5195b97b7744411d04f3dcfd85222e8addcc5
-SHA256: 8e30a020ec7c63e2e0a83c417aca1a5995f8d952cd6b8c3f661b020b8b0cdd01
-SHA512: 1832f5c137344c16e3657dd61719830f3ce8294008d555896485057682f8be6f18c55dee3978bd051367992a951ec41d31de37c3b7e88fecc6247a3bf4d2df8b
+Size: 94132
+MD5sum: 9c9333d509d3dbeb19ab18aa970b69b8
+SHA1: ffbc22454c4962785b3550a3c06080777664dd8f
+SHA256: b23f318b59969449ee8b1622872b97369c0b7ee78afed3a2cb6f0af4eb86dcaf
+SHA512: 99f4354b4becf4655f474e6b42e9f2d2087e54fa53ae23b0ec968385279b27033b38cf30267ee2951becf0615b710738890c58b1721a25a77d09d293c018ea19
 Description: dd_rescue is a data recovery and protection tool.
  When your disk has crashed and you try to copy it over to another one,
  standard Unix tools like cp, cat, and dd will abort on every I/O error,
