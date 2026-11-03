@@ -4277,6 +4277,44 @@ Description: Wireless Device Monitoring Application
  statistics, device configuration and network parameters of your
  wireless network hardware.
 
+Package: wavemon
+Architecture: amd64
+Version: 0.9.7-0.1
+Section: net
+Maintainer: Jonathan McCrohan <jmccrohan@gmail.com>
+Installed-Size: 119
+Depends: libc6 (>= 2.34), libncursesw6 (>= 6), libnl-3-200 (>= 3.2.21), libnl-cli-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.21), libtinfo6 (>= 6)
+Filename: ./wavemon_0.9.7-0.1_amd64.deb
+Size: 44304
+MD5sum: a55d0951184158d17b4425fb2afcf33e
+SHA1: 22cf9ac2551629c18e484dc4a1db831dde7ec250
+SHA256: 46428c2d0f4b69bdd1e7da17fcb1a5a8e44236a5c5163702d905c4cf92298b08
+SHA512: ccbf32e424c7fb13e477d2772435de20db409efb2d8d91cc2c916a96956d0e6bfdc806cba2877a629e5f06dd683833fd4ff6729e3e335b088353d876deb1ce21
+Homepage: https://github.com/uoaerg/wavemon/
+Description: Wireless Device Monitoring Application
+ Wavemon allows you to watch signal and noise levels, packet
+ statistics, device configuration and network parameters of your
+ wireless network hardware.
+
+Package: wavemon
+Architecture: i386
+Version: 0.9.7-0.1
+Section: net
+Maintainer: Jonathan McCrohan <jmccrohan@gmail.com>
+Installed-Size: 133
+Depends: libc6 (>= 2.34), libncursesw6 (>= 6), libnl-3-200 (>= 3.2.21), libnl-cli-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.21), libtinfo6 (>= 6)
+Filename: ./wavemon_0.9.7-0.1_i386.deb
+Size: 47760
+MD5sum: 9b36446d44d0494d801abb2f337c383f
+SHA1: 4b8cdbb2cc6452289ae463293f931dcb61a04b60
+SHA256: 2b8d8b9eeb02b9be8e9f339882fba7847690c3b120a11d62e6d04f426bb1a53e
+SHA512: 9a306d0ca8a275a8984cb7aae67bf0b8edd201ae961a5cd2dccd2670c249020b613d6f64271e4fcdf9cebe250e116c1478dc58240c8ec9c171d1c1a147f98955
+Homepage: https://github.com/uoaerg/wavemon/
+Description: Wireless Device Monitoring Application
+ Wavemon allows you to watch signal and noise levels, packet
+ statistics, device configuration and network parameters of your
+ wireless network hardware.
+
 Package: whdd
 Architecture: amd64
 Version: 3.1.0.20241015
