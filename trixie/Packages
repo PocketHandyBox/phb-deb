@@ -620,20 +620,45 @@ Description: Small utility for fast and easy GUI building
 
 Package: kbt
 Architecture: amd64
-Version: 2.1.0
+Version: 2.1.0-1~deb13
 Priority: optional
 Section: utils
-Maintainer: gumanzoy <gumanzoy@gmail.com>
-Installed-Size: 1256
-Depends: libc6, libx11-6, libxcb1
-Filename: ./kbt_2.1.0_amd64.deb
-Size: 424980
-MD5sum: ef04ecd1f09f3fbd5d9b1e683506aaea
-SHA1: 7f95487410b2b508110f3dcccbc5a5653c5aeeb0
-SHA256: fd0336f883a7350d411a9124b2a16ba6933938f7bbee355ce0751e8c2d161d85
-SHA512: df89ba255003a85313f21443084cf5068c18094a5c31a7f92c5c414463b18a31b718e68a1e5a5a4964d06fc84bedc908a4d668f84a8530cf97ecd704a369ad21
+Maintainer: MiniOS Team <support@minios.dev>
+Installed-Size: 885
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libx11-6
+Filename: ./kbt_2.1.0-1~deb13_amd64.deb
+Size: 339592
+MD5sum: 545a39c15801afe31bd2cffd138dd21a
+SHA1: b2348f712346ef09fb829e92646c79566d3df800
+SHA256: 59e7401fa92a9ffe94bd57be5c4df2769b859b93383b228918cbeec417c25693
+SHA512: b31f12c5a1f6eacbfdea4b55b920916476c2aa7023b6bf1d2a3fa00e75fa1595e4e2a0471d8226e430961300624e6290c536b54c526eb223f21163b548838f55
 Homepage: https://github.com/bloznelis/kbt
-Description: Keyboard tester in terminal
+Description: terminal-based keyboard tester
+ kbt is an interactive keyboard testing utility with multiple keyboard
+ layouts. It shows pressed keys in a terminal user interface and provides
+ an interactive menu. On Linux, it requires an X11 session; Wayland is not
+ supported by the upstream application.
+
+Package: kbt
+Architecture: i386
+Version: 2.1.0-1~deb13
+Priority: optional
+Section: utils
+Maintainer: MiniOS Team <support@minios.dev>
+Installed-Size: 868
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libx11-6
+Filename: ./kbt_2.1.0-1~deb13_i386.deb
+Size: 363196
+MD5sum: b48add6862e831b1dab9e0dcf8a5b043
+SHA1: 825b5495112e90a5fda660aae1a2764a7c1361c4
+SHA256: 037205ae0288860b833ca5f86e445d733b5401d58ff5a5da9614bdfb9002cac8
+SHA512: 1de824e54d646db747ade9ceeb34f0ccfe36e550ef75271c75782acb949c34c34e6ae37358cf88a990f4f2043525dc0f6c055c1e78c185f5ab39929b0ee0b3b8
+Homepage: https://github.com/bloznelis/kbt
+Description: terminal-based keyboard tester
+ kbt is an interactive keyboard testing utility with multiple keyboard
+ layouts. It shows pressed keys in a terminal user interface and provides
+ an interactive menu. On Linux, it requires an X11 session; Wayland is not
+ supported by the upstream application.
 
 Package: libcpuid-dev
 Architecture: amd64

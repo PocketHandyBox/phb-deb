@@ -30,6 +30,7 @@ usr/bin/ddrutility					    ddrutility
 usr/bin/gtkdialog					    gtkdialog
 usr/bin/gtkdialog3					    gtkdialog
 usr/bin/iceauth						    x11-xserver-utils
+usr/bin/kbt						    kbt
 usr/bin/luvcview					    luvcview
 usr/bin/mousepad					    mousepad
 usr/bin/netsurf-fb					    netsurf-fb
@@ -179,7 +180,6 @@ usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libthunar-tpa.so thunar
 usr/libexec/cpu-x-daemon				    cpu-x
 usr/libexec/pup-volume-monitor/mount			    pup-volume-monitor
 usr/libexec/pup-volume-monitor/umount			    pup-volume-monitor
-usr/local/bin/kbt					    kbt
 usr/sbin/smartctl					    smartmontools
 usr/sbin/smartd						    smartmontools
 usr/sbin/update-smart-drivedb				    smartmontools
@@ -297,6 +297,9 @@ usr/share/doc/gnome-themes-extra/copyright		    gnome-themes-extra
 usr/share/doc/gtkdialog/changelog.Debian.gz		    gtkdialog
 usr/share/doc/gtkdialog/changelog.gz			    gtkdialog
 usr/share/doc/gtkdialog/copyright			    gtkdialog
+usr/share/doc/kbt/README.Debian				    kbt
+usr/share/doc/kbt/changelog.Debian.gz			    kbt
+usr/share/doc/kbt/copyright				    kbt
 usr/share/doc/libcpuid-dev/Readme.md.gz			    libcpuid-dev
 usr/share/doc/libcpuid-dev/changelog.Debian.gz		    libcpuid-dev
 usr/share/doc/libcpuid-dev/changelog.gz			    libcpuid-dev
@@ -5421,6 +5424,7 @@ usr/share/man/man1/ddru_ntfsbitmap.1.gz			    ddrutility
 usr/share/man/man1/ddru_ntfsfindbad.1.gz		    ddrutility
 usr/share/man/man1/ddrutility.1.gz			    ddrutility
 usr/share/man/man1/iceauth.1.gz				    x11-xserver-utils
+usr/share/man/man1/kbt.1.gz				    kbt
 usr/share/man/man1/luvcview.1.gz			    luvcview
 usr/share/man/man1/mousepad.1.gz			    mousepad
 usr/share/man/man1/netsurf-fb.1.gz			    netsurf-fb
